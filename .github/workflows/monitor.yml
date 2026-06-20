@@ -1,0 +1,62 @@
+name: 财新网文章监控
+
+on:
+  schedule:
+    - cron: '0 0 * * 1-5'
+    - cron: '0 1 * * 1-5'
+    - cron: '0 2 * * 1-5'
+    - cron: '0 3 * * 1-5'
+    - cron: '0 4 * * 1-5'
+    - cron: '0 5 * * 1-5'
+    - cron: '0 6 * * 1-5'
+    - cron: '0 7 * * 1-5'
+    - cron: '0 8 * * 1-5'
+    - cron: '0 9 * * 1-5'
+    - cron: '0 10 * * 1-5'
+    - cron: '0 15 * * 1-5'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run scraper
+        run: python caixin_monitor.py
+        env:
+          OUTPUT_DIR: articles
+
+      - name: Check for new articles
+        id: check
+        run: |
+          if git diff --quiet --name-only HEAD -- articles/; then
+            echo "has_new=false" >> $GITHUB_OUTPUT
+          else
+            echo "has_new=true" >> $GITHUB_OUTPUT
+            echo "新文章:"
+            git diff --name-only HEAD -- articles/
+          fi
+
+      - name: Commit and push new articles
+        if: steps.check.outputs.has_new == 'true'
+        run: |
+          git config user.name "caixin-monitor-bot"
+          git config user.email "caixin-monitor-bot[bot]@users.noreply.github.com"
+          git add articles/
+          git commit -m "docs: 新增财新文章 $(date -u +%Y-%m-%d_%H:%M_UTC)"
+          git push
