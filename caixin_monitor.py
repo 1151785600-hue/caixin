@@ -29,24 +29,23 @@ def find_today_articles(session):
         for retry in range(2):
             try:
                 url = f"https://{channel}.caixin.com/"
-                # Update Referer for each channel
                 session.headers["Referer"] = url
                 resp = session.get(url, timeout=15)
                 print(f"  {channel}.caixin.com -> {resp.status_code} ({len(resp.text)} bytes)")
-                if resp.status_code != 200:
+                if resp.status_code == 200:
+                    for date in dates:
+                        pattern = rf'href="((?:https?:)?//[^"]*caixin\.com/{re.escape(date)}/\d+\.html)[^"]*"' 
+                        matches = re.findall(pattern, resp.text)
+                        for m in matches:
+                            full_url = m.split("?")[0].split("#")[0]
+                            full_url = full_url if full_url.startswith("http") else "https:" + full_url
+                            if full_url not in all_urls:
+                                all_urls.append(full_url)
+                    break
+                else:
                     if retry == 0:
                         time.sleep(2)
                         continue
-                    continue
-                for date in dates:
-                    pattern = rf'href="((?:https?:)?//[^"]*caixin\.com/{re.escape(date)}/\d+\.html)[^"]*"'
-                    matches = re.findall(pattern, resp.text)
-                    for m in matches:
-                        full_url = m.split("?")[0].split("#")[0]
-                        full_url = full_url if full_url.startswith("http") else "https:" + full_url
-                        if full_url not in all_urls:
-                            all_urls.append(full_url)
-                break
             except Exception as e:
                 print(f"  {channel} ERROR: {e}")
                 if retry == 0:
@@ -79,8 +78,8 @@ def extract_article(session, url):
                 content_html = m.group(1)
         content_text = re.sub(r'<[^>]+>', '\n', content_html)
         content_text = re.sub(r'\n+', '\n', content_text).strip()
-        paras = [p.strip() for p in content_text.split('\n') if p.strip()]
-        content_text = '\n'.join(paras)
+        paras = [p.strip() for p in content_text.split("\n") if p.strip()]
+        content_text = "\n".join(paras)
         wc = len(content_text)
         if wc < 50:
             return None
@@ -93,22 +92,20 @@ def save_as_html(article, url, output_dir):
     safe_name = re.sub(r'[^\w\u4e00-\u9fff_-]', "_", article["title"])[:80]
     filepath = os.path.join(output_dir, f"{safe_name}.html")
     meta_text = f"财新网 | 抓取时间: {datetime.now().strftime('%Y-%m-%d %H:%M')}"
-    lines = [
-        '<!DOCTYPE html>', '<html lang="zh-CN">', '<head>',
-        '<meta charset="UTF-8">', f'<title>{article["title"]}</title>',
-        '<style>',
-        'body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; max-width: 720px; margin: 0 auto; padding: 40px 20px; color: #222; line-height: 1.9; }',
-        'h1 { font-size: 18pt; color: #1a1a2e; margin-bottom: 6px; line-height: 1.3; }',
-        '.meta { font-size: 9pt; color: #999; margin-bottom: 30px; }',
-        'p { margin-bottom: 12px; text-indent: 2em; }',
-        '.source { font-size: 8.5pt; color: #aaa; margin-top: 40px; border-top: 1px solid #eee; padding-top: 12px; }',
-        '</style>', '</head>', '<body>',
-        f'<h1>{article["title"]}</h1>',
-        f'<div class="meta">{meta_text}</div>',
-    ]
+    lines = ['<!DOCTYPE html>', '<html lang="zh-CN">', '<head>',
+             '<meta charset="UTF-8">', f'<title>{article["title"]}</title>',
+             '<style>',
+             'body { font-family: "Microsoft YaHei", "PingFang SC", sans-serif; max-width: 720px; margin: 0 auto; padding: 40px 20px; color: #222; line-height: 1.9; }',
+             'h1 { font-size: 18pt; color: #1a1a2e; margin-bottom: 6px; line-height: 1.3; }',
+             '.meta { font-size: 9pt; color: #999; margin-bottom: 30px; }',
+             'p { margin-bottom: 12px; text-indent: 2em; }',
+             '.source { font-size: 8.5pt; color: #aaa; margin-top: 40px; border-top: 1px solid #eee; padding-top: 12px; }',
+             '</style>', '</head>', '<body>',
+             f'<h1>{article["title"]}</h1>',
+             f'<div class="meta">{meta_text}</div>']
     for para in article["body"].split("\n"):
         if para.strip():
-            lines.append(f'<p>{para.strip()}</p>')
+            lines.append(f"<p>{para.strip()}</p>")
     lines.append(f'<div class="source">原文链接：<a href="{url}">{url}</a></div>')
     lines.extend(['</body>', '</html>'])
     with open(filepath, "w", encoding="utf-8") as f:
