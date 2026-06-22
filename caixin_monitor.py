@@ -31,6 +31,7 @@ def find_today_articles(session):
     for channel in channels:
         try:
             resp = session.get(f"https://{channel}.caixin.com/", timeout=15)
+            print(f"  {channel}.caixin.com -> {resp.status_code} ({len(resp.text)} bytes)")
             if resp.status_code != 200:
                 continue
             for date in dates:
@@ -75,7 +76,9 @@ def extract_article(session, url):
             except (json.JSONDecodeError, AttributeError):
                 continue
 
-        if not body or len(body.split()) < 50:
+        wc = len(body.split()) if body else 0
+        print(f"  Extracted: title={title[:40]} body={len(body)} chars wc={wc}")
+        if not body or wc < 50:
             return None
 
         return {"title": title, "body": body, "word_count": len(body.split())}
@@ -134,6 +137,8 @@ def main():
 
     urls = find_today_articles(session)
     print(f"发现 {len(urls)} 篇文章")
+    for u in urls[:5]:
+        print(f"  {u}")
 
     saved = 0
     for url in urls:
