@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-06-23 16:12:20",
+  "version": "v8.1",
+  "fulltext_count": 7,
+  "skipped_free": 0,
+  "skipped_truncated": 29,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-06-23/former-shenzhen-political-adviser-expelled-from-party-in-corruption-case--102456528.html",
+      "title": "Former Shenzhen Political Adviser Expelled From Party in Corruption Case",
+      "word_count": 612
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-06-19/analysis-chinas-new-jobs-plan-zeros-in-on-ai-youth-employment-102455779.html",
+      "title": "Analysis: China’s New Jobs Plan Zeros In on AI, Youth Employment",
+      "word_count": 568
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-06-18/analysis-cracks-in-the-3-trillion-private-credit-market-expose-shadow-banking-risks-102455420.html",
+      "title": "Analysis: Cracks in the $3 Trillion Private Credit Market Expose Shadow Banking Risks",
+      "word_count": 407
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-06-22/iran-clears-chinese-cargo-ships-as-strait-of-hormuz-sees-chaotic-reopening-102456130.html",
+      "title": "Iran Clears Chinese Cargo Ships as Strait of Hormuz Sees Chaotic Reopening",
+      "word_count": 702
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-06-18/trump-says-china-helped-resolve-us-iran-conflict-by-staying-neutral-102455436.html",
+      "title": "Trump Says China ‘Helped’ Resolve U.S.-Iran Conflict by Staying Neutral",
+      "word_count": 649
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-06-18/in-depth-chinese-resource-giants-aim-to-weather-indonesias-mining-upheaval-102455395.html",
+      "title": "In Depth: Chinese Resource Giants Aim to Weather Indonesia’s Mining Upheaval",
+      "word_count": 586
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-06-22/cover-story-chinas-ai-boom-is-rewiring-its-power-grid-102456031.html",
+      "title": "Cover Story: China’s AI Boom Is Rewiring Its Power Grid",
+      "word_count": 573
+    }
+  ]
+}
