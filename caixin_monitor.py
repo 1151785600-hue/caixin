@@ -1,21 +1,20 @@
-"""caixin_monitor.py - 财新网 + CaixinGlobal 文章自动抓取 v7
-双数据源（仅付费文章）:
+"""caixin_monitor.py - 财新网 + CaixinGlobal 文章自动抓取 v8
+双数据源（仅付费文章）+ 每日简报:
   1. CaixinGlobal英文(caixinglobal.com): 仅保存含<!-- 收费墙 -->标记的文章
-     - 全文放行时保存完整HTML（捕获分时免费窗口）
-     - 截断时仍保存预览内容（留作记录）
   2. 财新中文(caixin.com): 仅保存含cx-pay-layer或付费标记的文章预览
+  3. 每次运行生成 articles/daily/YYYY-MM-DD_briefing.md 简报
 
-v7变更:
-  - 只保存付费文章，跳过免费文章
-  - cron改为每天运行（含周末）
-  - 增强付费墙检测逻辑
+v8变更:
+  - 新增每日简报生成（Markdown格式）
+  - 简报包含：统计摘要 + 全文文章列表 + 部分文章列表 + 截断文章列表
+  - 仅在有新文章时才生成简报
 """
 import requests
 import re
 import json
 import os
 import time
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 def get_session():
     session = requests.Session()
@@ -34,10 +33,8 @@ CAIXINGLOBAL_SECTIONS = [
 ]
 
 def find_caixinglobal_articles(session, days=7):
-    """从caixinglobal.com各频道首页获取最近N天的文章链接"""
     dates = [(datetime.now() - timedelta(days=i)).strftime("%Y-%m-%d") for i in range(days)]
     all_urls = []
-
     for section in CAIXINGLOBAL_SECTIONS:
         for retry in range(2):
             try:
@@ -63,42 +60,28 @@ def find_caixinglobal_articles(session, days=7):
     return all_urls
 
 def is_caixinglobal_paywalled(html):
-    """检测caixinglobal文章是否有付费墙标记"""
-    # 主要标记: HTML中的收费墙注释
-    if '<!-- 收费墙 -->' in html or '<!--\u6536\u8d39\u5899 -->' in html:
+    if '<!-- \u6536\u8d39\u5899 -->' in html:
         return True
-    # 备用标记: cx-paywall 相关class
     if 'cx-paywall' in html or 'paywall-content' in html:
         return True
-    # 检测订阅/注册提示元素
-    if 'class="subscribe-btn"' in html or 'subscribe now' in html.lower():
-        # 仅当正文较短时视为付费墙（长文有subscribe按钮但内容完整）
-        pass
     return False
 
 def extract_caixinglobal_article(session, url):
-    """提取caixinglobal.com英文文章 - 只处理付费文章"""
     try:
         session.headers["Referer"] = url
         resp = session.get(url, timeout=12)
         if resp.status_code != 200:
             return None
         html = resp.text
-
-        # 检测是否为付费文章
         if not is_caixinglobal_paywalled(html):
             return {"skip": True, "reason": "free_article"}
-
         title_match = re.search(r"<title>(.*?)</title>", html)
         title = title_match.group(1).strip() if title_match else ""
         for suffix in [" | Caixin Global", "| Caixin Global", "- Caixin Global"]:
             title = title.replace(suffix, "").strip()
-
-        # 提取正文: 取所有c-content div中最长者
         all_c_divs = re.findall(r'<div[^>]*class="[^"]*c-content[^"]*"[^>]*>(.*?)</div>', html, re.DOTALL)
         if not all_c_divs:
             return {"skip": True, "reason": "no_content_div"}
-
         best_text = None
         best_wc = 0
         for div in all_c_divs:
@@ -111,31 +94,26 @@ def extract_caixinglobal_article(session, url):
             if wc > best_wc:
                 best_wc = wc
                 best_text = text
-
         if not best_text or best_wc < 30:
             return {"skip": True, "reason": "content_too_short"}
-
         paras = [p.strip() for p in best_text.split("\n") if p.strip()]
         best_text = "\n\n".join(paras)
-
         if best_wc >= 300:
             quality = "fulltext"
         elif best_wc >= 100:
             quality = "partial"
         else:
             quality = "truncated"
-
         return {
             "title": title,
             "body": best_text,
             "word_count": best_wc,
             "char_count": len(best_text),
-            "category": "",
             "quality": quality,
             "language": "en",
             "is_paywalled": True,
         }
-    except Exception as e:
+    except Exception:
         return None
 
 # ============ 财新中文预览（仅付费文章） ============
@@ -173,40 +151,27 @@ def find_caixin_cn_articles(session, days=2):
     return all_urls
 
 def is_caixin_cn_paywalled(html):
-    """检测财新中文网文章是否有付费墙标记"""
-    # cx-pay-layer 是财新主要的付费弹窗组件
     if 'cx-pay-layer' in html or 'cx-pay' in html:
         return True
-    # Gateway API 调用标记（动态加载正文）
     if 'gateway.caixin.com' in html and 'content-data' in html:
         return True
-    # 付费购买提示
     if '购买本文' in html or '立即订阅' in html or 'VIP专享' in html:
         return True
-    # 底部"本文由财新独家"标记（通常出现在付费文章预览末尾）
-    if '本文由财新网' in html or '财新传媒版权所有' in html:
-        # 结合正文较短来判断
-        pass
     return False
 
 def extract_caixin_cn_article(session, url):
-    """提取财新中文网文章预览 - 只处理付费文章"""
     try:
         session.headers["Referer"] = url
         resp = session.get(url, timeout=12)
         if resp.status_code != 200:
             return None
         html = resp.text
-
-        # 检测是否为付费文章
         if not is_caixin_cn_paywalled(html):
             return {"skip": True, "reason": "free_article"}
-
         title_match = re.search(r"<title>(.*?)</title>", html)
         title = title_match.group(1).strip() if title_match else ""
         for suffix in ["_财新网", "_caixin", "_数据通", "_mini", "_财新文讯", "(含视频)"]:
             title = title.replace(suffix, "").strip()
-
         content_html = ""
         m = re.search(r'<div[^>]*id="Main_Content_Val"[^>]*>(.*?)</div>', html, re.DOTALL)
         if m:
@@ -219,27 +184,23 @@ def extract_caixin_cn_article(session, url):
             m = re.search(r'<div[^>]*class="content"[^>]*>(.*?)</div>', html, re.DOTALL)
             if m:
                 content_html = m.group(1)
-
         content_text = re.sub(r'<[^>]+>', '\n', content_html)
         content_text = re.sub(r'\n+', '\n', content_text).strip()
         paras = [p.strip() for p in content_text.split("\n") if p.strip()]
         content_text = "\n".join(paras)
         char_count = len(content_text)
-
         if char_count < 50:
             return {"skip": True, "reason": "content_too_short"}
-
         return {
             "title": title,
             "body": content_text,
             "word_count": char_count,
             "char_count": char_count,
-            "category": "",
             "quality": "preview",
             "language": "zh",
             "is_paywalled": True,
         }
-    except Exception as e:
+    except Exception:
         return None
 
 # ============ 保存 ============
@@ -247,7 +208,6 @@ def extract_caixin_cn_article(session, url):
 def save_as_html(article, url, output_dir, source):
     os.makedirs(output_dir, exist_ok=True)
     safe_name = re.sub(r'[^\w\u4e00-\u9fff_-]', "_", article["title"])[:80]
-    # 添加日期前缀避免覆盖
     date_prefix = datetime.now().strftime("%Y%m%d_%H%M")
     filepath = os.path.join(output_dir, f"{date_prefix}_{safe_name}.html")
     lang = article.get("language", "en")
@@ -286,6 +246,116 @@ def save_summary(data, path):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
+# ============ 每日简报 ============
+
+def make_excerpt(text, max_chars=200):
+    """截取文章开头作为摘要"""
+    text = text.replace("\n", " ").strip()
+    if len(text) <= max_chars:
+        return text
+    return text[:max_chars].rsplit(" ", 1)[0] + "..."
+
+def generate_briefing(global_articles, cn_articles, output_dir):
+    """生成每日简报 Markdown 文件"""
+    now = datetime.now(timezone.utc)
+    date_str = now.strftime("%Y-%m-%d")
+    bj_time = now.astimezone(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M")
+    briefing_dir = os.path.join(output_dir, "daily")
+    os.makedirs(briefing_dir, exist_ok=True)
+    filepath = os.path.join(briefing_dir, f"{date_str}_briefing.md")
+
+    lines = []
+    lines.append(f"# 财新付费文章每日简报")
+    lines.append(f"")
+    lines.append(f"**日期：** {date_str}（北京时间 {bj_time} 生成）")
+    lines.append(f"")
+
+    # 统计
+    g_full = [a for a in global_articles if a["quality"] == "fulltext"]
+    g_partial = [a for a in global_articles if a["quality"] == "partial"]
+    g_trunc = [a for a in global_articles if a["quality"] == "truncated"]
+    cn_all = cn_articles
+
+    lines.append("---")
+    lines.append("")
+    lines.append("## 抓取统计")
+    lines.append("")
+    lines.append(f"| 数据源 | 全文 | 部分 | 截断/预览 | 合计 |")
+    lines.append(f"|--------|------|------|-----------|------|")
+    lines.append(f"| CaixinGlobal 英文 | {len(g_full)} | {len(g_partial)} | {len(g_trunc)} | {len(global_articles)} |")
+    lines.append(f"| 财新中文 | - | - | {len(cn_all)} (预览) | {len(cn_all)} |")
+    lines.append(f"| **合计** | **{len(g_full)}** | **{len(g_partial)}** | **{len(g_trunc)+len(cn_all)}** | **{len(global_articles)+len(cn_all)}** |")
+    lines.append("")
+
+    # 全文文章（重点）
+    if g_full:
+        lines.append("---")
+        lines.append("")
+        lines.append("## 全文捕获（分时免费窗口）")
+        lines.append("")
+        for a in g_full:
+            excerpt = make_excerpt(a["body"], 200)
+            lines.append(f"### {a['title']}")
+            lines.append(f"")
+            lines.append(f"- **来源：** CaixinGlobal | **字数：** {a['word_count']} words")
+            lines.append(f"- **链接：** {a['url']}")
+            lines.append(f"- **摘要：** {excerpt}")
+            lines.append("")
+
+    # 部分文章
+    if g_partial:
+        lines.append("---")
+        lines.append("")
+        lines.append("## 部分内容（100-299词）")
+        lines.append("")
+        for a in g_partial:
+            excerpt = make_excerpt(a["body"], 150)
+            lines.append(f"### {a['title']}")
+            lines.append(f"")
+            lines.append(f"- **来源：** CaixinGlobal | **字数：** {a['word_count']} words")
+            lines.append(f"- **链接：** {a['url']}")
+            lines.append(f"- **摘要：** {excerpt}")
+            lines.append("")
+
+    # 截断文章
+    if g_trunc:
+        lines.append("---")
+        lines.append("")
+        lines.append("## 截断文章（付费墙，<100词预览）")
+        lines.append("")
+        for a in g_trunc:
+            excerpt = make_excerpt(a["body"], 100)
+            lines.append(f"### {a['title']}")
+            lines.append(f"")
+            lines.append(f"- **来源：** CaixinGlobal | **字数：** {a['word_count']} words")
+            lines.append(f"- **链接：** {a['url']}")
+            lines.append(f"- **摘要：** {excerpt}")
+            lines.append("")
+
+    # 财新中文预览
+    if cn_all:
+        lines.append("---")
+        lines.append("")
+        lines.append("## 财新中文付费文章（预览）")
+        lines.append("")
+        for a in cn_all:
+            excerpt = make_excerpt(a["body"], 150)
+            lines.append(f"### {a['title']}")
+            lines.append(f"")
+            lines.append(f"- **来源：** 财新网 | **字符数：** {a['word_count']}")
+            lines.append(f"- **链接：** {a['url']}")
+            lines.append(f"- **摘要：** {excerpt}")
+            lines.append("")
+
+    lines.append("---")
+    lines.append("")
+    lines.append(f"*简报由财新监控脚本 v8 自动生成 | [查看仓库](https://github.com/1151785600-hue/caixin)*")
+
+    content = "\n".join(lines)
+    with open(filepath, "w", encoding="utf-8") as f:
+        f.write(content)
+    return filepath
+
 # ============ Main ============
 
 def main():
@@ -293,9 +363,9 @@ def main():
     output_cn = os.environ.get("OUTPUT_CN", "articles/cn_preview")
     session = get_session()
     ts = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    print(f"=== 财新双源监控 v7（仅付费文章） {ts} ===")
+    print(f"=== 财新双源监控 v8（仅付费文章 + 每日简报） {ts} ===")
 
-    # Phase 1: CaixinGlobal (仅付费文章)
+    # Phase 1: CaixinGlobal
     print("\n[Phase 1] CaixinGlobal 英文付费文章扫描...")
     global_urls = find_caixinglobal_articles(session, days=7)
     print(f"  发现 {len(global_urls)} 篇英文文章")
@@ -308,11 +378,10 @@ def main():
     for i, url in enumerate(global_urls):
         article = extract_caixinglobal_article(session, url)
         if article is None:
-            print(f"  [{i+1}/{len(global_urls)}] [FAIL/404]")
+            print(f"  [{i+1}/{len(global_urls)}] [FAIL]")
         elif isinstance(article, dict) and article.get("skip"):
             skipped_free += 1
-            reason = article.get("reason", "unknown")
-            print(f"  [{i+1}/{len(global_urls)}] [FREE-{reason}]")
+            print(f"  [{i+1}/{len(global_urls)}] [FREE]")
         else:
             quality = article["quality"]
             if quality == "fulltext":
@@ -324,12 +393,12 @@ def main():
             fp = save_as_html(article, url, output_global, "caixinglobal")
             saved_global += 1
             print(f"  [{i+1}/{len(global_urls)}] [{quality.upper()}] {article['word_count']:4d}w - {article['title'][:60]}")
-            global_info.append({"url": url, "title": article["title"], "quality": quality, "word_count": article["word_count"]})
+            global_info.append({"url": url, "title": article["title"], "quality": quality, "word_count": article["word_count"], "body": article["body"][:500]})
         time.sleep(0.4)
-    print(f"\n  英文: {saved_global}篇付费文章保存, {skipped_free}篇免费跳过")
+    print(f"\n  英文: {saved_global}篇付费保存, {skipped_free}篇免费跳过")
     print(f"    全文:{fulltext_count} | 部分:{partial_count} | 截断:{truncated_count}")
 
-    # Phase 2: CN preview (仅付费文章, disabled by default)
+    # Phase 2: 财新中文
     cn_enabled = os.environ.get("ENABLE_CN", "").lower() == "true"
     cn_info = []
     saved_cn = 0
@@ -349,25 +418,27 @@ def main():
                 fp = save_as_html(article, url, output_cn, "caixin")
                 saved_cn += 1
                 print(f"  [{i+1}/{len(cn_urls)}] [PREVIEW] {article['word_count']}ch - {article['title'][:40]}")
-                cn_info.append({"url": url, "title": article["title"], "quality": "preview", "char_count": article["word_count"]})
+                cn_info.append({"url": url, "title": article["title"], "quality": "preview", "word_count": article["word_count"], "body": article["body"][:500]})
             time.sleep(0.8)
-        print(f"\n  中文: {saved_cn}篇付费文章保存, {skipped_cn_free}篇免费跳过")
+        print(f"\n  中文: {saved_cn}篇付费保存, {skipped_cn_free}篇免费跳过")
     else:
         print("\n[Phase 2] 财新中文预览扫描 (已跳过)")
 
     total = saved_global + saved_cn
-    total_skipped = skipped_free + skipped_cn_free
-    print(f"\n=== 总计: {total}篇付费文章保存, {total_skipped}篇免费文章跳过 ===")
+
+    # Phase 3: 生成每日简报
+    print("\n[Phase 3] 生成每日简报...")
+    briefing_path = generate_briefing(global_info, cn_info, "articles")
+    print(f"  简报已保存: {briefing_path}")
+
+    print(f"\n=== 总计: {total}篇付费文章 + 1份简报 ===")
     summary = {
         "timestamp": ts,
-        "version": "v7",
+        "version": "v8",
         "global": {
-            "total": saved_global,
-            "skipped_free": skipped_free,
-            "fulltext": fulltext_count,
-            "partial": partial_count,
-            "truncated": truncated_count,
-            "articles": global_info,
+            "total": saved_global, "skipped_free": skipped_free,
+            "fulltext": fulltext_count, "partial": partial_count, "truncated": truncated_count,
+            "articles": [{"url": a["url"], "title": a["title"], "quality": a["quality"], "word_count": a["word_count"]} for a in global_info],
         },
         "cn": {"total": saved_cn, "skipped_free": skipped_cn_free, "articles": cn_info},
     }
