@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-06-23 19:25:30",
+  "timestamp": "2026-06-23 21:18:23",
   "version": "v8.1",
-  "fulltext_count": 7,
+  "fulltext_count": 8,
   "skipped_free": 0,
-  "skipped_truncated": 29,
+  "skipped_truncated": 28,
   "articles": [
     {
       "url": "https://www.caixinglobal.com/2026-06-23/former-shenzhen-political-adviser-expelled-from-party-in-corruption-case--102456528.html",
@@ -39,6 +39,11 @@
       "url": "https://www.caixinglobal.com/2026-06-22/cover-story-chinas-ai-boom-is-rewiring-its-power-grid-102456031.html",
       "title": "Cover Story: China’s AI Boom Is Rewiring Its Power Grid",
       "word_count": 573
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-06-19/in-depth-how-ai-is-rewiring-white-collar-work-in-china-102455431.html",
+      "title": "In Depth: How AI Is Rewiring White-Collar Work in China",
+      "word_count": 525
     }
   ]
 }
