@@ -2,7 +2,7 @@ name: 财新网文章监控
 
 on:
   schedule:
-    # 每天运行（含周末），每3小时一次（UTC时间，对应北京时间8/11/14/17/20/23/2/5点）
+    # 每天运行（含周末），每3小时一次（UTC时间）
     - cron: '0 0 * * *'
     - cron: '0 3 * * *'
     - cron: '0 6 * * *'
@@ -22,8 +22,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 2
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -40,22 +38,16 @@ jobs:
           OUTPUT_CN: articles/cn_preview
           ENABLE_CN: "true"
 
-      - name: Check for new articles
-        id: check
-        run: |
-          if git diff --quiet --name-only HEAD -- articles/; then
-            echo "has_new=false" >> $GITHUB_OUTPUT
-          else
-            echo "has_new=true" >> $GITHUB_OUTPUT
-            echo "新文章:"
-            git diff --name-only HEAD -- articles/
-          fi
-
       - name: Commit and push new articles
-        if: steps.check.outputs.has_new == 'true'
         run: |
           git config user.name "caixin-monitor-bot"
           git config user.email "caixin-monitor-bot[bot]@users.noreply.github.com"
           git add articles/
-          git commit -m "docs: 新增付费文章 $(date -u +%Y-%m-%d_%H:%M_UTC)"
-          git push
+          if git diff --cached --quiet; then
+            echo "没有新文章需要提交"
+          else
+            echo "新文章:"
+            git diff --cached --name-only
+            git commit -m "docs: 新增付费文章 $(date -u +%Y-%m-%d_%H:%M_UTC)"
+            git push
+          fi
