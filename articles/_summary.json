@@ -1,10 +1,15 @@
 {
-  "timestamp": "2026-06-24 00:14:25",
+  "timestamp": "2026-06-24 10:36:54",
   "version": "v8.1",
-  "fulltext_count": 8,
+  "fulltext_count": 9,
   "skipped_free": 0,
-  "skipped_truncated": 24,
+  "skipped_truncated": 27,
   "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-06-24/former-shanghai-official-gets-suspended-death-sentence-in-bribery-case--102456913.html",
+      "title": "Former Shanghai Official Gets Suspended Death Sentence in Bribery Case",
+      "word_count": 975
+    },
     {
       "url": "https://www.caixinglobal.com/2026-06-23/former-shenzhen-political-adviser-expelled-from-party-in-corruption-case--102456528.html",
       "title": "Former Shenzhen Political Adviser Expelled From Party in Corruption Case",
