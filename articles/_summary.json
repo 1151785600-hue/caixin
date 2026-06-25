@@ -1,10 +1,20 @@
 {
-  "timestamp": "2026-06-24 22:48:52",
+  "timestamp": "2026-06-25 08:37:26",
   "version": "v8.1",
-  "fulltext_count": 9,
+  "fulltext_count": 8,
   "skipped_free": 0,
-  "skipped_truncated": 27,
+  "skipped_truncated": 23,
   "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-06-25/global-fund-backs-chinese-test-to-speed-tb-diagnosis-102457424.html",
+      "title": "Global Fund Backs Chinese Test to Speed TB Diagnosis",
+      "word_count": 580
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-06-25/ex-officials-son-convicted-of-money-laundering-in-hong-kong-102457273.html",
+      "title": "Ex-Official’s Son Convicted of Money-Laundering in Hong Kong",
+      "word_count": 442
+    },
     {
       "url": "https://www.caixinglobal.com/2026-06-24/former-shanghai-official-gets-suspended-death-sentence-in-bribery-case--102456913.html",
       "title": "Former Shanghai Official Gets Suspended Death Sentence in Bribery Case",
@@ -21,24 +31,9 @@
       "word_count": 568
     },
     {
-      "url": "https://www.caixinglobal.com/2026-06-18/analysis-cracks-in-the-3-trillion-private-credit-market-expose-shadow-banking-risks-102455420.html",
-      "title": "Analysis: Cracks in the $3 Trillion Private Credit Market Expose Shadow Banking Risks",
-      "word_count": 407
-    },
-    {
       "url": "https://www.caixinglobal.com/2026-06-22/iran-clears-chinese-cargo-ships-as-strait-of-hormuz-sees-chaotic-reopening-102456130.html",
       "title": "Iran Clears Chinese Cargo Ships as Strait of Hormuz Sees Chaotic Reopening",
       "word_count": 702
-    },
-    {
-      "url": "https://www.caixinglobal.com/2026-06-18/trump-says-china-helped-resolve-us-iran-conflict-by-staying-neutral-102455436.html",
-      "title": "Trump Says China ‘Helped’ Resolve U.S.-Iran Conflict by Staying Neutral",
-      "word_count": 649
-    },
-    {
-      "url": "https://www.caixinglobal.com/2026-06-18/in-depth-chinese-resource-giants-aim-to-weather-indonesias-mining-upheaval-102455395.html",
-      "title": "In Depth: Chinese Resource Giants Aim to Weather Indonesia’s Mining Upheaval",
-      "word_count": 586
     },
     {
       "url": "https://www.caixinglobal.com/2026-06-22/cover-story-chinas-ai-boom-is-rewiring-its-power-grid-102456031.html",
