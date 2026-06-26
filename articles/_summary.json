@@ -1,49 +1,37 @@
 {
-  "timestamp": "2026-06-25 23:02:02",
-  "version": "v8.1",
-  "fulltext_count": 8,
-  "skipped_free": 0,
-  "skipped_truncated": 24,
+  "ts": "2026-06-26 08:40:28",
+  "v": "8.2",
+  "new_count": 6,
   "articles": [
     {
       "url": "https://www.caixinglobal.com/2026-06-25/global-fund-backs-chinese-test-to-speed-tb-diagnosis-102457424.html",
       "title": "Global Fund Backs Chinese Test to Speed TB Diagnosis",
-      "word_count": 580
+      "wc": 580
     },
     {
       "url": "https://www.caixinglobal.com/2026-06-25/ex-officials-son-convicted-of-money-laundering-in-hong-kong-102457273.html",
       "title": "Ex-Mainland Official’s Son Convicted of Money-Laundering in Hong Kong",
-      "word_count": 442
+      "wc": 442
     },
     {
       "url": "https://www.caixinglobal.com/2026-06-24/former-shanghai-official-gets-suspended-death-sentence-in-bribery-case--102456913.html",
       "title": "Former Shanghai Official Gets Suspended Death Sentence in Bribery Case",
-      "word_count": 975
+      "wc": 975
     },
     {
       "url": "https://www.caixinglobal.com/2026-06-23/former-shenzhen-political-adviser-expelled-from-party-in-corruption-case--102456528.html",
       "title": "Former Shenzhen Political Adviser Expelled From Party in Corruption Case",
-      "word_count": 612
-    },
-    {
-      "url": "https://www.caixinglobal.com/2026-06-19/analysis-chinas-new-jobs-plan-zeros-in-on-ai-youth-employment-102455779.html",
-      "title": "Analysis: China’s New Jobs Plan Zeros In on AI, Youth Employment",
-      "word_count": 568
+      "wc": 612
     },
     {
       "url": "https://www.caixinglobal.com/2026-06-22/iran-clears-chinese-cargo-ships-as-strait-of-hormuz-sees-chaotic-reopening-102456130.html",
       "title": "Iran Clears Chinese Cargo Ships as Strait of Hormuz Sees Chaotic Reopening",
-      "word_count": 702
+      "wc": 702
     },
     {
       "url": "https://www.caixinglobal.com/2026-06-22/cover-story-chinas-ai-boom-is-rewiring-its-power-grid-102456031.html",
       "title": "Cover Story: China’s AI Boom Is Rewiring Its Power Grid",
-      "word_count": 573
-    },
-    {
-      "url": "https://www.caixinglobal.com/2026-06-19/in-depth-how-ai-is-rewiring-white-collar-work-in-china-102455431.html",
-      "title": "In Depth: How AI Is Rewiring White-Collar Work in China",
-      "word_count": 525
+      "wc": 573
     }
   ]
 }
