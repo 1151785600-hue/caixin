@@ -1,16 +1,28 @@
-name: 每日简报推送
+name: 每日简报
 
 on:
   schedule:
-    # 北京时间早上8点 = UTC 0点，每天一次
+    # 北京0:30 = UTC 16:30（前一天），AI筛选+摘要+评论
+    - cron: '30 16 * * *'
+    # 北京8:00 = UTC 0:00，纯推送（秒级完成）
     - cron: '0 0 * * *'
   workflow_dispatch:
+    inputs:
+      phase:
+        description: '运行阶段: generate 或 push'
+        required: false
+        default: 'generate'
 
 permissions:
   contents: write
 
 jobs:
-  briefing:
+  generate:
+    # 只在0:30或手动指定generate时运行
+    if: |
+      github.event.schedule == '30 16 * * *' || 
+      (github.event_name == 'workflow_dispatch' && github.event.inputs.phase == 'generate') ||
+      (github.event_name == 'workflow_dispatch' && github.event.inputs.phase == '')
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -24,10 +36,9 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Generate briefing and push to WeChat
-        run: python daily_briefing.py
+      - name: Generate briefing (AI summary + commentary)
+        run: python generate_briefing.py
         env:
-          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
           MIMO_API_KEY: ${{ secrets.MIMO_API_KEY }}
           MIMO_BASE_URL: "https://api.xiaomimimo.com/v1"
           MIMO_MODEL: "mimo-v2.5"
@@ -36,10 +47,33 @@ jobs:
         run: |
           git config user.name "caixin-monitor-bot"
           git config user.email "caixin-monitor-bot[bot]@users.noreply.github.com"
-          git add articles/daily/
+          git add articles/
           if git diff --cached --quiet; then
             echo "无简报更新"
           else
-            git commit -m "docs: 每日简报 $(date -u +%Y-%m-%d)"
+            git commit -m "docs: AI简报生成 $(date -u +%Y-%m-%d)"
             git push
           fi
+
+  push:
+    # 只在8:00或手动指定push时运行
+    if: |
+      github.event.schedule == '0 0 * * *' || 
+      github.event.inputs.phase == 'push'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Push briefing to WeChat
+        run: python push_briefing.py
+        env:
+          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
