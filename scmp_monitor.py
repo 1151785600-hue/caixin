@@ -1,10 +1,9 @@
-"""scmp_monitor.py v2 - SCMP深度报道自动抓取 + PushPlus微信推送
-JSON-LD articleBody提取法，URL去重，每次运行后推送简报到微信
+"""scmp_monitor.py v3 - SCMP深度报道自动抓取（纯抓取，不含推送）
+JSON-LD articleBody提取法，URL去重。
+推送由 daily_briefing.py 在北京时间8点统一处理。
 """
 import requests, re, json, os, time
 from datetime import datetime, timedelta, timezone
-
-PUSHPLUS_TOKEN = os.environ.get("PUSHPLUS_TOKEN", "")
 
 def get_session():
     s = requests.Session()
@@ -27,8 +26,7 @@ def find_articles(session, days=7):
     for section in SECTIONS:
         for retry in range(2):
             try:
-                url = f"https://www.scmp.com/{section}"
-                resp = session.get(url, timeout=15)
+                resp = session.get(f"https://www.scmp.com/{section}", timeout=15)
                 if resp.status_code != 200:
                     if retry == 0: time.sleep(2); continue
                     continue
@@ -88,8 +86,7 @@ def extract_article(session, url):
         if '"isAccessibleForFree": true' in html or 'isAccessibleForFree":true' in html:
             is_premium = False
         word_count = len(re.findall(r'[a-zA-Z]+', article_body))
-        is_deep = word_count >= 500
-        quality = "fulltext_deep" if is_deep else "fulltext"
+        quality = "fulltext_deep" if word_count >= 500 else "fulltext"
         return {
             "title": title, "body": article_body, "word_count": word_count,
             "quality": quality, "is_premium": is_premium,
@@ -126,33 +123,11 @@ def save_html(article, url, output_dir):
         f.write("\n".join(lines))
     return fp
 
-def make_excerpt(text, n=200):
-    text = text.replace("\n", " ").strip()
-    return text[:n].rsplit(" ", 1)[0] + "..." if len(text) > n else text
-
-def push_to_wechat(title, content):
-    if not PUSHPLUS_TOKEN:
-        print("  [PushPlus] 未配置token，跳过推送")
-        return False
-    try:
-        payload = {"token": PUSHPLUS_TOKEN, "title": title, "content": content, "template": "markdown"}
-        resp = requests.post("http://www.pushplus.plus/send", json=payload, timeout=15)
-        result = resp.json()
-        if result.get("code") == 200:
-            print(f"  [PushPlus] 推送成功")
-            return True
-        else:
-            print(f"  [PushPlus] 推送失败: {result.get('msg', 'unknown')}")
-            return False
-    except Exception as e:
-        print(f"  [PushPlus] 推送异常: {e}")
-        return False
-
 def main():
     output_dir = os.environ.get("OUTPUT_DIR", "articles/scmp")
     session = get_session()
     ts = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    print(f"=== SCMP监控 v2（JSON-LD + 去重 + 微信推送） {ts} ===")
+    print(f"=== SCMP监控 v3 {ts} ===")
     urls = find_articles(session, days=7)
     print(f"  {len(urls)} articles found")
     new_articles = []
@@ -165,55 +140,18 @@ def main():
         else:
             fp = save_html(a, url, output_dir)
             if fp:
-                new_articles.append({
-                    "url": url, "title": a["title"], "word_count": a["word_count"],
-                    "quality": a["quality"], "is_premium": a["is_premium"],
-                    "category": a.get("category", ""), "body": a["body"][:500]
-                })
+                new_articles.append({"url": url, "title": a["title"], "word_count": a["word_count"],
+                    "quality": a["quality"], "is_premium": a["is_premium"]})
                 tag = "DEEP" if a["quality"] == "fulltext_deep" else "FULL"
                 print(f"  [{i+1}] NEW [{tag}] {a['word_count']:4d}w - {a['title'][:60]}")
             else:
                 print(f"  [{i+1}] DUP")
         time.sleep(0.5)
-
-    # 生成简报
-    now = datetime.now(timezone.utc)
-    date_str = now.strftime("%Y-%m-%d")
-    bj = now.astimezone(timezone(timedelta(hours=8))).strftime("%H:%M")
-    deep = [a for a in new_articles if a["quality"] == "fulltext_deep"]
-    other = [a for a in new_articles if a["quality"] != "fulltext_deep"]
-    md_lines = [f"**SCMP深度报道简报 | {date_str}（北京时间 {bj}）**\n",
-                f"本次新增：**{len(new_articles)} 篇**（深度 {len(deep)}，其他 {len(other)}）\n"]
-    if new_articles:
-        md_lines.append("---\n")
-        for a in new_articles:
-            premium = " **[付费]**" if a["is_premium"] else ""
-            md_lines.append(f"**{a['title']}**{premium}\n")
-            md_lines.append(f"- 字数：{a['word_count']} words")
-            md_lines.append(f"- [原文链接]({a['url']})")
-            md_lines.append(f"- 摘要：{make_excerpt(a['body'])}\n")
-    else:
-        md_lines.append("本次扫描未捕获到新文章。\n")
-    md_lines.append("---\n*[GitHub仓库](https://github.com/1151785600-hue/caixin)*")
-    briefing_md = "\n".join(md_lines)
-
-    # 保存简报
-    d = os.path.join(output_dir, "daily"); os.makedirs(d, exist_ok=True)
-    bp = os.path.join(d, f"{date_str}_scmp_briefing.md")
-    with open(bp, "w", encoding="utf-8") as f: f.write(briefing_md)
-
-    # 保存summary
-    summary = {"ts": ts, "v": "scmp_v2", "new_count": len(new_articles),
-               "articles": [{"url": a["url"], "title": a["title"], "wc": a["word_count"],
-                             "quality": a["quality"], "premium": a["is_premium"]} for a in new_articles]}
+    print(f"\n  新增:{len(new_articles)}")
+    summary = {"ts": ts, "v": "scmp_v3", "new_count": len(new_articles), "articles": new_articles}
     os.makedirs(output_dir, exist_ok=True)
     with open(os.path.join(output_dir, "_summary.json"), "w", encoding="utf-8") as f:
         json.dump(summary, f, ensure_ascii=False, indent=2)
-
-    # 推送到微信
-    print(f"\n  新增:{len(new_articles)} 简报:{bp}")
-    push_title = f"SCMP简报 | {date_str} | {len(new_articles)}篇"
-    push_to_wechat(push_title, briefing_md)
 
 if __name__ == "__main__":
     main()

@@ -1,4 +1,4 @@
-name: SCMP深度报道监控
+name: SCMP深度报道抓取
 
 on:
   schedule:
@@ -34,9 +34,8 @@ jobs:
         run: python scmp_monitor.py
         env:
           OUTPUT_DIR: articles/scmp
-          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
 
-      - name: Commit and push new articles
+      - name: Commit and push
         run: |
           git config user.name "caixin-monitor-bot"
           git config user.email "caixin-monitor-bot[bot]@users.noreply.github.com"
@@ -44,8 +43,7 @@ jobs:
           if git diff --cached --quiet; then
             echo "没有新文章"
           else
-            echo "新文章:"
             git diff --cached --name-only
-            git commit -m "docs: SCMP深度报道 $(date -u +%Y-%m-%d_%H:%M_UTC)"
+            git commit -m "docs: SCMP新文章 $(date -u +%Y-%m-%d_%H:%M_UTC)"
             git push
           fi
