@@ -1,0 +1,51 @@
+name: SCMP深度报道监控
+
+on:
+  schedule:
+    # 每天运行（含周末），每3小时一次（UTC时间）
+    - cron: '0 1 * * *'
+    - cron: '0 4 * * *'
+    - cron: '0 7 * * *'
+    - cron: '0 10 * * *'
+    - cron: '0 13 * * *'
+    - cron: '0 16 * * *'
+    - cron: '0 19 * * *'
+    - cron: '0 22 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run SCMP scraper
+        run: python scmp_monitor.py
+        env:
+          OUTPUT_DIR: articles/scmp
+
+      - name: Commit and push new articles
+        run: |
+          git config user.name "caixin-monitor-bot"
+          git config user.email "caixin-monitor-bot[bot]@users.noreply.github.com"
+          git add articles/scmp/
+          if git diff --cached --quiet; then
+            echo "没有新文章"
+          else
+            echo "新文章:"
+            git diff --cached --name-only
+            git commit -m "docs: SCMP深度报道 $(date -u +%Y-%m-%d_%H:%M_UTC)"
+            git push
+          fi
