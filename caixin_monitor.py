@@ -1,6 +1,10 @@
-"""caixin_monitor.py v8.2 - only save fulltext with URL dedup"""
+"""caixin_monitor.py v8.3 - 财新付费文章自动抓取 + PushPlus微信推送
+仅保存突破付费墙的完整文章，URL去重，每次运行后推送简报到微信
+"""
 import requests, re, json, os, time
 from datetime import datetime, timedelta, timezone
+
+PUSHPLUS_TOKEN = os.environ.get("PUSHPLUS_TOKEN", "")
 
 def get_session():
     s = requests.Session()
@@ -93,32 +97,37 @@ def make_excerpt(text, n=200):
     text = text.replace("\n", " ").strip()
     return text[:n].rsplit(" ", 1)[0] + "..." if len(text) > n else text
 
-def make_briefing(new_articles, output_dir):
-    now = datetime.now(timezone.utc)
-    date_str = now.strftime("%Y-%m-%d")
-    bj = now.astimezone(timezone(timedelta(hours=8))).strftime("%H:%M")
-    d = os.path.join(output_dir, "daily"); os.makedirs(d, exist_ok=True)
-    fp = os.path.join(d, f"{date_str}_briefing.md")
-    lines = [f"# 财新付费文章简报 | {date_str}（北京时间 {bj}）", "",
-            f"**本次新增全文：{len(new_articles)} 篇**", ""]
-    if new_articles:
-        lines.append("---\n\n## 新增全文文章\n")
-        for a in new_articles:
-            lines.append(f"### {a['title']}\n")
-            lines.append(f"- **字数：** {a['word_count']} words")
-            lines.append(f"- **链接：** {a['url']}")
-            lines.append(f"- **摘要：** {make_excerpt(a['body'])}\n")
-    else:
-        lines.append("\n本次扫描未捕获到新的全文文章。\n")
-    lines.append("---\n\n*[v8.2 自动生成](https://github.com/1151785600-hue/caixin)*")
-    with open(fp, "w", encoding="utf-8") as f: f.write("\n".join(lines))
-    return fp
+def push_to_wechat(title, content, topic=""):
+    """通过PushPlus推送到微信"""
+    if not PUSHPLUS_TOKEN:
+        print("  [PushPlus] 未配置token，跳过推送")
+        return False
+    try:
+        payload = {
+            "token": PUSHPLUS_TOKEN,
+            "title": title,
+            "content": content,
+            "template": "markdown",
+        }
+        if topic:
+            payload["topic"] = topic
+        resp = requests.post("http://www.pushplus.plus/send", json=payload, timeout=15)
+        result = resp.json()
+        if result.get("code") == 200:
+            print(f"  [PushPlus] 推送成功")
+            return True
+        else:
+            print(f"  [PushPlus] 推送失败: {result.get('msg', 'unknown')}")
+            return False
+    except Exception as e:
+        print(f"  [PushPlus] 推送异常: {e}")
+        return False
 
 def main():
     output_dir = os.environ.get("OUTPUT_DIR", "articles")
     session = get_session()
     ts = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-    print(f"=== 财新监控 v8.2（仅全文+去重） {ts} ===")
+    print(f"=== 财新监控 v8.3（仅全文+去重+微信推送） {ts} ===")
     urls = find_articles(session, days=7)
     print(f"  {len(urls)} articles found")
     new_articles = []
@@ -133,13 +142,41 @@ def main():
             else:
                 print(f"  [{i+1}] DUP  {a['word_count']:4d}w")
         time.sleep(0.4)
-    bp = make_briefing(new_articles, output_dir)
-    print(f"  new:{len(new_articles)} briefing:{bp}")
-    summary = {"ts": ts, "v": "8.2", "new_count": len(new_articles),
+
+    # 生成简报
+    now = datetime.now(timezone.utc)
+    date_str = now.strftime("%Y-%m-%d")
+    bj = now.astimezone(timezone(timedelta(hours=8))).strftime("%H:%M")
+    md_lines = [f"**财新付费文章简报 | {date_str}（北京时间 {bj}）**\n",
+                f"本次新增全文：**{len(new_articles)} 篇**\n"]
+    if new_articles:
+        md_lines.append("---\n")
+        for a in new_articles:
+            md_lines.append(f"**{a['title']}**\n")
+            md_lines.append(f"- 字数：{a['word_count']} words")
+            md_lines.append(f"- [原文链接]({a['url']})")
+            md_lines.append(f"- 摘要：{make_excerpt(a['body'])}\n")
+    else:
+        md_lines.append("本次扫描未捕获到新的全文文章。\n")
+    md_lines.append("---\n*[GitHub仓库](https://github.com/1151785600-hue/caixin)*")
+    briefing_md = "\n".join(md_lines)
+
+    # 保存简报
+    d = os.path.join(output_dir, "daily"); os.makedirs(d, exist_ok=True)
+    bp = os.path.join(d, f"{date_str}_briefing.md")
+    with open(bp, "w", encoding="utf-8") as f: f.write(briefing_md)
+
+    # 保存summary
+    summary = {"ts": ts, "v": "8.3", "new_count": len(new_articles),
                "articles": [{"url": a["url"], "title": a["title"], "wc": a["word_count"]} for a in new_articles]}
     os.makedirs(output_dir, exist_ok=True)
     with open(os.path.join(output_dir, "_summary.json"), "w", encoding="utf-8") as f:
         json.dump(summary, f, ensure_ascii=False, indent=2)
+
+    # 推送到微信
+    print(f"\n  新增:{len(new_articles)} 简报:{bp}")
+    push_title = f"财新简报 | {date_str} | {len(new_articles)}篇全文"
+    push_to_wechat(push_title, briefing_md)
 
 if __name__ == "__main__":
     main()

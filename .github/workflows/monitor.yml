@@ -2,7 +2,6 @@ name: 财新网文章监控
 
 on:
   schedule:
-    # 每天运行（含周末），每3小时一次（UTC时间）
     - cron: '0 0 * * *'
     - cron: '0 3 * * *'
     - cron: '0 6 * * *'
@@ -34,9 +33,8 @@ jobs:
       - name: Run scraper
         run: python caixin_monitor.py
         env:
-          OUTPUT_GLOBAL: articles/global
-          OUTPUT_CN: articles/cn_preview
-          ENABLE_CN: "true"
+          OUTPUT_DIR: articles
+          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
 
       - name: Commit and push new articles
         run: |
@@ -44,7 +42,7 @@ jobs:
           git config user.email "caixin-monitor-bot[bot]@users.noreply.github.com"
           git add articles/
           if git diff --cached --quiet; then
-            echo "没有新文章需要提交"
+            echo "没有新文章"
           else
             echo "新文章:"
             git diff --cached --name-only

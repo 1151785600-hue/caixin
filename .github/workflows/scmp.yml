@@ -2,7 +2,6 @@ name: SCMP深度报道监控
 
 on:
   schedule:
-    # 每天运行（含周末），每3小时一次（UTC时间）
     - cron: '0 1 * * *'
     - cron: '0 4 * * *'
     - cron: '0 7 * * *'
@@ -35,6 +34,7 @@ jobs:
         run: python scmp_monitor.py
         env:
           OUTPUT_DIR: articles/scmp
+          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
 
       - name: Commit and push new articles
         run: |
