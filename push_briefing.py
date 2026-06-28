@@ -11,15 +11,25 @@ def push_to_wechat(title, content):
         print("  [PushPlus] 未配置token，跳过")
         return False
     try:
+        # 方法1：标准JSON
         payload = {"token": PUSHPLUS_TOKEN, "title": title, "content": content, "template": "html"}
         resp = requests.post("http://www.pushplus.plus/send", json=payload, timeout=15)
         result = resp.json()
+        print(f"  [PushPlus] status={resp.status_code} code={result.get('code')} msg={result.get('msg','')}")
         if result.get("code") == 200:
             print(f"  [PushPlus] 推送成功")
             return True
-        else:
-            print(f"  [PushPlus] 失败: {result.get('msg', 'unknown')}")
-            return False
+        # 方法2：form data fallback
+        print(f"  [PushPlus] JSON方式失败，尝试form data...")
+        resp2 = requests.post("http://www.pushplus.plus/send",
+            data={"token": PUSHPLUS_TOKEN, "title": title, "content": content, "template": "html"},
+            timeout=15)
+        result2 = resp2.json()
+        print(f"  [PushPlus] form status={resp2.status_code} code={result2.get('code')} msg={result2.get('msg','')}")
+        if result2.get("code") == 200:
+            print(f"  [PushPlus] 推送成功(form)")
+            return True
+        return False
     except Exception as e:
         print(f"  [PushPlus] error: {e}")
         return False
