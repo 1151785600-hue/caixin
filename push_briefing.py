@@ -1,11 +1,24 @@
 """push_briefing.py - 北京时间8点运行，读取已生成的简报JSON推送到微信（Server酱）
 不调用任何AI接口，纯读取+推送，秒级完成。
 Server酱desp字段限制约32000字符，因此只推送标题列表+政治经济学评论。
+文章链接指向GitHub仓库中的缓存全文，而非官网（避免付费墙）。
 """
-import requests, json, os
+import requests, json, os, re
 from datetime import datetime, timedelta, timezone
 
 SERVERCHAN_SENDKEY = os.environ.get("SERVERCHAN_SENDKEY", "")
+
+# GitHub raw base URL
+RAW_BASE = "https://raw.githubusercontent.com/1151785600-hue/caixin/main/articles/"
+
+def url_to_filename(url):
+    """Convert article URL to saved filename (same logic as caixin_monitor.py)."""
+    m = re.search(r'/(\d{4}-\d{2}-\d{2})/(.+?)(?:-\d+)?\.html', url)
+    if m:
+        date = m.group(1).replace('-', '')
+        slug = m.group(2).replace('-', '_')[:70]
+        return f"{date}_{slug}.html"
+    return re.sub(r'[^\w]', '_', url)[:80] + ".html"
 
 def push_to_wechat(title, content):
     if not SERVERCHAN_SENDKEY:
@@ -66,7 +79,7 @@ def main():
     print(f"  找到 {len(articles)} 篇文章")
 
     # 组装精简Markdown（Server酱desp限制约32000字符）
-    # 只放标题列表，不放摘要正文
+    # 链接指向GitHub raw缓存，而非官网
     md_parts = [f"## Daily Briefing | {date_str}"]
     md_parts.append(f"**{len(articles)} in-depth articles**")
     md_parts.append("")
@@ -81,7 +94,9 @@ def main():
             title = a.get("title", "Untitled")
             wc = a.get("word_count", "?")
             url = a.get("url", "")
-            md_parts.append(f"{i}. [{title}]({url}) ({wc} words)")
+            fname = url_to_filename(url)
+            cached_url = RAW_BASE + fname
+            md_parts.append(f"{i}. [{title}]({cached_url}) ({wc} words)")
         md_parts.append("")
 
     if scmp_list:
@@ -90,7 +105,10 @@ def main():
             title = a.get("title", "Untitled")
             wc = a.get("word_count", "?")
             url = a.get("url", "")
-            md_parts.append(f"{i}. [{title}]({url}) ({wc} words)")
+            # SCMP naming is different, use slug-based
+            fname = url_to_filename(url)
+            cached_url = RAW_BASE + fname
+            md_parts.append(f"{i}. [{title}]({cached_url}) ({wc} words)")
         md_parts.append("")
 
     # 评论部分（截断到8000字符以内）
@@ -100,16 +118,15 @@ def main():
         if commentary_title:
             md_parts.append(f"*{commentary_title}*")
             md_parts.append("")
-        # 截断评论避免超限
         if len(commentary) > 8000:
             commentary = commentary[:8000] + "\n\n...(truncated)"
         md_parts.append(commentary)
 
     md_parts.append("")
     md_parts.append("---")
-    md_parts.append(f"*Full summaries & source links: [GitHub](https://github.com/1151785600-hue/caixin/tree/main/articles/daily)*")
-    full_md = "\n\n".join(md_parts)
+    md_parts.append(f"*Full archive: [GitHub](https://github.com/1151785600-hue/caixin/tree/main/articles)*")
 
+    full_md = "\n\n".join(md_parts)
     print(f"  推送内容长度: {len(full_md)} chars")
 
     # 推送
