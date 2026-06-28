@@ -16,7 +16,7 @@ def push_to_wechat(title, content):
             "desp": content,
         }
         resp = requests.post(
-            f"https://sct.ftqq.com/{SERVERCHAN_SENDKEY}.send",
+            f"https://sctapi.ftqq.com/{SERVERCHAN_SENDKEY}.send",
             data=payload,
             timeout=15
         )
