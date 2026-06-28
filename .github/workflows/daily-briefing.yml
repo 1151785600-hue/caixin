@@ -73,7 +73,7 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Push briefing to WeChat
+      - name: Push briefing to WeChat via ServerChan
         run: python push_briefing.py
         env:
-          PUSHPLUS_TOKEN: ${{ secrets.PUSHPLUS_TOKEN }}
+          SERVERCHAN_SENDKEY: ${{ secrets.SERVERCHAN_SENDKEY }}
