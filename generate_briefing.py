@@ -1,5 +1,6 @@
 """generate_briefing.py - 凌晨运行，筛选+AI摘要+政治经济学评论，产出简报文件
-北京时间00:30触发，生成简报保存为JSON文件，8点只做推送。
+北京时间00:30触发，只处理前一日抓取的文章。
+产出: articles/daily/{date}_briefing.json
 """
 import requests, re, json, os, time, glob
 from datetime import datetime, timedelta, timezone
@@ -23,7 +24,7 @@ POL_ECON_QUOTES = {
     ],
     "资本积累与贫困化": [
         {"text": "社会的财富即执行职能的资本越大，它的增长的规模和能力越大，从而无产阶级的绝对数量和他们的劳动生产力越大，产业后备军也就越大。可供支配的劳动力同资本的膨胀力一样，是由同一些原因发展起来的。产业后备军的相对量和财富的力量一同增长。但是同现役劳动军相比，这种后备军越大，常备的过剩人口也就越多，他们的贫困同他们所受的劳动折磨成反比。这就是资本主义积累的绝对的、一般的规律。", "source": "资本论第一卷·第二十三章"},
-        {"text": "所谓原始积累只不过是生产者和生产资料分离的历史过程。劳动者只有当他不再束缚于土地，不再隶属或从属于他人的时候，才能支配自身。这种剥夺的历史是用血和火的文字载入人类编年史的。资本来到世间，从头到脚，每个毛孔都滴着血和肮脏的东西。从资本主义生产方式产生的资本主义占有方式，是对个人的、以自己劳动为基础的私有制的第一个否定。但资本主义生产由于自然过程的必然性，造成了对自身的否定。资本主义私有制的丧钟就要响了。剥夺者就要被剥夺了。", "source": "资本论第一卷·第二十四章"}
+        {"text": "所谓原始积累只不过是生产者和生产资料分离的历史过程。劳动者只有当他不再束缚于土地，不再隶属或从属他人的时候，才能支配自身。这种剥夺的历史是用血和火的文字载入人类编年史的。资本来到世间，从头到脚，每个毛孔都滴着血和肮脏的东西。从资本主义生产方式产生的资本主义占有方式，是对个人的、以自己劳动为基础的私有制的第一个否定。但资本主义生产由于自然过程的必然性，造成了对自身的否定。资本主义私有制的丧钟就要响了。剥夺者就要被剥夺了。", "source": "资本论第一卷·第二十四章"}
     ],
     "分工与协作": [
         {"text": "较多的工人在同一时间、同一空间，为了生产同种商品，在同一资本家的指挥下工作，这在历史上和逻辑上都是资本主义生产的起点。协作不仅提高了个人生产力，而且创造了一种新的生产力，这种生产力本身必然是集体力。工场手工业分工通过手工业活动的分解、劳动工具的专门化，造成了社会生产过程的质的划分和量的比例，创立了社会劳动的一定组织，这样就同时发展了新的、社会的劳动生产力。但工场手工业同时也损害了工人的整个劳动能力，使工人畸形发展。机器大工业使工人从机器的附属物变成了机器体系的附属物。", "source": "资本论第一卷·第十一至十三章"}
@@ -100,25 +101,33 @@ def get_article_info(filepath):
     wc = len(re.findall(r'[a-zA-Z]+', body))
     return {"title": title, "body": body, "url": url, "word_count": wc, "filepath": filepath}
 
-def filter_articles(base_dir):
+def filter_articles(base_dir, target_date):
+    """只处理target_date当天抓取的文章（通过文件名日期前缀判断）。
+    target_date格式: YYYY-MM-DD
+    """
+    target_prefix = target_date.replace("-", "")  # 20260627
     caixin_dir = os.path.join(base_dir, "articles")
     scmp_dir = os.path.join(base_dir, "articles/scmp")
     deep_articles = []
-    deleted_count = 0
+    
     for search_dir, source in [(caixin_dir, "caixin"), (scmp_dir, "scmp")]:
         if not os.path.exists(search_dir):
             continue
         html_files = glob.glob(os.path.join(search_dir, "*.html"))
         for fp in html_files:
+            fname = os.path.basename(fp)
+            # 检查文件名是否以目标日期开头
+            if not fname.startswith(target_prefix):
+                continue
             if is_deep_report(fp):
                 info = get_article_info(fp)
                 info["source"] = source
                 deep_articles.append(info)
+                print(f"  [KEEP] {fname} ({info['word_count']} words)")
             else:
                 os.remove(fp)
-                deleted_count += 1
-                print(f"  [DEL] 非深度: {os.path.basename(fp)}")
-    return deep_articles, deleted_count
+                print(f"  [DEL] 非深度: {fname}")
+    return deep_articles
 
 def call_mimo(prompt, max_tokens=2000):
     try:
@@ -203,19 +212,21 @@ def main():
     now = datetime.now(timezone.utc)
     bj_time = now.astimezone(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M")
     date_str = now.astimezone(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
-    print(f"=== 生成简报 {bj_time} ===")
+    # 处理前一天的抓取结果（凌晨运行时，前一天的抓取已完成）
+    yesterday = (now - timedelta(days=1)).astimezone(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
+    print(f"=== 生成简报 {bj_time} (处理 {yesterday} 的文章) ===")
 
-    # Phase 1: 过滤非深度报道
-    print("\n[Phase 1] 筛选深度报道...")
-    deep_articles, deleted_count = filter_articles(base_dir)
-    print(f"  深度:{len(deep_articles)} 删除:{deleted_count}")
+    # Phase 1: 过滤非深度报道（仅前一天日期的文章）
+    print(f"\n[Phase 1] 筛选 {yesterday} 的深度报道...")
+    deep_articles = filter_articles(base_dir, yesterday)
+    print(f"  深度报道: {len(deep_articles)} 篇")
 
     if not deep_articles:
         print("  无深度报道，生成空简报")
         briefing_data = {"date": date_str, "articles": [], "commentary": "", "commentary_title": ""}
     else:
         # Phase 2: AI生成英文摘要
-        print("\n[Phase 2] 生成英文摘要...")
+        print(f"\n[Phase 2] 生成英文摘要 ({len(deep_articles)} 篇)...")
         for a in deep_articles:
             print(f"  摘要: {a['title'][:50]}...")
             a["summary"] = generate_english_summary(a) or ""
@@ -258,7 +269,7 @@ def main():
     out_path = os.path.join(briefing_dir, f"{date_str}_briefing.json")
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(briefing_data, f, ensure_ascii=False, indent=2)
-    print(f"\n=== 简报已保存: {out_path} ===")
+    print(f"\n=== 简报已保存: {out_path} ({len(deep_articles)} 篇文章) ===")
 
 if __name__ == "__main__":
     main()
