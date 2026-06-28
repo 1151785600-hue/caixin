@@ -1,7 +1,7 @@
 """push_briefing.py - 北京时间8点运行，读取已生成的简报JSON推送到微信（Server酱）
 不调用任何AI接口，纯读取+推送，秒级完成。
 """
-import requests, json, os, markdown
+import requests, json, os
 from datetime import datetime, timedelta, timezone
 
 SERVERCHAN_SENDKEY = os.environ.get("SERVERCHAN_SENDKEY", "")
