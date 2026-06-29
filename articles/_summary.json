@@ -1,6 +1,22 @@
 {
-  "ts": "2026-06-29 14:40:40",
+  "ts": "2026-06-29 16:41:17",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 3,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-06-29/chinas-bulk-drug-procurement-program-hits-quality-snags-as-regulators-oust-suppliers-102458802.html",
+      "title": "China’s Bulk Drug Procurement Program Hits Quality Snags as Regulators Oust Suppliers",
+      "word_count": 675
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-06-29/cover-story-greenspan-the-market-and-the-reckoning-102458495.html",
+      "title": "Cover Story: Greenspan, the Market and the Reckoning",
+      "word_count": 661
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-06-26/exclusive-dreame-dials-down-ambitious-expansion-amid-growing-financial-scrutiny-102458046.html",
+      "title": "Exclusive: Dreame Dials Down Ambitious Expansion Amid Growing Financial Scrutiny",
+      "word_count": 547
+    }
+  ]
 }
