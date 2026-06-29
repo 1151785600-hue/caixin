@@ -102,7 +102,8 @@ def main():
     commentary_title = briefing_data.get("commentary_title", "")
 
     if not articles:
-        print("  简报中无文章，跳过推送")
+        print("  无新文章，发送空简报")
+        push_to_wechat(f"Daily Briefing | {date_str}", f"## Daily Briefing | {date_str}\n\nNo new in-depth articles today.")
         return
 
     print(f"  找到 {len(articles)} 篇文章")
