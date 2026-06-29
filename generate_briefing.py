@@ -212,13 +212,17 @@ def main():
     now = datetime.now(timezone.utc)
     bj_time = now.astimezone(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M")
     date_str = now.astimezone(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
-    # 处理前一天的抓取结果（凌晨运行时，前一天的抓取已完成）
-    yesterday = (now - timedelta(days=1)).astimezone(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
-    print(f"=== 生成简报 {bj_time} (处理 {yesterday} 的文章) ===")
+    # 默认处理前一天，可通过TARGET_DATE环境变量覆盖
+    target = os.environ.get("TARGET_DATE", "")
+    if target:
+        target_date = target
+    else:
+        target_date = (now - timedelta(days=1)).astimezone(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
+    print(f"=== 生成简报 {bj_time} (处理 {target_date} 的文章) ===")
 
     # Phase 1: 过滤非深度报道（仅前一天日期的文章）
-    print(f"\n[Phase 1] 筛选 {yesterday} 的深度报道...")
-    deep_articles = filter_articles(base_dir, yesterday)
+    print(f"\n[Phase 1] 筛选 {target_date} 的深度报道...")
+    deep_articles = filter_articles(base_dir, target_date)
     print(f"  深度报道: {len(deep_articles)} 篇")
 
     if not deep_articles:
