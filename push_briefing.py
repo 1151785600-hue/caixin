@@ -31,11 +31,11 @@ def get_file_list():
         r = requests.get(API_BASE, headers=headers, timeout=30)
         if r.status_code == 200:
             tree = r.json().get("tree", [])
-            return [item["path"] for item in tree 
+            return [item["path"][9:] for item in tree  # strip 'articles/' prefix
                     if item["path"].startswith("articles/")
                     and item["path"].endswith(".html")
                     and "/daily/" not in item["path"]
-                    and not item["path"].endswith("_summary.json")]
+                    and not item["path"].endswith("_summary.json")
         return []
     except Exception as e:
         print(f"  [GitHub API] error: {e}")
