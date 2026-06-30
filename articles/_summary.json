@@ -1,6 +1,17 @@
 {
-  "ts": "2026-06-29 21:00:59",
+  "ts": "2026-06-30 11:28:09",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 2,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-06-30/shanghai-launches-citywide-hospital-escort-program-for-the-elderly-102459068.html",
+      "title": "Shanghai Launches Citywide Hospital Escort Program for the Elderly",
+      "word_count": 615
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-06-30/in-depth-repayment-question-looms-as-china-speeds-up-special-bond-issuance-102459214.html",
+      "title": "In Depth: Repayment Question Looms as China Speeds Up Special Bond Issuance",
+      "word_count": 558
+    }
+  ]
 }
