@@ -9,7 +9,7 @@ from datetime import datetime, timedelta, timezone
 SERVERCHAN_SENDKEY = os.environ.get("SERVERCHAN_SENDKEY", "")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 GITHUB_REPO = "1151785600-hue/caixin"
-BLOB_BASE = f"https://github.com/{GITHUB_REPO}/blob/main/articles/"
+BLOB_BASE = f"https://1151785600-hue.github.io/caixin/articles/"
 API_BASE = f"https://api.github.com/repos/{GITHUB_REPO}/git/trees/main?recursive=1"
 
 def url_to_prefix(url):
@@ -154,7 +154,7 @@ def main():
 
     md_parts.append("")
     md_parts.append("---")
-    md_parts.append(f"*Archive: [GitHub]({BLOB_BASE})*")
+    md_parts.append(f"*Archive: [GitHub Pages](https://1151785600-hue.github.io/caixin/articles/)*")
 
     full_md = "\n".join(md_parts)
     print(f"  推送内容长度: {len(full_md)} chars")
