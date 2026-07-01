@@ -129,7 +129,8 @@ def filter_articles(base_dir, target_date):
                 print(f"  [DEL] 非深度: {fname}")
     return deep_articles
 
-def call_mimo(prompt, max_tokens=2000):
+def call_mimo(prompt, max_tokens=2000, retry_on_reject=True):
+    """Call mimo API. Returns text or None. Detects content moderation rejection."""
     try:
         resp = requests.post(
             f"{MIMO_BASE_URL}/chat/completions",
@@ -138,13 +139,37 @@ def call_mimo(prompt, max_tokens=2000):
             timeout=120
         )
         if resp.status_code == 200:
-            return resp.json()["choices"][0]["message"]["content"].strip()
+            text = resp.json()["choices"][0]["message"]["content"].strip()
+            # Detect content moderation rejection
+            reject_keywords = ["high risk", "rejected", "blocked", "content policy", "violates"]
+            if any(kw in text.lower() for kw in reject_keywords):
+                print(f"  [MIMO] Content rejected by moderation, using fallback")
+                return None
+            return text
+        elif resp.status_code == 400 and retry_on_reject:
+            # Try with a safer prompt (strip the article body, keep only title)
+            print(f"  [MIMO] API 400, trying safer prompt...")
+            safe_prompt = prompt.split("Article:")[-1] if "Article:" in prompt else prompt
+            return call_mimo(f"Summarize this in 2-3 sentences: {safe_prompt[:1000]}", max_tokens=max_tokens // 2, retry_on_reject=False)
         else:
             print(f"  [MIMO] API error {resp.status_code}: {resp.text[:200]}")
             return None
     except Exception as e:
         print(f"  [MIMO] error: {e}")
         return None
+
+def extractive_summary(article):
+    """Fallback: extract first 3-5 meaningful sentences from article body."""
+    body = article.get("body", "")
+    # Split by sentence-ending punctuation
+    sentences = re.split(r'(?<=[.!?])\s+', body)
+    meaningful = [s.strip() for s in sentences if len(s.strip()) > 40 and not s.strip().startswith("<")]
+    selected = meaningful[:5]
+    result = "\n".join([f"- {s}" for s in selected])
+    # Truncate to ~300 chars
+    if len(result) > 300:
+        result = result[:300] + "..."
+    return result
 
 def generate_english_summary(article):
     body = article["body"][:3000]
@@ -154,7 +179,11 @@ Title: {article['title']}
 
 Article:
 {body}"""
-    return call_mimo(prompt, max_tokens=500)
+    result = call_mimo(prompt, max_tokens=500)
+    if not result:
+        # Fallback: extractive summary
+        result = extractive_summary(article)
+    return result
 
 def generate_left_wing_commentary(article):
     body = article["body"][:4000]
@@ -183,7 +212,12 @@ def generate_left_wing_commentary(article):
 
 文章正文:
 {body}"""
-    return call_mimo(prompt, max_tokens=2000)
+    result = call_mimo(prompt, max_tokens=2000)
+    if not result:
+        # Fallback: brief extractive commentary
+        result = f"（AI摘要生成被内容审核拒绝，以下为简要提取）\n\n{article['title']}\n\n"
+        result += extractive_summary(article)
+    return result
 
 def select_best_for_analysis(articles):
     keywords = ["worker", "labor", "capital", "class", "inequality", "poverty",
