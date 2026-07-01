@@ -54,28 +54,36 @@ def find_cached_blob_url(url, file_list):
             return BLOB_BASE + path
     return None
 
-def push_to_wechat(title, content):
+def push_to_wechat(title, content, max_retries=5):
+    """Push to WeChat via Server酱 with retry logic."""
     if not SERVERCHAN_SENDKEY:
         print("  [Server酱] 未配置SendKey，跳过")
         return False
-    try:
-        payload = {"title": title, "desp": content}
-        resp = requests.post(
-            f"https://sctapi.ftqq.com/{SERVERCHAN_SENDKEY}.send",
-            data=payload,
-            timeout=15
-        )
-        result = resp.json()
-        print(f"  [Server酱] status={resp.status_code} code={result.get('code')} message={result.get('message','')}")
-        if result.get("code") == 0:
-            print(f"  [Server酱] 推送成功")
-            return True
-        else:
-            print(f"  [Server酱] 推送失败: {result}")
-            return False
-    except Exception as e:
-        print(f"  [Server酱] error: {e}")
-        return False
+    import time
+    for attempt in range(1, max_retries + 1):
+        try:
+            payload = {"title": title, "desp": content}
+            resp = requests.post(
+                f"https://sctapi.ftqq.com/{SERVERCHAN_SENDKEY}.send",
+                data=payload,
+                timeout=30
+            )
+            result = resp.json()
+            code = result.get("code")
+            print(f"  [Server酱] attempt {attempt}/{max_retries} status={resp.status_code} code={code} message={result.get('message','')}")
+            if code == 0:
+                print(f"  [Server酱] 推送成功")
+                return True
+            else:
+                print(f"  [Server酱] 推送失败: {result}")
+        except Exception as e:
+            print(f"  [Server酱] attempt {attempt}/{max_retries} error: {e}")
+        if attempt < max_retries:
+            wait = 10 * attempt  # 10s, 20s, 30s, 40s
+            print(f"  [Server酱] {wait}秒后重试...")
+            time.sleep(wait)
+    print(f"  [Server酱] {max_retries}次重试均失败")
+    return False
 
 def main():
     base_dir = "."
