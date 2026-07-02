@@ -1,6 +1,12 @@
 {
-  "ts": "2026-07-01 17:04:07",
+  "ts": "2026-07-02 02:52:25",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-07-02/golds-slide-sends-chinas-luxury-jewelers-tumbling-102459844.html",
+      "title": "Gold’s Slide Sends China’s Luxury Jewelers Tumbling",
+      "word_count": 347
+    }
+  ]
 }
