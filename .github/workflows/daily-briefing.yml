@@ -2,16 +2,16 @@ name: 每日简报
 
 on:
   schedule:
+    # UTC 16:30 = 北京时间 0:30: 生成前一天简报后立即推送
     - cron: '30 16 * * *'
-    - cron: '0 0 * * *'
   workflow_dispatch:
     inputs:
       phase:
-        description: '运行阶段: generate 或 push'
+        description: '运行阶段: all / generate / push'
         required: false
-        default: 'generate'
+        default: 'all'
       target_date:
-        description: '处理日期 YYYY-MM-DD (仅generate, 默认前一天)'
+        description: '处理日期 YYYY-MM-DD'
         required: false
 
 permissions:
@@ -19,34 +19,56 @@ permissions:
 
 jobs:
   generate:
-    if: |
-      github.event.schedule == '30 16 * * *' || 
-      (github.event_name == 'workflow_dispatch' && github.event.inputs.phase == 'generate') ||
-      (github.event_name == 'workflow_dispatch' && github.event.inputs.phase == '')
     runs-on: ubuntu-latest
+    outputs:
+      has_articles: ${{ steps.check.outputs.has_articles }}
+      briefing_date: ${{ steps.set_date.outputs.briefing_date }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
       - run: pip install requests
+      - name: Set target date
+        id: set_date
+        run: |
+          if [ -n "$TARGET_DATE" ]; then
+            echo "briefing_date=$TARGET_DATE" >> $GITHUB_OUTPUT
+          else
+            echo "briefing_date=$(TZ='Asia/Shanghai' date -d 'yesterday' +%Y-%m-%d)" >> $GITHUB_OUTPUT
+          fi
       - name: Generate briefing
         run: python generate_briefing.py
         env:
           MIMO_API_KEY: ${{ secrets.MIMO_API_KEY }}
           MIMO_BASE_URL: "https://api.xiaomimimo.com/v1"
           MIMO_MODEL: "mimo-v2.5"
-          TARGET_DATE: ${{ github.event.inputs.target_date }}
+          TARGET_DATE: ${{ steps.set_date.outputs.briefing_date }}
       - name: Commit
         run: |
           git config user.name "bot"
           git config user.email "bot@users.noreply.github.com"
           git add articles/
           git diff --cached --quiet || (git commit -m "briefing $(date -u +%Y-%m-%d)" && git push)
+      - name: Check articles
+        id: check
+        run: |
+          BDATE=${{ steps.set_date.outputs.briefing_date }}
+          if [ -f "articles/daily/${BDATE}_briefing.json" ]; then
+            COUNT=$(python3 -c "import json; d=json.load(open('articles/daily/${BDATE}_briefing.json')); print(len(d.get('articles',[])))")
+            echo "has_articles=true" >> $GITHUB_OUTPUT
+            echo "Found ${COUNT} articles for ${BDATE}"
+          else
+            echo "has_articles=false" >> $GITHUB_OUTPUT
+            echo "No briefing for ${BDATE}"
+          fi
 
   push:
+    needs: generate
     if: |
-      github.event.schedule == '0 0 * * *' || 
+      needs.generate.outputs.has_articles == 'true' || 
       github.event.inputs.phase == 'push'
     runs-on: ubuntu-latest
     steps:
@@ -60,3 +82,4 @@ jobs:
         env:
           SERVERCHAN_SENDKEY: ${{ secrets.SERVERCHAN_SENDKEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRIEFING_DATE: ${{ needs.generate.outputs.briefing_date }}
