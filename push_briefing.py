@@ -89,7 +89,10 @@ def main():
     base_dir = "."
     now = datetime.now(timezone.utc)
     bj_time = now.astimezone(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M")
-    date_str = now.astimezone(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
+    # Support BRIEFING_DATE env var (passed from generate job)
+    date_str = os.environ.get("BRIEFING_DATE", "")
+    if not date_str:
+            date_str = now.astimezone(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
     print(f"=== 推送简报 {bj_time} ===")
 
     # 读取简报JSON
