@@ -47,7 +47,7 @@ def url_to_filename(url):
         return f"scmp_{m.group(1)}.html"
     slug = url.rstrip("/").split("/")[-1]
     safe = re.sub(r"[^\w]", "_", slug)[:60]
-    return f"scmp_{safe}.html""
+    return f"scmp_{safe}.html"
 
 def extract_article(session, url):
     try:
