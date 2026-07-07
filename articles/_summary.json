@@ -1,6 +1,12 @@
 {
-  "ts": "2026-07-07 06:46:34",
+  "ts": "2026-07-07 09:39:46",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-07-07/analysis-ai-demand-propels-china-back-to-the-fore-of-asian-private-equity-102461666.html",
+      "title": "Analysis: AI Demand Propels China Back to the Fore of Asian Private Equity",
+      "word_count": 541
+    }
+  ]
 }
