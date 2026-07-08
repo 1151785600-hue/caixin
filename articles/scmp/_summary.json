@@ -1,6 +1,1561 @@
 {
-  "ts": "2026-07-08 13:27:52",
+  "ts": "2026-07-08 13:34:54",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 222,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3359877/beijing-slams-manila-over-south-china-sea-claims-ahead-2016-hague-anniversary",
+      "title": "Beijing slams Manila over South China Sea claims ahead of 2016 Hague anniversary",
+      "word_count": 797,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/military/article/3359880/china-eyes-russian-naval-expertise-yellow-sea-submarine-rescue-drills",
+      "title": "China eyes Russian submarine rescue expertise in Yellow Sea naval drills",
+      "word_count": 483,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/commodities/article/3359828/chinese-profit-taking-triggers-record-gold-etf-outflows-amid-shift-equities",
+      "title": "Chinese profit-taking triggers record gold ETF outflows amid shift to equities",
+      "word_count": 499,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/military/article/3359861/nato-indo-pacific-4-pledge-defence-tech-boost-deeper-china-russia-ties-spark-alarm",
+      "title": "Nato, Indo-Pacific 4 pledge defence, tech boost as deeper China-Russia ties spark alarm",
+      "word_count": 925,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3359842/trump-declares-ceasefire-iran-over",
+      "title": "Donald Trump declares Iran ceasefire ‘over’, China calls for de-escalation",
+      "word_count": 922,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/science/article/3359809/google-deepmind-director-cao-liangliang-makes-boomerang-return-hong-kong",
+      "title": "Google DeepMind director Cao Liangliang makes a boomerang return to Hong Kong",
+      "word_count": 602,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/military/article/3359754/enemy-within-dispute-endangering-taiwans-t-dome-air-defence-plan",
+      "title": "The missile funding dispute endangering Taiwan’s ‘T-Dome’ air defence plan",
+      "word_count": 760,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3359787/woodworkers-buried-landslide-death-toll-rises-21-weather-ravaged-china",
+      "title": "All coastal tourist attractions urged to close as Super Typhoon Bavi approaches",
+      "word_count": 999,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/military/article/3359728/why-americas-most-advanced-warships-are-struggling-fires-and-electrical-faults",
+      "title": "Why America’s most advanced warships are struggling with fires and electrical faults",
+      "word_count": 569,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/policy/article/3359782/fcc-denies-us-firm-chinese-links-approval-provide-telecoms-services",
+      "title": "FCC denies US firm with Chinese links approval to provide telecoms services",
+      "word_count": 318,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/us/diplomacy/article/3359777/trump-still-disappointed-nato-says-us-should-control-greenland-summit-kicks",
+      "title": "Trump still ‘disappointed’ with Nato, says US should control Greenland as summit kicks off",
+      "word_count": 961,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/us/article/3359775/nato-launches-defence-projects-counter-russia-and-china",
+      "title": "Nato launches defence projects to counter Russia and China",
+      "word_count": 909,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/military/article/3359762/what-does-chinas-submarine-missile-test-mean-its-nuclear-triad-expansion",
+      "title": "What does China’s submarine missile test mean for its nuclear triad expansion?",
+      "word_count": 1548,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/science/article/3359748/china-achieves-microwatt-milestone-self-reliant-carbon-14-nuclear-battery",
+      "title": "China achieves microwatt milestone with self-reliant carbon-14 nuclear battery",
+      "word_count": 537,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/science/article/3359688/chinese-researchers-find-peephole-any-smartphone-its-leaked-radio-signal",
+      "title": "Chinese researchers find a peephole to any smartphone in its leaked radio signal",
+      "word_count": 530,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3359741/latest-us-political-divide-emerges-age-gap-over-whether-china-cause-concern",
+      "title": "Latest US political divide emerges: the age gap over whether China is cause for concern",
+      "word_count": 555,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3359740/indian-ambassador-china-urges-deeper-economic-ties-touts-aiib-model",
+      "title": "Indian ambassador to China urges deeper economic ties, touts AIIB as model",
+      "word_count": 758,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3359364/are-us-ai-models-better-chinas-may-be-beside-point",
+      "title": "Are the US’ AI models better than China’s? That may be beside the point",
+      "word_count": 909,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3359513/sometimes-it-pays-be-backward-country",
+      "title": "Sometimes, it pays to be a backward country",
+      "word_count": 771,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3359543/europe-could-prosper-chinas-trade-ally-rather-adversary",
+      "title": "Europe could prosper as China’s trade ally rather than adversary",
+      "word_count": 914,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/asia-opinion/article/3359473/boost-manufacturing-india-need-not-choose-between-japan-and-china",
+      "title": "To boost manufacturing, India need not choose between Japan and China",
+      "word_count": 888,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3359454/we-hail-hong-kong-cinemas-return-lets-ensure-its-survival",
+      "title": "Before we hail Hong Kong cinema’s return, let’s ensure its survival",
+      "word_count": 927,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3359069/trump-visit-hong-kong-would-be-strategic-masterstroke",
+      "title": "A Trump visit to Hong Kong would be a strategic masterstroke",
+      "word_count": 918,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/science/article/3359617/chinas-asteroid-hunter-closes-target-after-400-day-trip-though-size-surprise",
+      "title": "China’s asteroid hunter closes in on target after 400-day trip, though size is a surprise",
+      "word_count": 810,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/science/article/3359560/chinas-technical-schools-offer-both-hope-and-despair-jobless-university-graduates",
+      "title": "Why China’s technical schools offer both hope and despair for jobless college grads",
+      "word_count": 1092,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/science/article/3359466/chinas-rare-earth-industry-has-critical-weakness-researchers-warn",
+      "title": "China’s rare earth industry has critical weakness, researchers warn",
+      "word_count": 559,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/military/article/3356368/chinas-xi-jinping-arrives-north-korea-armed-advanced-warships-and-ai-drones",
+      "title": "China’s Xi Jinping arrives in a North Korea armed with advanced warships and AI drones",
+      "word_count": 1045,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3356753/has-beijing-given-nuclear-weapon-free-korean-peninsula",
+      "title": "Has Beijing given up on a nuclear weapon-free Korean peninsula?",
+      "word_count": 820,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/military/article/3356659/was-xis-stand-china-north-korea-military-ties-also-message-us-russia",
+      "title": "Was Xi’s stance on China-North Korea military ties also a message for US, Russia?",
+      "word_count": 1212,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3356540/has-xi-jinpings-north-korea-visit-helped-cement-chinas-vital-role",
+      "title": "Has Xi Jinping’s North Korea visit helped cement China’s vital role?",
+      "word_count": 963,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/culture/article/3359198/bhutans-heritage-arts-hang-balance-modernity-comes-knocking",
+      "title": "Bhutan’s heritage arts become the frontline of cultural preservation as modernity dawns",
+      "word_count": 3367,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/travel/article/3357922/global-attractions-ooze-innovation-and-imagination",
+      "title": "Global attractions that ooze innovation and imagination",
+      "word_count": 1721,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/travel/article/3359415/cabo-verdes-sal-makes-comeback-tide-turning-its-diaspora-returns-island",
+      "title": "Cabo Verde’s Sal makes a comeback: the tide is turning as its diaspora returns to the island",
+      "word_count": 2411,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/culture/article/3332776/hong-kongs-ct-music-fest-goes-camping-cheung-chau",
+      "title": "Hong Kong’s CT Music Fest goes camping in Cheung Chau",
+      "word_count": 490,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/magazines/post-magazine/article/1947244/uncertain-origins-hong-kongs-tanka-people",
+      "title": "The uncertain origins of Hong Kong’s Tanka people",
+      "word_count": 251,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/culture/article/3357937/philip-chan-singing-inspector-hong-kong-cinema-legend",
+      "title": "Philip Chan: from singing inspector to Hong Kong cinema legend",
+      "word_count": 1321,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/science/article/3359281/renowned-neurobiologist-and-former-taekwondo-captain-chih-ying-su-leaves-us-china",
+      "title": "Neurobiologist and former taekwondo captain Chih-Ying Su leaves US for China",
+      "word_count": 696,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/science/article/3359430/nobel-prize-winning-materials-scientist-omar-yaghi-joins-tsinghua-university-us",
+      "title": "Nobel-winning materials scientist Omar Yaghi joins China’s Tsinghua University from the US",
+      "word_count": 489,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3359151/starry-eyed-sceptical-why-young-chinese-are-turning-away-american-dream",
+      "title": "From starry-eyed to sceptical: why young Chinese are turning away from the American dream",
+      "word_count": 2453,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/science/article/3359363/chinas-satellite-engine-smashes-record-leaves-us-rival-far-behind",
+      "title": "China’s satellite engine smashes record, leaves US rival far behind",
+      "word_count": 549,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3359586/china-dam-collapse-hundreds-evacuated-after-typhoon-rains-breach-guangxi-reservoir",
+      "title": "China dam collapses, cross-border railway halted as Typhoon Maysak slams Guangxi",
+      "word_count": 746,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3359866/tourist-arrivals-hong-kong-jump-13-267-million-first-half-year",
+      "title": "Tourist arrivals in Hong Kong jump by 13% to 26.7 million in first half of year",
+      "word_count": 579,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3359822/hong-kongs-paul-chan-pledges-second-trip-saudi-arabia-build-mideast-ties",
+      "title": "Hong Kong’s Paul Chan to make second trip to Saudi Arabia to build Mideast ties",
+      "word_count": 685,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/article/3359735/hong-kong-should-build-ai-plan-around-competitive-strengths-industry-leaders-say",
+      "title": "Hong Kong should build AI plan around ‘competitive’ strengths, industry leaders say",
+      "word_count": 1102,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/banking-finance/article/3359698/how-hong-kong-fighting-redefine-its-future-institutional-moat-wealth-surge",
+      "title": "How Hong Kong is fighting to redefine its future with an institutional moat, wealth surge",
+      "word_count": 2164,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/society/article/3359772/customers-seeking-refunds-during-cooling-period-will-need-pay-admin-fee",
+      "title": "Customers seeking refunds during cooling-off period will need to pay admin fee",
+      "word_count": 308,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3359766/hong-kongs-war-risk-pool-testament-collaboration-insurance-leader-says",
+      "title": "Hong Kong’s war-risk pool testament to collaboration, insurance leader says",
+      "word_count": 590,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3359667/ai-central-plank-hong-kongs-economic-development-john-lee-says",
+      "title": "AI ‘central plank’ in Hong Kong’s economic development, John Lee says",
+      "word_count": 858,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3359659/scmps-china-conference-debut-astana-september",
+      "title": "SCMP’s China Conference to debut in Astana this September",
+      "word_count": 443,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3359593/cantopop-star-sammi-chengs-kai-tak-stadium-concerts-postponed-over-stage-glitch",
+      "title": "Cantopop star Sammi Cheng’s Kai Tak Stadium concerts postponed over stage glitch",
+      "word_count": 515,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3359457/hong-kong-must-brace-ai-bubble-risk-and-quantum-computer-threat-hkma-chief",
+      "title": "Hong Kong must brace for AI bubble risk and quantum computer threat: HKMA chief",
+      "word_count": 748,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3359416/development-chief-hails-diversified-consortium-northern-metropolis-pilot-bid",
+      "title": "Development chief hails ‘diversified’ consortium in Northern Metropolis pilot bid",
+      "word_count": 566,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3359404/hong-kong-hetao-innovation-hub-fully-leases-2-wet-lab-buildings-amid-strong-demand",
+      "title": "2 wet lab buildings at Hong Kong Hetao innovation hub fully leased in first phase",
+      "word_count": 637,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/article/3359372/caution-land-tenders-key-hong-kongs-property-recovery-analysts",
+      "title": "Caution on land tenders key to Hong Kong’s property recovery: analysts",
+      "word_count": 545,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3358791/hong-kong-graduates-crossroads-ai-takes-over-entry-level-jobs-experts-warn",
+      "title": "Hong Kong graduates at crossroads as AI takes over entry-level jobs, experts warn",
+      "word_count": 1095,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3359362/can-hong-kongs-arbitration-skills-help-new-global-space-race-take",
+      "title": "Can Hong Kong’s arbitration skills help the new global space race take off?",
+      "word_count": 518,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3359315/employee-training-hours-hong-kong-hit-14-year-high-amid-ai-push-survey",
+      "title": "Employee training hours in Hong Kong hit 14-year high amid AI push: survey",
+      "word_count": 659,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3359307/hong-kong-ministers-get-13-pay-rise-after-civil-servants-secure-2-salary-bump",
+      "title": "Hong Kong ministers get 1.3% pay rise after civil servants secure 2% salary bump",
+      "word_count": 464,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3359234/hong-kong-pivots-5-day-civil-service-work-week-2006-scmp-archive",
+      "title": "Hong Kong pivots to a 5-day civil service work week in 2006 – SCMP archive",
+      "word_count": 299,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3359196/hong-kongs-box-office-takings-first-half-2026-25-year-year",
+      "title": "Hong Kong’s box office takings for first half of 2026 up 25% year on year",
+      "word_count": 628,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3359194/make-hong-kong-chinas-space-finance-capital-legal-group-urges-beijing",
+      "title": "Make Hong Kong China’s ‘space finance capital’, legal group urges Beijing",
+      "word_count": 549,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/banking-finance/article/3359181/hong-kong-assets-hit-record-us538-trillion-renewed-china-appetite-sfc",
+      "title": "Hong Kong assets hit record US$5.38 trillion on renewed China appetite: SFC",
+      "word_count": 405,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3359172/hong-kong-retail-sales-grow-79-may-extending-winning-streak-13-months",
+      "title": "Hong Kong retail sales grow 7.9% in May, extending winning streak to 13 months",
+      "word_count": 663,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/article/3358771/rare-momentum-hong-kong-universities-schools-prop-commercial-property-market",
+      "title": "Rare momentum: Hong Kong universities, schools prop up commercial property market",
+      "word_count": 486,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3359050/mainland-chinese-tourists-pack-landmarks-hong-kong-marks-29th-anniversary",
+      "title": "Mainland Chinese tourists pack landmarks as Hong Kong marks 29th anniversary",
+      "word_count": 506,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3359169/hong-kongs-northern-metropolis-project-neednt-neglect-agriculture",
+      "title": "Hong Kong’s Northern Metropolis project needn’t neglect agriculture",
+      "word_count": 761,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3358536/why-hong-kong-firms-looking-integrate-ai-must-consider-fresh-grads",
+      "title": "Why Hong Kong firms looking to integrate AI must consider fresh grads",
+      "word_count": 792,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3359117/why-hong-kong-has-become-years-worst-performing-stock-market",
+      "title": "Why Hong Kong has become the worst-performing major stock market",
+      "word_count": 915,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3358491/hong-kongs-5-year-plan-will-hinge-how-it-measures-success",
+      "title": "Hong Kong’s 5-year plan will hinge on how it measures success",
+      "word_count": 917,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3358765/how-traditional-chinese-medicine-found-its-way-fine-dining-and-bar-menus-hong-kong",
+      "title": "How traditional Chinese medicine found its way onto fine-dining and bar menus in Hong Kong",
+      "word_count": 1385,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3358844/your-hong-kong-weekend-drinks-guide-july-3-5",
+      "title": "Your Hong Kong weekend drinks guide for July 3-5",
+      "word_count": 590,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3359100/drink-focus-broth-soul-argo",
+      "title": "Drink in Focus: Broth & Soul at Argo",
+      "word_count": 839,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3358834/your-hong-kong-weekend-food-guide-july-3-5",
+      "title": "Your Hong Kong weekend food guide for July 3-5",
+      "word_count": 380,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3358304/dish-focus-nagoya-style-stuffed-chicken-wings-always-joy",
+      "title": "Dish in Focus: Nagoya-style stuffed chicken wings at Always Joy",
+      "word_count": 810,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/big-tech/article/3359375/alibaba-bans-staff-using-claude-code-over-anthropic-spyware-concerns",
+      "title": "Alibaba bans staff from using Claude Code over Anthropic spyware concerns",
+      "word_count": 775,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/global-economy/article/3359872/beijing-seeks-chip-stability-and-fair-market-access-during-dutch-trade-ministers-trip",
+      "title": "Beijing seeks chip stability and fair market access during Dutch trade minister’s trip",
+      "word_count": 529,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/article/3359878/alibaba-shares-spike-12-hong-kong-t-head-chips-ai-revenue-fuel-earnings-optimism",
+      "title": "Alibaba shares spike 12% in Hong Kong as T-Head chips, AI revenue fuel earnings optimism",
+      "word_count": 547,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/china-business/article/3359827/byd-challenges-porsches-911-launch-electric-supercar-europe",
+      "title": "BYD challenges Porsche’s 911 with launch of electric supercar in Europe",
+      "word_count": 451,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/china-evs/article/3359708/byd-surpasses-tesla-global-race-do-or-die-crisis-chinas-market-7-ev-reads",
+      "title": "BYD surpasses Tesla in global race; ‘do-or-die’ crisis in China’s market: 7 EV reads",
+      "word_count": 378,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/article/3359733/huaweis-new-computing-cluster-worlds-first-ai-agent-phone-debut-china-ai-summit",
+      "title": "Huawei’s new computing cluster, world’s first AI agent phone to debut at China AI summit",
+      "word_count": 451,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3356073/nobel-laureate-james-heckman-value-risk-taking-and-chinas-common-goal",
+      "title": "Nobel laureate James Heckman on the value of risk-taking, and China’s ‘common goal’",
+      "word_count": 4164,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3339480/zheng-yongnian-trump-venezuela-and-why-china-doesnt-want-separate-kitchen",
+      "title": "Zheng Yongnian on Trump, Venezuela and why China doesn’t want ‘a separate kitchen’",
+      "word_count": 4464,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/global-economy/article/3329426/liu-qian-chinese-innovation-us-rivalry-and-women-holding-half-sky",
+      "title": "Liu Qian on Chinese innovation, the US rivalry and women holding up half the sky",
+      "word_count": 3764,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3327746/fuchsia-dunlop-tells-how-she-fell-chinas-cuisine-and-names-her-perfect-dish",
+      "title": "Fuchsia Dunlop tells how she fell for China’s cuisine and names her perfect dish",
+      "word_count": 3752,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3321056/80-years-wwii-chinas-interests-lie-peaceful-asia-pacific-rana-mitter",
+      "title": "80 years on from WWII, China’s interests lie in peaceful Asia-Pacific: Rana Mitter",
+      "word_count": 4368,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3320575/jeffrey-sachs-says-us-sabre-rattling-china-can-become-self-fulfilling-prophecy-war",
+      "title": "Jeffrey Sachs says US sabre-rattling at China can become self-fulfilling prophecy of war",
+      "word_count": 3823,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359875/hong-kong-survivors-push-close-consent-loophole-reforms-sex-crime-laws",
+      "title": "Hong Kong survivors push to close ‘consent loophole’ in reforms to sex crime laws",
+      "word_count": 642,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359836/mirror-star-keung-slapped-3-month-driving-ban-after-spate-offences",
+      "title": "Mirror star Keung To slapped with 3-month driving ban after spate of offences",
+      "word_count": 286,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359750/hong-kong-consults-sex-law-reform-over-cult-coercion-campus-and-online-abuse",
+      "title": "Hong Kong consults on sex law reform over cult coercion, campus and online abuse",
+      "word_count": 725,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359700/hong-kong-activist-joshua-wong-expected-plead-guilty-foreign-collusion-case",
+      "title": "Hong Kong activist Joshua Wong expected to plead guilty in foreign collusion case",
+      "word_count": 310,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359615/hong-kong-churches-warned-over-systemic-flaws-handling-sexual-harassment",
+      "title": "Hong Kong churches warned over ‘systemic’ flaws in handling sexual harassment",
+      "word_count": 663,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359609/125-arrested-triads-use-violence-take-over-construction-site-lunchbox-trade",
+      "title": "125 arrested as triads use violence to take over construction site lunchbox trade",
+      "word_count": 510,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359605/hong-kong-doctor-issued-over-3700-fraudulent-covid-vaccine-exemptions-court-hears",
+      "title": "Hong Kong doctor issued over 3,700 fraudulent Covid vaccine exemptions, court hears",
+      "word_count": 497,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359491/hong-kong-police-seize-hk120m-cocaine-hidden-3-tonne-metal-containers",
+      "title": "Hong Kong police seize HK$120m of cocaine hidden in 3-tonne metal containers",
+      "word_count": 213,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359429/hong-kong-police-arrest-driver-after-high-speed-chase-ends-5-vehicle-crash",
+      "title": "Hong Kong police arrest driver after high-speed chase ends in 5-vehicle crash",
+      "word_count": 234,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359413/boy-16-critical-condition-after-fall-through-school-classroom-window",
+      "title": "Boy, 16, in a critical condition after fall through school classroom window",
+      "word_count": 374,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359377/cherry-picked-crimes-call-legal-reforms-cover-long-term-child-sexual-abuse",
+      "title": "‘Cherry-picked’ crimes: call for legal reforms to cover long-term child sexual abuse",
+      "word_count": 889,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359338/hong-kong-man-convicted-manslaughter-over-fatal-weight-loss-beating",
+      "title": "Hongkonger cleared of murder but guilty of manslaughter after weight-loss beating",
+      "word_count": 745,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359318/court-awards-hk251000-family-late-helper-dismissed-during-cancer-battle",
+      "title": "Court awards HK$251,000 to family of late helper sacked during cancer battle",
+      "word_count": 600,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359273/hong-kong-duo-admit-joining-pro-independence-group-out-curiosity-asylum-bid",
+      "title": "Hong Kong duo admit joining pro-independence group ‘out of curiosity’, asylum bid",
+      "word_count": 464,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/education/article/3359245/cuhk-suspends-lawmaker-william-wong-after-drink-driving-hit-and-run-arrest",
+      "title": "William Wong becomes first to resign from Legco over scandal in 26 years",
+      "word_count": 896,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359214/proposed-sexual-offences-overhaul-extensive-advocacy-groups-cite-concerns",
+      "title": "Proposed sexual offences overhaul extensive but advocacy groups cite concerns",
+      "word_count": 992,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359183/woman-accused-money-laundering-wang-fuk-court-fire-case-granted-hk300000-bail",
+      "title": "Woman accused of money laundering in Wang Fuk Court fire case granted HK$300,000 bail",
+      "word_count": 494,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359067/hong-kong-police-arrest-2-after-man-dies-following-dispute-flat",
+      "title": "Hong Kong police arrest 4, seize drugs after man dies following dispute at flat",
+      "word_count": 468,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3358898/what-will-hong-kongs-proposed-reforms-sexual-offences-laws-change",
+      "title": "What will Hong Kong’s proposed reforms to sexual offences laws change?",
+      "word_count": 888,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3358878/ex-prosecutor-loses-judicial-challenge-against-sacking-emails-flouting-neutrality",
+      "title": "Ex-prosecutor loses judicial challenge against sacking for emails flouting neutrality",
+      "word_count": 608,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3358802/hong-kong-cocaine-haul-hits-361kg-days-after-police-raid-another-yacht",
+      "title": "Hong Kong cocaine haul hits 361kg in days after police raid another yacht",
+      "word_count": 222,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3358799/hong-kong-proposes-sweeping-overhaul-sex-crime-laws",
+      "title": "Hong Kong proposes sweeping overhaul of sex crime laws",
+      "word_count": 731,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3359325/anti-drug-video-fiasco-not-vote-confidence-hong-kongs-ai-goals",
+      "title": "Anti-drug video fiasco not a vote of confidence in Hong Kong’s AI goals",
+      "word_count": 754,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359063/quiet-grind-behind-wig-and-gown",
+      "title": "The quiet grind behind the wig and gown",
+      "word_count": 808,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3358230/power-hong-kongs-new-national-security-regulation-must-be-exercised-prudently",
+      "title": "Power of Hong Kong’s new national security regulation must be exercised prudently",
+      "word_count": 608,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3357441/where-do-office-supplies-belong-heres-hint-its-name",
+      "title": "Where do office supplies belong? Here’s a hint: it’s in the name",
+      "word_count": 631,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3356615/why-executive-branches-are-best-placed-gauge-national-security-risks",
+      "title": "Why executive branches are best placed to gauge national security risks",
+      "word_count": 745,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3356645/scott-pelleys-firing-60-minutes-offers-hong-kong-food-thought",
+      "title": "Scott Pelley’s firing from 60 Minutes offers Hong Kong food for thought",
+      "word_count": 807,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3359874/changes-underway-singapores-smaller-opposition-parties-leaders-quit",
+      "title": "Changes underway in Singapore’s smaller opposition parties as leaders quit",
+      "word_count": 1039,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3359837/indonesia-india-brahmos-deal-buys-jakarta-conflict-insurance",
+      "title": "Indonesia-India BrahMos deal buys Jakarta conflict insurance",
+      "word_count": 837,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3359859/do-singapore-ministers-watch-films-parliament-joke-raises-hackles-amid-dialect-debate",
+      "title": "Do Singapore ministers watch films? Parliament joke raises hackles amid dialect debate",
+      "word_count": 958,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3359817/philippine-president-backs-defence-chief-over-china-sanctions",
+      "title": "Philippine president backs defence chief over China sanctions",
+      "word_count": 854,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3359855/place-your-bets-polymarket-wades-malaysias-johor-poll",
+      "title": "Place your bets: Polymarket wades into Malaysia’s Johor poll",
+      "word_count": 603,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/people/article/3359734/how-cheap-ai-undermining-indonesias-academic-credibility",
+      "title": "How cheap AI is undermining Indonesia’s academic credibility",
+      "word_count": 997,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3359524/malaysias-anwar-lean-good-friend-li-qiang-rescue-durian-farmers-prices-fall",
+      "title": "Malaysia’s Anwar to lean on ‘good friend’ Li Qiang to rescue durian farmers as prices fall",
+      "word_count": 707,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3359718/south-korea-loses-canada-submarine-deal-cements-top-tier-defence-status",
+      "title": "South Korea loses Canada submarine deal but cements top-tier defence status",
+      "word_count": 985,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3359692/chinese-tourists-world-cup-flag-blunder-malaysia-goes-viral",
+      "title": "Chinese tourist’s World Cup flag blunder in Malaysia goes viral",
+      "word_count": 433,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/people/article/3359763/johor-ready-new-power-balance-malaysias-loke-implores-voters-curb-bn-dominance",
+      "title": "Is Johor ready for new power balance? Malaysia’s Loke implores voters to curb BN dominance",
+      "word_count": 1253,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3359773/philippines-solar-power-becomes-practical-necessity-energy-costs-soar",
+      "title": "In Philippines, solar power becomes ‘practical necessity’ as energy costs soar",
+      "word_count": 1034,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3359745/can-singapore-and-indonesias-energy-push-kick-start-regional-power-grid",
+      "title": "Can Singapore and Indonesia’s energy push kick-start regional power grid?",
+      "word_count": 981,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3359630/japan-weighs-myanmar-aid-restart-counter-chinas-growing-clout",
+      "title": "Japan weighs Myanmar aid restart to counter China’s growing clout",
+      "word_count": 885,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/health-environment/article/3359706/vietnam-bets-baby-bonuses-get-rich-it-grows-old",
+      "title": "Vietnam bets on baby bonuses to get rich before it grows old",
+      "word_count": 932,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3359722/how-bersama-could-cost-malaysias-anwar-johor-poll",
+      "title": "How Bersama could cost Malaysia’s Anwar the Johor poll",
+      "word_count": 819,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3359736/beyond-payments-india-aims-architect-indonesias-digital-future",
+      "title": "Beyond payments: India aims to architect Indonesia’s digital future",
+      "word_count": 800,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/asia-opinion/article/3359040/how-bitter-persian-gulf-rivals-can-make-peace-asean-way",
+      "title": "How bitter Persian Gulf rivals can make peace the Asean way",
+      "word_count": 931,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/opinion/article/3359347/oman-and-china-real-winners-trumps-iran-deal",
+      "title": "Oman and China: the real winners of Trump’s Iran deal?",
+      "word_count": 924,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/opinion/article/3359349/singapores-trade-pacts-prove-small-states-can-shape-global-rules",
+      "title": "Singapore’s trade pacts prove small states can shape global rules",
+      "word_count": 1107,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/world-opinion/article/3359184/blaming-china-wont-bring-jobs-back-post-industrial-economies",
+      "title": "Blaming China won’t bring jobs back to ‘post-industrial’ economies",
+      "word_count": 916,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3359339/super-ageing-singapore-headed-population-decline",
+      "title": "Is super-ageing Singapore headed for population decline?",
+      "word_count": 1837,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3358515/malaysia-has-never-had-so-many-chinese-tourists-it-wants-more",
+      "title": "Malaysia has never had so many Chinese tourists. It wants more",
+      "word_count": 1447,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/health-environment/article/3357703/asias-shaky-food-supply-shudders-super-el-nino-arrives",
+      "title": "Asia’s shaky food supply shudders as ‘super’ El Nino arrives",
+      "word_count": 1720,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3356925/asean-60-peace-prosperity-and-polite-paralysis",
+      "title": "Asean at 60: peace, prosperity and polite paralysis",
+      "word_count": 2105,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3359213/papua-rebels-shoot-american-pilot-dead-torch-plane-send-message-us",
+      "title": "Papua rebels shoot American pilot dead, torch plane to send ‘message’ to US",
+      "word_count": 403,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3355652/why-japans-intolerance-towards-muslims-rapidly-deepening",
+      "title": "Why Japan’s intolerance towards Muslims is rapidly deepening",
+      "word_count": 516,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3359020/singapore-seizes-us424-million-bungalow-linked-nvidia-chip-fraud",
+      "title": "Singapore seizes US$42.4 million bungalow linked to Nvidia chip fraud",
+      "word_count": 941,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3357984/indian-man-jailed-molesting-flight-attendant-singapore-airlines-plane",
+      "title": "Indian man jailed for molesting flight attendant on Singapore Airlines plane",
+      "word_count": 657,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3358979/new-japan-visa-rules-threaten-force-out-foreign-business-owners-my-dream-broken",
+      "title": "New Japan visa rules threaten to force out foreign business owners: ‘my dream is broken’",
+      "word_count": 813,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/world-opinion/article/3359600/healthy-economy-isnt-built-asset-bubbles-and-debt-pyramids",
+      "title": "A healthy economy isn’t built on asset bubbles and debt pyramids",
+      "word_count": 883,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/world-opinion/article/3359303/3-tracks-are-shaping-middle-easts-post-iran-war-order",
+      "title": "3 tracks are shaping the Middle East’s post-Iran war order",
+      "word_count": 925,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/world-opinion/article/3359021/eu-should-think-twice-weaponising-its-market-against-china",
+      "title": "EU should think twice before weaponising its market against China",
+      "word_count": 917,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/world-opinion/article/3359011/why-chinese-youth-arent-booing-ai-unlike-american-graduates",
+      "title": "Why Chinese youth aren’t booing AI, unlike American graduates",
+      "word_count": 924,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/article/3359488/what-have-americans-ever-done-us",
+      "title": "What have the Americans ever done for us?",
+      "word_count": 1054,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3359052/china-shock-30-coming-and-itll-be-ai-powered-robots",
+      "title": "‘China shock 3.0’ is coming. And it’ll be AI-powered robots",
+      "word_count": 853,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3358932/how-manage-chinas-rise-civilisational-power",
+      "title": "How to manage China’s rise as a civilisational power",
+      "word_count": 860,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3358413/talking-when-you-eat-bad-you-and-other-chinese-beliefs",
+      "title": "Talking when you eat is bad for you, and other Chinese beliefs",
+      "word_count": 910,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/world-opinion/article/3358339/can-andy-burnham-fix-britains-essential-services-and-debt-problem",
+      "title": "Can Andy Burnham fix Britain’s essential services and debt problem?",
+      "word_count": 877,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3358216/tackle-elderly-poverty-crisis-hong-kong-needs-rethink-retirement",
+      "title": "To tackle elderly poverty crisis, Hong Kong needs to rethink retirement",
+      "word_count": 877,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3358439/boost-birth-rate-hong-kong-needs-deliver-quality-housing",
+      "title": "To boost birth rate, Hong Kong needs to deliver quality housing",
+      "word_count": 753,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/global-economy/article/3359868/how-much-does-china-invest-abroad-us174-billion-keeps-it-worlds-no-3-fdi-source",
+      "title": "How much does China invest abroad? US$174 billion keeps it world’s No 3 FDI source",
+      "word_count": 604,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3359856/chinese-city-sold-same-plot-land-18-times-inflate-fiscal-revenue-watchdog",
+      "title": "Chinese city ‘sold’ same plot of land 18 times to inflate fiscal revenue: watchdog",
+      "word_count": 490,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3359829/china-targets-190-million-inbound-travellers-more-global-influence-2030-plan",
+      "title": "China targets 190 million inbound travellers, more global influence in 2030 plan",
+      "word_count": 493,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3359812/gao-shanwen-economist-who-mapped-chinas-structural-shift-dies-55-after-cancer-fight",
+      "title": "Gao Shanwen, economist who mapped China’s structural shift, dies at 55 after cancer fight",
+      "word_count": 471,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3359799/eu-imposes-anti-dumping-measures-chinese-tyre-firms",
+      "title": "EU imposes anti-dumping measures on Chinese tyre firms",
+      "word_count": 423,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3359723/could-canada-use-chinese-electric-vehicle-firms-reboot-its-auto-manufacturing",
+      "title": "Could Canada use Chinese electric vehicle firms to reboot its auto manufacturing?",
+      "word_count": 925,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3359744/china-has-potential-become-worlds-largest-consumer-market-2041-policy-adviser-says",
+      "title": "China has potential to become world’s largest consumer market by 2041, policy adviser says",
+      "word_count": 444,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3359726/chinas-excavator-exports-surge-33-first-half-industry-pivots-electric-power",
+      "title": "China’s excavator exports surge 33% in first half as industry pivots to electric power",
+      "word_count": 466,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3359673/dutch-trade-minister-china-high-stakes-talks-tech-war-tariff-tensions",
+      "title": "Dutch trade minister in China for high-stakes talks on tech war, tariff tensions",
+      "word_count": 453,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3359613/talk-us-china-decoupling-getting-loud-neither-side-ready-clean-break",
+      "title": "Talk of US-China decoupling is getting loud – but neither side is ready for a clean break",
+      "word_count": 1953,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3359618/why-china-took-over-zhongbang-bank-and-what-it-says-about-hidden-financial-stress",
+      "title": "Why China took over Zhongbang Bank – and what it says about hidden financial stress",
+      "word_count": 759,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3359612/cabo-verde-wows-world-cup-economic-assist-china",
+      "title": "Cabo Verde wows at World Cup – with an economic assist from China",
+      "word_count": 622,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3359589/chinas-latest-nuclear-reactor-goes-live-first-greater-bay-area-hualong-one-tech",
+      "title": "China’s latest nuclear reactor goes live, first in Greater Bay Area with Hualong One tech",
+      "word_count": 634,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/china-business/article/3359542/chinas-ev-deliveries-remain-stuck-downward-spiral-exacerbating-industry-worries",
+      "title": "China’s EV deliveries remain stuck in downward spiral, exacerbating industry worries",
+      "word_count": 421,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/global-economy/article/3359346/why-chinese-made-portable-ac-selling-out-across-heat-stricken-europe",
+      "title": "Why is a Chinese-made portable AC selling out across heat-stricken Europe?",
+      "word_count": 599,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3359330/further-fly-proposed-rule-change-would-boost-shenzhens-aviation-ambitions",
+      "title": "Further to fly? Proposed rule change would boost Shenzhen’s aviation ambitions",
+      "word_count": 600,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3359376/china-scrap-tax-breaks-nevs-and-energy-saving-vehicles-2027",
+      "title": "China to scrap tax breaks for NEVs and energy-saving vehicles from 2027",
+      "word_count": 379,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3359357/china-unveils-recycling-push-bolster-resource-security-and-shore-green-transition",
+      "title": "China unveils recycling push to bolster resource security and shore up green transition",
+      "word_count": 465,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3359328/ai-skills-required-4-out-10-graduate-jobs-china-says-recruitment-portal",
+      "title": "AI skills required for 4 out of 10 graduate jobs in China, says recruitment portal",
+      "word_count": 555,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/china-business/article/3359287/chinas-byd-surpasses-tesla-regain-lead-global-ev-race",
+      "title": "China’s BYD surpasses Tesla to regain lead in global EV race",
+      "word_count": 543,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3358927/when-and-how-will-china-ease-capital-controls",
+      "title": "When and how will China ease capital controls?",
+      "word_count": 914,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/markets/article/3359860/hong-kong-ipo-debut-delayed-rare-move-over-missing-regulatory-data",
+      "title": "Hong Kong IPO debut delayed in rare move over missing regulatory data: sources",
+      "word_count": 350,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/china-business/article/3359811/chinas-biotech-firms-challenge-us-rapidly-developing-ras-targeted-cancer-therapies",
+      "title": "China’s biotech firms challenge US with rapidly developing RAS-targeted cancer therapies",
+      "word_count": 731,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/article/3359675/hong-kong-office-vacancy-rates-plateau-central-hits-43-month-low",
+      "title": "Hong Kong office vacancy rates to plateau as Central hits 43-month low",
+      "word_count": 472,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/china-evs/article/3359461/chinas-carmakers-are-rewriting-europes-auto-hierarchy-japanese-rivals-lose-ground",
+      "title": "China’s carmakers are rewriting Europe’s auto hierarchy as Japanese rivals lose ground",
+      "word_count": 620,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/article/3359411/berkshire-hathaways-multibillion-dollar-buy-taylor-morrison-boost-us-housing-market",
+      "title": "Berkshire Hathaway’s multibillion-dollar buy of Taylor Morrison to boost US housing market",
+      "word_count": 742,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/china-business/article/3359294/after-hooking-china-coffee-starbucks-ramps-consumer-strategy",
+      "title": "After hooking China on coffee, Starbucks ramps up consumer strategy",
+      "word_count": 470,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/banking-finance/article/3359326/why-citigroup-ceo-jane-fraser-left-us-china-summit-feeling-optimistic",
+      "title": "Why Citigroup CEO Jane Fraser left the US-China summit feeling optimistic",
+      "word_count": 1851,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/companies/article/3359269/chinese-tea-chain-ordered-pay-louis-vuitton-us15-million-trademark-infringement",
+      "title": "Chinese tea chain ordered to pay Louis Vuitton US$1.5 million for trademark infringement",
+      "word_count": 289,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/banking-finance/article/3359242/chinese-banks-surge-ahead-amid-hong-kongs-ipo-wave-challenging-global-giants",
+      "title": "Chinese banks surge ahead amid Hong Kong’s IPO wave, challenging global giants",
+      "word_count": 517,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/china-business/article/3359182/china-ai-drug-design-deals-swell-us-scrutiny-mounts",
+      "title": "China AI drug-design deals swell as US scrutiny mounts",
+      "word_count": 466,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/china-business/article/3359102/new-technologies-power-chinas-tesla-challengers-monthly-sales-records",
+      "title": "New technologies power China’s Tesla challengers to monthly sales records",
+      "word_count": 471,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/article/3359042/chinas-tax-crackdown-shakes-share-and-hong-kong-listed-firms-major-payouts",
+      "title": "China’s tax crackdown shakes A-share and Hong Kong-listed firms with major payouts",
+      "word_count": 490,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/china-evs/article/3358970/will-slowing-car-sales-china-reignite-brutal-price-war-crowded-market",
+      "title": "Will slowing car sales in China reignite brutal price war in crowded market?",
+      "word_count": 457,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-trends/article/3358884/ubtechs-lifelike-humanoid-robots-built-companionship-arriving-homes-across-china",
+      "title": "UBTech’s lifelike humanoid robots built for companionship arriving in homes across China",
+      "word_count": 545,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/article/3358917/fast-lane-luxury-hong-kong-developer-lures-upmarket-homebuyers-mercedes-giveaways",
+      "title": "Fast lane to luxury: Hong Kong developer lures upmarket homebuyers with Mercedes giveaways",
+      "word_count": 561,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/companies/article/3358658/whats-driving-chinas-retailers-bet-own-brands-profit-growth-price-control-sp",
+      "title": "What’s driving China’s retailers to bet on own brands? Profit growth, price control: S&P",
+      "word_count": 407,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/banking-finance/article/3358853/otp-gives-hong-kong-vote-confidence-european-banks-look-east",
+      "title": "OTP gives Hong Kong a vote of confidence as European banks look East",
+      "word_count": 793,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/climate-and-energy/article/3358856/energy-storage-sector-tested-china-sets-60-day-payment-cap-anti-involution-campaign",
+      "title": "Energy storage sector tested as China sets 60-day payment cap in anti-involution campaign",
+      "word_count": 426,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/china-business/article/3358832/chinese-ev-makers-gain-traction-south-koreas-import-car-market-despite-uphill-battle",
+      "title": "Chinese EV makers gain traction in South Korea’s import car market despite uphill battle",
+      "word_count": 868,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/china-business/article/3358830/funding-option-royalties-giant-opens-hong-kong-base-mainland-china-biotech-deals-surge",
+      "title": "Funding option: royalties giant opens Hong Kong base as mainland China biotech deals surge",
+      "word_count": 760,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/property/hong-kong-china/article/3358772/fosun-breaks-ground-shaw-brothers-movietown-residential-project",
+      "title": "Fosun breaks ground at Shaw Brothers Movietown residential project",
+      "word_count": 442,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3357898/us-anthropic-ban-best-advert-chinese-ai",
+      "title": "US Anthropic ban is best advert for Chinese AI",
+      "word_count": 756,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3356374/why-tech-titans-ipos-matter-much-china-us",
+      "title": "Why tech titans’ IPOs matter as much in China as in the US",
+      "word_count": 902,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3343986/how-next-china-shock-shaping-hearts-and-minds",
+      "title": "How the next China shock is shaping hearts and minds",
+      "word_count": 919,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3337436/has-chinas-stock-market-gone-uninvestable-irresistible",
+      "title": "Has China’s stock market gone from ‘uninvestable’ to ‘irresistible’?",
+      "word_count": 959,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3333238/chinas-tech-rises-companies-must-rethink-their-rd-strategy",
+      "title": "As China’s tech rises, companies must rethink their R&D strategy",
+      "word_count": 945,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-trends/article/3359847/physical-ai-space-race-can-europe-compete-china-and-us-humanoid-robotics",
+      "title": "Physical AI ‘space race’: can Europe compete with China and the US in humanoid robotics?",
+      "word_count": 697,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-trends/article/3359826/mainland-tech-firms-find-more-just-deep-capital-pools-hong-kong",
+      "title": "Mainland Chinese tech firms find more than just deep capital pools in Hong Kong",
+      "word_count": 662,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/policy/article/3359791/china-weighs-open-weight-ais-security-risks-against-national-tech-innovation-strategy-researchers",
+      "title": "China weighs open-weight AI’s security risks against national tech innovation strategy: researchers",
+      "word_count": 821,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-war/article/3359765/world-working-together-one-ecosystem-risc-v-chip-research-executive",
+      "title": "World working together ‘as one ecosystem’ on RISC-V chip research: executive",
+      "word_count": 527,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/big-tech/article/3359747/glass-crashes-slashed-ant-group-embodied-ai-unit-claims-breakthrough-robot-sensing",
+      "title": "Glass crashes slashed? Ant Group embodied AI unit claims breakthrough in robot sensing",
+      "word_count": 428,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/markets/article/3359697/zhipu-ai-minimax-shares-provide-gut-check-hong-kong-investors-lock-ups-end",
+      "title": "Zhipu AI, MiniMax shares to provide gut check for Hong Kong investors as lock-ups end",
+      "word_count": 455,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-trends/article/3359705/chinas-chip-equipment-rally-faces-earnings-test-memory-boom-fuels-bets-local-tools",
+      "title": "China’s chip equipment rally faces earnings test as memory boom fuels bets on local tools",
+      "word_count": 696,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/big-tech/article/3359664/kuaishou-shares-tumble-tencent-slashes-stake-after-us3b-kling-ai-deal",
+      "title": "Kuaishou shares tumble as Tencent slashes stake after US$3b Kling AI deal",
+      "word_count": 311,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/article/3359629/china-records-most-new-unicorn-start-ups-5-years-ai-and-robotics-boom",
+      "title": "China records most new unicorn start-ups in 5 years as AI and robotics boom",
+      "word_count": 446,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/big-tech/article/3359638/alibaba-wins-reprieve-us-lobbying-after-pentagon-blacklisted-companies",
+      "title": "Alibaba wins reprieve on US lobbying after Pentagon blacklisted companies",
+      "word_count": 446,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/article/3359592/huaweis-next-smartphone-chip-taps-new-scaling-law-performance-boost-paper",
+      "title": "Huawei’s next smartphone chip taps new scaling law for performance boost: paper",
+      "word_count": 543,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-trends/article/3359602/global-robotaxi-market-set-hit-us1t-2040-china-tech-costs-plummet-morgan-stanley",
+      "title": "Global robotaxi market set to hit US$1t by 2040 as China tech costs plummet: Morgan Stanley",
+      "word_count": 308,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-trends/article/3359528/chinas-biren-seeks-us900m-fund-gpu-push-and-challenge-nvidia-amid-ai-boom",
+      "title": "China’s Biren seeks US$900m to fund GPU push and challenge Nvidia amid AI boom",
+      "word_count": 406,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/world-opinion/article/3357399/why-ai-future-wont-be-decided-algorithms-and-chatbots",
+      "title": "Why the AI future won’t be decided by algorithms and chatbots",
+      "word_count": 910,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/article/3358042/why-hong-kongs-bilingualism-uniquely-indispensable-ai-era",
+      "title": "Why Hong Kong’s bilingualism is uniquely indispensable in the AI era",
+      "word_count": 870,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/asia-opinion/article/3357392/asia-excels-tracking-fishing-vessels-fails-those-board",
+      "title": "Asia excels at tracking fishing vessels but fails those on board",
+      "word_count": 898,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/world-opinion/article/3357550/ai-development-needs-reining-whether-it-creates-jobs-or-not",
+      "title": "AI development needs reining in whether it creates jobs or not",
+      "word_count": 897,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/article/3358925/great-ai-reckoning-how-china-flipping-script-us-new-industrial-revolution",
+      "title": "The great AI reckoning: how China is flipping the script on US’ new industrial revolution",
+      "word_count": 1988,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-trends/article/3358519/chinas-tech-firms-adapt-ai-era-workers-worry-theyll-be-optimised-out-job",
+      "title": "As China’s tech firms adapt to AI era, workers worry they’ll be ‘optimised’ out of a job",
+      "word_count": 2082,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/big-tech/article/3356914/out-shadows-huaweis-chip-queen-steps-back-spotlight-scaling-law",
+      "title": "Out of the shadows:  Huawei’s ‘chip queen’ steps back into the spotlight with scaling law",
+      "word_count": 1836,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-war/article/3354516/cloud-above-clouds-us-china-race-make-space-computing-platform",
+      "title": "A cloud above the clouds: US, China race to make space a computing platform",
+      "word_count": 1852,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    }
+  ]
 }
