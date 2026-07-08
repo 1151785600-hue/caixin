@@ -15,7 +15,7 @@ SECTIONS = ["china", "economy", "finance", "companies", "world", "opinion",
             "energy-environment", "tech", "culture", "property"]
 
 def url_to_filename(url):
-    m = re.search(r'/(\d{4}-\d{2}-\d{2})/(.+?)(?:-\d+)?\.html', url)
+    m = re.search(r'/(\d{4}-\d{2}-\d{2})/(?:\d{4}-)?(.+?)\.html', url)
     if m:
         date = m.group(1).replace("-", "")
         slug = m.group(2).replace("-", "_")[:70]
