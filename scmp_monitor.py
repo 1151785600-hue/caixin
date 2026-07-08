@@ -102,9 +102,11 @@ def extract_article(session, url):
         if not article or not article["body"]:
             article = extract_from_json_ld(html)
         if not article or not article["body"]:
+            print(f"    SKIP: no_body | {url[:80]}")
             return {"skip": True, "reason": "no_body"}
         word_count = len(re.findall(r'[a-zA-Z]+', article["body"]))
         if word_count < 200:
+            print(f"    SKIP: short ({word_count}w) | {url[:80]}")
             return {"skip": True, "reason": "short"}
         title = article["title"]
         title_m = re.search(r"<title>(.*?)</title>", html)
@@ -125,6 +127,7 @@ def extract_article(session, url):
     except Exception as e:
         print(f"    extract error: {e}")
         return None
+
 
 def save_html(article, url, output_dir):
     os.makedirs(output_dir, exist_ok=True)
