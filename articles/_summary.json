@@ -1,6 +1,12 @@
 {
-  "ts": "2026-07-07 17:03:12",
+  "ts": "2026-07-08 02:22:06",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-07-08/china-moves-to-deepen-hong-kongs-bond-and-offshore-yuan-markets-102461811.html",
+      "title": "China Moves to Deepen Hong Kong’s Bond and Offshore Yuan Markets",
+      "word_count": 680
+    }
+  ]
 }
