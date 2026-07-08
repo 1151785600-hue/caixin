@@ -1,6 +1,27 @@
 {
-  "ts": "2026-07-08 11:03:05",
+  "ts": "2026-07-08 13:54:46",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 4,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-07-08/china-moves-to-deepen-hong-kongs-bond-and-offshore-yuan-markets-102461811.html",
+      "title": "China Moves to Deepen Hong Kong’s Bond and Offshore Yuan Markets",
+      "word_count": 680
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-07-03/south-korea-bets-on-chips-and-ai-in-sweeping-industrial-push-102460380.html",
+      "title": "South Korea Bets on Chips and AI in Sweeping Industrial Push",
+      "word_count": 673
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-07-02/uk-seeks-china-services-trade-deal-amid-looming-leadership-overhaul-102460111.html",
+      "title": "U.K. Seeks China Services Trade Deal Amid Looming Leadership Overhaul",
+      "word_count": 625
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-07-02/simandou-mine-shows-limits-of-chinas-infrastructure-expertise-102459983.html",
+      "title": "Simandou Mine Shows Limits of China’s Infrastructure Expertise",
+      "word_count": 660
+    }
+  ]
 }
