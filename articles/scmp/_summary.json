@@ -1,42 +1,6 @@
 {
-  "ts": "2026-07-08 15:26:46",
+  "ts": "2026-07-08 17:44:06",
   "v": "scmp_v4",
-  "new_count": 5,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/politics/article/3359886/chinas-xi-jinping-calls-innovation-system-overhaul-beat-global-tech-rivals",
-      "title": "China’s Xi Jinping calls for innovation system overhaul to beat global tech rivals",
-      "word_count": 468,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/science/article/3359870/why-lithium-battery-and-radar-pioneers-won-chinas-top-science-award",
-      "title": "Why lithium battery and radar pioneers won China’s top science award",
-      "word_count": 874,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/asia/south-asia/article/3359891/search-crew-goes-plane-wreckage-found-pakistans-coast",
-      "title": "Search for crew goes on as plane wreckage found off Pakistan’s coast",
-      "word_count": 391,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/asia/east-asia/article/3359881/woman-arrested-japan-sewing-roommates-lips-together",
-      "title": "Woman arrested in Japan for sewing roommate’s lips together",
-      "word_count": 222,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/tech/tech-trends/article/3359851/chinas-circuit-board-makers-push-capex-towards-record-feed-ai-boom",
-      "title": "China’s circuit-board makers push capex towards record to feed AI boom",
-      "word_count": 504,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
