@@ -21,7 +21,6 @@ SECTIONS = [
 def find_articles(session, days=7):
     """Find article URLs from SCMP section pages via __NEXT_DATA__ JSON."""
     urls = []
-    cutoff = (datetime.now() - timedelta(days=days))
     for section in SECTIONS:
         for retry in range(2):
             try:
@@ -34,7 +33,7 @@ def find_articles(session, days=7):
                 if match:
                     try:
                         data = json.loads(match.group(1))
-                        _extract_urls_from_next_data(data, urls, cutoff)
+                        _extract_urls_from_next_data(data, urls)
                     except (json.JSONDecodeError, KeyError, TypeError):
                         pass
                 # Also try href regex as fallback
@@ -49,38 +48,22 @@ def find_articles(session, days=7):
         time.sleep(0.5)
     return urls
 
-def _extract_urls_from_next_data(data, urls, cutoff):
-    """Recursively extract article URLs from __NEXT_DATA__ JSON tree."""
+def _extract_urls_from_next_data(data, urls):
+    """Recursively find all urlAlias values containing /article/ in __NEXT_DATA__ JSON."""
     if isinstance(data, dict):
-        # Check if this node has article data with a URL
-        if data.get("type") == "article" or data.get("__typename") == "Article":
-            url_alias = data.get("urlAlias", "")
-            if url_alias:
-                full_url = f"https://www.scmp.com{url_alias}"
-                if full_url not in urls:
-                    urls.append(full_url)
-                return
-            # Check for date-based filtering
-            published = data.get("publishedDate", 0)
-            if isinstance(published, (int, float)) and published > 0:
-                dt = datetime.fromtimestamp(published / 1000)
-                if dt < cutoff:
-                    return
-        # Recurse into known data containers
-        for key in ["payload", "data", "article", "items", "edges", "node", "contents"]:
-            if key in data:
-                val = data[key]
-                if isinstance(val, list):
-                    for item in val:
-                        if isinstance(item, dict) and "node" in item:
-                            _extract_urls_from_next_data(item["node"], urls, cutoff)
-                        else:
-                            _extract_urls_from_next_data(item, urls, cutoff)
-                else:
-                    _extract_urls_from_next_data(val, urls, cutoff)
+        # Extract urlAlias if it looks like an article URL
+        alias = data.get("urlAlias", "")
+        if alias and "/article/" in alias:
+            full_url = f"https://www.scmp.com{alias}"
+            if full_url not in urls:
+                urls.append(full_url)
+            return  # Don't recurse deeper into this article node
+        # Recurse into all values
+        for val in data.values():
+            _extract_urls_from_next_data(val, urls)
     elif isinstance(data, list):
         for item in data:
-            _extract_urls_from_next_data(item, urls, cutoff)
+            _extract_urls_from_next_data(item, urls)
 
 def url_to_filename(url):
     m = re.search(r'article/(\d+)', url)
