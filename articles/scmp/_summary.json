@@ -1,26 +1,61 @@
 {
-  "ts": "2026-07-09 12:23:31",
+  "ts": "2026-07-09 16:04:47",
   "v": "scmp_v4",
-  "new_count": 3,
+  "new_count": 8,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3360012/why-ai-race-us-knockout-game-china-cannot-afford-lose",
-      "title": "Why AI race with US is a ‘knockout game’ China cannot afford to lose",
-      "word_count": 669,
+      "url": "https://www.scmp.com/news/china/science/article/3360000/100-gigawatts-china-unveils-its-high-power-microwave-weapon-arsenal",
+      "title": "Up to 100 gigawatts: China unveils its high-power microwave weapon arsenal",
+      "word_count": 535,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/tech/article/3359974/token-economy-emerging-ai-use-soars-china-experts-tell-conference",
-      "title": "‘Token economy’ emerging as AI use soars in China, experts tell conference",
-      "word_count": 501,
+      "url": "https://www.scmp.com/news/china/politics/article/3360024/28-killed-factory-blaze-heart-chinese-shoe-manufacturing-hub",
+      "title": "28 killed in factory blaze in the heart of Chinese shoe manufacturing hub",
+      "word_count": 410,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3360020/how-europes-rush-chinese-air-conditioners-exposes-gap-brussels-trade-policy",
+      "title": "How Europe’s rush for Chinese air conditioners exposes the gap in Brussels’ trade policy",
+      "word_count": 824,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/week-asia/people/article/3360011/singaporean-man-hired-tutor-children-forced-6-year-old-drink-urine-18-hour-abuse",
-      "title": "Singaporean man hired to tutor children forced 6-year-old to drink urine in 18-hour abuse",
-      "word_count": 636,
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3359746/us-china-ai-war-boils-down-contest-over-electricity",
+      "title": "US-China AI war boils down to a contest over electricity",
+      "word_count": 865,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3360021/pak-shek-kok-station-east-rail-line-scheduled-open-early-2033",
+      "title": "Pak Shek Kok station on East Rail line scheduled to open as early as 2033",
+      "word_count": 756,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/policy/article/3360027/game-changer-why-china-finally-letting-its-ai-firms-buy-nvidia-h200",
+      "title": "Why China is finally letting AI firms buy the Nvidia H200",
+      "word_count": 865,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3359984/china-aims-revive-physical-stores-make-them-immersive-shield-against-e-commerce",
+      "title": "China aims to revive physical stores, make them ‘immersive’, as shield against e-commerce",
+      "word_count": 529,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3360004/chinese-firms-look-strike-gold-volatile-global-metals-market",
+      "title": "Chinese firms look to strike gold in a volatile global metals market",
+      "word_count": 840,
       "quality": "fulltext_deep",
       "is_premium": false
     }
