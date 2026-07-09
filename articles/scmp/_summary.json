@@ -1,181 +1,55 @@
 {
-  "ts": "2026-07-09 04:54:45",
+  "ts": "2026-07-09 07:30:48",
   "v": "scmp_v4",
-  "new_count": 25,
+  "new_count": 7,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/science/article/3359873/active-fault-line-threatens-worlds-biggest-hydropower-project-chinese-geologists-warn",
-      "title": "Active fault line threatens world’s biggest hydropower project, Chinese geologists warn",
-      "word_count": 610,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/politics/article/3359921/lions-dead-zebras-run-floodwaters-devastate-zoo-southern-china",
-      "title": "Lions dead, zebras on the run as floodwaters devastate zoo in southern China",
-      "word_count": 307,
+      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3359798/your-hong-kong-weekend-food-guide-july-10-12",
+      "title": "Your Hong Kong weekend food guide for July 10-12",
+      "word_count": 418,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/us/economy-trade-business/article/3359912/chinas-biggest-daily-us-soybean-order-confirmation-xi-trump-summit-pact",
-      "title": "Is China’s biggest daily US soybean order confirmation of Xi-Trump summit pact?",
-      "word_count": 509,
+      "url": "https://www.scmp.com/week-asia/economics/article/3359957/south-korea-set-power-us-fight-naval-dominance-amid-rising-geopolitical-tensions",
+      "title": "South Korea set to power US fight for naval dominance amid rising geopolitical tensions",
+      "word_count": 989,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/us/diplomacy/article/3359907/us-says-china-gave-only-hours-warning-pacific-submarine-missile-launch",
-      "title": "US says China gave only hours’ warning before Pacific submarine missile launch",
-      "word_count": 522,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3359906/trumps-tariff-war-pushes-brazils-trade-towards-china-us-share-hits-record-low",
-      "title": "Trump’s tariff war pushes Brazil’s trade towards China as US share hits record low",
-      "word_count": 723,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/science/article/3359846/us-china-scientific-decoupling-hidden-costs-geopolitical-rivalry",
-      "title": "US-China scientific decoupling: the hidden costs of geopolitical rivalry",
-      "word_count": 1798,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/us/article/3359904/us-hearing-weighs-higher-tariffs-over-alleged-forced-labour-targeting-china",
-      "title": "US hearing weighs higher tariffs over alleged forced labour, targeting China",
-      "word_count": 579,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/us/diplomacy/article/3359902/trump-surprises-nato-allies-arms-deals-and-praise-summit-ends-positively",
-      "title": "Trump surprises Nato allies EU, Ukraine with arms deals as summit ends positively",
-      "word_count": 1050,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/article/3359901/anthropic-hits-back-after-china-warns-claude-code-backdoor-risks",
-      "title": "Anthropic hits back after China warns of Claude Code ‘backdoor’ risks",
-      "word_count": 502,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/opinion/world-opinion/article/3359677/what-iran-war-has-revealed-about-brics",
-      "title": "What the Iran war has revealed about Brics+",
-      "word_count": 914,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/postmag/native/topics/marathon-wins-cambodia-tourism/article/3355833/why-cambodias-angkor-marathons-are-big-winner-runners-around-world",
-      "title": "Why Cambodia’s Angkor marathons are a big winner with runners from around the world",
-      "word_count": 1054,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3359885/saudi-arabian-tech-giant-eyes-hong-kong-asia-gateway-and-smart-city-partner",
-      "title": "Saudi Arabian tech giant eyes Hong Kong as Asia gateway and smart city partner",
-      "word_count": 440,
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3359943/it-costs-record-us99700-buy-small-car-permit-singapore",
+      "title": "It costs a record US$99,700 to buy a small car permit in Singapore",
+      "word_count": 362,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359913/woman-50-arrested-murder-after-minibus-stop-fight-hong-kong",
-      "title": "Woman, 50, arrested for murder after minibus stop fight in Hong Kong",
-      "word_count": 250,
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3359512/24-year-old-killed-lightning-clear-day-singapore",
+      "title": "24-year-old killed by lightning on clear day in Singapore",
+      "word_count": 260,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359808/legal-tender-and-electronic-payments-can-we-insist-paying-cash",
-      "title": "Legal tender and electronic payments – can we insist on paying in cash?",
-      "word_count": 751,
+      "url": "https://www.scmp.com/economy/china-economy/article/3359942/chinas-central-bank-vows-flexible-approach-it-acknowledges-uneven-economic-picture",
+      "title": "China’s central bank vows flexible approach as it acknowledges uneven economic picture",
+      "word_count": 678,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3359582/sexual-offences-law-review-chance-make-clear-what-constitutes-abuse",
-      "title": "Sexual offences law review a chance to make clear what constitutes abuse",
-      "word_count": 695,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3359939/malaysia-denies-1mdb-fugitive-jho-low-entered-country-chinese-delegation",
-      "title": "Malaysia denies 1MDB fugitive Jho Low entered country with Chinese delegation",
-      "word_count": 237,
+      "url": "https://www.scmp.com/tech/article/3359941/shares-soar-recently-listed-zhipu-ai-and-iluvatar-corex-launch-secondary-placements",
+      "title": "Shares soar as recently-listed Zhipu AI and Iluvatar CoreX launch secondary placements",
+      "word_count": 443,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/week-asia/politics/article/3359909/malaysians-hong-kong-locked-out-state-elections-amid-tight-voting-deadlines",
-      "title": "Malaysians in Hong Kong locked out of state elections amid tight voting deadlines",
-      "word_count": 763,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/economics/article/3359922/philippines-got-economic-upgrade-yet-many-filipinos-feel-its-no-big-deal",
-      "title": "Philippines gets economic upgrade, yet many Filipinos feel it’s no ‘big deal’",
-      "word_count": 971,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/asia/east-asia/article/3359933/nato-summit-gaffe-trump-says-islamic-republic-japan-fired-missiles-us-ship",
-      "title": "In Nato summit gaffe, Trump says ‘Islamic Republic of Japan’ fired missiles at US ship",
-      "word_count": 280,
+      "url": "https://www.scmp.com/tech/article/3359955/chinas-top-dram-maker-sets-date-us43b-shanghai-ipo-amid-memory-boom",
+      "title": "China’s top DRAM maker sets date for US$4.3b Shanghai IPO amid memory boom",
+      "word_count": 430,
       "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/economics/article/3359876/myanmar-has-mountain-climb-woo-2-million-tourists-year",
-      "title": "Myanmar has ‘a mountain to climb’ to woo 2 million tourists a year",
-      "word_count": 954,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3359556/teen-hospitalised-after-stabbing-malaysian-secondary-school",
-      "title": "Teen hospitalised after stabbing at Malaysian secondary school",
-      "word_count": 510,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/economy/economic-indicators/article/3359931/chinas-factory-gate-prices-rise-june-during-brief-iran-war-respite",
-      "title": "China’s factory gate prices rise in June during brief Iran war respite",
-      "word_count": 553,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/business/markets/article/3359938/hong-kong-stocks-retreat-regional-tech-volatility-offsets-short-covering",
-      "title": "Hong Kong stocks retreat as regional tech volatility offsets short covering",
-      "word_count": 427,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/business/markets/article/3359915/goldman-sachs-forecasts-50-jump-battery-giant-catls-shares-energy-storage-takes",
-      "title": "Goldman Sachs forecasts 50% jump for battery giant CATL’s shares as energy storage takes off",
-      "word_count": 360,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/business/companies/article/3359852/peninsulas-owner-and-sf-holding-set-captive-insurers-hong-kong",
-      "title": "The Peninsula’s owner and SF Holding set up captive insurers in Hong Kong",
-      "word_count": 557,
-      "quality": "fulltext_deep",
       "is_premium": false
     }
   ]
