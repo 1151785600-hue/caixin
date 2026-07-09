@@ -1,55 +1,90 @@
 {
-  "ts": "2026-07-09 07:30:48",
+  "ts": "2026-07-09 10:26:39",
   "v": "scmp_v4",
-  "new_count": 7,
+  "new_count": 12,
   "articles": [
     {
-      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3359798/your-hong-kong-weekend-food-guide-july-10-12",
-      "title": "Your Hong Kong weekend food guide for July 10-12",
-      "word_count": 418,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/economics/article/3359957/south-korea-set-power-us-fight-naval-dominance-amid-rising-geopolitical-tensions",
-      "title": "South Korea set to power US fight for naval dominance amid rising geopolitical tensions",
-      "word_count": 989,
+      "url": "https://www.scmp.com/news/china/military/article/3359970/chinese-paratrooper-saves-unconscious-comrade-dramatic-mid-air-chute-emergency",
+      "title": "Chinese paratrooper saves unconscious comrade in dramatic mid-air chute emergency",
+      "word_count": 642,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3359943/it-costs-record-us99700-buy-small-car-permit-singapore",
-      "title": "It costs a record US$99,700 to buy a small car permit in Singapore",
-      "word_count": 362,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3359990/north-koreas-premier-heads-china-defence-treaty-anniversary-allies-extend-thaw",
+      "title": "North Korea’s premier heads to China for defence treaty anniversary as allies extend thaw",
+      "word_count": 432,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3359512/24-year-old-killed-lightning-clear-day-singapore",
-      "title": "24-year-old killed by lightning on clear day in Singapore",
-      "word_count": 260,
+      "url": "https://www.scmp.com/business/china-evs/article/3359985/xiaomi-preps-fierce-ev-race-new-suv-line-long-range-battery-tech",
+      "title": "Xiaomi preps for fierce EV race with new SUV line, long-range battery tech",
+      "word_count": 499,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/economy/china-economy/article/3359942/chinas-central-bank-vows-flexible-approach-it-acknowledges-uneven-economic-picture",
-      "title": "China’s central bank vows flexible approach as it acknowledges uneven economic picture",
-      "word_count": 678,
+      "url": "https://www.scmp.com/tech/tech-trends/article/3359963/chinese-ai-labs-pursue-custom-chips-lower-costs-heavy-upfront-investment-risk",
+      "title": "Chinese AI labs pursue custom chips to lower costs but heavy upfront investment a risk",
+      "word_count": 1008,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/tech/article/3359941/shares-soar-recently-listed-zhipu-ai-and-iluvatar-corex-launch-secondary-placements",
-      "title": "Shares soar as recently-listed Zhipu AI and Iluvatar CoreX launch secondary placements",
-      "word_count": 443,
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359999/8-hong-kong-teens-arrested-over-taking-cash-gang-splash-paint-doors",
+      "title": "8 Hong Kong teens arrested over taking cash from gang to splash paint on doors",
+      "word_count": 324,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/tech/article/3359955/chinas-top-dram-maker-sets-date-us43b-shanghai-ipo-amid-memory-boom",
-      "title": "China’s top DRAM maker sets date for US$4.3b Shanghai IPO amid memory boom",
-      "word_count": 430,
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359965/hong-kong-corruption-watchdog-charges-3-over-hk13-million-elderly-care-voucher-fraud",
+      "title": "Hong Kong corruption watchdog charges 3 over HK$1.3 million elderly care voucher fraud",
+      "word_count": 322,
       "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359961/hong-kong-man-pleads-guilty-subversive-promotion-pro-taiwan-party",
+      "title": "Hong Kong man pleads guilty to subversive promotion of pro-Taiwan party",
+      "word_count": 550,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359927/former-polyu-student-arrested-allegedly-submitting-fake-academic-documents",
+      "title": "Former PolyU student arrested for allegedly submitting fake academic documents",
+      "word_count": 221,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3360001/indonesias-tokopedia-denies-mass-lay-offs-restructuring-deepens-tech-winter-fears",
+      "title": "Indonesia’s Tokopedia denies mass lay-offs, but ‘restructuring’ deepens tech winter fears",
+      "word_count": 1045,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3359973/indonesia-blocks-48-million-underage-social-media-accounts-are-kids-any-safer",
+      "title": "Indonesia blocks 4.8 million underage social media accounts but are kids any safer?",
+      "word_count": 1197,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3359971/malaysia-thailand-make-peace-over-seafood-dispute-after-anwar-and-anutin-meet",
+      "title": "Malaysia, Thailand make peace over seafood dispute after Anwar and Anutin meet",
+      "word_count": 284,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/asia-opinion/article/3359925/investors-have-more-worry-about-yen-bears-hunt",
+      "title": "Investors have more to worry about than yen bears on the hunt",
+      "word_count": 887,
+      "quality": "fulltext_deep",
       "is_premium": false
     }
   ]
