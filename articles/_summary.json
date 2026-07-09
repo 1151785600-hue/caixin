@@ -1,6 +1,12 @@
 {
-  "ts": "2026-07-09 06:55:41",
+  "ts": "2026-07-09 09:37:58",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-07-03/in-depth-in-custody-battles-parental-child-abductions-test-chinas-justice-system-102460447.html",
+      "title": "In Depth: In Custody Battles, Parental Child Abductions Test China’s Justice System",
+      "word_count": 513
+    }
+  ]
 }
