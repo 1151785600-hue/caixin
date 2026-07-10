@@ -1,13 +1,167 @@
 {
-  "ts": "2026-07-09 18:02:02",
+  "ts": "2026-07-10 04:52:47",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 23,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/science/article/3359945/meet-biomni-free-powerful-biomed-ai-agent-turning-data-hypotheses",
-      "title": "Meet Biomni: the free powerful biomed AI agent turning data into hypotheses",
-      "word_count": 559,
+      "url": "https://www.scmp.com/news/china/article/3360050/china-sets-july-4-precedent-us-cathay-plane-triggers-nato-alert-scmps-7-highlights",
+      "title": "China sets July 4 precedent with US; Cathay plane triggers Nato alert: SCMP’s 7 highlights",
+      "word_count": 385,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3360047/us-lawmakers-urge-justice-agency-fully-investigate-tiananmen-display-break",
+      "title": "US lawmakers urge justice agency to fully investigate Tiananmen display break-in",
+      "word_count": 541,
       "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3359979/ai-science-and-risks-chinas-reliance-imported-precision-equipment",
+      "title": "AI, science and the risks in China’s reliance on imported precision equipment",
+      "word_count": 710,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3360056/flights-disrupted-ex-super-typhoon-bavi-continues-towards-chinas-coast",
+      "title": "Flights disrupted as weakened Bavi still packs a punch on its way towards China",
+      "word_count": 437,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/military/article/3360015/radar-system-taiwan-says-tracked-plas-ballistic-missile-launch",
+      "title": "The radar system that Taiwan says tracked the PLA’s ballistic missile launch",
+      "word_count": 683,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3360041/2-men-sentenced-roles-trafficking-fentanyl-analogues-china-us",
+      "title": "2 men sentenced for roles in trafficking fentanyl analogues from China to the US",
+      "word_count": 472,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/science/article/3360016/asias-top-climate-scientist-warns-humanitarian-disasters-earth-teeters",
+      "title": "Asia’s top climate scientist warns of ‘humanitarian disasters’ as Earth teeters",
+      "word_count": 1083,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/world-opinion/article/3359838/trumps-climate-jibes-china-and-eu-just-make-him-look-out-date",
+      "title": "Trump’s climate jibes at China and EU just make him look out of date",
+      "word_count": 821,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/culture/article/3359321/exhibition-sheds-new-light-little-prince-and-its-author-antoine-de-saint-exupery",
+      "title": "Exhibition sheds new light on The Little Prince and its author, Antoine de Saint-Exupéry",
+      "word_count": 540,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3360033/why-did-only-2-hong-kong-developers-put-their-hands-northern-metropolis-project",
+      "title": "Why did only 2 Hong Kong developers put up their hands for Northern Metropolis project?",
+      "word_count": 2025,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/article/3360010/high-end-hong-kong-hotels-rates-check-above-pre-pandemic-highs-outpace-market",
+      "title": "At high-end Hong Kong hotels, rates check in above pre-pandemic highs, outpace market",
+      "word_count": 466,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360065/former-top-hong-kong-prosecutor-court-over-injuring-man-while-drink-driving",
+      "title": "Former top prosecutor in Hong Kong court over injuring man while drink-driving",
+      "word_count": 249,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3360072/japanese-city-upends-30-year-muslim-park-prayer-custom-straining-multiculturalism",
+      "title": "Japanese city upends 30-year Muslim park prayer custom, straining multiculturalism",
+      "word_count": 665,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3360032/why-philippines-losing-out-southeast-asias-investment-boom",
+      "title": "Why the Philippines is losing out in Southeast Asia’s investment boom",
+      "word_count": 941,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3359976/malaysias-johor-chinese-voters-prize-affordability-over-politics",
+      "title": "In Malaysia’s Johor, Chinese voters prize affordability over politics",
+      "word_count": 1106,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3360007/philippines-looks-space-birds-eye-view-south-china-sea-threats",
+      "title": "Philippines looks to space for bird’s-eye view of South China Sea threats",
+      "word_count": 1090,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360042/low-prices-fail-deter-thieves-stealing-malaysias-premium-durians",
+      "title": "Low prices fail to deter thieves from stealing Malaysia’s premium durians",
+      "word_count": 445,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3360028/how-remark-about-najibs-pardon-just-blew-malaysias-johor-state-election-wide-open",
+      "title": "How a remark about Najib’s pardon just blew Malaysia’s Johor state election wide open",
+      "word_count": 839,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3359732/northern-metropolis-science-and-education-focus-key-hong-kongs-future",
+      "title": "Northern Metropolis’ science and education focus key to Hong Kong’s future",
+      "word_count": 951,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3360057/trade-frictions-spread-eu-launches-anti-dumping-probe-imports-chinese-ducks",
+      "title": "Trade frictions spread as EU launches anti-dumping probe into imports of Chinese ducks",
+      "word_count": 434,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3359993/china-restricts-low-altitude-aviation-near-beijing-after-building-strike-analyst",
+      "title": "China restricts low-altitude aviation near Beijing after building strike: analyst",
+      "word_count": 533,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/banking-finance/article/3360049/hong-kong-exchange-marks-progress-luring-more-listings-abroad",
+      "title": "Hong Kong exchange marks progress in luring more listings from abroad",
+      "word_count": 554,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/companies/article/3360017/uniqlo-defies-sluggish-china-market-double-digit-profit-growth",
+      "title": "Uniqlo defies sluggish China market with double-digit profit growth",
+      "word_count": 307,
+      "quality": "fulltext",
       "is_premium": false
     }
   ]
