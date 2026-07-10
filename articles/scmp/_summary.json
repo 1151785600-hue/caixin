@@ -1,47 +1,68 @@
 {
-  "ts": "2026-07-10 07:27:45",
+  "ts": "2026-07-10 10:25:09",
   "v": "scmp_v4",
-  "new_count": 6,
+  "new_count": 9,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/science/article/3360069/china-recovers-long-march-10b-reusable-rocket-maiden-launch",
-      "title": "China recovers reusable rocket used in the maiden launch of Long March 10B",
-      "word_count": 585,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3268881/macau-intensifies-fight-against-single-use-plastic-aiming-near-zero-emissions-2050",
-      "title": "Macau intensifies fight against single-use plastic, aiming for near-zero emissions by 2050",
-      "word_count": 772,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/tech/tech-trends/article/3360075/hong-kong-macau-central-chinas-commercial-space-expansion-galaxyspace-says",
-      "title": "Hong Kong, Macau central to China’s commercial space expansion, GalaxySpace says",
-      "word_count": 552,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/health-environment/article/3360087/who-cares-singapores-carers-recent-deaths-highlight-urgent-need-tackle-burnout",
-      "title": "Who cares for Singapore’s carers? Recent deaths highlight urgent need to tackle burnout",
-      "word_count": 1231,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/asia/east-asia/article/3360093/super-typhoon-bavi-nears-japans-okinawa-flights-axed-and-noodle-shelves-emptied",
-      "title": "Super Typhoon Bavi nears Japan’s Okinawa, flights axed and noodle shelves emptied",
-      "word_count": 329,
+      "url": "https://www.scmp.com/news/china/military/article/3360124/2-chinese-military-naval-pilots-killed-during-pla-frontline-training-exercises",
+      "title": "2 Chinese military naval pilots killed during PLA frontline training exercises",
+      "word_count": 466,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/tech/tech-trends/article/3360084/minimax-ceo-forgoes-salary-until-agi-achieved-firm-seeks-us2b-amid-80-stock-plunge",
-      "title": "MiniMax CEO forgoes salary until ‘AGI achieved’ as firm seeks US$2b amid 80% stock plunge",
-      "word_count": 494,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3360100/china-boosts-north-korea-partnership-rare-praise-during-high-profile-visit",
+      "title": "China boosts North Korea partnership with rare praise during high-profile visit",
+      "word_count": 495,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/science/article/3359883/10-scientists-and-experts-who-have-left-us-and-uk-china-so-far-2026",
+      "title": "10 scientists and experts who have left the US and UK for China so far in 2026",
+      "word_count": 511,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/world-opinion/article/3360025/how-ai-changing-nature-war-and-conflict",
+      "title": "How AI is changing the nature of war and conflict",
+      "word_count": 886,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3360106/hong-kong-extend-injury-protection-gig-delivery-workers",
+      "title": "Hong Kong to extend injury protection to gig delivery workers",
+      "word_count": 383,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3360095/beijings-evolving-carbon-road-map-balances-climate-targets-and-energy-security",
+      "title": "Beijing’s evolving carbon road map balances climate targets and energy security",
+      "word_count": 529,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3360119/johor-election-where-winning-isnt-enough-malaysias-barisan-nasional",
+      "title": "Johor election: where winning isn’t enough for Malaysia’s Barisan Nasional",
+      "word_count": 864,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3360097/us-opens-door-turkeys-return-f-35-stealth-jet-programme-israels-not-happy",
+      "title": "US opens door for Turkey’s return to F-35 stealth jet programme – but Israel’s not happy",
+      "word_count": 1038,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3360114/china-announces-temporary-ban-helium-exports",
+      "title": "China issues temporary ban on helium exports as Iran war weighs on chip supply chain",
+      "word_count": 227,
       "quality": "fulltext",
       "is_premium": false
     }
