@@ -1,68 +1,47 @@
 {
-  "ts": "2026-07-10 10:25:09",
+  "ts": "2026-07-10 12:16:37",
   "v": "scmp_v4",
-  "new_count": 9,
+  "new_count": 6,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/military/article/3360124/2-chinese-military-naval-pilots-killed-during-pla-frontline-training-exercises",
-      "title": "2 Chinese military naval pilots killed during PLA frontline training exercises",
-      "word_count": 466,
+      "url": "https://www.scmp.com/news/hong-kong/society/article/3360076/hong-kong-official-defends-u-turn-public-flats-pak-shek-kok-rail-stop-site",
+      "title": "New Pak Shek Kok railway station fast-tracked ‘to support I&T development’",
+      "word_count": 787,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/article/3360157/hong-kong-keeps-tight-grip-housing-land-supply-despite-property-rebound",
+      "title": "Hong Kong keeps tight grip on housing land supply despite property rebound",
+      "word_count": 520,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360166/friend-sues-ex-plastic-surgeon-hk12m-over-loans-tied-manslaughter-case",
+      "title": "Friend sues ex-plastic surgeon for HK$12m over loans tied to manslaughter case",
+      "word_count": 571,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3360123/why-india-turning-retired-jets-sustain-its-depleted-air-force",
+      "title": "Why India is turning to retired jets to sustain its depleted air force",
+      "word_count": 948,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3360127/top-chinese-political-journal-calls-patient-capital-amid-ai-investment-frenzy",
+      "title": "Top Chinese political journal calls for ‘patient capital’ amid AI investment frenzy",
+      "word_count": 433,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3360100/china-boosts-north-korea-partnership-rare-praise-during-high-profile-visit",
-      "title": "China boosts North Korea partnership with rare praise during high-profile visit",
-      "word_count": 495,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/science/article/3359883/10-scientists-and-experts-who-have-left-us-and-uk-china-so-far-2026",
-      "title": "10 scientists and experts who have left the US and UK for China so far in 2026",
-      "word_count": 511,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/opinion/world-opinion/article/3360025/how-ai-changing-nature-war-and-conflict",
-      "title": "How AI is changing the nature of war and conflict",
-      "word_count": 886,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3360106/hong-kong-extend-injury-protection-gig-delivery-workers",
-      "title": "Hong Kong to extend injury protection to gig delivery workers",
-      "word_count": 383,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/economy/china-economy/article/3360095/beijings-evolving-carbon-road-map-balances-climate-targets-and-energy-security",
-      "title": "Beijing’s evolving carbon road map balances climate targets and energy security",
-      "word_count": 529,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3360119/johor-election-where-winning-isnt-enough-malaysias-barisan-nasional",
-      "title": "Johor election: where winning isn’t enough for Malaysia’s Barisan Nasional",
-      "word_count": 864,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3360097/us-opens-door-turkeys-return-f-35-stealth-jet-programme-israels-not-happy",
-      "title": "US opens door for Turkey’s return to F-35 stealth jet programme – but Israel’s not happy",
-      "word_count": 1038,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/economy/china-economy/article/3360114/china-announces-temporary-ban-helium-exports",
-      "title": "China issues temporary ban on helium exports as Iran war weighs on chip supply chain",
-      "word_count": 227,
+      "url": "https://www.scmp.com/economy/policy/article/3360116/china-fines-four-internet-celebrities-us19m-over-tax-evasion-involving-e-commerce-sales",
+      "title": "China fines 4 internet celebrities US$1.9m over tax evasion involving e-commerce sales",
+      "word_count": 410,
       "quality": "fulltext",
       "is_premium": false
     }
