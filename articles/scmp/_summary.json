@@ -1,48 +1,90 @@
 {
-  "ts": "2026-07-10 12:16:37",
+  "ts": "2026-07-10 15:34:32",
   "v": "scmp_v4",
-  "new_count": 6,
+  "new_count": 12,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/hong-kong/society/article/3360076/hong-kong-official-defends-u-turn-public-flats-pak-shek-kok-rail-stop-site",
-      "title": "New Pak Shek Kok railway station fast-tracked ‘to support I&T development’",
-      "word_count": 787,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/business/article/3360157/hong-kong-keeps-tight-grip-housing-land-supply-despite-property-rebound",
-      "title": "Hong Kong keeps tight grip on housing land supply despite property rebound",
-      "word_count": 520,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360166/friend-sues-ex-plastic-surgeon-hk12m-over-loans-tied-manslaughter-case",
-      "title": "Friend sues ex-plastic surgeon for HK$12m over loans tied to manslaughter case",
-      "word_count": 571,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3360123/why-india-turning-retired-jets-sustain-its-depleted-air-force",
-      "title": "Why India is turning to retired jets to sustain its depleted air force",
-      "word_count": 948,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/economy/china-economy/article/3360127/top-chinese-political-journal-calls-patient-capital-amid-ai-investment-frenzy",
-      "title": "Top Chinese political journal calls for ‘patient capital’ amid AI investment frenzy",
-      "word_count": 433,
+      "url": "https://www.scmp.com/news/us/diplomacy/article/3360184/trump-says-iran-wants-resume-talks-us-despite-ceasefire-breaches",
+      "title": "Trump claims Iran wants to resume talks with US despite ceasefire breaches",
+      "word_count": 361,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/economy/policy/article/3360116/china-fines-four-internet-celebrities-us19m-over-tax-evasion-involving-e-commerce-sales",
-      "title": "China fines 4 internet celebrities US$1.9m over tax evasion involving e-commerce sales",
-      "word_count": 410,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3360177/hong-kong-and-shenzhen-perfect-end-points-modern-silk-road-leading-economist",
+      "title": "Hong Kong and Shenzhen the perfect end points for modern Silk Road: leading economist",
+      "word_count": 1085,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/science/article/3360107/us-scientists-use-chinese-humanoid-robot-carry-out-keyhole-surgery-and-remove-organs",
+      "title": "US scientists use Chinese humanoid robot to carry out keyhole surgery and remove organs",
+      "word_count": 472,
       "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3360164/peoples-daily-joins-beijing-blitz-against-philippines-over-2016-south-china-sea-ruling",
+      "title": "People’s Daily joins Beijing blitz against Philippines over 2016 South China Sea ruling",
+      "word_count": 612,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3360183/hong-kongs-3-year-deal-host-leap-east-affirms-global-it-role",
+      "title": "Hong Kong’s 3-year deal to host LEAP East ‘affirms’ global I&T role",
+      "word_count": 509,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/article/3360118/chinese-users-praise-openais-gpt-56-efficiency-even-higher-cost-local-rivals",
+      "title": "Chinese users praise OpenAI’s GPT-5.6  for efficiency, even at higher cost than local rivals",
+      "word_count": 548,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3360145/china-head-ai-fuelled-inequality-lifting-salaries-narrowing-pay-gap",
+      "title": "China to head off AI-fuelled inequality by lifting salaries, narrowing pay gap",
+      "word_count": 490,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-trends/article/3360115/next-frontier-ai-how-world-models-are-simulating-reality-and-virtual-spaces",
+      "title": "The next frontier of AI: how ‘world models’ are simulating reality and virtual spaces",
+      "word_count": 757,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360182/nurses-baffled-closed-medicine-tube-premature-baby-inquest-hears",
+      "title": "Nurses baffled by closed medicine tube to premature baby, inquest hears",
+      "word_count": 654,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3360175/anwar-anutin-hit-diplomatic-high-notes-mask-malaysia-thailand-tensions",
+      "title": "Anwar, Anutin hit diplomatic high notes to mask Malaysia-Thailand tensions",
+      "word_count": 840,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3359924/china-hawaii-and-bridge-memory-i-helped-build-between-them",
+      "title": "China, Hawaii and the bridge of memory I helped build between them",
+      "word_count": 874,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/big-tech/article/3360165/shein-receives-approval-hong-kong-ipo-chinese-regulators",
+      "title": "Shein receives approval for Hong Kong IPO from Chinese regulators",
+      "word_count": 811,
+      "quality": "fulltext_deep",
       "is_premium": false
     }
   ]
