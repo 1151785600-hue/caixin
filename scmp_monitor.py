@@ -66,9 +66,10 @@ def _extract_urls_from_next_data(data, urls):
             _extract_urls_from_next_data(item, urls)
 
 def url_to_filename(url):
+    date_prefix = datetime.now().strftime('%Y%m%d')
     m = re.search(r'article/(\d+)', url)
     if m:
-        return f"scmp_{m.group(1)}.html"
+        return f"{date_prefix}_scmp_{m.group(1)}.html"
     slug = url.rstrip("/").split("/")[-1]
     safe = re.sub(r"[^\w]", "_", slug)[:60]
     return f"scmp_{safe}.html"
