@@ -37,7 +37,7 @@ jobs:
           if [ -n "$TARGET_DATE" ]; then
             echo "briefing_date=$TARGET_DATE" >> $GITHUB_OUTPUT
           else
-            echo "briefing_date=$(TZ='Asia/Shanghai' date -d 'yesterday' +%Y-%m-%d)" >> $GITHUB_OUTPUT
+            echo "briefing_date=$(TZ='Asia/Shanghai' date +%Y-%m-%d)" >> $GITHUB_OUTPUT
           fi
       - name: Generate briefing
         run: python generate_briefing.py
