@@ -1,48 +1,41 @@
 {
-  "ts": "2026-07-11 06:07:08",
+  "ts": "2026-07-11 08:49:17",
   "v": "scmp_v4",
-  "new_count": 6,
+  "new_count": 5,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3360121/how-overlapping-us-and-china-sanctions-are-complicating-business-africa",
-      "title": "How overlapping US and China sanctions are complicating business in Africa",
-      "word_count": 823,
+      "url": "https://www.scmp.com/opinion/world-opinion/article/3360068/dont-expect-rising-tide-ai-lift-all-boats",
+      "title": "Don’t expect the rising tide of AI to lift all boats",
+      "word_count": 887,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/china/science/article/3359433/energy-transition-scientist-chen-peipei-leaves-cambridge-build-her-own-lab-hong-kong",
-      "title": "Energy transition scientist Chen Peipei leaves Cambridge to build her own lab in Hong Kong",
-      "word_count": 938,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3359794/cambodian-villagers-fear-us43-million-tiger-reintroduction-plan",
-      "title": "Cambodian villagers fear US$43 million tiger reintroduction plan",
-      "word_count": 809,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/opinion/article/3360161/panic-over-chinas-missile-test-born-western-bias",
-      "title": "Panic over China’s missile test is born of Western bias",
-      "word_count": 727,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/economy/china-economy/article/3360187/china-has-poured-funding-flood-defences-has-investment-paid",
-      "title": "China has poured funding into flood defences. Has the investment paid off?",
-      "word_count": 774,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/tech/big-tech/article/3360208/chinese-chip-start-aims-build-5-nanometre-equivalent-chips-without-using-euv-2029",
-      "title": "Chinese chip start-up aims to build 5-nanometre equivalent chips without using EUV by 2029",
-      "word_count": 495,
+      "url": "https://www.scmp.com/postmag/food-drink/article/3359566/hong-kongs-hottest-new-openings-curry-room-canto-american-lazy-suzy",
+      "title": "Hong Kong’s hottest new openings, from Curry Room to Canto-American Lazy Suzy",
+      "word_count": 416,
       "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3359789/your-hong-kong-weekend-drinks-guide-july-9-11",
+      "title": "Your Hong Kong weekend drinks guide for July 9-11",
+      "word_count": 490,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/china-business/article/3360214/volkswagen-china-deliveries-see-26-drop-year-year-lowest-point-2010",
+      "title": "Volkswagen China deliveries see 26% drop year on year to lowest point since 2010",
+      "word_count": 351,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-trends/article/3360148/beyond-claude-code-chinese-ai-tools-poised-benefit-after-back-door-alert",
+      "title": "Beyond Claude Code: the Chinese AI tools poised to benefit after back-door alert",
+      "word_count": 653,
+      "quality": "fulltext_deep",
       "is_premium": false
     }
   ]
