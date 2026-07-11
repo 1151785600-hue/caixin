@@ -110,6 +110,11 @@ def filter_articles(base_dir, target_date):
     scmp_dir = os.path.join(base_dir, "articles/scmp")
     deep_articles = []
     
+    # DEBUG: check directories
+    for d in [caixin_dir, scmp_dir]:
+        exists = os.path.exists(d)
+        count = len(glob.glob(os.path.join(d, "*.html"))) if exists else 0
+        print(f"  [DEBUG] {d}: exists={exists}, html_count={count}")
     for search_dir, source in [(caixin_dir, "caixin"), (scmp_dir, "scmp")]:
         if not os.path.exists(search_dir):
             continue
