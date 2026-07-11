@@ -1,41 +1,41 @@
 {
-  "ts": "2026-07-11 08:49:17",
+  "ts": "2026-07-11 10:49:33",
   "v": "scmp_v4",
   "new_count": 5,
   "articles": [
     {
-      "url": "https://www.scmp.com/opinion/world-opinion/article/3360068/dont-expect-rising-tide-ai-lift-all-boats",
-      "title": "Don’t expect the rising tide of AI to lift all boats",
-      "word_count": 887,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3359996/china-india-diplomats-are-shaking-hands-its-no-holds-barred-web-users-why",
+      "title": "China-India diplomats are shaking hands, but it’s no holds barred for web users. Why?",
+      "word_count": 1164,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/postmag/food-drink/article/3359566/hong-kongs-hottest-new-openings-curry-room-canto-american-lazy-suzy",
-      "title": "Hong Kong’s hottest new openings, from Curry Room to Canto-American Lazy Suzy",
-      "word_count": 416,
+      "url": "https://www.scmp.com/business/china-evs/article/3360140/byd-showcases-battery-charging-technology-15000km-journey-rome-hong-kong",
+      "title": "BYD showcases battery, charging technology in 15,000km journey from Rome to Hong Kong",
+      "word_count": 498,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3359789/your-hong-kong-weekend-drinks-guide-july-9-11",
-      "title": "Your Hong Kong weekend drinks guide for July 9-11",
-      "word_count": 490,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/business/china-business/article/3360214/volkswagen-china-deliveries-see-26-drop-year-year-lowest-point-2010",
-      "title": "Volkswagen China deliveries see 26% drop year on year to lowest point since 2010",
-      "word_count": 351,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/tech/tech-trends/article/3360148/beyond-claude-code-chinese-ai-tools-poised-benefit-after-back-door-alert",
-      "title": "Beyond Claude Code: the Chinese AI tools poised to benefit after back-door alert",
-      "word_count": 653,
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360217/hong-kong-police-chief-backs-plan-deny-pay-rises-bottom-5-performers",
+      "title": "Hong Kong police chief backs plan to deny pay rises to bottom 5% of performers",
+      "word_count": 500,
       "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/australasia/article/3360224/new-zealand-india-trade-defence-pact-celebrated-despite-criticism",
+      "title": "New Zealand-India trade, defence pact celebrated despite criticism",
+      "word_count": 571,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3360228/chinese-delivery-worker-uniform-wins-top-french-design-award",
+      "title": "Chinese delivery worker uniform wins top French Design Award",
+      "word_count": 312,
+      "quality": "fulltext",
       "is_premium": false
     }
   ]
