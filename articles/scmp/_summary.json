@@ -1,12 +1,75 @@
 {
-  "ts": "2026-07-11 14:24:14",
+  "ts": "2026-07-11 17:03:42",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 10,
   "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3360235/formal-china-us-g2-framework-key-guarantee-world-peace-top-beijing-adviser",
+      "title": "Formal China-US G2 framework key to ‘guarantee’ world peace: top Beijing adviser",
+      "word_count": 777,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360065/former-top-hong-kong-prosecutor-court-over-injuring-man-while-drink-driving",
+      "title": "Former top prosecutor in Hong Kong court over injuring man while drink-driving",
+      "word_count": 251,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359927/former-polyu-student-arrested-allegedly-submitting-fake-academic-documents",
+      "title": "Former PolyU student arrested for allegedly submitting fake academic documents",
+      "word_count": 221,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359836/mirror-star-keung-slapped-3-month-driving-ban-after-spate-offences",
+      "title": "Mirror star Keung To slapped with 3-month driving ban after spate of offences",
+      "word_count": 286,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359491/hong-kong-police-seize-hk120m-cocaine-hidden-3-tonne-metal-containers",
+      "title": "Hong Kong police seize HK$120m of cocaine hidden in 3-tonne metal containers",
+      "word_count": 213,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359429/hong-kong-police-arrest-driver-after-high-speed-chase-ends-5-vehicle-crash",
+      "title": "Hong Kong police arrest driver after high-speed chase ends in 5-vehicle crash",
+      "word_count": 234,
+      "quality": "fulltext",
+      "is_premium": false
+    },
     {
       "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360241/vietnam-tourist-speedboat-capsizes-killing-15-indian-tourists",
       "title": "Vietnam tourist speedboat capsizes, killing 15 Indian tourists",
-      "word_count": 287,
+      "word_count": 424,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3359933/nato-summit-gaffe-trump-says-islamic-republic-japan-fired-missiles-us-ship",
+      "title": "In Nato summit gaffe, Trump says ‘Islamic Republic of Japan’ fired missiles at US ship",
+      "word_count": 280,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/article/3360244/if-anyone-deserves-red-card-its-donald-trump-and-gianni-infantino",
+      "title": "If anyone deserves a red card it’s Donald Trump and Gianni Infantino",
+      "word_count": 1112,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/companies/article/3359269/chinese-tea-chain-ordered-pay-louis-vuitton-us15-million-trademark-infringement",
+      "title": "Chinese tea chain ordered to pay Louis Vuitton US$1.5 million for trademark infringement",
+      "word_count": 289,
       "quality": "fulltext",
       "is_premium": false
     }
