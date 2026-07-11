@@ -164,7 +164,8 @@ def save_html(article, url, output_dir):
     if os.path.exists(fp): return None
     premium_tag = "PREMIUM" if article["is_premium"] else "FREE"
     deep_tag = "DEEP" if article["quality"] == "fulltext_deep" else ""
-    meta = f"SCMP | {premium_tag} {deep_tag} | {article['word_count']} words | {datetime.now().strftime('%Y-%m-%d')}"
+    bj_now = datetime.now(timezone(timedelta(hours=8)))
+    meta = f"SCMP | {premium_tag} {deep_tag} | {article['word_count']} words | {bj_now.strftime('%Y-%m-%d')}"
     lines = ['<!DOCTYPE html><html lang="en"><head>',
              '<meta charset="UTF-8">', f'<title>{article["title"]}</title>',
              '<style>body{font-family:"Georgia","Times New Roman",serif;max-width:720px;margin:0 auto;padding:40px 20px;color:#222;line-height:1.9}',
