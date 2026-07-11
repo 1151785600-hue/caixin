@@ -133,8 +133,8 @@ def filter_articles(base_dir, target_date):
                         file_date = meta_m.group(1).replace("-", "")
                         # Accept target_date or target_date-1 (UTC/BJT timezone gap)
                         dt_target = datetime.strptime(target_date, "%Y-%m-%d")
-                        dt_minus1 = (dt_target - timedelta(days=1)).strftime("%Y%m%d")
-                        if file_date != target_prefix and file_date != dt_minus1:
+                        dt_range = [(dt_target + timedelta(days=d)).strftime("%Y%m%d") for d in [-1, 0, 1]]
+                        if file_date not in dt_range:
                             continue
                     else:
                         continue
