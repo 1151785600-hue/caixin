@@ -1,13 +1,97 @@
 {
-  "ts": "2026-07-10 17:51:07",
+  "ts": "2026-07-11 04:13:19",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 13,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/us/article/3360189/loudest-voices-us-china-trade-talks-christmas-tree-growers",
-      "title": "The loudest voices in US-China trade talks? Christmas tree growers",
-      "word_count": 936,
+      "url": "https://www.scmp.com/news/china/politics/article/3360201/typhoon-bavi-flights-and-trains-cancelled-china-steps-emergency-preparations",
+      "title": "Typhoon Bavi: flights and trains cancelled as China steps up emergency preparations",
+      "word_count": 453,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/science/article/3360171/typhoon-bavi-nears-chinese-bloggers-warned-amateur-ai-forecasts-may-be-illegal",
+      "title": "As Typhoon Bavi nears, Chinese bloggers warned amateur AI forecasts may be illegal",
+      "word_count": 522,
       "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3360197/china-accuses-us-ignoring-trump-xi-rapport-and-targeting-chinese-firms",
+      "title": "China accuses US of ignoring Trump, Xi rapport and targeting Chinese firms",
+      "word_count": 565,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/us/article/3360192/renewed-us-china-ai-dialogue-serves-american-security-interests-former-officials",
+      "title": "Renewed US-China AI dialogue serves US security interests: former officials",
+      "word_count": 731,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3359813/how-new-left-won-battle-ideas-21st-century-china",
+      "title": "How the New Left won the battle of ideas for 21st-century China",
+      "word_count": 788,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/design-interiors/article/3359548/rolex-oyster-celebrates-100-years-revolutionising-watchmaking",
+      "title": "Rolex Oyster celebrates 100 years of revolutionising watchmaking",
+      "word_count": 1062,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3359770/how-hong-kong-can-lead-longevity-medicine-silver-economy-grows",
+      "title": "How Hong Kong can lead in longevity medicine as silver economy grows",
+      "word_count": 890,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3359850/dish-focus-beef-empanada-don-pedro",
+      "title": "Dish in focus: Beef empanada at Don Pedro",
+      "word_count": 560,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3360159/indonesias-sharia-frontier-21-lashes-tiktok-kiss-our-right",
+      "title": "At Indonesia’s sharia frontier, 21 lashes for a TikTok kiss ‘is our right’",
+      "word_count": 1218,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3360153/philippine-defence-chief-says-china-talks-not-possible-anti-spy-laws-loom",
+      "title": "Philippine defence chief says China talks ‘not possible’ as anti-spy laws loom",
+      "word_count": 835,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3360186/malaysias-johor-votes-government-allies-turn-each-other",
+      "title": "Malaysia’s Johor votes as government allies turn on each other",
+      "word_count": 1030,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3360150/southeast-asias-scammers-new-disguise-your-leaders-face",
+      "title": "Southeast Asia’s scammers’ new disguise: your leader’s face",
+      "word_count": 1758,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3360196/apple-sues-openai-stealing-trade-secrets",
+      "title": "Apple sues OpenAI for stealing trade secrets",
+      "word_count": 466,
+      "quality": "fulltext",
       "is_premium": false
     }
   ]
