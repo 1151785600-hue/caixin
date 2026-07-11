@@ -126,7 +126,10 @@ def filter_articles(base_dir, target_date):
                         meta_m = re.search(r"\|(\d{4}-\d{2}-\d{2})\|", hf.read(500))
                     if meta_m:
                         file_date = meta_m.group(1).replace("-", "")
-                        if file_date != target_prefix:
+                        # Accept target_date or target_date-1 (UTC/BJT timezone gap)
+                        dt_target = datetime.strptime(target_date, "%Y-%m-%d")
+                        dt_minus1 = (dt_target - timedelta(days=1)).strftime("%Y%m%d")
+                        if file_date != target_prefix and file_date != dt_minus1:
                             continue
                     else:
                         continue
