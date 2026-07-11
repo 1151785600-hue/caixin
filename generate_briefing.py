@@ -117,7 +117,22 @@ def filter_articles(base_dir, target_date):
         for fp in html_files:
             fname = os.path.basename(fp)
             # 检查文件名是否以目标日期开头
-            if not fname.startswith(target_prefix):
+            if fname.startswith(target_prefix):
+                pass  # date prefix match
+            elif source == "scmp":
+                # SCMP old format (scmp_xxx.html) has no date prefix - extract from HTML meta
+                try:
+                    with open(fp, "r", encoding="utf-8") as hf:
+                        meta_m = re.search(r"\|(\d{4}-\d{2}-\d{2})\|", hf.read(500))
+                    if meta_m:
+                        file_date = meta_m.group(1).replace("-", "")
+                        if file_date != target_prefix:
+                            continue
+                    else:
+                        continue
+                except:
+                    continue
+            else:
                 continue
             if is_deep_report(fp):
                 info = get_article_info(fp)
