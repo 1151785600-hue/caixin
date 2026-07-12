@@ -1,33 +1,54 @@
 {
-  "ts": "2026-07-12 11:04:46",
+  "ts": "2026-07-12 14:35:31",
   "v": "scmp_v4",
-  "new_count": 4,
+  "new_count": 7,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/politics/article/3360274/why-chinas-ethnic-unity-law-marks-shift-policy-towards-assimilation",
-      "title": "Why China’s ethnic unity law marks shift in policy towards assimilation",
-      "word_count": 656,
+      "url": "https://www.scmp.com/news/china/military/article/3360170/what-does-chinas-j-16-fighter-jet-beast-mode-mean-pla-air-force-patrols",
+      "title": "What does China’s J-16 fighter jet in ‘beast mode’ mean for PLA Air Force patrols?",
+      "word_count": 692,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360280/65-arrested-hong-kong-police-raid-unlicensed-nightclubs-gambling-dens",
-      "title": "65 arrested as Hong Kong police raid unlicensed nightclubs, gambling dens",
-      "word_count": 623,
+      "url": "https://www.scmp.com/news/china/science/article/3359998/could-chinas-lunar-laser-tower-bring-nikola-teslas-free-energy-dream-life",
+      "title": "Could China’s lunar laser tower bring Nikola Tesla’s free energy dream to life?",
+      "word_count": 607,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/asia/east-asia/article/3360279/south-korea-under-emergency-advisory-heatwave-days-increase",
-      "title": "South Korea under emergency advisory as heatwave days increase",
-      "word_count": 542,
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3360029/china-rise-soft-power-vital",
+      "title": "For a China on the rise, soft power is vital",
+      "word_count": 917,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/business/companies/article/3360268/five-guys-open-beijing-more-us-chains-hunger-success-china",
-      "title": "Five Guys to open in Beijing as more US chains hunger for success in China",
-      "word_count": 529,
+      "url": "https://www.scmp.com/tech/article/3360269/chinese-state-owned-firms-set-semiconductor-funds-amid-calls-patient-capital",
+      "title": "China Life sets up semiconductor fund amid Beijing’s call for ‘patient’ capital",
+      "word_count": 498,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360286/aung-san-suu-kyi-will-be-looked-after-myanmar-envoy-tells-asean",
+      "title": "Aung San Suu Kyi will be looked after, Myanmar envoy tells Asean",
+      "word_count": 397,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/article/3360283/how-chinas-rare-missile-test-sparked-hysterical-hypocrisy",
+      "title": "How China’s rare missile test sparked hysterical hypocrisy",
+      "word_count": 1047,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3360136/why-factories-southern-china-are-feeling-squeeze-despite-pickup-orders",
+      "title": "Why factories in southern China are feeling the squeeze despite pickup in orders",
+      "word_count": 725,
       "quality": "fulltext_deep",
       "is_premium": false
     }
