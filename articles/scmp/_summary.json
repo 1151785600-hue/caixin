@@ -1,54 +1,33 @@
 {
-  "ts": "2026-07-12 09:04:03",
+  "ts": "2026-07-12 11:04:46",
   "v": "scmp_v4",
-  "new_count": 7,
+  "new_count": 4,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3360275/beijing-renews-attacks-landmark-south-china-sea-tribunal-rulings-10th-anniversary",
-      "title": "Beijing renews attacks on landmark South China Sea tribunal on ruling’s 10th anniversary",
-      "word_count": 794,
+      "url": "https://www.scmp.com/news/china/politics/article/3360274/why-chinas-ethnic-unity-law-marks-shift-policy-towards-assimilation",
+      "title": "Why China’s ethnic unity law marks shift in policy towards assimilation",
+      "word_count": 656,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3360221/how-chinese-investors-are-supercharging-africas-multibillion-dollar-e-bike-boom",
-      "title": "How Chinese investors are supercharging Africa’s multibillion-dollar e-bike boom",
-      "word_count": 547,
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360280/65-arrested-hong-kong-police-raid-unlicensed-nightclubs-gambling-dens",
+      "title": "65 arrested as Hong Kong police raid unlicensed nightclubs, gambling dens",
+      "word_count": 623,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3360276/why-some-hongkongers-take-6-hour-train-ride-zhangjiajie-holiday",
-      "title": "Why some Hongkongers take a 6-hour train ride for a Zhangjiajie holiday",
-      "word_count": 679,
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3360279/south-korea-under-emergency-advisory-heatwave-days-increase",
+      "title": "South Korea under emergency advisory as heatwave days increase",
+      "word_count": 542,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360271/hong-kong-police-arrest-9-crackdown-dangerous-driving",
-      "title": "Hong Kong police arrest 9 in crackdown on dangerous driving",
-      "word_count": 207,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/opinion/article/3360162/why-second-china-shock-good-southeast-asia",
-      "title": "Why a second ‘China shock’ is good for Southeast Asia",
-      "word_count": 878,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/opinion/china-opinion/article/3359840/markets-not-politics-will-make-chinas-yuan-global-currency",
-      "title": "Markets, not politics, will make China’s yuan a global currency",
-      "word_count": 920,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/economy/china-economy/article/3360142/chinas-auto-shipments-eu-surge-could-be-near-their-peak-european-analysts",
-      "title": "China’s auto shipments to EU surge, but could be near their peak: European analysts",
-      "word_count": 600,
+      "url": "https://www.scmp.com/business/companies/article/3360268/five-guys-open-beijing-more-us-chains-hunger-success-china",
+      "title": "Five Guys to open in Beijing as more US chains hunger for success in China",
+      "word_count": 529,
       "quality": "fulltext_deep",
       "is_premium": false
     }
