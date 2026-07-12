@@ -1,40 +1,54 @@
 {
-  "ts": "2026-07-12 06:26:48",
+  "ts": "2026-07-12 09:04:03",
   "v": "scmp_v4",
-  "new_count": 5,
+  "new_count": 7,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3360266/world-cup-2026-hong-kong-pubs-restaurants-enjoy-net-gains-big-matches",
-      "title": "World Cup 2026: Hong Kong pubs, restaurants enjoy net gains from big matches",
-      "word_count": 665,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3360275/beijing-renews-attacks-landmark-south-china-sea-tribunal-rulings-10th-anniversary",
+      "title": "Beijing renews attacks on landmark South China Sea tribunal on ruling’s 10th anniversary",
+      "word_count": 794,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3360263/gulf-capital-flowing-asia-hong-kong-middle-east-trade-35-paul-chan",
-      "title": "Gulf capital flowing into Asia as Hong Kong-Middle East trade up 35%: Paul Chan",
-      "word_count": 401,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/tech/tech-trends/article/3360212/chinas-electronics-hub-memory-chip-crisis-hitting-consumers-hard",
-      "title": "In China’s electronics hub, a memory chip crisis is hitting consumers hard",
-      "word_count": 489,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/people/article/3360160/wombs-hire-painful-price-asias-baby-trade",
-      "title": "Wombs for hire: the painful price of Asia’s baby trade",
-      "word_count": 1289,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3360221/how-chinese-investors-are-supercharging-africas-multibillion-dollar-e-bike-boom",
+      "title": "How Chinese investors are supercharging Africa’s multibillion-dollar e-bike boom",
+      "word_count": 547,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/asia/east-asia/article/3359820/why-bluefin-tuna-boom-slicing-livelihoods-japanese-fishermen",
-      "title": "Why a bluefin tuna boom is slicing into livelihoods of Japanese fishermen",
-      "word_count": 639,
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3360276/why-some-hongkongers-take-6-hour-train-ride-zhangjiajie-holiday",
+      "title": "Why some Hongkongers take a 6-hour train ride for a Zhangjiajie holiday",
+      "word_count": 679,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360271/hong-kong-police-arrest-9-crackdown-dangerous-driving",
+      "title": "Hong Kong police arrest 9 in crackdown on dangerous driving",
+      "word_count": 207,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/opinion/article/3360162/why-second-china-shock-good-southeast-asia",
+      "title": "Why a second ‘China shock’ is good for Southeast Asia",
+      "word_count": 878,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3359840/markets-not-politics-will-make-chinas-yuan-global-currency",
+      "title": "Markets, not politics, will make China’s yuan a global currency",
+      "word_count": 920,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3360142/chinas-auto-shipments-eu-surge-could-be-near-their-peak-european-analysts",
+      "title": "China’s auto shipments to EU surge, but could be near their peak: European analysts",
+      "word_count": 600,
       "quality": "fulltext_deep",
       "is_premium": false
     }
