@@ -1,54 +1,26 @@
 {
-  "ts": "2026-07-13 15:45:04",
+  "ts": "2026-07-13 17:59:35",
   "v": "scmp_v4",
-  "new_count": 7,
+  "new_count": 3,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/science/article/3360374/pan-jianwei-becomes-first-chinese-scientist-win-top-un-basic-science-prize",
-      "title": "Pan Jianwei becomes first Chinese scientist to win the top UN basic science prize",
-      "word_count": 579,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/politics/article/3360409/taiwans-new-military-outsourcing-plan-pragmatic-fix-or-security-risk",
-      "title": "Taiwan’s new military outsourcing plan: a pragmatic fix or security risk?",
-      "word_count": 906,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/tech/article/3360399/china-works-ai-safety-benchmark-regulators-target-large-model-risks",
-      "title": "China works on AI safety benchmark as regulators target large model risks",
-      "word_count": 311,
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3360430/pentagon-invests-us25-million-rare-earths-start-reelement-technologies",
+      "title": "Pentagon invests US$25 million into rare earths start-up ReElement Technologies",
+      "word_count": 221,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/week-asia/politics/article/3360416/why-chinese-academic-claim-over-batanes-has-unsettled-philippines",
-      "title": "Why a Chinese academic claim over Batanes has unsettled the Philippines",
-      "word_count": 1152,
+      "url": "https://www.scmp.com/news/us/article/3360429/why-reverse-tech-transfer-china-remains-non-starter-us-auto-industry",
+      "title": "Why ‘reverse tech transfer’ from China remains a non-starter in the US auto industry",
+      "word_count": 1265,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/opinion/world-opinion/article/3360314/iran-war-no-longer-contest-over-just-strait-hormuz",
-      "title": "Iran war is no longer a contest over just the Strait of Hormuz",
-      "word_count": 905,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/economy/china-economy/article/3360394/one-giant-leap-state-how-chinas-aerospace-vision-differs-elon-musks",
-      "title": "How China’s aerospace vision differs from Elon Musk’s SpaceX",
-      "word_count": 787,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/tech/tech-war/article/3360415/nvidias-future-challenger-chinese-start-reveals-aggressive-ai-chip-road-map",
-      "title": "Nvidia’s future challenger? Chinese start-up reveals aggressive AI chip road map",
-      "word_count": 588,
+      "url": "https://www.scmp.com/news/us/article/3360421/us-restore-iran-blockade-charge-fees-strait-hormuz-shipping",
+      "title": "Trump to restore Iran blockade, charge fees for Strait of Hormuz shipping",
+      "word_count": 663,
       "quality": "fulltext_deep",
       "is_premium": false
     }
