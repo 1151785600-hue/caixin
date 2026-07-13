@@ -1,0 +1,29 @@
+<!DOCTYPE html><html lang="en"><head>
+<meta charset="UTF-8">
+<title>China’s optical chip breakthrough boosts AI speed 100-fold using fraction of compute power</title>
+<style>body{font-family:"Georgia","Times New Roman",serif;max-width:720px;margin:0 auto;padding:40px 20px;color:#222;line-height:1.9}
+h1{font-size:18pt;color:#1a1a2e;margin-bottom:6px;line-height:1.3}
+.meta{font-size:9pt;color:#999;margin-bottom:30px}
+p{margin-bottom:12px}
+.src{font-size:8.5pt;color:#aaa;margin-top:40px;border-top:1px solid #eee;padding-top:12px}</style></head><body>
+<h1>China’s optical chip breakthrough boosts AI speed 100-fold using fraction of compute power</h1>
+<div class="meta">SCMP | FREE  | 492 words | 2026-07-13</div>
+<p>Chinese researchers have developed a new all-optical interconnect system linking standard electronic chips, boosting AI distributed inference speeds by over 100 times while using just one-ninth of the typical computational resources.</p>
+<p>AI models are permeating ever more applications, expanding the industry’s appetite for computational power. The conventional response has been to pile on more GPUs and build ever-larger data centres in a seemingly endless race for energy and brute force.</p>
+<p>But a new study from Peking University suggests a radically different path: by optically linking chips with specific algorithms, they boost inference speeds by a factor of over 100 while slashing compute needs to just one-ninth.</p>
+<p>The work was published in the journal National Science Review, and its corresponding authors include Shu Haowen and Wang Xingjun from Peking University.</p>
+<p>The team’s “Lego” building blocks were field-programmable gate array (FPGA) chips: programmable devices widely used in fields that demand high parallel-processing ability, such as missile guidance, autonomous driving and data centres.</p>
+<p>The “joints” connecting these FPGAs are two custom-designed communication hardware components. The first is a silicon photonic transceiver chip running at 400 gigabits per second, responsible for converting electrical signals to optical and vice versa.</p>
+<p>The second is a 16×16 optical switching chip that acts as a router during optical transmission and can establish arbitrary connections between up to 16 input ports and 16 output ports.</p>
+<p>By wiring five FPGA chips in parallel, the researchers tackled an image-denoising task on a dedicated dataset, processing 1,000 images of 32,768 bits each in just 105.16 microseconds.</p>
+<p>For comparison, the team ran the same image-denoising task on a commercial GPU rated at 16.96 teraflops. The GPU completed the task in 15.6 milliseconds, making the FPGA system nearly 150 times faster.</p>
+<p>The five FPGAs together offered a combined theoretical compute power of about 1.969 teraflops – less than one-ninth the GPU’s resources.</p>
+<p>This advantage stems from the inherent benefits of optical communication.</p>
+<p>First, the switching chip’s total loss is below 5 decibels, enabling high-speed, error-free data transfer without any need for external optical gain compensation.</p>
+<p>More importantly, in conventional GPU-based neural network inference, a cascade of intermediate results, namely feature maps, is generated between layers.</p>
+<p>These must be stored and retrieved repeatedly, and each layer must wait for the previous one to finish before it can start, leaving compute units idle.</p>
+<p>In optical computing, by contrast, results from one layer can flow directly into the next like an assembly line, bypassing memory altogether and keeping all chips continuously busy.</p>
+<p>The research underscores a pivotal insight: in the relentless pursuit of AI compute power, “stacking more chips” might not be as effective as “connecting them intelligently”.</p>
+<p>“Specific objectives can be realised under limited computational resources when algorithms, processor micro‑architectures and chip-level interconnections are co‑designed,” the authors wrote in the paper.</p>
+<p>“This fabric can also alleviate unsustainable energy usage in data centres and optimise latency or consumption in edge-computing scenarios,” they added.</p>
+<div class="src">原文：<a href="https://www.scmp.com/news/china/science/article/3360328/chinas-optical-chip-breakthrough-boosts-ai-speed-100-fold-using-fraction-compute-power">https://www.scmp.com/news/china/science/article/3360328/chinas-optical-chip-breakthrough-boosts-ai-speed-100-fold-using-fraction-compute-power</a></div></body></html>
