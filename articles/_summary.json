@@ -1,12 +1,17 @@
 {
-  "ts": "2026-07-13 09:25:18",
+  "ts": "2026-07-13 12:01:24",
   "v": "8.4",
-  "new_count": 1,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.caixinglobal.com/2026-07-13/cover-story-world-cup-tests-trumps-economic-pitch-102463664.html",
-      "title": "Cover Story: World Cup Tests Trump’s Economic Pitch",
-      "word_count": 524
+      "url": "https://www.caixinglobal.com/2026-07-07/meituan-open-sources-16-trillion-parameter-ai-model-built-on-chinese-chips-102461495.html",
+      "title": "Meituan Open-Sources 1.6-Trillion-Parameter AI Model Built on Chinese Chips",
+      "word_count": 368
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-07-07/in-depth-chinese-brands-tear-up-playbook-for-world-cup-sponsorship-102461691.html",
+      "title": "In Depth: Chinese Brands Tear Up Playbook for World Cup Sponsorship",
+      "word_count": 605
     }
   ]
 }
