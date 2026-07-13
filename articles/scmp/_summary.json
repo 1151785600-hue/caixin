@@ -1,40 +1,117 @@
 {
-  "ts": "2026-07-13 06:46:12",
+  "ts": "2026-07-13 10:29:45",
   "v": "scmp_v4",
-  "new_count": 5,
+  "new_count": 16,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/science/article/3360328/chinas-optical-chip-breakthrough-boosts-ai-speed-100-fold-using-fraction-compute-power",
-      "title": "China’s optical chip breakthrough boosts AI speed 100-fold using fraction of compute power",
-      "word_count": 492,
+      "url": "https://www.scmp.com/business/china-business/article/3360395/chinas-drug-industry-pivots-ai-powered-candidates-drive-next-wave-deals",
+      "title": "China’s drug industry pivots to AI-powered candidates to drive next wave of deals",
+      "word_count": 318,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/china/science/article/3360000/100-gigawatts-china-unveils-its-high-power-microwave-weapon-arsenal",
-      "title": "China unveils high-power microwave weapon arsenal with up to 100 gigawatts of power",
-      "word_count": 535,
+      "url": "https://www.scmp.com/news/china/science/article/3360320/china-make-car-connectivity-mandatory-us-moves-tighten-ban",
+      "title": "China to make car connectivity mandatory as US moves to tighten ban",
+      "word_count": 418,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3360368/chinas-massive-island-building-push-antelope-reef-nearing-finish-line",
+      "title": "Is China’s massive island-building push at Antelope Reef nearing the finish line?",
+      "word_count": 583,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/week-asia/politics/article/3360336/malaysias-top-court-clears-syed-saddiq-corruption-ending-6-year-legal-drama",
-      "title": "Malaysia’s top court clears Syed Saddiq of corruption, ending 6-year legal drama",
-      "word_count": 881,
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3360345/hong-kong-ramps-autonomous-vehicle-tests-baidu-expands-trials-city",
+      "title": "Hong Kong ramps up autonomous vehicle tests as Baidu expands trials in city",
+      "word_count": 475,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/companies/article/3360351/new-space-race-how-china-plans-break-spacexs-launch-monopoly-ipo-push",
+      "title": "The new space race: how China plans to break SpaceX’s launch monopoly with IPO push",
+      "word_count": 498,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3360338/chinas-historic-sea-based-rocket-recovery-puts-spotlight-domestic-shipbuilder",
+      "title": "China’s historic sea-based rocket recovery puts spotlight on domestic shipbuilder",
+      "word_count": 517,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/week-asia/politics/article/3360331/north-koreas-kim-fires-warning-shot-own-military-corruption-purge",
-      "title": "North Korea’s Kim fires warning shot at own military with corruption purge",
-      "word_count": 914,
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360359/dashcam-row-allegedly-involving-singer-david-lui-could-be-referred-police",
+      "title": "Dashcam row allegedly involving singer David Lui could be referred to police",
+      "word_count": 514,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/business/china-evs/article/3360305/how-xpeng-will-take-tesla-chinese-carmakers-drive-overseas-ev-competition",
-      "title": "How Xpeng will take on Tesla as Chinese carmakers drive overseas EV competition",
-      "word_count": 647,
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360352/duty-hong-kong-firefighter-turns-himself-over-viral-shopping-centre-row",
+      "title": "Off-duty Hong Kong firefighter turns himself in over viral shopping centre row",
+      "word_count": 337,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360349/what-happens-when-indonesias-top-corruption-buster-suspected-graft-himself",
+      "title": "What happens when Indonesia’s top corruption buster is suspected of graft himself?",
+      "word_count": 1021,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/health-environment/article/3360355/saudi-arabias-reforms-fail-halt-abuse-filipino-helpers-amnesty-warns",
+      "title": "Saudi Arabia’s reforms fail to halt abuse of Filipino helpers, Amnesty warns",
+      "word_count": 982,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3360366/seoul-court-sentences-ex-president-yoon-2-years-jail-over-political-funding",
+      "title": "Ex-South Korea leader Yoon jailed 2 years over illegal polling",
+      "word_count": 353,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3360393/daps-election-loss-malaysias-johor-prompts-soul-searching-ahead-next-key-poll",
+      "title": "DAP’s election loss in Malaysia’s Johor prompts soul-searching ahead of next key poll",
+      "word_count": 1036,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3360318/why-chinese-wealth-still-powering-hong-kong-and-singapore-property",
+      "title": "Why Chinese wealth is still powering Hong Kong and Singapore property",
+      "word_count": 889,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3360346/china-seen-using-new-tool-finance-hi-tech-advances-amid-slower-economic-growth",
+      "title": "China seen using new tool to finance hi-tech advances amid slower economic growth",
+      "word_count": 449,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/companies/article/3360334/what-labubu-fatigue-billionaire-investor-doubles-down-pop-mart-stake",
+      "title": "What Labubu fatigue? Billionaire investor doubles down on Pop Mart stake",
+      "word_count": 388,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-trends/article/3360377/chinas-zhipu-ai-developer-glm-52-defies-slump-it-pursues-agi-over-quick-profits",
+      "title": "China’s Zhipu AI, developer of GLM-5.2, defies slump as it pursues AGI over quick profits",
+      "word_count": 587,
       "quality": "fulltext_deep",
       "is_premium": false
     }
