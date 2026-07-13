@@ -1,118 +1,83 @@
 {
-  "ts": "2026-07-13 10:29:45",
+  "ts": "2026-07-13 12:23:39",
   "v": "scmp_v4",
-  "new_count": 16,
+  "new_count": 11,
   "articles": [
     {
-      "url": "https://www.scmp.com/business/china-business/article/3360395/chinas-drug-industry-pivots-ai-powered-candidates-drive-next-wave-deals",
-      "title": "China’s drug industry pivots to AI-powered candidates to drive next wave of deals",
-      "word_count": 318,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/science/article/3360320/china-make-car-connectivity-mandatory-us-moves-tighten-ban",
-      "title": "China to make car connectivity mandatory as US moves to tighten ban",
-      "word_count": 418,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3360368/chinas-massive-island-building-push-antelope-reef-nearing-finish-line",
-      "title": "Is China’s massive island-building push at Antelope Reef nearing the finish line?",
-      "word_count": 583,
+      "url": "https://www.scmp.com/news/china/military/article/3360371/what-chinas-carrier-recruitment-drive-says-about-pla-navys-long-term-ambitions",
+      "title": "What China’s carrier recruitment drive says about PLA Navy’s long-term ambitions",
+      "word_count": 985,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3360345/hong-kong-ramps-autonomous-vehicle-tests-baidu-expands-trials-city",
-      "title": "Hong Kong ramps up autonomous vehicle tests as Baidu expands trials in city",
-      "word_count": 475,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3360406/china-rejects-us-panamanian-claims-weaponising-ship-inspections",
+      "title": "China rejects US, Panamanian claims of ‘weaponising’ ship inspections",
+      "word_count": 438,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/business/companies/article/3360351/new-space-race-how-china-plans-break-spacexs-launch-monopoly-ipo-push",
-      "title": "The new space race: how China plans to break SpaceX’s launch monopoly with IPO push",
-      "word_count": 498,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3360362/japan-may-have-greater-destructive-potential-south-china-sea-us",
+      "title": "Japan’s ‘destructive potential’ in South China Sea may eclipse the US: analyst",
+      "word_count": 841,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3360403/hongkongers-spend-record-hk2000-month-cats-silver-feline-market-grows",
+      "title": "Hongkongers spend record HK$2,000 per month on cats as ‘silver’ feline market grows",
+      "word_count": 518,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/article/3360404/xi-jinping-attend-world-ai-conference-first-time-china-elevates-tech-push",
+      "title": "Xi Jinping to attend World AI Conference for first time as China elevates tech push",
+      "word_count": 347,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/economy/china-economy/article/3360338/chinas-historic-sea-based-rocket-recovery-puts-spotlight-domestic-shipbuilder",
-      "title": "China’s historic sea-based rocket recovery puts spotlight on domestic shipbuilder",
-      "word_count": 517,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360359/dashcam-row-allegedly-involving-singer-david-lui-could-be-referred-police",
-      "title": "Dashcam row allegedly involving singer David Lui could be referred to police",
-      "word_count": 514,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360352/duty-hong-kong-firefighter-turns-himself-over-viral-shopping-centre-row",
-      "title": "Off-duty Hong Kong firefighter turns himself in over viral shopping centre row",
-      "word_count": 337,
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360408/hong-kong-police-officer-gets-nearly-2-years-upskirt-filming-gun-grab",
+      "title": "Hong Kong police officer gets nearly 2 years for upskirt filming, gun grab",
+      "word_count": 457,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360349/what-happens-when-indonesias-top-corruption-buster-suspected-graft-himself",
-      "title": "What happens when Indonesia’s top corruption buster is suspected of graft himself?",
-      "word_count": 1021,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/health-environment/article/3360355/saudi-arabias-reforms-fail-halt-abuse-filipino-helpers-amnesty-warns",
-      "title": "Saudi Arabia’s reforms fail to halt abuse of Filipino helpers, Amnesty warns",
-      "word_count": 982,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/asia/east-asia/article/3360366/seoul-court-sentences-ex-president-yoon-2-years-jail-over-political-funding",
-      "title": "Ex-South Korea leader Yoon jailed 2 years over illegal polling",
-      "word_count": 353,
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360401/italian-chef-handed-90-hours-community-service-drink-driving-speeding",
+      "title": "Italian chef handed 90 hours of community service for drink-driving, speeding",
+      "word_count": 246,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/week-asia/politics/article/3360393/daps-election-loss-malaysias-johor-prompts-soul-searching-ahead-next-key-poll",
-      "title": "DAP’s election loss in Malaysia’s Johor prompts soul-searching ahead of next key poll",
-      "word_count": 1036,
+      "url": "https://www.scmp.com/week-asia/politics/article/3360410/how-philippines-reshaping-south-china-sea-defence-10-years-after-hague-ruling",
+      "title": "How Philippines is reshaping South China Sea defence, 10 years after Hague ruling",
+      "word_count": 1013,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3360318/why-chinese-wealth-still-powering-hong-kong-and-singapore-property",
-      "title": "Why Chinese wealth is still powering Hong Kong and Singapore property",
-      "word_count": 889,
+      "url": "https://www.scmp.com/week-asia/politics/article/3360402/myanmar-edges-out-isolation-asean-steps-engagement",
+      "title": "Myanmar edges out of isolation as Asean steps up engagement",
+      "word_count": 964,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/economy/china-economy/article/3360346/china-seen-using-new-tool-finance-hi-tech-advances-amid-slower-economic-growth",
-      "title": "China seen using new tool to finance hi-tech advances amid slower economic growth",
-      "word_count": 449,
+      "url": "https://www.scmp.com/economy/china-economy/article/3360381/shanghai-port-secures-2nd-place-global-ranking-overtaking-london",
+      "title": "Shanghai port secures second place in global ranking, overtaking London",
+      "word_count": 544,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/article/3360383/chinas-midea-dispatches-20000-air-conditioners-race-cool-heat-stricken-france",
+      "title": "China’s Midea dispatches 20,000 air conditioners in race to cool heat-stricken France",
+      "word_count": 323,
       "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/business/companies/article/3360334/what-labubu-fatigue-billionaire-investor-doubles-down-pop-mart-stake",
-      "title": "What Labubu fatigue? Billionaire investor doubles down on Pop Mart stake",
-      "word_count": 388,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/tech/tech-trends/article/3360377/chinas-zhipu-ai-developer-glm-52-defies-slump-it-pursues-agi-over-quick-profits",
-      "title": "China’s Zhipu AI, developer of GLM-5.2, defies slump as it pursues AGI over quick profits",
-      "word_count": 587,
-      "quality": "fulltext_deep",
       "is_premium": false
     }
   ]
