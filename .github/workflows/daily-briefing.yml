@@ -46,6 +46,9 @@ jobs:
           MIMO_BASE_URL: "https://api.xiaomimimo.com/v1"
           MIMO_MODEL: "mimo-v2.5"
           TARGET_DATE: ${{ steps.set_date.outputs.briefing_date }}
+
+      - name: Generate OPML feed
+        run: python generate_opml.py
       - name: Commit
         run: |
           git config user.name "bot"
