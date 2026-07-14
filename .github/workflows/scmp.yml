@@ -45,5 +45,6 @@ jobs:
           else
             git diff --cached --name-only
             git commit -m "docs: SCMP新文章 $(date -u +%Y-%m-%d_%H:%M_UTC)"
+            git pull --rebase origin main
             git push
           fi
