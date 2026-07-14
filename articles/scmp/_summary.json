@@ -1,62 +1,62 @@
 {
-  "ts": "2026-07-14 06:04:42",
+  "ts": "2026-07-14 09:06:18",
   "v": "scmp_v4",
   "new_count": 8,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/politics/article/3360449/viral-photos-heavy-duty-drones-rescuing-chinas-flood-victims-spark-debate",
-      "title": "Viral photos of heavy-duty drones rescuing China’s flood victims spark debate",
-      "word_count": 567,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3360482/chinas-no-4-official-wang-huning-head-north-korea-visits-multiply",
+      "title": "China’s No 4 official Wang Huning to head to North Korea as visits multiply",
+      "word_count": 668,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/china/science/article/3360069/china-recovers-long-march-10b-reusable-rocket-maiden-launch",
-      "title": "Long March-10B: China’s net-capture rocket joins space race with edge on SpaceX",
-      "word_count": 954,
+      "url": "https://www.scmp.com/opinion/world-opinion/article/3360239/clash-tech-titans-chinas-quiet-industry-vs-loud-us-innovation",
+      "title": "Clash of the tech titans: China’s quiet industry vs loud US innovation",
+      "word_count": 849,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/business/article/3360470/how-yung-kee-and-other-hong-kong-heritage-brands-innovate-thrive-challenging-times",
-      "title": "How Yung Kee and other Hong Kong heritage brands innovate to thrive in challenging times",
-      "word_count": 781,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/health-environment/article/3360471/philippine-rice-output-risks-30-collapse-super-el-nino-strengthens",
-      "title": "Philippine rice output risks 30% collapse as ‘super’ El Nino strengthens",
-      "word_count": 1209,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/people/article/3360464/malaysia-viral-shoe-sniffing-video-sparks-stalking-arrest",
-      "title": "In Malaysia, viral shoe-sniffing video sparks stalking arrest",
-      "word_count": 463,
+      "url": "https://www.scmp.com/tech/article/3360503/global-ai-boom-sees-chinas-chip-exports-nearly-double-first-half-year",
+      "title": "Global AI boom sees China’s chip exports nearly double in first half of year",
+      "word_count": 342,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360478/singapore-durian-tsunami-wont-last-long-prices-rise-and-wave-ebbs",
-      "title": "In Singapore, ‘durian tsunami’ won’t last long as prices rise and wave ebbs",
-      "word_count": 889,
+      "url": "https://www.scmp.com/economy/china-economy/article/3360485/chinas-hainan-cements-2030-petrol-car-ban-leading-nations-ev-infrastructure-push",
+      "title": "China’s Hainan cements 2030 petrol-car ban, leading nation’s EV infrastructure push",
+      "word_count": 617,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/asia/article/3360459/south-koreas-lost-canadian-deal-bns-election-win-malaysias-johor-7-asia-highlights",
-      "title": "South Korea’s lost Canadian deal; BN’s election win in Malaysia’s Johor: 7 Asia highlights",
-      "word_count": 348,
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360521/hong-kong-woman-gets-10-years-jail-luring-victims-gangs-extortion-plot",
+      "title": "Hong Kong woman gets 10 years in jail for luring victims into gang’s extortion plot",
+      "word_count": 619,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360489/cuhk-academic-accused-indecent-assault-allegedly-hid-marital-status",
+      "title": "CUHK academic accused of indecent assault, allegedly hid marital status",
+      "word_count": 457,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/asia/east-asia/article/3360463/jeju-plan-allow-chinese-tourist-drivers-stokes-safety-backlash-south-korea",
-      "title": "Jeju plan to allow Chinese tourist drivers stokes safety backlash in South Korea",
-      "word_count": 660,
+      "url": "https://www.scmp.com/week-asia/people/article/3360520/singapore-ministers-each-awarded-us177860-damages-bloomberg-defamation-suit",
+      "title": "Singapore ministers each awarded US$177,860 in damages in Bloomberg defamation suit",
+      "word_count": 608,
       "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360495/malaysian-comedian-sued-insulting-body-shaming-najibs-wife",
+      "title": "Malaysian comedian sued for insulting, body shaming Najib’s wife",
+      "word_count": 423,
+      "quality": "fulltext",
       "is_premium": false
     }
   ]
