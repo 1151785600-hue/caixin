@@ -1,61 +1,61 @@
 {
-  "ts": "2026-07-14 09:06:18",
+  "ts": "2026-07-14 11:14:12",
   "v": "scmp_v4",
   "new_count": 8,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3360482/chinas-no-4-official-wang-huning-head-north-korea-visits-multiply",
-      "title": "China’s No 4 official Wang Huning to head to North Korea as visits multiply",
-      "word_count": 668,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3360541/how-beijing-proposes-solve-south-china-sea-disputes-10-years-after-hague-ruling",
+      "title": "How Beijing proposes to solve South China Sea disputes 10 years after Hague ruling",
+      "word_count": 767,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/opinion/world-opinion/article/3360239/clash-tech-titans-chinas-quiet-industry-vs-loud-us-innovation",
-      "title": "Clash of the tech titans: China’s quiet industry vs loud US innovation",
-      "word_count": 849,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/tech/article/3360503/global-ai-boom-sees-chinas-chip-exports-nearly-double-first-half-year",
-      "title": "Global AI boom sees China’s chip exports nearly double in first half of year",
-      "word_count": 342,
+      "url": "https://www.scmp.com/news/hong-kong/politics/article/3360479/mainland-chinese-firms-hong-kong-led-trip-central-asia-eye-city-listing-john-lee",
+      "title": "Mainland Chinese firms on Hong Kong-led Central Asia trip eye city listing: John Lee",
+      "word_count": 437,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/economy/china-economy/article/3360485/chinas-hainan-cements-2030-petrol-car-ban-leading-nations-ev-infrastructure-push",
-      "title": "China’s Hainan cements 2030 petrol-car ban, leading nation’s EV infrastructure push",
-      "word_count": 617,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360521/hong-kong-woman-gets-10-years-jail-luring-victims-gangs-extortion-plot",
-      "title": "Hong Kong woman gets 10 years in jail for luring victims into gang’s extortion plot",
-      "word_count": 619,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360489/cuhk-academic-accused-indecent-assault-allegedly-hid-marital-status",
-      "title": "CUHK academic accused of indecent assault, allegedly hid marital status",
-      "word_count": 457,
+      "url": "https://www.scmp.com/tech/article/3360525/alibaba-team-honor-race-build-ai-agentic-devices",
+      "title": "Alibaba to team up with Honor in race to build AI agentic devices",
+      "word_count": 443,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/week-asia/people/article/3360520/singapore-ministers-each-awarded-us177860-damages-bloomberg-defamation-suit",
-      "title": "Singapore ministers each awarded US$177,860 in damages in Bloomberg defamation suit",
-      "word_count": 608,
+      "url": "https://www.scmp.com/news/asia/south-asia/article/3360538/delhi-summons-iranian-diplomat-after-indian-sailor-dies-strait-hormuz-vessel-attacks",
+      "title": "Delhi summons Iranian diplomat after Indian sailor dies in Strait of Hormuz vessel attacks",
+      "word_count": 343,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3360531/trumps-20-hormuz-toll-jolts-markets-asia-adapts-oil-shock",
+      "title": "Trump’s 20% Hormuz toll jolts markets as Asia adapts to oil shock",
+      "word_count": 944,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360495/malaysian-comedian-sued-insulting-body-shaming-najibs-wife",
-      "title": "Malaysian comedian sued for insulting, body shaming Najib’s wife",
-      "word_count": 423,
+      "url": "https://www.scmp.com/week-asia/politics/article/3360526/singapore-malaysia-relations-enter-mature-era-tharmans-state-visit",
+      "title": "Singapore-Malaysia relations enter ‘mature’ era with Tharman’s state visit",
+      "word_count": 856,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/banking-finance/article/3360532/ipos-surge-hong-kongs-audit-regulator-vows-tougher-scrutiny",
+      "title": "As IPOs surge, Hong Kong’s audit regulator vows tougher scrutiny",
+      "word_count": 513,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/china-business/article/3360488/hilton-launches-tempo-hotel-brand-amid-expanding-china-travel-demand",
+      "title": "Hilton launches Tempo hotel brand amid expanding China travel demand",
+      "word_count": 479,
       "quality": "fulltext",
       "is_premium": false
     }
