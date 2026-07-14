@@ -49,6 +49,9 @@ jobs:
 
       - name: Generate OPML feed
         run: python generate_opml.py
+
+      - name: Generate RSS feed
+        run: python generate_rss.py
       - name: Commit
         run: |
           git config user.name "bot"
