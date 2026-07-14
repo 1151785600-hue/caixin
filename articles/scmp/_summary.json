@@ -1,62 +1,132 @@
 {
-  "ts": "2026-07-14 11:14:12",
+  "ts": "2026-07-14 14:58:48",
   "v": "scmp_v4",
-  "new_count": 8,
+  "new_count": 18,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3360541/how-beijing-proposes-solve-south-china-sea-disputes-10-years-after-hague-ruling",
-      "title": "How Beijing proposes to solve South China Sea disputes 10 years after Hague ruling",
-      "word_count": 767,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3360556/eu-signals-emergency-import-curbs-after-dramatic-surge-chinese-trade-gap",
+      "title": "EU signals emergency import curbs after dramatic growth in Chinese trade gap",
+      "word_count": 734,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/hong-kong/politics/article/3360479/mainland-chinese-firms-hong-kong-led-trip-central-asia-eye-city-listing-john-lee",
-      "title": "Mainland Chinese firms on Hong Kong-led Central Asia trip eye city listing: John Lee",
-      "word_count": 437,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/tech/article/3360525/alibaba-team-honor-race-build-ai-agentic-devices",
-      "title": "Alibaba to team up with Honor in race to build AI agentic devices",
-      "word_count": 443,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/asia/south-asia/article/3360538/delhi-summons-iranian-diplomat-after-indian-sailor-dies-strait-hormuz-vessel-attacks",
-      "title": "Delhi summons Iranian diplomat after Indian sailor dies in Strait of Hormuz vessel attacks",
-      "word_count": 343,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/economics/article/3360531/trumps-20-hormuz-toll-jolts-markets-asia-adapts-oil-shock",
-      "title": "Trump’s 20% Hormuz toll jolts markets as Asia adapts to oil shock",
-      "word_count": 944,
+      "url": "https://www.scmp.com/news/china/science/article/3360474/young-chinese-scientist-behind-impossible-breakthrough-sodium-batteries",
+      "title": "The young Chinese scientist behind an ‘impossible’ breakthrough on sodium batteries",
+      "word_count": 575,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/week-asia/politics/article/3360526/singapore-malaysia-relations-enter-mature-era-tharmans-state-visit",
-      "title": "Singapore-Malaysia relations enter ‘mature’ era with Tharman’s state visit",
-      "word_count": 856,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3360549/china-sends-message-pacific-islands-amid-their-unease-over-missile-test",
+      "title": "China sends a message to Pacific islands amid unease over missile test",
+      "word_count": 706,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/business/banking-finance/article/3360532/ipos-surge-hong-kongs-audit-regulator-vows-tougher-scrutiny",
-      "title": "As IPOs surge, Hong Kong’s audit regulator vows tougher scrutiny",
-      "word_count": 513,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/business/china-business/article/3360488/hilton-launches-tempo-hotel-brand-amid-expanding-china-travel-demand",
-      "title": "Hilton launches Tempo hotel brand amid expanding China travel demand",
-      "word_count": 479,
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3360430/pentagon-invests-us25-million-rare-earths-start-reelement-technologies",
+      "title": "Pentagon invests US$25 million into rare earths start-up ReElement Technologies",
+      "word_count": 221,
       "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/transport/article/3360554/hong-kong-gazettes-bill-enable-joint-immigration-checks-shenzhen-crossing",
+      "title": "Hong Kong gazettes bill to enable joint immigration checks at Shenzhen crossing",
+      "word_count": 491,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360401/italian-chef-handed-90-hours-community-service-drink-driving-speeding",
+      "title": "Italian chef handed 90 hours of community service for drink-driving, speeding",
+      "word_count": 246,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360271/hong-kong-police-arrest-9-crackdown-dangerous-driving",
+      "title": "Hong Kong police arrest 9 in crackdown on dangerous driving",
+      "word_count": 201,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360065/former-top-hong-kong-prosecutor-court-over-injuring-man-while-drink-driving",
+      "title": "Former top prosecutor in Hong Kong court over injuring man while drink-driving",
+      "word_count": 251,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359927/former-polyu-student-arrested-allegedly-submitting-fake-academic-documents",
+      "title": "Former PolyU student arrested for allegedly submitting fake academic documents",
+      "word_count": 221,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359836/mirror-star-keung-slapped-3-month-driving-ban-after-spate-offences",
+      "title": "Mirror star Keung To slapped with 3-month driving ban after spate of offences",
+      "word_count": 286,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360568/indonesias-free-meals-scheme-cut-leaves-kitchen-operators-limbo",
+      "title": "Indonesia’s free meals scheme cut leaves kitchen operators in limbo",
+      "word_count": 383,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360551/philippine-police-hunt-suspects-after-us-marine-biologist-shot-dead-sibulan",
+      "title": "Philippine police hunt suspects after US marine biologist shot dead in Sibulan",
+      "word_count": 279,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3360548/indonesias-anti-lgbt-education-push-raises-concerns-about-stigmatising-youth",
+      "title": "Indonesia’s anti-LGBT education push raises concerns about stigmatising youth",
+      "word_count": 1035,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3359933/nato-summit-gaffe-trump-says-islamic-republic-japan-fired-missiles-us-ship",
+      "title": "In Nato summit gaffe, Trump says ‘Islamic Republic of Japan’ fired missiles at US ship",
+      "word_count": 280,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/world-opinion/article/3360284/why-trump-commission-attacking-nietzsche-foucault-and-sartre",
+      "title": "Why is a Trump commission attacking Nietzsche, Foucault and Sartre?",
+      "word_count": 766,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3360560/louis-vuitton-takes-chinas-trademark-regulator-court-legal-drive-continues",
+      "title": "Louis Vuitton takes China’s trademark regulator to court as legal drive continues",
+      "word_count": 367,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/economic-indicators/article/3360451/chinas-trade-surges-june-maintaining-growth-streak-despite-global-tensions",
+      "title": "China’s trade surges in first half of 2026, maintaining growth amid global tensions",
+      "word_count": 830,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/big-tech/article/3360544/chinas-stepfun-claims-it-has-unveiled-worlds-first-ai-smartphone",
+      "title": "China’s StepFun claims it has unveiled the world’s first AI smartphone",
+      "word_count": 525,
+      "quality": "fulltext_deep",
       "is_premium": false
     }
   ]
