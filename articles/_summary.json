@@ -1,17 +1,6 @@
 {
-  "ts": "2026-07-15 08:08:24",
+  "ts": "2026-07-15 10:48:01",
   "v": "8.4",
-  "new_count": 2,
-  "articles": [
-    {
-      "url": "https://www.caixinglobal.com/2026-07-15/china-retail-sales-post-surprise-june-rebound-102464444.html",
-      "title": "China Retail Sales Post Surprise June Rebound",
-      "word_count": 480
-    },
-    {
-      "url": "https://www.caixinglobal.com/2026-07-15/chinas-growth-misses-but-ai-and-oil-prices-snap-its-3-year-deflation-streak-102464387.html",
-      "title": "China’s Growth Misses, but AI and Oil Prices Snap Its 3-Year Deflation Streak",
-      "word_count": 470
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
