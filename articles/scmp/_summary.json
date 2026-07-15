@@ -1,496 +1,83 @@
 {
-  "ts": "2026-07-15 06:08:12",
+  "ts": "2026-07-15 09:10:34",
   "v": "scmp_v4",
-  "new_count": 70,
+  "new_count": 11,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3360618/chinese-drivers-seat-india-china-reset-hits-bump-delhis-streets",
-      "title": "Chinese in the driver’s seat? India-China reset hits a bump on Delhi’s streets",
-      "word_count": 1259,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/science/article/3360598/chinas-rare-earth-weakness-new-rocket-rival-spacex-7-science-highlights",
-      "title": "China’s rare earth weakness, new rocket to rival SpaceX: 7 science highlights",
-      "word_count": 351,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3360664/dont-buy-brides-bangladesh-chinese-embassy-warns-trafficking-surges",
+      "title": "Don’t buy brides in Bangladesh, Chinese embassy warns as trafficking surges",
+      "word_count": 426,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/hong-kong/transport/article/3360554/hong-kong-gazettes-bill-enable-joint-immigration-checks-shenzhen-crossing",
-      "title": "Hong Kong gazettes bill to enable joint immigration checks at Shenzhen crossing",
-      "word_count": 491,
+      "url": "https://www.scmp.com/news/china/science/article/3360638/chinas-real-life-transformer-new-rescue-tech-used-dramatic-flood-evacuation",
+      "title": "‘China’s real-life transformer’: new rescue tech used in dramatic flood evacuation",
+      "word_count": 407,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/hong-kong/politics/article/3360479/mainland-chinese-firms-hong-kong-led-trip-central-asia-eye-city-listing-john-lee",
-      "title": "Mainland Chinese firms on Hong Kong-led Central Asia trip eye city listing: John Lee",
-      "word_count": 435,
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3360660/cathay-pacific-add-4-latin-american-destinations-madrid-code-share-iberia",
+      "title": "Cathay Pacific to add 4 Latin American destinations via Madrid code-share with Iberia",
+      "word_count": 300,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3360403/hongkongers-spend-record-hk2000-month-cats-silver-feline-market-grows",
-      "title": "Hongkongers spend record HK$2,000 per month on cats as ‘silver’ feline market grows",
-      "word_count": 499,
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3360628/over-half-tested-reading-specs-fail-list-key-details-prevent-eye-strain",
+      "title": "Over half of tested reading glasses fail to list key details to prevent eye strain",
+      "word_count": 376,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3360345/hong-kong-ramps-autonomous-vehicle-tests-baidu-expands-trials-city",
-      "title": "Hong Kong ramps up autonomous vehicle tests as Baidu expands trials in city",
-      "word_count": 472,
+      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3360220/connect-scheme-gold-shines-light-chinas-financial-liberalisation",
+      "title": "Connect scheme for gold shines light on China’s financial liberalisation",
+      "word_count": 934,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3360642/malaysias-anwar-deals-another-split-bn-melaka-after-johor-poll-rout",
+      "title": "Malaysia’s Anwar deals with another split with BN in Melaka after Johor poll rout",
+      "word_count": 819,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360653/philippines-starts-active-school-shooter-drills-after-deadly-attack-tacloban-city",
+      "title": "Philippines starts active school shooter drills after deadly attack in Tacloban City",
+      "word_count": 401,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3360276/why-some-hongkongers-take-6-hour-train-ride-zhangjiajie-holiday",
-      "title": "Why some Hongkongers take a 6-hour train ride for a Zhangjiajie holiday",
-      "word_count": 677,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3360266/world-cup-2026-hong-kong-pubs-restaurants-enjoy-net-gains-big-matches",
-      "title": "Fifa World Cup: Hong Kong pubs, restaurants enjoy net gains from big matches",
-      "word_count": 989,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3360263/gulf-capital-flowing-asia-hong-kong-middle-east-trade-35-paul-chan",
-      "title": "Gulf capital flowing into Asia as trade with Hong Kong rises 35%: Paul Chan",
-      "word_count": 694,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3360183/hong-kongs-3-year-deal-host-leap-east-affirms-global-it-role",
-      "title": "Hong Kong’s 3-year deal to host LEAP East ‘affirms’ global I&T role",
-      "word_count": 509,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/hong-kong/society/article/3360076/hong-kong-official-defends-u-turn-public-flats-pak-shek-kok-rail-stop-site",
-      "title": "New Pak Shek Kok railway station fast-tracked ‘to support I&T development’",
-      "word_count": 787,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/business/article/3360157/hong-kong-keeps-tight-grip-housing-land-supply-despite-property-rebound",
-      "title": "Hong Kong keeps tight grip on housing land supply despite property rebound",
-      "word_count": 520,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3360106/hong-kong-extend-injury-protection-gig-delivery-workers",
-      "title": "Hong Kong proposes job-related injury compensation for gig delivery workers",
-      "word_count": 902,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3360033/why-did-only-2-hong-kong-developers-put-their-hands-northern-metropolis-project",
-      "title": "Why did only 2 Hong Kong developers put up their hands for Northern Metropolis project?",
-      "word_count": 2025,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3360021/pak-shek-kok-station-east-rail-line-scheduled-open-early-2033",
-      "title": "Pak Shek Kok station on East Rail line scheduled to open as early as 2033",
-      "word_count": 756,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3359885/saudi-arabian-tech-giant-eyes-hong-kong-asia-gateway-and-smart-city-partner",
-      "title": "Saudi Arabian tech giant eyes Hong Kong as Asia gateway and smart city partner",
-      "word_count": 440,
+      "url": "https://www.scmp.com/economy/global-economy/article/3360656/osaka-led-industry-group-eyes-china-mission-corporate-japan-navigates-trade-tensions",
+      "title": "Osaka-led industry group eyes China mission as corporate Japan navigates trade tensions",
+      "word_count": 451,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/business/commodities/article/3359828/chinese-profit-taking-triggers-record-gold-etf-outflows-amid-shift-equities",
-      "title": "Chinese profit-taking triggers record gold ETF outflows amid shift to equities",
-      "word_count": 499,
+      "url": "https://www.scmp.com/economy/china-economy/article/3360635/amid-soaring-china-exports-europes-ports-are-feeling-heat",
+      "title": "Amid soaring China exports, Europe’s ports are feeling the heat",
+      "word_count": 674,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/big-tech/article/3360626/ai-investor-mania-chinas-deepseek-chases-us70-billion-valuation-fresh-round",
+      "title": "AI investor mania: China’s DeepSeek chases US$70 billion valuation in fresh round",
+      "word_count": 378,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3359866/tourist-arrivals-hong-kong-jump-13-267-million-first-half-year",
-      "title": "Tourist arrivals in Hong Kong jump by 13% to 26.7 million in first half of year",
-      "word_count": 579,
+      "url": "https://www.scmp.com/tech/blockchain/article/3360652/hong-kong-steps-us-crypto-fund-challenge-tokenised-fund-approval",
+      "title": "Hong Kong steps up to US crypto fund challenge with tokenised fund approval",
+      "word_count": 548,
       "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3359822/hong-kongs-paul-chan-pledges-second-trip-saudi-arabia-build-mideast-ties",
-      "title": "Hong Kong’s Paul Chan to make second trip to Saudi Arabia to build Mideast ties",
-      "word_count": 685,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/article/3359735/hong-kong-should-build-ai-plan-around-competitive-strengths-industry-leaders-say",
-      "title": "Hong Kong should build AI plan around ‘competitive’ strengths, industry leaders say",
-      "word_count": 1102,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/business/banking-finance/article/3359698/how-hong-kong-fighting-redefine-its-future-institutional-moat-wealth-surge",
-      "title": "How Hong Kong is fighting to redefine its future with an institutional moat, wealth surge",
-      "word_count": 2164,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/hong-kong/society/article/3359772/customers-seeking-refunds-during-cooling-period-will-need-pay-admin-fee",
-      "title": "Customers seeking refunds during cooling-off period will need to pay admin fee",
-      "word_count": 308,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3359766/hong-kongs-war-risk-pool-testament-collaboration-insurance-leader-says",
-      "title": "Hong Kong’s war-risk pool testament to collaboration, insurance leader says",
-      "word_count": 590,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3360373/why-and-how-media-industry-can-fit-hong-kongs-first-5-year-plan",
-      "title": "Why and how the media industry can fit into Hong Kong’s first 5-year plan",
-      "word_count": 1032,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3359770/how-hong-kong-can-lead-longevity-medicine-silver-economy-grows",
-      "title": "How Hong Kong can lead in longevity medicine as silver economy grows",
-      "word_count": 890,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3359454/we-hail-hong-kong-cinemas-return-lets-ensure-its-survival",
-      "title": "Before we hail Hong Kong cinema’s return, let’s ensure its survival",
-      "word_count": 927,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3359169/hong-kongs-northern-metropolis-project-neednt-neglect-agriculture",
-      "title": "Hong Kong’s Northern Metropolis project needn’t neglect agriculture",
-      "word_count": 761,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3359069/trump-visit-hong-kong-would-be-strategic-masterstroke",
-      "title": "A Trump visit to Hong Kong would be a strategic masterstroke",
-      "word_count": 918,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3358536/why-hong-kong-firms-looking-integrate-ai-must-consider-fresh-grads",
-      "title": "Why Hong Kong firms looking to integrate AI must consider fresh grads",
-      "word_count": 792,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/tech/article/3360615/china-memory-giant-cxmt-valued-us85-billion-record-shanghai-ipo",
-      "title": "China memory giant CXMT valued at US$85 billion in record Shanghai IPO",
-      "word_count": 415,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3360621/pacific-security-axis-grows-new-zealand-eyes-australia-fiji-defence-pact",
-      "title": "Pacific security axis grows as New Zealand eyes Australia-Fiji defence pact",
-      "word_count": 805,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3360507/malaysias-new-warship-can-hunt-submarines-cannot-sink-foe",
-      "title": "Malaysia’s new warship can hunt submarines but cannot sink a foe",
-      "word_count": 721,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/economics/article/3360562/why-scrapping-nepals-dollar-fare-could-leave-locals-grounded",
-      "title": "Why scrapping Nepal’s ‘dollar fare’ could leave locals grounded",
-      "word_count": 936,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/people/article/3360520/singapore-ministers-each-awarded-us177860-damages-bloomberg-defamation-suit",
-      "title": "Singapore ministers each awarded US$177,860 in damages in Bloomberg defamation suit",
-      "word_count": 903,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360597/vietnam-jeweller-rattled-ex-officials-arrest-over-india-hong-kong-gem-smuggling-ring",
-      "title": "Vietnam jeweller rattled by ex-official’s arrest over India-Hong Kong gem-smuggling ring",
-      "word_count": 735,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3360548/indonesias-anti-lgbt-education-push-raises-concerns-about-stigmatising-youth",
-      "title": "Indonesia’s anti-LGBT education push raises concerns about stigmatising youth",
-      "word_count": 1035,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/health-environment/article/3360471/philippine-rice-output-risks-30-collapse-super-el-nino-strengthens",
-      "title": "Philippine rice output risks 30% collapse as ‘super’ El Nino strengthens",
-      "word_count": 1209,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/people/article/3360460/mark-wahlberg-savours-penangs-charm-malaysians-floored-stars-humility",
-      "title": "Mark Wahlberg savours Penang’s charm as Malaysians floored by star’s humility",
-      "word_count": 540,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/asia/east-asia/article/3360590/ana-pilot-jailed-japan-groping-flight-attendant-after-work",
-      "title": "ANA pilot jailed in Japan for groping flight attendant after work",
-      "word_count": 247,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3360416/why-chinese-academic-claim-over-batanes-has-unsettled-philippines",
-      "title": "Why a Chinese academic claim over Batanes has unsettled the Philippines",
-      "word_count": 1152,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360551/philippine-police-hunt-suspects-after-us-marine-biologist-shot-dead-sibulan",
-      "title": "Philippine police hunt suspects after US marine biologist shot dead in Sibulan",
-      "word_count": 279,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360495/malaysian-comedian-sued-insulting-body-shaming-najibs-wife",
-      "title": "Malaysian comedian sued for insulting, body shaming Najib’s wife",
-      "word_count": 423,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/economics/article/3360531/trumps-20-hormuz-toll-jolts-markets-asia-adapts-oil-shock",
-      "title": "Trump’s 20% Hormuz toll jolts markets as Asia adapts to oil shock",
-      "word_count": 944,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360572/singapore-ministers-donate-bloomberg-defamation-damages-charity",
-      "title": "Singapore ministers to donate Bloomberg defamation damages to charity",
-      "word_count": 539,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/asia/south-asia/article/3360538/delhi-summons-iranian-diplomat-after-indian-sailor-dies-strait-hormuz-vessel-attacks",
-      "title": "Delhi summons Iranian diplomat after Indian sailor dies in Strait of Hormuz vessel attacks",
-      "word_count": 343,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/people/article/3360464/malaysia-viral-shoe-sniffing-video-sparks-stalking-arrest",
-      "title": "In Malaysia, viral shoe-sniffing video sparks stalking arrest",
-      "word_count": 463,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3360526/singapore-malaysia-relations-enter-mature-era-tharmans-state-visit",
-      "title": "Singapore-Malaysia relations enter ‘mature’ era with Tharman’s state visit",
-      "word_count": 846,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/opinion/asia-opinion/article/3359857/cambodia-aspires-shed-its-dependencies-while-staying-connected",
-      "title": "Cambodia aspires to shed its dependencies while staying connected",
-      "word_count": 910,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/opinion/article/3360162/why-second-china-shock-good-southeast-asia",
-      "title": "Why a second ‘China shock’ is good for Southeast Asia",
-      "word_count": 878,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/opinion/article/3360161/panic-over-chinas-missile-test-born-western-bias",
-      "title": "Panic over China’s missile test is born of Western bias",
-      "word_count": 727,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/economics/article/3360150/southeast-asias-scammers-new-disguise-your-leaders-face",
-      "title": "Southeast Asian scammers’ new disguise: your leader’s face",
-      "word_count": 1758,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3359339/super-ageing-singapore-headed-population-decline",
-      "title": "Is super-ageing Singapore headed for population decline?",
-      "word_count": 1837,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3358515/malaysia-has-never-had-so-many-chinese-tourists-it-wants-more",
-      "title": "Malaysia has never had so many Chinese tourists. It wants more",
-      "word_count": 1447,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/health-environment/article/3357703/asias-shaky-food-supply-shudders-super-el-nino-arrives",
-      "title": "Asia’s shaky food supply shudders as ‘super’ El Nino arrives",
-      "word_count": 1720,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/economics/article/3359718/south-korea-loses-canada-submarine-deal-cements-top-tier-defence-status",
-      "title": "South Korea loses Canada submarine deal but cements top-tier defence status",
-      "word_count": 985,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/economics/article/3360032/why-philippines-losing-out-southeast-asias-investment-boom",
-      "title": "Why the Philippines is losing out in Southeast Asia’s investment boom",
-      "word_count": 871,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360349/what-happens-when-indonesias-top-corruption-buster-suspected-graft-himself",
-      "title": "What happens when Indonesia’s top corruption buster is suspected of graft himself?",
-      "word_count": 1021,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/asia/east-asia/article/3359820/why-bluefin-tuna-boom-slicing-livelihoods-japanese-fishermen",
-      "title": "Why a bluefin tuna boom is slicing into livelihoods of Japanese fishermen",
-      "word_count": 639,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/asia/east-asia/article/3359933/nato-summit-gaffe-trump-says-islamic-republic-japan-fired-missiles-us-ship",
-      "title": "In Nato summit gaffe, Trump says ‘Islamic Republic of Japan’ fired missiles at US ship",
-      "word_count": 280,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/opinion/world-opinion/article/3360284/why-trump-commission-attacking-nietzsche-foucault-and-sartre",
-      "title": "Why is a Trump commission attacking Nietzsche, Foucault and Sartre?",
-      "word_count": 766,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/opinion/china-opinion/article/3359882/why-china-seriously-cultivating-ai-entertainment",
-      "title": "Why China is seriously cultivating AI entertainment",
-      "word_count": 850,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/opinion/world-opinion/article/3360314/iran-war-no-longer-contest-over-just-strait-hormuz",
-      "title": "Iran war is no longer a contest over just the Strait of Hormuz",
-      "word_count": 905,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3360318/why-chinese-wealth-still-powering-hong-kong-and-singapore-property",
-      "title": "Why Chinese wealth is still powering Hong Kong and Singapore property",
-      "word_count": 889,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3360078/why-hong-kong-must-fill-seat-vacated-lawmaker-promptly",
-      "title": "Why Hong Kong must fill seat vacated by lawmaker promptly",
-      "word_count": 797,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3359958/how-hong-kong-can-draw-line-under-2019-20-protests-and-move-forward",
-      "title": "How Hong Kong can draw line under the 2019-20 protests and move forward",
-      "word_count": 877,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/opinion/article/3360283/how-chinas-rare-missile-test-sparked-hysterical-hypocrisy",
-      "title": "How China’s rare missile test sparked hysterical hypocrisy",
-      "word_count": 1047,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/opinion/china-opinion/article/3359840/markets-not-politics-will-make-chinas-yuan-global-currency",
-      "title": "Markets, not politics, will make China’s yuan a global currency",
-      "word_count": 920,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/opinion/world-opinion/article/3359796/trumps-crypto-windfall-showcases-his-ability-turn-loyalty-power",
-      "title": "Trump’s crypto windfall showcases his ability to turn loyalty into power",
-      "word_count": 929,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/opinion/article/3360244/if-anyone-deserves-red-card-its-donald-trump-and-gianni-infantino",
-      "title": "If anyone deserves a red card it’s Donald Trump and Gianni Infantino",
-      "word_count": 1112,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/business/china-business/article/3360602/chinese-gem-lab-rakes-profits-world-embraces-artificial-diamonds",
-      "title": "Chinese gem lab rakes in profits as world embraces artificial diamonds",
-      "word_count": 355,
-      "quality": "fulltext",
       "is_premium": false
     }
   ]
