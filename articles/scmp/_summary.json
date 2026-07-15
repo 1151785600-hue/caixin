@@ -1,82 +1,68 @@
 {
-  "ts": "2026-07-15 09:10:34",
+  "ts": "2026-07-15 11:17:28",
   "v": "scmp_v4",
-  "new_count": 11,
+  "new_count": 9,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3360664/dont-buy-brides-bangladesh-chinese-embassy-warns-trafficking-surges",
-      "title": "Don’t buy brides in Bangladesh, Chinese embassy warns as trafficking surges",
-      "word_count": 426,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/science/article/3360638/chinas-real-life-transformer-new-rescue-tech-used-dramatic-flood-evacuation",
-      "title": "‘China’s real-life transformer’: new rescue tech used in dramatic flood evacuation",
-      "word_count": 407,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3360660/cathay-pacific-add-4-latin-american-destinations-madrid-code-share-iberia",
-      "title": "Cathay Pacific to add 4 Latin American destinations via Madrid code-share with Iberia",
-      "word_count": 300,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3360628/over-half-tested-reading-specs-fail-list-key-details-prevent-eye-strain",
-      "title": "Over half of tested reading glasses fail to list key details to prevent eye strain",
-      "word_count": 376,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3360220/connect-scheme-gold-shines-light-chinas-financial-liberalisation",
-      "title": "Connect scheme for gold shines light on China’s financial liberalisation",
-      "word_count": 934,
+      "url": "https://www.scmp.com/news/china/science/article/3360622/china-now-worlds-no-1-science-power-says-top-russian-scientist-artem-oganov",
+      "title": "China is now world’s No 1 science power, top Russian scientist Artem Oganov says",
+      "word_count": 1272,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/week-asia/politics/article/3360642/malaysias-anwar-deals-another-split-bn-melaka-after-johor-poll-rout",
-      "title": "Malaysia’s Anwar deals with another split with BN in Melaka after Johor poll rout",
-      "word_count": 819,
+      "url": "https://www.scmp.com/news/china/politics/article/3360678/china-warns-more-extreme-weather-typhoon-bavi-leaves-trail-rain-flooding",
+      "title": "China warns of more extreme weather as Bavi leaves trail of rain, flooding",
+      "word_count": 475,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3360606/china-report-warns-against-european-led-nato-30-expansion-asia-pacific",
+      "title": "China report warns against European-led Nato 3.0 expansion in the Asia-Pacific",
+      "word_count": 654,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360653/philippines-starts-active-school-shooter-drills-after-deadly-attack-tacloban-city",
-      "title": "Philippines starts active school shooter drills after deadly attack in Tacloban City",
-      "word_count": 401,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/economy/global-economy/article/3360656/osaka-led-industry-group-eyes-china-mission-corporate-japan-navigates-trade-tensions",
-      "title": "Osaka-led industry group eyes China mission as corporate Japan navigates trade tensions",
-      "word_count": 451,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/economy/china-economy/article/3360635/amid-soaring-china-exports-europes-ports-are-feeling-heat",
-      "title": "Amid soaring China exports, Europe’s ports are feeling the heat",
-      "word_count": 674,
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3360654/hong-kong-airport-profit-falls-168-hk2b-expenses-salvage-operation-bite",
+      "title": "Hong Kong airport profit falls 16.8% to HK$2b as expenses, salvage operation bite",
+      "word_count": 543,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/tech/big-tech/article/3360626/ai-investor-mania-chinas-deepseek-chases-us70-billion-valuation-fresh-round",
-      "title": "AI investor mania: China’s DeepSeek chases US$70 billion valuation in fresh round",
-      "word_count": 378,
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360669/2-prisoners-found-guilty-helping-correctional-officer-attack-fellow-inmate",
+      "title": "2 prisoners found guilty of helping correctional officer attack fellow inmate",
+      "word_count": 604,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3360687/why-south-koreas-submarine-exports-are-running-aground",
+      "title": "Why South Korea’s submarine exports are running aground",
+      "word_count": 1023,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3360679/malaysias-anwar-warns-any-israelis-johor-tech-commune-be-deported-immediately",
+      "title": "Malaysia’s Anwar warns any Israelis at Johor tech commune to be ‘deported immediately’",
+      "word_count": 556,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/south-asia/article/3360674/tankers-iranian-oil-look-pakistan-safe-harbour-us-blockade-takes-effect",
+      "title": "Tankers with Iranian oil look to Pakistan for safe harbour as US blockade takes effect",
+      "word_count": 435,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/tech/blockchain/article/3360652/hong-kong-steps-us-crypto-fund-challenge-tokenised-fund-approval",
-      "title": "Hong Kong steps up to US crypto fund challenge with tokenised fund approval",
-      "word_count": 548,
+      "url": "https://www.scmp.com/tech/policy/article/3360685/china-approves-apple-intelligence-phones-alibaba-baidu-emerging-partners",
+      "title": "China approves Apple Intelligence for phones, with Alibaba, Baidu emerging as partners",
+      "word_count": 504,
       "quality": "fulltext_deep",
       "is_premium": false
     }
