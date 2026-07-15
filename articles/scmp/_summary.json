@@ -1,82 +1,68 @@
 {
-  "ts": "2026-07-15 14:57:20",
+  "ts": "2026-07-15 17:22:55",
   "v": "scmp_v4",
-  "new_count": 11,
+  "new_count": 9,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/article/3360578/chinas-anthropic-snub-new-pacific-missile-launch-7-us-china-relations-reads",
-      "title": "China’s Anthropic snub, new Pacific missile launch: 7 US-China relations reads",
-      "word_count": 410,
+      "url": "https://www.scmp.com/news/us/diplomacy/article/3360722/global-views-china-and-xi-improve-perceptions-us-decline-pew-survey-finds",
+      "title": "Global views of China and Xi improve as perceptions of US decline, Pew survey finds",
+      "word_count": 819,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3360711/us-iran-war-trump-falling-vietnam-quagmire",
+      "title": "US-Iran war: is Trump falling into a Vietnam ‘quagmire’?",
+      "word_count": 1214,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360401/italian-chef-handed-90-hours-community-service-drink-driving-speeding",
+      "title": "Italian chef handed 90 hours of community service for drink-driving, speeding",
+      "word_count": 246,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/china/science/article/3360682/why-us-china-space-race-could-come-down-thin-metal-cap",
-      "title": "Why the US-China space race could come down to a thin metal cap",
-      "word_count": 823,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/science/article/3360665/award-winning-chemist-zhang-wei-leaves-us-join-chinas-great-bay-university",
-      "title": "Award-winning chemist Zhang Wei leaves US to join China’s Great Bay University",
-      "word_count": 781,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/tech/article/3360689/sam-altman-signals-openai-price-war-rivalry-anthropic-china-heats",
-      "title": "Sam Altman signals OpenAI price war as rivalry with Anthropic, China heats up",
-      "word_count": 549,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360694/former-hong-kong-law-student-gets-nearly-3-years-after-riot-acquittal-overturned",
-      "title": "Former Hong Kong law student gets nearly 3 years after riot acquittal overturned",
-      "word_count": 500,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360688/hong-kong-police-raid-2-indie-bookstores-arrest-several-over-national-security",
-      "title": "Hong Kong police arrest 5 over national security after raiding 2 bookstores",
-      "word_count": 481,
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360271/hong-kong-police-arrest-9-crackdown-dangerous-driving",
+      "title": "Hong Kong police arrest 9 in crackdown on dangerous driving",
+      "word_count": 201,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360703/thai-police-arrest-boxing-camp-manager-trafficking-underage-boys-sex",
-      "title": "Thai police arrest boxing camp manager for trafficking underage boys for sex",
-      "word_count": 366,
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360065/former-top-hong-kong-prosecutor-court-over-injuring-man-while-drink-driving",
+      "title": "Former top prosecutor in Hong Kong court over injuring man while drink-driving",
+      "word_count": 251,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/week-asia/politics/article/3360697/uk-grooming-gangs-scandal-deepens-labours-woes-amid-voter-backlash",
-      "title": "UK grooming gangs scandal deepens Labour’s woes amid voter backlash",
-      "word_count": 887,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/opinion/world-opinion/article/3360110/ai-learns-hide-science-must-learn-trust-differently",
-      "title": "As AI learns to hide, science must learn to trust differently",
-      "word_count": 762,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/economy/china-economy/article/3360693/china-eyes-broader-global-access-yuan-assets-panda-bond-demand-surges",
-      "title": "China eyes broader global access to yuan assets, as panda bond demand surges",
-      "word_count": 445,
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359927/former-polyu-student-arrested-allegedly-submitting-fake-academic-documents",
+      "title": "Former PolyU student arrested for allegedly submitting fake academic documents",
+      "word_count": 221,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/tech/big-tech/article/3360684/china-completes-worlds-first-commercial-brain-computer-interface-implant",
-      "title": "China completes world’s first commercial brain-computer interface implant",
-      "word_count": 321,
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3359836/mirror-star-keung-slapped-3-month-driving-ban-after-spate-offences",
+      "title": "Mirror star Keung To slapped with 3-month driving ban after spate of offences",
+      "word_count": 286,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360717/vietnam-arrests-3-publishing-bosses-over-controversial-ho-chi-minh-book",
+      "title": "Vietnam arrests 3 publishing bosses over controversial Ho Chi Minh book",
+      "word_count": 330,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3359933/nato-summit-gaffe-trump-says-islamic-republic-japan-fired-missiles-us-ship",
+      "title": "In Nato summit gaffe, Trump says ‘Islamic Republic of Japan’ fired missiles at US ship",
+      "word_count": 280,
       "quality": "fulltext",
       "is_premium": false
     }
