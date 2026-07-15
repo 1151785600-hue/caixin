@@ -1,69 +1,83 @@
 {
-  "ts": "2026-07-15 11:17:28",
+  "ts": "2026-07-15 14:57:20",
   "v": "scmp_v4",
-  "new_count": 9,
+  "new_count": 11,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/science/article/3360622/china-now-worlds-no-1-science-power-says-top-russian-scientist-artem-oganov",
-      "title": "China is now world’s No 1 science power, top Russian scientist Artem Oganov says",
-      "word_count": 1272,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/politics/article/3360678/china-warns-more-extreme-weather-typhoon-bavi-leaves-trail-rain-flooding",
-      "title": "China warns of more extreme weather as Bavi leaves trail of rain, flooding",
-      "word_count": 475,
+      "url": "https://www.scmp.com/news/china/article/3360578/chinas-anthropic-snub-new-pacific-missile-launch-7-us-china-relations-reads",
+      "title": "China’s Anthropic snub, new Pacific missile launch: 7 US-China relations reads",
+      "word_count": 410,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3360606/china-report-warns-against-european-led-nato-30-expansion-asia-pacific",
-      "title": "China report warns against European-led Nato 3.0 expansion in the Asia-Pacific",
-      "word_count": 654,
+      "url": "https://www.scmp.com/news/china/science/article/3360682/why-us-china-space-race-could-come-down-thin-metal-cap",
+      "title": "Why the US-China space race could come down to a thin metal cap",
+      "word_count": 823,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3360654/hong-kong-airport-profit-falls-168-hk2b-expenses-salvage-operation-bite",
-      "title": "Hong Kong airport profit falls 16.8% to HK$2b as expenses, salvage operation bite",
-      "word_count": 543,
+      "url": "https://www.scmp.com/news/china/science/article/3360665/award-winning-chemist-zhang-wei-leaves-us-join-chinas-great-bay-university",
+      "title": "Award-winning chemist Zhang Wei leaves US to join China’s Great Bay University",
+      "word_count": 781,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360669/2-prisoners-found-guilty-helping-correctional-officer-attack-fellow-inmate",
-      "title": "2 prisoners found guilty of helping correctional officer attack fellow inmate",
-      "word_count": 604,
+      "url": "https://www.scmp.com/tech/article/3360689/sam-altman-signals-openai-price-war-rivalry-anthropic-china-heats",
+      "title": "Sam Altman signals OpenAI price war as rivalry with Anthropic, China heats up",
+      "word_count": 549,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/week-asia/politics/article/3360687/why-south-koreas-submarine-exports-are-running-aground",
-      "title": "Why South Korea’s submarine exports are running aground",
-      "word_count": 1023,
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360694/former-hong-kong-law-student-gets-nearly-3-years-after-riot-acquittal-overturned",
+      "title": "Former Hong Kong law student gets nearly 3 years after riot acquittal overturned",
+      "word_count": 500,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/week-asia/economics/article/3360679/malaysias-anwar-warns-any-israelis-johor-tech-commune-be-deported-immediately",
-      "title": "Malaysia’s Anwar warns any Israelis at Johor tech commune to be ‘deported immediately’",
-      "word_count": 556,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/asia/south-asia/article/3360674/tankers-iranian-oil-look-pakistan-safe-harbour-us-blockade-takes-effect",
-      "title": "Tankers with Iranian oil look to Pakistan for safe harbour as US blockade takes effect",
-      "word_count": 435,
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360688/hong-kong-police-raid-2-indie-bookstores-arrest-several-over-national-security",
+      "title": "Hong Kong police arrest 5 over national security after raiding 2 bookstores",
+      "word_count": 481,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/tech/policy/article/3360685/china-approves-apple-intelligence-phones-alibaba-baidu-emerging-partners",
-      "title": "China approves Apple Intelligence for phones, with Alibaba, Baidu emerging as partners",
-      "word_count": 504,
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360703/thai-police-arrest-boxing-camp-manager-trafficking-underage-boys-sex",
+      "title": "Thai police arrest boxing camp manager for trafficking underage boys for sex",
+      "word_count": 366,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3360697/uk-grooming-gangs-scandal-deepens-labours-woes-amid-voter-backlash",
+      "title": "UK grooming gangs scandal deepens Labour’s woes amid voter backlash",
+      "word_count": 887,
       "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/world-opinion/article/3360110/ai-learns-hide-science-must-learn-trust-differently",
+      "title": "As AI learns to hide, science must learn to trust differently",
+      "word_count": 762,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3360693/china-eyes-broader-global-access-yuan-assets-panda-bond-demand-surges",
+      "title": "China eyes broader global access to yuan assets, as panda bond demand surges",
+      "word_count": 445,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/big-tech/article/3360684/china-completes-worlds-first-commercial-brain-computer-interface-implant",
+      "title": "China completes world’s first commercial brain-computer interface implant",
+      "word_count": 321,
+      "quality": "fulltext",
       "is_premium": false
     }
   ]
