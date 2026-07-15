@@ -81,7 +81,7 @@ def get_relevant_quotes(article_text, max_quotes=2):
 
 def is_deep_report(filepath):
     with open(filepath, "r", encoding="utf-8") as f:
-        content = f.read()
+        content = f.read(1000)
     if "fulltext_deep" in content:
         return True
     m = re.search(r'(\d+)\s*words', content)
