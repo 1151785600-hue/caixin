@@ -1,40 +1,75 @@
 {
-  "ts": "2026-07-16 06:10:45",
+  "ts": "2026-07-16 09:17:27",
   "v": "scmp_v4",
-  "new_count": 5,
+  "new_count": 10,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/science/article/3360770/chinas-lab-monkey-prices-hit-covid-era-highs-new-drug-rd-demand",
-      "title": "China’s lab monkey prices hit Covid-era highs on new drug R&D demand",
-      "word_count": 694,
+      "url": "https://www.scmp.com/news/china/science/article/3360783/china-building-early-warning-system-spot-earth-smashing-asteroids",
+      "title": "China is building early warning system to spot Earth-smashing asteroids",
+      "word_count": 500,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360768/rohingya-refugees-among-over-500-feared-dead-after-myanmar-boats-capsize",
-      "title": "Rohingya refugees among over 500 feared dead after Myanmar boats capsize",
-      "word_count": 487,
+      "url": "https://www.scmp.com/postmag/culture/article/3359619/rail-and-road-benefits-chinas-full-system-transport-makeovers",
+      "title": "Rail and road: the benefits of China’s full-system transport makeovers",
+      "word_count": 1214,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3354537/how-shenzhen-becoming-asias-newest-culinary-hotspot",
+      "title": "How Shenzhen is becoming Asia’s newest culinary hotspot",
+      "word_count": 1080,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/china-business/article/3360759/byd-aims-build-3000-flash-charging-stations-across-europe-within-months",
+      "title": "BYD aims to build 3,000 ‘flash-charging’ stations across Europe within months",
+      "word_count": 506,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360788/senior-hong-kong-policeman-convicted-molesting-clerk-3-times-headquarters",
+      "title": "Senior Hong Kong policeman convicted of molesting clerk 3 times at headquarters",
+      "word_count": 469,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/week-asia/economics/article/3360158/japan-wants-60-million-tourists-china-isnt-sending-them",
-      "title": "Japan wants 60 million tourists, but China isn’t sending them",
-      "word_count": 1074,
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3360794/nvidia-chief-jensen-huang-seals-japan-robotics-push-after-yakitori-summit",
+      "title": "Nvidia chief Jensen Huang seals Japan robotics push after ‘yakitori summit’",
+      "word_count": 609,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/economy/china-economy/article/3360758/chinas-imports-africa-surge-after-beijing-expands-zero-tariff-policy",
-      "title": "China’s imports from Africa surge after Beijing expands zero-tariff policy",
-      "word_count": 564,
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360787/malaysias-us47-million-investment-indonesian-start-revealed-fraud",
+      "title": "Malaysia’s US$47 million investment in Indonesian start-up revealed as fraud",
+      "word_count": 300,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/world-opinion/article/3360506/climate-disasters-compete-wars-markets-distracted-worlds-money",
+      "title": "Climate disasters compete with wars, markets for distracted world’s money",
+      "word_count": 858,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/business/markets/article/3360753/goldman-sachs-backs-hkex-buy-rating-citing-beijings-policy-support-ai-stock-boost",
-      "title": "Goldman Sachs backs HKEX with ‘buy rating’, citing Beijing’s policy support, AI stock boost",
-      "word_count": 379,
+      "url": "https://www.scmp.com/economy/china-economy/article/3360776/dutch-prime-minister-rob-jetten-set-visit-china-next-spring-sources",
+      "title": "Dutch Prime Minister Rob Jetten set to visit China next spring: sources",
+      "word_count": 495,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/article/3360769/cafe-de-coral-1986-becomes-first-hong-kong-food-chain-go-public-scmp-archive",
+      "title": "Cafe de Coral, in 1986, becomes first Hong Kong food chain to go public – SCMP archive",
+      "word_count": 348,
       "quality": "fulltext",
       "is_premium": false
     }
