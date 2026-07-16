@@ -1,75 +1,61 @@
 {
-  "ts": "2026-07-16 09:17:27",
+  "ts": "2026-07-16 11:23:33",
   "v": "scmp_v4",
-  "new_count": 10,
+  "new_count": 8,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/science/article/3360783/china-building-early-warning-system-spot-earth-smashing-asteroids",
-      "title": "China is building early warning system to spot Earth-smashing asteroids",
-      "word_count": 500,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/postmag/culture/article/3359619/rail-and-road-benefits-chinas-full-system-transport-makeovers",
-      "title": "Rail and road: the benefits of China’s full-system transport makeovers",
-      "word_count": 1214,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3354537/how-shenzhen-becoming-asias-newest-culinary-hotspot",
-      "title": "How Shenzhen is becoming Asia’s newest culinary hotspot",
-      "word_count": 1080,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/business/china-business/article/3360759/byd-aims-build-3000-flash-charging-stations-across-europe-within-months",
-      "title": "BYD aims to build 3,000 ‘flash-charging’ stations across Europe within months",
-      "word_count": 506,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360788/senior-hong-kong-policeman-convicted-molesting-clerk-3-times-headquarters",
-      "title": "Senior Hong Kong policeman convicted of molesting clerk 3 times at headquarters",
-      "word_count": 469,
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3360804/short-haul-tourist-arrivals-fall-15-amid-strong-hong-kong-dollar-fewer-flights",
+      "title": "Short-haul tourist arrivals fall 15% amid strong Hong Kong dollar, fewer flights",
+      "word_count": 440,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/asia/east-asia/article/3360794/nvidia-chief-jensen-huang-seals-japan-robotics-push-after-yakitori-summit",
-      "title": "Nvidia chief Jensen Huang seals Japan robotics push after ‘yakitori summit’",
-      "word_count": 609,
+      "url": "https://www.scmp.com/economy/china-economy/article/3360801/shanghai-synergises-computing-centres-grid-power-infrastructure-upgrade",
+      "title": "Shanghai synergises computing centres with grid in power infrastructure upgrade",
+      "word_count": 562,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360787/malaysias-us47-million-investment-indonesian-start-revealed-fraud",
-      "title": "Malaysia’s US$47 million investment in Indonesian start-up revealed as fraud",
-      "word_count": 300,
+      "url": "https://www.scmp.com/tech/tech-war/article/3360809/tsmc-pledges-extra-us100-billion-arizona-fab-expansion-amid-soaring-ai-chip-demand",
+      "title": "TSMC pledges extra US$100 billion for Arizona fab expansion amid soaring AI chip demand",
+      "word_count": 382,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/opinion/world-opinion/article/3360506/climate-disasters-compete-wars-markets-distracted-worlds-money",
-      "title": "Climate disasters compete with wars, markets for distracted world’s money",
-      "word_count": 858,
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360813/bar-security-footage-helps-clear-hong-kong-rugby-player-molestation-charge",
+      "title": "Bar security footage helps clear Hong Kong rugby player of molestation charge",
+      "word_count": 353,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3360811/booksellers-must-ensure-titles-dont-violate-national-security-laws-chris-tang",
+      "title": "Booksellers must ensure titles don’t violate national security laws: Chris Tang",
+      "word_count": 522,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/economy/china-economy/article/3360776/dutch-prime-minister-rob-jetten-set-visit-china-next-spring-sources",
-      "title": "Dutch Prime Minister Rob Jetten set to visit China next spring: sources",
-      "word_count": 495,
-      "quality": "fulltext",
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3360818/indonesian-migrant-fishers-hooked-false-promises-reeled-slavery-high-seas",
+      "title": "Indonesian migrant fishers hooked by false promises, reeled into slavery on high seas",
+      "word_count": 764,
+      "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/hong-kong/article/3360769/cafe-de-coral-1986-becomes-first-hong-kong-food-chain-go-public-scmp-archive",
-      "title": "Cafe de Coral, in 1986, becomes first Hong Kong food chain to go public – SCMP archive",
-      "word_count": 348,
+      "url": "https://www.scmp.com/week-asia/economics/article/3360806/new-johor-rail-link-us815m-challenge-singapores-retail-and-fb",
+      "title": "New Johor rail link: a US$815m challenge for Singapore’s retail and F&B",
+      "word_count": 775,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/global-economy/article/3360807/china-vows-helium-trade-policy-changes-global-tightening-squeezes-gas-supplies",
+      "title": "China vows helium-trade policy changes as global tightening squeezes gas supplies",
+      "word_count": 365,
       "quality": "fulltext",
       "is_premium": false
     }
