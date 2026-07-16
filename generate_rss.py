@@ -155,13 +155,8 @@ def build_rss(articles_dir, output_path):
 
             total_items += 1
 
-    # Pretty print
-    rough = tostring(rss, encoding="unicode", xml_declaration=False)
-    dom = minidom.parseString('<?xml version="1.0" encoding="UTF-8"?>' + rough)
-    pretty = dom.toprettyxml(indent="  ")
-    # Remove blank lines
-    lines = [l for l in pretty.split("\n") if l.strip()]
-    xml_str = "\n".join(lines) + "\n"
+    # Serialize with explicit UTF-8 encoding to avoid mojibake
+    xml_str = tostring(rss, encoding="UTF-8", xml_declaration=True).decode("utf-8")
 
     os.makedirs(os.path.dirname(output_path) or ".", exist_ok=True)
     with open(output_path, "w", encoding="utf-8") as f:
