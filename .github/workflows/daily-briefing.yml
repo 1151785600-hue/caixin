@@ -19,6 +19,7 @@ permissions:
 
 jobs:
   generate:
+    if: github.event.inputs.phase != 'push'
     runs-on: ubuntu-latest
     outputs:
       has_articles: ${{ steps.check.outputs.has_articles }}
