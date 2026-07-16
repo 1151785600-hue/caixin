@@ -1,6 +1,14 @@
 {
   "date": "2026-07-16",
-  "articles": [],
+  "articles": [
+    {
+      "title": "Chinese Consumers Tighten Purse Strings Despite Modest Income Gains",
+      "source": "caixin",
+      "url": "https://www.caixinglobal.com/2026-07-16/chinese-consumers-tighten-purse-strings-despite-modest-income-gains-102464740.html",
+      "word_count": 491,
+      "summary": "- Chinese households are displaying their most cautious spending behavior since the peak of the pandemic, allocating the smallest share of their income to consumption\n[para.\n- This trend firmly underscores the immense challenge Beijing faces in its efforts to revive domestic demand against the backdrop of a protracted and severe property market slump\n[para.\n- The household propensity to consume, a critical indicator measuring the ratio of consumer spending to disposable income, fell to 64.6% in ..."
+    }
+  ],
   "commentary": "",
   "commentary_title": ""
 }
