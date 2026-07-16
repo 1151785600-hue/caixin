@@ -1,28 +1,6 @@
 {
-  "ts": "2026-07-16 15:07:32",
+  "ts": "2026-07-16 17:24:39",
   "v": "scmp_v4",
-  "new_count": 3,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3360833/anthropic-china-and-why-pax-silica-architect-thinks-us-can-keep-ai-lead",
-      "title": "Anthropic, China and why Pax Silica architect thinks the US can keep the AI lead",
-      "word_count": 1056,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3360828/does-beijing-own-batanes-why-chinese-scholars-claim-warning-shot-manila",
-      "title": "Does Beijing own Batanes? Why Chinese scholars’ claim is a warning shot to Manila",
-      "word_count": 1189,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3360835/can-malaysias-pas-deliver-votes-negeri-sembilan-despite-johor-wipeout",
-      "title": "Can Malaysia’s PAS deliver the votes in Negeri Sembilan despite Johor wipeout?",
-      "word_count": 1117,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
