@@ -85,7 +85,7 @@ def is_deep_report(filepath):
     if "fulltext_deep" in content:
         return True
     m = re.search(r'(\d+)\s*words', content)
-    if m and int(m.group(1)) >= 300:
+    if m and int(m.group(1)) >= 1000:
         return True
     return False
 
