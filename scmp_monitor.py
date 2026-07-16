@@ -1,6 +1,6 @@
 """scmp_monitor.py v4 - SCMP深度报道自动抓取
 使用__NEXT_DATA__ JSON提取法（SCMP新版页面不再使用JSON-LD articleBody）。
-URL去重，仅保存200+词的文章。
+URL去重，仅保存1000+词的深度报道文章。
 推送由 daily-briefing.py 统一处理。
 """
 import requests, re, json, os, time
@@ -133,7 +133,7 @@ def extract_article(session, url):
             print(f"    SKIP: no_body | {url[:80]}")
             return {"skip": True, "reason": "no_body"}
         word_count = len(re.findall(r'[a-zA-Z]+', article["body"]))
-        if word_count < 200:
+        if word_count < 1000:
             print(f"    SKIP: short ({word_count}w) | {url[:80]}")
             return {"skip": True, "reason": "short"}
         title = article["title"]
@@ -145,7 +145,7 @@ def extract_article(session, url):
         is_premium = 'isAccessibleForFree": false' in html or "isAccessibleForFree': false" in html
         if 'isAccessibleForFree": true' in html or "isAccessibleForFree': true" in html:
             is_premium = False
-        quality = "fulltext_deep" if word_count >= 500 else "fulltext"
+        quality = "fulltext_deep" if word_count >= 1500 else "fulltext"
         return {
             "title": title, "body": article["body"], "word_count": word_count,
             "quality": quality, "is_premium": is_premium,
