@@ -73,9 +73,9 @@ jobs:
           fi
 
   push:
-    needs: generate
+    needs: [generate]
     if: |
-      needs.generate.outputs.has_articles == 'true' || 
+      (needs.generate.result == 'success' && needs.generate.outputs.has_articles == 'true') || 
       github.event.inputs.phase == 'push'
     runs-on: ubuntu-latest
     steps:
