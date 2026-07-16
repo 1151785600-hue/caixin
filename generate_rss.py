@@ -24,27 +24,83 @@ def escape_xml(text):
     return html.escape(str(text), quote=False)
 
 
-def make_pages_url(source, original_url, articles_dir):
-    """Convert original URL to GitHub Pages URL using local file lookup."""
+def find_local_file(source, original_url, articles_dir):
+    """Find the local HTML file path for an article."""
     if source == "caixin":
-        # Pattern: /YYYY-MM-DD/slug.html -> articles/YYYYMMDD_slug.html
         m = re.search(r"/(\d{4}-\d{2}-\d{2})/(.+?)\.html", original_url)
         if m:
             date_prefix = m.group(1).replace("-", "")
             slug = m.group(2)
-            # Find actual file
             for f in glob.glob(os.path.join(articles_dir, f"{date_prefix}_*{slug[:20]}*.html")):
-                return f"{PAGES_BASE}/articles/{os.path.basename(f)}"
+                return f
     elif source == "scmp":
-        # Pattern: /article/XXXXX -> articles/scmp/YYYYMMDD_scmp_XXXXX.html
         m = re.search(r"/(\d+)", original_url)
         if m:
             scmp_id = m.group(1)
             scmp_dir = os.path.join(articles_dir, "scmp")
             for f in glob.glob(os.path.join(scmp_dir, f"*{scmp_id}.html")):
-                return f"{PAGES_BASE}/articles/scmp/{os.path.basename(f)}"
-    # Fallback: return original URL
+                return f
+    return None
+
+
+def make_pages_url(source, original_url, articles_dir):
+    """Convert original URL to GitHub Pages URL using local file lookup."""
+    local = find_local_file(source, original_url, articles_dir)
+    if local:
+        if source == "scmp":
+            return f"{PAGES_BASE}/articles/scmp/{os.path.basename(local)}"
+        else:
+            return f"{PAGES_BASE}/articles/{os.path.basename(local)}"
     return original_url
+
+
+def extract_article_body(html_file):
+    """Extract the article body HTML from a saved HTML file.
+
+    Returns the inner HTML of <article> or <div class='content'> or <div id='content'>
+    or falls back to all <p> tags. Also prepends source attribution.
+    """
+    if not html_file or not os.path.exists(html_file):
+        return ""
+    try:
+        with open(html_file, "r", encoding="utf-8") as f:
+            content = f.read()
+
+        # Try <article> tag
+        m = re.search(r'<article[^>]*>(.*?)</article>', content, re.DOTALL)
+        if m and len(m.group(1)) > 200:
+            body = m.group(1)
+        else:
+            # Try common content divs
+            for pattern in [r'<div[^>]*class=["\']content["\'][^>]*>(.*?)</div>',
+                           r'<div[^>]*id=["\']content["\'][^>]*>(.*?)</div>',
+                           r'<div[^>]*class=["\']article-body["\'][^>]*>(.*?)</div>',
+                           r'<div[^>]*class=["\']story-body["\'][^>]*>(.*?)</div>']:
+                m = re.search(pattern, content, re.DOTALL)
+                if m and len(m.group(1)) > 200:
+                    body = m.group(1)
+                    break
+            else:
+                # Fallback: extract all <p> tags (skip nav/header/footer)
+                paragraphs = re.findall(r'<p[^>]*>(.*?)</p>', content, re.DOTALL)
+                # Skip very short paragraphs (likely nav/menu items)
+                body_parts = []
+                for p in paragraphs:
+                    clean = re.sub(r'<[^>]+>', '', p).strip()
+                    if len(clean) > 30:  # Only substantial paragraphs
+                        body_parts.append(f"<p>{p}</p>")
+                body = "\n".join(body_parts)
+
+        if body:
+            # Extract the source attribution link if present
+            src_link = re.search(r'<a[^>]*href="(https?://[^"*]+)"[^>]*>\s*原文', content)
+            if src_link:
+                body = f'<p><a href="{src_link.group(1)}">Read original</a></p>\n' + body
+
+        return body or ""
+    except Exception as e:
+        print(f"  Warning: could not extract body from {html_file}: {e}")
+        return ""
 
 
 def markdown_to_html_simple(md):
@@ -142,9 +198,16 @@ def build_rss(articles_dir, output_path):
             desc_elem = SubElement(item, "description")
             desc_elem.text = f"<![CDATA[{description}]]>"
 
-            # content:encoded for full HTML content
+            # content:encoded: embed full article HTML body
+            local_html = find_local_file(source, original_url, articles_dir)
+            full_body = extract_article_body(local_html)
+            if full_body:
+                full_content = full_body + "\n<hr>\n" + description
+            else:
+                full_content = description
+
             content_elem = SubElement(item, "{http://purl.org/rss/1.0/modules/content/}encoded")
-            content_elem.text = f"<![CDATA[{description}]]>"
+            content_elem.text = f"<![CDATA[{full_content}]]>"
 
             # Date
             pub_date = f"{date_str}T08:00:00+08:00" if date_str else bj_now.strftime("%a, %d %b %Y %H:%M:%S +0800")
