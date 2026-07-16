@@ -197,11 +197,14 @@ def build_opml(briefing_articles, all_articles_dir, pages_base):
 
 
 def prettify_xml(elem):
-    """Pretty print XML with guaranteed UTF-8 encoding."""
-    # Use ETree with explicit UTF-8 encoding instead of minidom
-    # to avoid mojibake in some Python environments
-    rough_bytes = tostring(elem, encoding="UTF-8")
-    return rough_bytes.decode("utf-8")
+    """Pretty print XML with guaranteed UTF-8 encoding and XML declaration.
+
+    The XML declaration (<?xml version='1.0' encoding='utf-8'?>) is critical
+    because GitHub Pages serves .opml files with Content-Type: text/x-opml
+    without a charset parameter, causing some clients to default to ISO-8859-1
+    and produce mojibake for non-ASCII characters.
+    """
+    return tostring(elem, encoding="unicode", xml_declaration=True)
 
 
 def main():
