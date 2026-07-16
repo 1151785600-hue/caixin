@@ -197,13 +197,11 @@ def build_opml(briefing_articles, all_articles_dir, pages_base):
 
 
 def prettify_xml(elem):
-    """Pretty print XML."""
-    rough = tostring(elem, encoding="unicode")
-    dom = minidom.parseString(rough)
-    pretty = dom.toprettyxml(indent="  ")
-    # Remove blank lines
-    lines = [l for l in pretty.split("\n") if l.strip()]
-    return "\n".join(lines) + "\n"
+    """Pretty print XML with guaranteed UTF-8 encoding."""
+    # Use ETree with explicit UTF-8 encoding instead of minidom
+    # to avoid mojibake in some Python environments
+    rough_bytes = tostring(elem, encoding="UTF-8")
+    return rough_bytes.decode("utf-8")
 
 
 def main():
