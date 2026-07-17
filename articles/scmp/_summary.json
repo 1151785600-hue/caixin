@@ -1,19 +1,19 @@
 {
-  "ts": "2026-07-17 11:11:16",
+  "ts": "2026-07-17 14:47:41",
   "v": "scmp_v4",
   "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/week-asia/economics/article/3360963/malaysias-network-school-probe-raises-questions-over-openness-tech-talent",
-      "title": "Malaysia’s Network School probe raises questions over openness to tech talent",
-      "word_count": 1015,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3360994/china-blasts-unfounded-smears-trumps-election-claims-threaten-diplomatic-thaw",
+      "title": "China blasts ‘unfounded smears’ as Trump’s election claims threaten diplomatic thaw",
+      "word_count": 1142,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/week-asia/politics/article/3360951/philippines-plan-fortify-coastal-defences-deterrence-or-target",
-      "title": "Philippines’ plan to fortify coastal defences: deterrence or target?",
-      "word_count": 1081,
+      "url": "https://www.scmp.com/week-asia/politics/article/3361005/negeri-sembilan-snap-poll-threatens-chip-away-malaysian-states-tech-hub-goals",
+      "title": "Negeri Sembilan snap poll threatens to chip away at Malaysian state’s tech hub goals",
+      "word_count": 1014,
       "quality": "fulltext",
       "is_premium": false
     }
