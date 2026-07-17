@@ -1,6 +1,12 @@
 {
-  "ts": "2026-07-17 02:15:04",
+  "ts": "2026-07-17 05:42:23",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-07-17/top-chinese-cancer-doctor-accused-of-academic-fraud-in-paper-mill-scandal-102465056.html",
+      "title": "Top Chinese Cancer Doctor Accused of Academic Fraud in ‘Paper Mill’ Scandal",
+      "word_count": 614
+    }
+  ]
 }
