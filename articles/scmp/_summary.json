@@ -1,26 +1,19 @@
 {
-  "ts": "2026-07-17 09:11:34",
+  "ts": "2026-07-17 11:11:16",
   "v": "scmp_v4",
-  "new_count": 3,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3360897/us-china-ai-rivalry-becomes-battle-export-competing-tech-governance-visions",
-      "title": "US-China AI rivalry becomes a battle to export competing tech governance visions",
-      "word_count": 1194,
+      "url": "https://www.scmp.com/week-asia/economics/article/3360963/malaysias-network-school-probe-raises-questions-over-openness-tech-talent",
+      "title": "Malaysia’s Network School probe raises questions over openness to tech talent",
+      "word_count": 1015,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/tech/policy/article/3360920/chinese-president-xi-jinping-warns-against-creating-new-historical-injustices-ai-era",
-      "title": "Xi Jinping warns against creating ‘new historical injustices’ in AI era",
-      "word_count": 1206,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/economics/article/3360932/philippines-pax-silica-ai-hub-plan-slammed-mineral-plunder",
-      "title": "Philippines’ Pax Silica AI hub plan slammed for mineral ‘plunder’",
-      "word_count": 1098,
+      "url": "https://www.scmp.com/week-asia/politics/article/3360951/philippines-plan-fortify-coastal-defences-deterrence-or-target",
+      "title": "Philippines’ plan to fortify coastal defences: deterrence or target?",
+      "word_count": 1081,
       "quality": "fulltext",
       "is_premium": false
     }
