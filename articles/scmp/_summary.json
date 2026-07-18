@@ -1,6 +1,14 @@
 {
-  "ts": "2026-07-18 10:53:14",
+  "ts": "2026-07-18 14:22:02",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3361050/why-data-may-become-chinas-most-durable-advantage-ai-race",
+      "title": "Why data may become China’s most durable advantage in the AI race",
+      "word_count": 1164,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
