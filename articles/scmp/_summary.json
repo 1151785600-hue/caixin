@@ -1,12 +1,19 @@
 {
-  "ts": "2026-07-18 05:57:43",
+  "ts": "2026-07-18 08:49:56",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/week-asia/economics/article/3361002/how-south-korean-hypermarket-chains-fall-reflects-time-poor-consumer-demands",
-      "title": "How South Korean hypermarket chain’s fall reflects ‘time-poor’ consumer demands",
-      "word_count": 1027,
+      "url": "https://www.scmp.com/postmag/culture/article/3360742/human-faces-chinas-belt-and-road-strategy-through-liu-heung-shings-lens",
+      "title": "The human faces of China’s belt and road strategy, through Liu Heung-shing’s lens",
+      "word_count": 1718,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3360978/can-philippines-turn-reforms-gains-southeast-asias-fdi-race",
+      "title": "Can Philippines turn reforms into gains in Southeast Asia’s FDI race?",
+      "word_count": 1079,
       "quality": "fulltext",
       "is_premium": false
     }
