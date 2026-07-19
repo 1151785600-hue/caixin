@@ -1,6 +1,14 @@
 {
-  "ts": "2026-07-19 06:23:44",
+  "ts": "2026-07-19 09:06:34",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/postmag/culture/article/3359610/hong-kong-master-carpenter-louis-ho-being-last-his-line",
+      "title": "Hong Kong master carpenter Louis Ho on being the last of his line",
+      "word_count": 1222,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
