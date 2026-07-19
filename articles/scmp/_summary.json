@@ -1,21 +1,6 @@
 {
-  "ts": "2026-07-19 14:25:22",
+  "ts": "2026-07-19 17:04:33",
   "v": "scmp_v4",
-  "new_count": 2,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3361097/fewer-opportunities-less-passion-no-clue-how-us-china-expertise-fading",
-      "title": "Fewer opportunities, less passion, no clue? How the US’ China expertise is fading",
-      "word_count": 1829,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/opinion/article/3361116/why-does-world-distrust-america-just-ask-canadians",
-      "title": "Why does the world distrust America? Just ask the Canadians",
-      "word_count": 1031,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
