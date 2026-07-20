@@ -230,10 +230,136 @@ def build_rss(articles_dir, output_path):
     print(f"URL: {PAGES_BASE}/{os.path.basename(output_path)}")
 
 
+
+def build_rss_from_html(articles_dir, output_path):
+    """Fallback: when briefing JSON is empty, scan HTML files directly to build feed.
+    This ensures feed.xml always has the latest deep reports even if generate_briefing.py fails.
+    """
+    import os, re, json, glob, html
+    from datetime import datetime, timezone, timedelta
+    from xml.etree.ElementTree import Element, SubElement, tostring
+
+    PAGES_BASE = "https://1151785600-hue.github.io/caixin"
+    THRESHOLD = 1000  # minimum word count for deep reports
+
+    rss = Element("rss", version="2.0",
+                  xmlns_content="http://purl.org/rss/1.0/modules/content/")
+    channel = SubElement(rss, "channel")
+    SubElement(channel, "title").text = "SCMP + Caixin Deep Reports"
+    SubElement(channel, "link").text = PAGES_BASE
+    SubElement(channel, "description").text = "Deep reports from SCMP and Caixin (1000+ words, generated from HTML files)"
+    SubElement(channel, "language").text = "en"
+    bj_now = datetime.now(timezone(timedelta(hours=8)))
+    SubElement(channel, "lastBuildDate").text = bj_now.strftime("%a, %d %b %Y %H:%M:%S +0800")
+
+    # Scan all HTML files
+    caixin_dir = os.path.join(articles_dir)
+    scmp_dir = os.path.join(articles_dir, "scmp")
+    
+    html_files = []
+    if os.path.exists(caixin_dir):
+        html_files.extend(glob.glob(os.path.join(caixin_dir, "*.html")))
+    if os.path.exists(scmp_dir):
+        html_files.extend(glob.glob(os.path.join(scmp_dir, "*.html")))
+    
+    # Process each file
+    articles = []
+    seen_titles = set()
+    for fp in sorted(html_files, reverse=True):
+        try:
+            with open(fp, "r", encoding="utf-8") as f:
+                content = f.read()
+            if len(content) < 200:
+                continue
+            # Extract title
+            title_m = re.search(r"<title>(.*?)</title>", content, re.DOTALL)
+            title = title_m.group(1).strip() if title_m else os.path.basename(fp)
+            # Extract body paragraphs
+            paragraphs = re.findall(r"<p>(.*?)</p>", content, re.DOTALL)
+            body_paras = [p.strip() for p in paragraphs if p.strip() and not p.strip().startswith("原文")]
+            body_text = " ".join(body_paras)
+            wc = len(re.findall(r'[a-zA-Z]+', body_text))
+            
+            # Deduplicate
+            title_key = title.lower().strip()[:80]
+            if title_key in seen_titles:
+                continue
+            seen_titles.add(title_key)
+            
+            if wc < THRESHOLD:
+                continue
+            
+            # Extract date from meta or filename
+            meta_m = re.search(r"(\d{4}-\d{2}-\d{2})", content[:500])
+            date_str = meta_m.group(1) if meta_m else ""
+            fn_m = re.match(r"(\d{8})", os.path.basename(fp))
+            if fn_m and not date_str:
+                date_str = f"{fn_m.group(1)[:4]}-{fn_m.group(1)[4:6]}-{fn_m.group(1)[6:8]}"
+            
+            # Extract source URL
+            url_m = re.search(r'href="(https?://[^"]+)"', content.split("原文")[-1] if "原文" in content else content)
+            source_url = url_m.group(1) if url_m else ""
+            
+            # Determine source
+            is_scmp = "/scmp/" in fp or "scmp" in content[:200].lower()
+            source = "SCMP" if is_scmp else "CAIXIN"
+            
+            # Build body HTML
+            body_html = "\n".join(f"<p>{html.escape(p)}</p>" for p in body_paras)
+            
+            # Build GitHub Pages link
+            if is_scmp:
+                gp_url = f"{PAGES_BASE}/articles/scmp/{os.path.basename(fp)}"
+            else:
+                gp_url = f"{PAGES_BASE}/articles/{os.path.basename(fp)}"
+            
+            articles.append({
+                "title": title, "source": source, "body_html": body_html,
+                "body_text": body_text, "wc": wc, "date": date_str,
+                "gp_url": gp_url, "source_url": source_url,
+            })
+        except Exception as e:
+            print(f"  Warning: error processing {fp}: {e}")
+    
+    # Sort by date desc (newest first)
+    articles.sort(key=lambda a: a["date"], reverse=True)
+    
+    # Add items to RSS
+    for art in articles[:200]:  # Cap at 200 items
+        item = SubElement(channel, "item")
+        SubElement(item, "title").text = f"[{art['source']}] {art['title']}"
+        SubElement(item, "link").text = art.get("source_url", art["gp_url"])
+        SubElement(item, "guid", isPermaLink="false").text = art["gp_url"]
+        pub_date = f"{art['date']}T08:00:00+08:00" if art['date'] else bj_now.strftime("%a, %d %b %Y %H:%M:%S +0800")
+        SubElement(item, "pubDate").text = pub_date
+        desc = art['body_text'][:500]
+        desc_elem = SubElement(item, "description")
+        desc_elem.text = f"<![CDATA[<p>{html.escape(desc)}</p>]]>"
+        content_elem = SubElement(item, "{http://purl.org/rss/1.0/modules/content/}encoded")
+        content_elem.text = f"<![CDATA[{art['body_html']}]]>"
+        SubElement(item, "category").text = art['source']
+    
+    xml_str = tostring(rss, encoding="UTF-8", xml_declaration=True).decode("utf-8")
+    os.makedirs(os.path.dirname(output_path) or ".", exist_ok=True)
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.write(xml_str)
+    print(f"RSS feed (HTML fallback): {len(articles)} items written to {output_path}")
+    return len(articles) > 0
+
 def main():
     articles_dir = os.environ.get("ARTICLES_DIR", "./articles")
     output_path = os.environ.get("RSS_OUTPUT", "./feed.xml")
+    # Try briefing-based RSS first
     build_rss(articles_dir, output_path)
+    # Fallback: if no items found from briefing, scan HTML files directly
+    try:
+        with open(output_path, "r", encoding="utf-8") as f:
+            content = f.read()
+        if "<item>" not in content:
+            print("WARNING: No items from briefing JSON, falling back to HTML scan...")
+            build_rss_from_html(articles_dir, output_path)
+    except:
+        build_rss_from_html(articles_dir, output_path)
 
 
 if __name__ == "__main__":
