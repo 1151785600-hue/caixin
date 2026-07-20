@@ -80,14 +80,30 @@ def get_relevant_quotes(article_text, max_quotes=2):
     return selected if selected else [POL_ECON_QUOTES["剩余价值与剥削"][0]]
 
 def is_deep_report(filepath):
-    with open(filepath, "r", encoding="utf-8") as f:
-        content = f.read(1000)
-    if "fulltext_deep" in content:
-        return True
-    m = re.search(r'(\d+)\s*words', content)
-    if m and int(m.group(1)) >= 1000:
-        return True
-    return False
+    """Check if article is deep report by counting actual body words from <p> tags.
+    Does NOT rely on meta word count (which may be inaccurate).
+    """
+    try:
+        with open(filepath, "r", encoding="utf-8") as f:
+            content = f.read()
+        # Extract <p> tag content (actual article body)
+        paragraphs = re.findall(r"<p>(.*?)</p>", content, re.DOTALL)
+        body = " ".join(p for p in paragraphs if not p.strip().startswith("原文"))
+        wc = len(re.findall(r'[a-zA-Z]+', body))
+        return wc >= 1000
+    except:
+        # Fallback: check meta
+        try:
+            with open(filepath, "r", encoding="utf-8") as f:
+                content = f.read(1000)
+            if "fulltext_deep" in content:
+                return True
+            m = re.search(r'(\d+)\s*words', content)
+            if m and int(m.group(1)) >= 1000:
+                return True
+        except:
+            pass
+        return False
 
 def get_article_info(filepath):
     with open(filepath, "r", encoding="utf-8") as f:
@@ -133,7 +149,7 @@ def filter_articles(base_dir, target_date):
                         file_date = meta_m.group(1).replace("-", "")
                         # Accept target_date or target_date-1 (UTC/BJT timezone gap)
                         dt_target = datetime.strptime(target_date, "%Y-%m-%d")
-                        dt_range = [(dt_target + timedelta(days=d)).strftime("%Y%m%d") for d in [-1, 0, 1]]
+                        dt_range = [(dt_target + timedelta(days=d)).strftime("%Y%m%d") for d in [-2, -1, 0, 1, 2]]
                         if file_date not in dt_range:
                             continue
                     else:
