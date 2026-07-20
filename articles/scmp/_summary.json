@@ -1,6 +1,28 @@
 {
-  "ts": "2026-07-20 12:06:34",
+  "ts": "2026-07-20 15:15:14",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 3,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3361174/can-europe-win-trade-war-china-it-may-depend-how-victory-defined",
+      "title": "Can Europe win a trade war with China? It may depend on how victory is defined",
+      "word_count": 1347,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3361141/dim-sum-and-bubble-tea-3am-football-fans-pack-hong-kong-malls-world-cup-final",
+      "title": "Hong Kong restaurants score extra HK$500 million thanks to World Cup",
+      "word_count": 1041,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3361241/why-singapore-pm-wong-moved-swiftly-faishal-ibrahims-resignation",
+      "title": "Why Singapore PM Wong moved swiftly on Faishal Ibrahim’s resignation",
+      "word_count": 1157,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
