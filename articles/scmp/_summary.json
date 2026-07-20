@@ -1,21 +1,6 @@
 {
-  "ts": "2026-07-20 06:39:08",
+  "ts": "2026-07-20 10:14:29",
   "v": "scmp_v4",
-  "new_count": 2,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/postmag/culture/article/3360883/chinas-survival-strategies-written-flavours",
-      "title": "China’s survival strategies written in flavours",
-      "word_count": 1473,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3354537/how-shenzhen-becoming-asias-newest-culinary-hotspot",
-      "title": "How Shenzhen is becoming Asia’s newest culinary hotspot",
-      "word_count": 1080,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
