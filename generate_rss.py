@@ -321,8 +321,10 @@ def main():
             content = f.read()
         if "<item>" not in content:
             print("WARNING: No items from briefing JSON, falling back to HTML scan...")
+            from rss_fallback import build_rss_from_html
             build_rss_from_html(articles_dir, output_path)
-    except:
+    except Exception:
+        from rss_fallback import build_rss_from_html
         build_rss_from_html(articles_dir, output_path)
 
 
