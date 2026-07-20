@@ -311,26 +311,18 @@ def build_rss_from_html(articles_dir, output_path):
     print("RSS feed (HTML fallback): {} items written to {}".format(len(articles), output_path))
 
 def main():
+    import shutil as _shutil
     articles_dir = os.environ.get("ARTICLES_DIR", "./articles")
     output_path = os.environ.get("RSS_OUTPUT", "./feed.xml")
-    # Try briefing-based RSS first
-    build_rss(articles_dir, output_path)
-    # Fallback: if no items found from briefing, scan HTML files directly
+    deep_path = os.environ.get("DEEP_OUTPUT", "./deep.xml")
+    # Primary: scan HTML files directly (accurate word count, content:encoded)
     try:
-        with open(output_path, "r", encoding="utf-8") as f:
-            content = f.read()
-        if "<item>" not in content:
-            print("WARNING: No items from briefing JSON, falling back to HTML scan...")
-            from rss_fallback import build_rss_from_html
-            build_rss_from_html(articles_dir, output_path)
-    except Exception:
         from rss_fallback import build_rss_from_html
         build_rss_from_html(articles_dir, output_path)
-
-
+    except Exception as e:
+        print("WARNING: HTML fallback failed: {}, trying briefing path".format(e))
+        build_rss(articles_dir, output_path)
     # Copy feed.xml to deep.xml (OPML points to deep.xml)
-    import shutil as _shutil
-    deep_path = os.environ.get("DEEP_OUTPUT", "./deep.xml")
     if os.path.exists(output_path):
         _shutil.copy2(output_path, deep_path)
         print("Copied {} to {}".format(output_path, deep_path))
