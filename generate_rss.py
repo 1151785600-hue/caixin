@@ -328,5 +328,12 @@ def main():
         build_rss_from_html(articles_dir, output_path)
 
 
+    # Copy feed.xml to deep.xml (OPML points to deep.xml)
+    import shutil as _shutil
+    deep_path = os.environ.get("DEEP_OUTPUT", "./deep.xml")
+    if os.path.exists(output_path):
+        _shutil.copy2(output_path, deep_path)
+        print("Copied {} to {}".format(output_path, deep_path))
+
 if __name__ == "__main__":
     main()
