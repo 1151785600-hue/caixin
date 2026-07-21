@@ -1,22 +1,14 @@
-"""rss_fallback.py - Generate RSS feed directly from HTML files when briefing is empty."""
+"""rss_fallback.py - Generate RSS feed directly from HTML files.
+Accurate word count from body, proper date extraction, CDATA-safe output.
+"""
 import os, re, glob, html as html_mod
-from xml.etree.ElementTree import Element, SubElement, tostring
 from datetime import datetime, timezone, timedelta
 
 PAGES_BASE = "https://1151785600-hue.github.io/caixin"
 THRESHOLD = 1000
 
 def build_rss_from_html(articles_dir, output_path):
-    """Scan HTML files in articles_dir and generate RSS feed with 1000+ word articles."""
-    rss = Element("rss", version="2.0", xmlns_content="http://purl.org/rss/1.0/modules/content/")
-    channel = SubElement(rss, "channel")
-    SubElement(channel, "title").text = "SCMP + Caixin Deep Reports"
-    SubElement(channel, "link").text = PAGES_BASE
-    SubElement(channel, "description").text = "Deep reports (1000+ words)"
-    SubElement(channel, "language").text = "en"
-    bj_now = datetime.now(timezone(timedelta(hours=8)))
-    SubElement(channel, "lastBuildDate").text = bj_now.strftime("%a, %d %b %Y %H:%M:%S +0800")
-
+    """Scan HTML files and generate RSS feed with 1000+ word articles."""
     caixin_dir = articles_dir
     scmp_dir = os.path.join(articles_dir, "scmp")
     html_files = []
@@ -45,13 +37,30 @@ def build_rss_from_html(articles_dir, output_path):
             seen.add(key)
             if wc < THRESHOLD:
                 continue
-            meta_m = re.search(r"(\d{4}-\d{2}-\d{2})", fc[:500])
-            date_str = meta_m.group(1) if meta_m else ""
+
+            # Date: try meta div first, then filename, then full content
+            date_str = ""
+            meta_div = re.search(r'<div class="meta">(.*?)</div>', fc)
+            if meta_div:
+                dm = re.search(r"(\d{4}-\d{2}-\d{2})", meta_div.group(1))
+                if dm:
+                    date_str = dm.group(1)
+            if not date_str:
+                fn = os.path.basename(fp)
+                fm = re.match(r"(\d{8})", fn)
+                if fm:
+                    d = fm.group(1)
+                    date_str = "{}-{}-{}".format(d[:4], d[4:6], d[6:8])
+            if not date_str:
+                dm = re.search(r"(\d{4}-\d{2}-\d{2})", fc)
+                if dm:
+                    date_str = dm.group(1)
+
             url_m = re.search(r'href="(https?://[^"]+)"', fc)
             source_url = url_m.group(1) if url_m else ""
-            is_scmp = "/scmp/" in fp
+            is_scmp = "/scmp/" in fp or "scmp" in fc[:300].lower()
             source = "SCMP" if is_scmp else "CAIXIN"
-            body_html = "\n".join("<p>{}</p>".format(html_mod.escape(p)) for p in body_paras)
+            body_html = "\n".join("<p>{}</p>".format(p) for p in body_paras)
             gp_url = "{}/articles/scmp/{}".format(PAGES_BASE, os.path.basename(fp)) if is_scmp else "{}/articles/{}".format(PAGES_BASE, os.path.basename(fp))
             articles.append({"title": title, "source": source, "body_html": body_html,
                 "body_text": body_text, "wc": wc, "date": date_str, "gp_url": gp_url, "source_url": source_url})
@@ -60,20 +69,35 @@ def build_rss_from_html(articles_dir, output_path):
 
     articles.sort(key=lambda a: a["date"], reverse=True)
 
-    for art in articles[:200]:
-        item = SubElement(channel, "item")
-        SubElement(item, "title").text = "[{}] {}".format(art["source"], art["title"])
-        SubElement(item, "link").text = art.get("source_url", art["gp_url"])
-        SubElement(item, "guid", isPermaLink="false").text = art["gp_url"]
-        pub = "{}T08:00:00+08:00".format(art["date"]) if art["date"] else bj_now.strftime("%a, %d %b %Y %H:%M:%S +0800")
-        SubElement(item, "pubDate").text = pub
-        desc_elem = SubElement(item, "description")
-        desc_elem.text = "<![CDATA[<p>{}</p>]]>".format(html_mod.escape(art["body_text"][:500]))
-        content_elem = SubElement(item, "{http://purl.org/rss/1.0/modules/content/}encoded")
-        content_elem.text = "<![CDATA[{}]]>".format(art["body_html"])
-        SubElement(item, "category").text = art["source"]
+    # Build XML manually (ElementTree mangles CDATA)
+    bj_now = datetime.now(timezone(timedelta(hours=8)))
+    lines = []
+    lines.append('<?xml version="1.0" encoding="utf-8"?>')
+    lines.append('<rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">')
+    lines.append('<channel>')
+    lines.append('  <title>SCMP + Caixin Deep Reports</title>')
+    lines.append('  <link>{}</link>'.format(PAGES_BASE))
+    lines.append('  <description>Deep reports from SCMP and Caixin (1000+ words)</description>')
+    lines.append('  <language>en</language>')
+    lines.append('  <lastBuildDate>{}</lastBuildDate>'.format(bj_now.strftime("%a, %d %b %Y %H:%M:%S +0800")))
+    lines.append('  <ttl>60</ttl>')
 
-    xml_str = tostring(rss, encoding="UTF-8", xml_declaration=True).decode("utf-8")
+    for art in articles[:200]:
+        pub = "{}T08:00:00+08:00".format(art["date"]) if art["date"] else bj_now.strftime("%a, %d %b %Y %H:%M:%S +0800")
+        lines.append('  <item>')
+        lines.append('    <title>{}</title>'.format(html_mod.escape("[{}] {}".format(art["source"], art["title"]))))
+        lines.append('    <link>{}</link>'.format(html_mod.escape(art.get("source_url", art["gp_url"]))))
+        lines.append('    <guid isPermaLink="false">{}</guid>'.format(html_mod.escape(art["gp_url"])))
+        lines.append('    <pubDate>{}</pubDate>'.format(pub))
+        lines.append('    <description><![CDATA[<p>{}</p>]]></description>'.format(html_mod.escape(art["body_text"][:500])))
+        lines.append('    <content:encoded><![CDATA[{}]]></content:encoded>'.format(art["body_html"]))
+        lines.append('    <category>{}</category>'.format(art["source"]))
+        lines.append('  </item>')
+
+    lines.append('</channel>')
+    lines.append('</rss>')
+    xml_str = "\n".join(lines)
+
     with open(output_path, "w", encoding="utf-8") as fh:
         fh.write(xml_str)
     print("RSS feed (HTML fallback): {} items written to {}".format(len(articles), output_path))
