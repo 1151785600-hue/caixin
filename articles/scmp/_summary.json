@@ -1,14 +1,6 @@
 {
-  "ts": "2026-07-21 09:28:44",
+  "ts": "2026-07-21 11:39:41",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/week-asia/economics/article/3361327/chinese-loans-philippines-stay-resilient-despite-maritime-row",
-      "title": "Chinese loans to Philippines stay resilient despite maritime row",
-      "word_count": 1125,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
