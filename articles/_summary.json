@@ -1,6 +1,12 @@
 {
-  "ts": "2026-07-21 05:50:30",
+  "ts": "2026-07-21 08:27:01",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-07-21/analysis-is-mega-chip-ipo-to-blame-for-chinas-tech-rout-102466524.html",
+      "title": "Analysis: Is Mega Chip IPO to Blame for China’s Tech Rout?",
+      "word_count": 457
+    }
+  ]
 }
