@@ -1,21 +1,6 @@
 {
-  "ts": "2026-07-22 06:22:13",
+  "ts": "2026-07-22 09:28:02",
   "v": "scmp_v4",
-  "new_count": 2,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3361419/indonesia-restarts-south-china-sea-gas-project-beijing-opposed",
-      "title": "Indonesia restarts South China Sea gas project Beijing opposed",
-      "word_count": 1308,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/economics/article/3360932/philippines-pax-silica-ai-hub-plan-slammed-mineral-plunder",
-      "title": "Philippines’ Pax Silica AI hub plan slammed for mineral ‘plunder’",
-      "word_count": 1065,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
