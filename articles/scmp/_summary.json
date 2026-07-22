@@ -1,12 +1,26 @@
 {
-  "ts": "2026-07-22 11:39:35",
+  "ts": "2026-07-22 15:08:21",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 3,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3361490/china-philippines-should-avoid-south-china-sea-miscalculation-top-diplomats",
-      "title": "China, Philippines should avoid South China Sea ‘miscalculation’: top diplomats",
-      "word_count": 1222,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3361473/wang-and-rubio-discuss-xis-planned-us-visit-south-china-sea-clash-asean",
+      "title": "Wang Yi and Marco Rubio at Asean discuss Xi’s planned US visit, South China Sea clash",
+      "word_count": 1034,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/people/article/3361502/disbelief-shock-singapore-pm-faishals-inappropriate-messages-woman",
+      "title": "‘Disbelief, shock’: Singapore PM on Faishal’s inappropriate messages with woman",
+      "word_count": 1110,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3361499/philippines-impeachment-trial-court-ruling-heightens-stakes-vp-sara",
+      "title": "Philippines’ impeachment trial: court ruling heightens stakes for VP Sara",
+      "word_count": 1153,
       "quality": "fulltext",
       "is_premium": false
     }
