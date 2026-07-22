@@ -83,7 +83,14 @@ def build_rss_from_html(articles_dir, output_path):
     lines.append('  <ttl>60</ttl>')
 
     for art in articles[:200]:
-        pub = "{}T08:00:00+08:00".format(art["date"]) if art["date"] else bj_now.strftime("%a, %d %b %Y %H:%M:%S +0800")
+        if art["date"]:
+                try:
+                    dt = datetime.strptime(art["date"], "%Y-%m-%d")
+                    pub = dt.strftime("%a, %d %b %Y 08:00:00 +0800")
+                except:
+                    pub = bj_now.strftime("%a, %d %b %Y %H:%M:%S +0800")
+            else:
+                pub = bj_now.strftime("%a, %d %b %Y %H:%M:%S +0800")
         lines.append('  <item>')
         lines.append('    <title>{}</title>'.format(html_mod.escape("[{}] {}".format(art["source"], art["title"]))))
         lines.append('    <link>{}</link>'.format(html_mod.escape(art.get("source_url", art["gp_url"]))))
