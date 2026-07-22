@@ -1,6 +1,14 @@
 {
-  "ts": "2026-07-22 09:28:02",
+  "ts": "2026-07-22 11:39:35",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3361490/china-philippines-should-avoid-south-china-sea-miscalculation-top-diplomats",
+      "title": "China, Philippines should avoid South China Sea ‘miscalculation’: top diplomats",
+      "word_count": 1222,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
