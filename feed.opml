@@ -1,2 +1,9 @@
-<?xml version='1.0' encoding='utf-8'?>
-<opml version="1.0"><head><title>Deep Reports RSS</title><dateModified>2026-07-23T01:50:31+08:00</dateModified></head><body><outline text="SCMP + Caixin Deep Reports (1000+ words)" title="SCMP + Caixin Deep Reports" type="rss" xmlUrl="https://1151785600-hue.github.io/caixin/deep.xml" htmlUrl="https://1151785600-hue.github.io/caixin" /></body></opml>
+<?xml version="1.0" encoding="utf-8"?>
+<opml version="1.0">
+<head>
+  <title>Deep Reports RSS</title>
+</head>
+<body>
+  <outline text="SCMP + Caixin Deep Reports" type="rss" xmlUrl="https://caixin-deep.pages.dev/deep_v2.xml" htmlUrl="https://caixin-deep.pages.dev"/>
+</body>
+</opml>
