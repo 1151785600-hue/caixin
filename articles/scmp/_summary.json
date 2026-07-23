@@ -1,6 +1,14 @@
 {
-  "ts": "2026-07-23 06:24:36",
+  "ts": "2026-07-23 09:25:22",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3361523/after-latest-clash-sea-china-warns-philippines-bitter-consequences",
+      "title": "China, Philippines clash again at Scarborough Shoal, a day after Wang Yi warning",
+      "word_count": 1057,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
