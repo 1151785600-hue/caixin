@@ -1,6 +1,14 @@
 {
-  "ts": "2026-07-23 11:43:19",
+  "ts": "2026-07-23 15:14:51",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/us/politics/article/3361607/trumps-manufacturing-push-meets-reality-costs-rise-and-investment-stalls",
+      "title": "Trump’s manufacturing push meets reality as costs rise and investment stalls",
+      "word_count": 1718,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    }
+  ]
 }
