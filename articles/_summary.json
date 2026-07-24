@@ -1,6 +1,12 @@
 {
-  "ts": "2026-07-23 16:18:02",
+  "ts": "2026-07-24 02:21:05",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-07-24/failed-23-billion-chinese-backed-london-business-park-to-become-student-housing-102467423.html",
+      "title": "Failed $2.3 Billion Chinese-Backed London Business Park to Become Student Housing",
+      "word_count": 386
+    }
+  ]
 }
