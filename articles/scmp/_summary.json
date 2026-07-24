@@ -1,6 +1,14 @@
 {
-  "ts": "2026-07-24 09:22:39",
+  "ts": "2026-07-24 11:27:27",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3361765/can-southeast-asia-survive-more-iran-war-fuel-shocks",
+      "title": "Can Southeast Asia survive more Iran war fuel shocks?",
+      "word_count": 1119,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
