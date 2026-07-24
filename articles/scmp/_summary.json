@@ -1,26 +1,12 @@
 {
-  "ts": "2026-07-24 15:00:13",
+  "ts": "2026-07-24 17:42:43",
   "v": "scmp_v4",
-  "new_count": 3,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/science/article/3361796/fields-medallists-highlight-new-wave-chinese-scientists-leading-global-research",
-      "title": "Fields Medallists highlight new wave of Chinese scientists leading global research",
-      "word_count": 1399,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3361473/wang-and-rubio-discuss-xis-planned-us-visit-south-china-sea-clash-asean",
-      "title": "Wang Yi and Marco Rubio at Asean discuss Xi’s planned US visit, South China Sea clash",
-      "word_count": 1034,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3361490/china-philippines-should-avoid-south-china-sea-miscalculation-top-diplomats",
-      "title": "Beijing and Manila should avoid South China Sea ‘miscalculation’: top diplomats",
-      "word_count": 1223,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3361780/will-donald-trumps-china-squeeze-summit-leverage-actually-work",
+      "title": "Will Donald Trump’s China squeeze for summit leverage actually work?",
+      "word_count": 1078,
       "quality": "fulltext",
       "is_premium": false
     }
