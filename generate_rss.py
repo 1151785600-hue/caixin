@@ -26,6 +26,10 @@ def main():
     deep_v2_path = os.environ.get("DEEP_V2_OUTPUT", "./deep_v2.xml")
     if os.path.exists(output_path):
         shutil.copy2(output_path, deep_v2_path)
+    scmp_path = os.environ.get("SCMP_FEED_OUTPUT", "./scmp_feed.xml")
+    if os.path.exists(output_path):
+        shutil.copy2(output_path, scmp_path)
+        print("Copied {} to {}".format(output_path, scmp_path))
         print("Copied {} to {}".format(output_path, deep_v2_path))
 
 if __name__ == "__main__":
