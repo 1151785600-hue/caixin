@@ -1,14 +1,6 @@
 {
-  "ts": "2026-07-24 06:19:26",
+  "ts": "2026-07-24 09:22:39",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/week-asia/economics/article/3361662/south-korean-unions-use-new-labour-rules-push-envelope-bonus-demands",
-      "title": "South Korean unions use new labour rules to push envelope on bonus demands",
-      "word_count": 1065,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
