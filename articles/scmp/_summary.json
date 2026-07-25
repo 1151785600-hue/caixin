@@ -1,12 +1,19 @@
 {
-  "ts": "2026-07-25 14:39:41",
+  "ts": "2026-07-25 17:05:50",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3361763/how-china-using-film-diplomacy-project-better-image-across-africa",
-      "title": "How China is using film diplomacy to project a better image across Africa",
-      "word_count": 1050,
+      "url": "https://www.scmp.com/news/china/article/3361843/how-americas-250-year-china-dream-became-its-greatest-strategic-challenge",
+      "title": "How America’s 250-year China dream became its greatest strategic challenge",
+      "word_count": 2295,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/article/3361853/judges-actions-could-harm-public-confidence-hong-kongs-system-justice",
+      "title": "Judge’s actions could harm public confidence in Hong Kong’s system of justice",
+      "word_count": 1068,
       "quality": "fulltext",
       "is_premium": false
     }
