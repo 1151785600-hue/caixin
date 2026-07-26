@@ -1,6 +1,14 @@
 {
-  "ts": "2026-07-26 09:14:19",
+  "ts": "2026-07-26 11:11:01",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3361892/were-german-courts-too-soft-chinese-members-drug-rape-network",
+      "title": "Were the German courts too soft on Chinese members of drug rape network?",
+      "word_count": 1450,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
