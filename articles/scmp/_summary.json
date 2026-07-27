@@ -1,14 +1,6 @@
 {
-  "ts": "2026-07-27 06:55:46",
+  "ts": "2026-07-27 10:44:36",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3361943/north-korea-sending-30000-troops-russia-win-win-analysts",
-      "title": "North Korea sending 30,000 troops to Russia is a ‘win-win’: analysts",
-      "word_count": 1139,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
