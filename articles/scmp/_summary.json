@@ -1,14 +1,6 @@
 {
-  "ts": "2026-07-27 15:46:59",
+  "ts": "2026-07-27 17:47:34",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3362035/philippines-marcos-uses-national-address-promise-relief-funding-questions-loom",
-      "title": "Philippines’ Marcos uses national address to promise relief, but funding questions loom",
-      "word_count": 1281,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
