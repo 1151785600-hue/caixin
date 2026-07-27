@@ -41,7 +41,6 @@ jobs:
             echo "briefing_date=$(TZ='Asia/Shanghai' date +%Y-%m-%d)" >> $GITHUB_OUTPUT
           fi
       - name: Generate briefing
-        continue-on-error: true
         run: python generate_briefing.py
         env:
           MIMO_API_KEY: ${{ secrets.MIMO_API_KEY }}
@@ -50,18 +49,15 @@ jobs:
           TARGET_DATE: ${{ steps.set_date.outputs.briefing_date }}
 
       - name: Generate OPML feed
-        if: always()
         run: python generate_opml.py
 
       - name: Generate RSS feed
-        if: always()
         run: python generate_rss.py
       - name: Commit
-        if: always()
         run: |
           git config user.name "bot"
           git config user.email "bot@users.noreply.github.com"
-          git add articles/ feed.opml feed.xml deep.xml deep_v2.xml scmp_feed.xml
+          git add articles/ feed.opml feed.xml deep.xml
           git diff --cached --quiet || (git commit -m "briefing $(date -u +%Y-%m-%d)" && git pull --rebase origin main && git push)
       - name: Check articles
         id: check
