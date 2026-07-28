@@ -29,6 +29,10 @@ def main():
     scmp_path = os.environ.get("SCMP_FEED_OUTPUT", "./scmp_feed.xml")
     if os.path.exists(output_path):
         shutil.copy2(output_path, scmp_path)
+    feed2026_path = os.environ.get("FEED2026_OUTPUT", "./feed2026.xml")
+    if os.path.exists(output_path):
+        shutil.copy2(output_path, feed2026_path)
+        print("Copied {} to {}".format(output_path, feed2026_path))
         print("Copied {} to {}".format(output_path, scmp_path))
         print("Copied {} to {}".format(output_path, deep_v2_path))
 
