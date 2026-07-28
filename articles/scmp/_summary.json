@@ -1,6 +1,14 @@
 {
-  "ts": "2026-07-28 06:19:19",
+  "ts": "2026-07-28 09:37:25",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/postmag/culture/article/3361248/mystery-one-mans-fortress-longgang",
+      "title": "The mystery of one man’s fortress in Longgang",
+      "word_count": 1802,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    }
+  ]
 }
