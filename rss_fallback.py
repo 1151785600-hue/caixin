@@ -72,7 +72,18 @@ def build_rss_from_html(articles_dir, output_path):
 
     # Filter to last MAX_DAYS days to keep feed small
     cutoff = datetime.now() - timedelta(days=MAX_DAYS)
-    articles = [a for a in articles if a["date"] and datetime.strptime(a["date"], "%Y-%m-%d") >= cutoff]
+    filtered = []
+    for a in articles:
+        if not a["date"]:
+            continue
+        try:
+            dt = datetime.strptime(a["date"], "%Y-%m-%d")
+            if dt >= cutoff:
+                filtered.append(a)
+        except:
+            # If date can't be parsed, keep the article (safety)
+            filtered.append(a)
+    articles = filtered
     print("After {}-day filter: {} items".format(MAX_DAYS, len(articles)))
 
     # Build XML manually (ElementTree mangles CDATA)
