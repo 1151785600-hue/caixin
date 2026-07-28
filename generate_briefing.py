@@ -175,7 +175,7 @@ def call_mimo(prompt, max_tokens=2000, retry_on_reject=True):
             f"{MIMO_BASE_URL}/chat/completions",
             headers={"Authorization": f"Bearer {MIMO_API_KEY}", "Content-Type": "application/json"},
             json={"model": MIMO_MODEL, "messages": [{"role": "user", "content": prompt}], "max_tokens": max_tokens, "temperature": 0.7},
-            timeout=120
+            timeout=30
         )
         if resp.status_code == 200:
             text = resp.json()["choices"][0]["message"]["content"].strip()
