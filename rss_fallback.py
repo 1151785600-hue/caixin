@@ -6,6 +6,7 @@ from datetime import datetime, timezone, timedelta
 
 PAGES_BASE = "https://1151785600-hue.github.io/caixin"
 THRESHOLD = 1000
+MAX_DAYS = 7  # Only keep articles from last N days
 
 def build_rss_from_html(articles_dir, output_path):
     """Scan HTML files and generate RSS feed with 1000+ word articles."""
@@ -69,6 +70,11 @@ def build_rss_from_html(articles_dir, output_path):
 
     articles.sort(key=lambda a: a["date"], reverse=True)
 
+    # Filter to last MAX_DAYS days to keep feed small
+    cutoff = datetime.now() - timedelta(days=MAX_DAYS)
+    articles = [a for a in articles if a["date"] and datetime.strptime(a["date"], "%Y-%m-%d") >= cutoff]
+    print("After {}-day filter: {} items".format(MAX_DAYS, len(articles)))
+
     # Build XML manually (ElementTree mangles CDATA)
     bj_now = datetime.now(timezone(timedelta(hours=8)))
     lines = []
@@ -97,7 +103,6 @@ def build_rss_from_html(articles_dir, output_path):
         lines.append('    <guid isPermaLink="false">{}</guid>'.format(html_mod.escape(art["gp_url"])))
         lines.append('    <pubDate>{}</pubDate>'.format(pub))
         lines.append('    <description><![CDATA[<p>{}</p>]]></description>'.format(html_mod.escape(art["body_text"][:500])))
-        lines.append('    <content:encoded><![CDATA[{}]]></content:encoded>'.format(art["body_html"]))
         lines.append('    <category>{}</category>'.format(art["source"]))
         lines.append('  </item>')
 
