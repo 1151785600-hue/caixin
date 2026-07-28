@@ -1,6 +1,14 @@
 {
-  "ts": "2026-07-28 11:48:03",
+  "ts": "2026-07-28 15:25:23",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3362161/philippines-sovereignty-and-pax-silica-industrial-hub-how-helberg-sees-it",
+      "title": "The Philippines, sovereignty and the Pax Silica Industrial Hub – how US’ Helberg sees it",
+      "word_count": 1291,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
