@@ -1,6 +1,14 @@
 {
-  "ts": "2026-07-29 09:39:23",
+  "ts": "2026-07-29 11:51:31",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3362272/limited-dual-citizenship-gives-indonesian-diaspora-hope-return-better-future",
+      "title": "Limited dual citizenship gives Indonesian diaspora hope of return, better future",
+      "word_count": 1000,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
