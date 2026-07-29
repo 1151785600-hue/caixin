@@ -39,7 +39,7 @@ def build_rss_from_html(articles_dir, output_path):
             if wc < THRESHOLD:
                 continue
             date_str = ""
-            meta_div = re.search(r\'<div class="meta">(.*?)</div>\', fc)
+            meta_div = re.search(r'<div class="meta">(.*?)</div>', fc)
             if meta_div:
                 dm = re.search(r"(\d{4}-\d{2}-\d{2})", meta_div.group(1))
                 if dm:
@@ -54,7 +54,7 @@ def build_rss_from_html(articles_dir, output_path):
                 dm = re.search(r"(\d{4}-\d{2}-\d{2})", fc)
                 if dm:
                     date_str = dm.group(1)
-            url_m = re.search(r\'href="(https?://[^"]+)"\', fc)
+            url_m = re.search(r'href="(https?://[^"]+)"', fc)
             source_url = url_m.group(1) if url_m else ""
             is_scmp = "/scmp/" in fp or "scmp" in fc[:300].lower()
             source = "SCMP" if is_scmp else "CAIXIN"
