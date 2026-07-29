@@ -1,6 +1,12 @@
 {
-  "ts": "2026-07-29 14:01:12",
+  "ts": "2026-07-29 16:13:58",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-07-29/chinas-local-governments-offer-cash-to-spur-marriage-and-births-102469276.html",
+      "title": "China’s Local Governments Offer Cash to Spur Marriage and Births",
+      "word_count": 392
+    }
+  ]
 }
