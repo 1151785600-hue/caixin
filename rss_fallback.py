@@ -1,12 +1,12 @@
 """rss_fallback.py - Generate RSS feed directly from HTML files.
-Accurate word count from body, proper date extraction, CDATA-safe output.
+Restored content:encoded and CDATA description for lingowhale compatibility.
 """
 import os, re, glob, html as html_mod
 from datetime import datetime, timezone, timedelta
 
 PAGES_BASE = "https://1151785600-hue.github.io/caixin"
 THRESHOLD = 1000
-MAX_DAYS = 7  # Only keep articles from last N days
+MAX_DAYS = 7
 
 def build_rss_from_html(articles_dir, output_path):
     """Scan HTML files and generate RSS feed with 1000+ word articles."""
@@ -38,10 +38,8 @@ def build_rss_from_html(articles_dir, output_path):
             seen.add(key)
             if wc < THRESHOLD:
                 continue
-
-            # Date: try meta div first, then filename, then full content
             date_str = ""
-            meta_div = re.search(r'<div class="meta">(.*?)</div>', fc)
+            meta_div = re.search(r\'<div class="meta">(.*?)</div>\', fc)
             if meta_div:
                 dm = re.search(r"(\d{4}-\d{2}-\d{2})", meta_div.group(1))
                 if dm:
@@ -56,21 +54,18 @@ def build_rss_from_html(articles_dir, output_path):
                 dm = re.search(r"(\d{4}-\d{2}-\d{2})", fc)
                 if dm:
                     date_str = dm.group(1)
-
-            url_m = re.search(r'href="(https?://[^"]+)"', fc)
+            url_m = re.search(r\'href="(https?://[^"]+)"\', fc)
             source_url = url_m.group(1) if url_m else ""
             is_scmp = "/scmp/" in fp or "scmp" in fc[:300].lower()
             source = "SCMP" if is_scmp else "CAIXIN"
             body_html = "\n".join("<p>{}</p>".format(p) for p in body_paras)
             gp_url = "{}/articles/scmp/{}".format(PAGES_BASE, os.path.basename(fp)) if is_scmp else "{}/articles/{}".format(PAGES_BASE, os.path.basename(fp))
             articles.append({"title": title, "source": source, "body_html": body_html,
-                "body_text": body_text, "wc": wc, "date": date_str, "gp_url": gp_url, "source_url": source_url})
+                "body_paras": body_paras, "body_text": body_text, "wc": wc, "date": date_str, "gp_url": gp_url, "source_url": source_url})
         except Exception as e:
             print("  Warning: {}".format(e))
 
     articles.sort(key=lambda a: a["date"], reverse=True)
-
-    # Filter to last MAX_DAYS days to keep feed small
     cutoff = datetime.now() - timedelta(days=MAX_DAYS)
     filtered = []
     for a in articles:
@@ -81,12 +76,10 @@ def build_rss_from_html(articles_dir, output_path):
             if dt >= cutoff:
                 filtered.append(a)
         except:
-            # If date can't be parsed, keep the article (safety)
             filtered.append(a)
     articles = filtered
     print("After {}-day filter: {} items".format(MAX_DAYS, len(articles)))
 
-    # Build XML manually (ElementTree mangles CDATA)
     bj_now = datetime.now(timezone(timedelta(hours=8)))
     lines = []
     lines.append('<?xml version="1.0" encoding="utf-8"?>')
@@ -113,15 +106,18 @@ def build_rss_from_html(articles_dir, output_path):
         lines.append('    <link>{}</link>'.format(html_mod.escape(art.get("source_url", art["gp_url"]))))
         lines.append('    <guid isPermaLink="false">{}</guid>'.format(html_mod.escape(art["gp_url"])))
         lines.append('    <pubDate>{}</pubDate>'.format(pub))
-        lines.append('    <description><![CDATA[<p>{}</p>]]></description>'.format(html_mod.escape(art["body_text"][:500])))
+        # CDATA-wrapped HTML description
+        desc_html = "<p>" + "</p><p>".join(art["body_paras"][:3]) + "</p>"
+        lines.append('    <description><![CDATA[{}]]></description>'.format(desc_html))
+        # content:encoded with full article HTML
+        lines.append('    <content:encoded><![CDATA[{}]]></content:encoded>'.format(art["body_html"]))
         lines.append('    <category>{}</category>'.format(art["source"]))
         lines.append('  </item>')
 
     lines.append('</channel>')
     lines.append('</rss>')
     xml_str = "\n".join(lines)
-
     with open(output_path, "w", encoding="utf-8") as fh:
         fh.write(xml_str)
-    print("RSS feed (HTML fallback): {} items written to {}".format(len(articles), output_path))
+    print("RSS feed: {} items, {} bytes".format(len(articles), len(xml_str)))
     return len(articles) > 0
