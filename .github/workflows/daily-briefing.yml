@@ -58,21 +58,24 @@ jobs:
         if: always()
         timeout-minutes: 3
         run: python generate_rss.py
-      - name: Commit
+      - name: Commit and push
         if: always()
         run: |
           git config user.name "bot"
           git config user.email "bot@users.noreply.github.com"
           git add articles/ feed.opml feed.xml deep.xml deep_v2.xml scmp_feed.xml feed2026.xml
-          git diff --cached --quiet || (git commit -m "briefing $(date -u +%Y-%m-%d)" && git pull --rebase origin main &&           # Upload feed to Tencent Cloud COS (accessible in China)
+          git diff --cached --quiet || (git commit -m "briefing $(date -u +%Y-%m-%d)" && git pull --rebase origin main && git push)
+      - name: Upload to COS
+        if: always()
+        continue-on-error: true
+        env:
+          TENCENT_SECRET_ID: ${{ secrets.TENCENT_SECRET_ID }}
+          TENCENT_SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}
+          TENCENT_COS_BUCKET: ${{ secrets.TENCENT_COS_BUCKET }}
+          TENCENT_COS_REGION: ${{ secrets.TENCENT_COS_REGION }}
+        run: |
           pip install cos-python-sdk-v5
           python upload_cos.py
-          env:
-            TENCENT_SECRET_ID: ${{ secrets.TENCENT_SECRET_ID }}
-            TENCENT_SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}
-            TENCENT_COS_BUCKET: ${{ secrets.TENCENT_COS_BUCKET }}
-            TENCENT_COS_REGION: ${{ secrets.TENCENT_COS_REGION }}
-          git push)
       - name: Check articles
         id: check
         run: |
