@@ -19,7 +19,7 @@ def main():
             continue
         with open(filename, "rb") as f:
             content = f.read()
-        content_type = "application/xml; charset=utf-8" if filename.endswith(".xml") else "text/x-opml; charset=utf-8"
+        content_type = "application/rss+xml; charset=utf-8" if filename.endswith(".xml") else "text/x-opml; charset=utf-8"
         client.put_object(
             Bucket=bucket,
             Body=content,
