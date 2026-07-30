@@ -1,12 +1,19 @@
 {
-  "ts": "2026-07-30 09:32:19",
+  "ts": "2026-07-30 11:43:08",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/week-asia/politics/article/3362368/east-timor-court-review-myanmar-war-crimes-tests-aseans-uneasy-approach-junta",
-      "title": "East Timor’s Myanmar war crimes case puts Asean non-interference to the test",
-      "word_count": 1105,
+      "url": "https://www.scmp.com/week-asia/politics/article/3362397/malaysias-anwar-seizes-haj-fund-report-ahead-negeri-sembilan-election",
+      "title": "Malaysia’s Anwar seizes on haj fund report ahead of Negeri Sembilan election",
+      "word_count": 1002,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/policy/article/3362364/chinas-politburo-pledges-policy-support-spending-counteract-sluggish-growth",
+      "title": "China’s Politburo pledges policy support, spending to counteract sluggish growth",
+      "word_count": 1089,
       "quality": "fulltext",
       "is_premium": false
     }
