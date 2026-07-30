@@ -45,7 +45,7 @@ jobs:
           TARGET_DATE: ${{ github.event.inputs.target_date }}
       - name: Generate briefing
         continue-on-error: true
-        timeout-minutes: 5
+        timeout-minutes: 20
         run: python generate_briefing.py
         env:
           MIMO_API_KEY: ${{ secrets.MIMO_API_KEY }}
