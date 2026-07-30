@@ -284,13 +284,13 @@ def main():
     base_dir = "."
     now = datetime.now(timezone.utc)
     bj_time = now.astimezone(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M")
-    date_str = target_date  # 文件名日期与目标日期一致
     # 默认处理前一天，可通过TARGET_DATE环境变量覆盖
     target = os.environ.get("TARGET_DATE", "")
     if target:
         target_date = target
     else:
         target_date = (now - timedelta(days=1)).astimezone(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
+    date_str = target_date  # 文件名日期与目标日期一致
     print(f"=== 生成简报 {bj_time} (处理 {target_date} 的文章) ===")
 
     # Phase 1: 过滤非深度报道（仅前一天日期的文章）
