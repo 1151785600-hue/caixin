@@ -1,6 +1,14 @@
 {
-  "ts": "2026-07-30 06:20:27",
+  "ts": "2026-07-30 09:32:19",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3362368/east-timor-court-review-myanmar-war-crimes-tests-aseans-uneasy-approach-junta",
+      "title": "East Timor’s Myanmar war crimes case puts Asean non-interference to the test",
+      "word_count": 1105,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
