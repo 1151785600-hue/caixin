@@ -284,7 +284,7 @@ def main():
     base_dir = "."
     now = datetime.now(timezone.utc)
     bj_time = now.astimezone(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M")
-    date_str = now.astimezone(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
+    date_str = target_date  # 文件名日期与目标日期一致
     # 默认处理前一天，可通过TARGET_DATE环境变量覆盖
     target = os.environ.get("TARGET_DATE", "")
     if target:
@@ -297,6 +297,12 @@ def main():
     print(f"\n[Phase 1] 筛选 {target_date} 的深度报道...")
     deep_articles = filter_articles(base_dir, target_date)
     print(f"  深度报道: {len(deep_articles)} 篇")
+    # 限制AI摘要的文章数量，避免超时
+    MAX_ARTICLES = 15
+    if len(deep_articles) > MAX_ARTICLES:
+        print(f"  文章数超过{MAX_ARTICLES}，只处理前{MAX_ARTICLES}篇（按词数降序）")
+        deep_articles.sort(key=lambda x: x["word_count"], reverse=True)
+        deep_articles = deep_articles[:MAX_ARTICLES]
 
     if not deep_articles:
         print("  无深度报道，生成空简报")
@@ -309,7 +315,7 @@ def main():
             a["summary"] = generate_english_summary(a) or ""
             if a["summary"]: print(f"    OK ({len(a['summary'])} chars)")
             else: print(f"    FAIL")
-            time.sleep(2)
+            time.sleep(1)
 
         # Phase 3: 政治经济学评论
         print("\n[Phase 3] 生成政治经济学评论...")
