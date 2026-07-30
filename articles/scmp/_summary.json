@@ -1,19 +1,26 @@
 {
-  "ts": "2026-07-30 11:43:08",
+  "ts": "2026-07-30 15:15:44",
   "v": "scmp_v4",
-  "new_count": 2,
+  "new_count": 3,
   "articles": [
     {
-      "url": "https://www.scmp.com/week-asia/politics/article/3362397/malaysias-anwar-seizes-haj-fund-report-ahead-negeri-sembilan-election",
-      "title": "Malaysia’s Anwar seizes on haj fund report ahead of Negeri Sembilan election",
-      "word_count": 1002,
+      "url": "https://www.scmp.com/news/china/politics/article/3362363/china-says-key-plenum-will-be-held-october",
+      "title": "China’s October plenum plan reveals focus on party discipline ahead of 2027 congress",
+      "word_count": 1048,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/economy/policy/article/3362364/chinas-politburo-pledges-policy-support-spending-counteract-sluggish-growth",
-      "title": "China’s Politburo pledges policy support, spending to counteract sluggish growth",
-      "word_count": 1089,
+      "url": "https://www.scmp.com/week-asia/people/article/3362390/malaysias-shocking-deal-return-5000-rohingya-myanmar-triggers-refoulement-fears",
+      "title": "Malaysia’s ‘shocking’ deal to return 5,000 Rohingya to Myanmar triggers refoulement fears",
+      "word_count": 1055,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-war/article/3362398/us-scientist-elsa-reichmanis-defends-global-collaboration-amid-scrutiny-science-exchange",
+      "title": "US scientist Elsa Reichmanis defends global collaboration amid scrutiny of science exchange",
+      "word_count": 1142,
       "quality": "fulltext",
       "is_premium": false
     }
