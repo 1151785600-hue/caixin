@@ -11,7 +11,7 @@ on:
         required: false
         default: 'all'
       target_date:
-        description: '处理日期 YYYY-MM-DD'
+        description: '处理日期 YYYY-MM-DD（留空=自动取前一天）'
         required: false
 
 permissions:
@@ -24,6 +24,7 @@ jobs:
     outputs:
       has_articles: ${{ steps.check.outputs.has_articles }}
       briefing_date: ${{ steps.set_date.outputs.briefing_date }}
+      commit_sha: ${{ steps.commit.outputs.commit_sha }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -38,8 +39,10 @@ jobs:
           if [ -n "$TARGET_DATE" ]; then
             echo "briefing_date=$TARGET_DATE" >> $GITHUB_OUTPUT
           else
-            echo "briefing_date=$(TZ='Asia/Shanghai' date +%Y-%m-%d)" >> $GITHUB_OUTPUT
+            echo "briefing_date=$(TZ='Asia/Shanghai' date -d 'yesterday' +%Y-%m-%d)" >> $GITHUB_OUTPUT
           fi
+        env:
+          TARGET_DATE: ${{ github.event.inputs.target_date }}
       - name: Generate briefing
         continue-on-error: true
         timeout-minutes: 5
@@ -59,12 +62,14 @@ jobs:
         timeout-minutes: 3
         run: python generate_rss.py
       - name: Commit and push
+        id: commit
         if: always()
         run: |
           git config user.name "bot"
           git config user.email "bot@users.noreply.github.com"
           git add articles/ feed.opml feed.xml deep.xml deep_v2.xml scmp_feed.xml feed2026.xml
           git diff --cached --quiet || (git commit -m "briefing $(date -u +%Y-%m-%d)" && git pull --rebase origin main && git push)
+          echo "commit_sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
       - name: Upload to COS
         if: always()
         continue-on-error: true
@@ -82,8 +87,13 @@ jobs:
           BDATE=${{ steps.set_date.outputs.briefing_date }}
           if [ -f "articles/daily/${BDATE}_briefing.json" ]; then
             COUNT=$(python3 -c "import json; d=json.load(open('articles/daily/${BDATE}_briefing.json')); print(len(d.get('articles',[])))")
-            echo "has_articles=true" >> $GITHUB_OUTPUT
-            echo "Found ${COUNT} articles for ${BDATE}"
+            if [ "$COUNT" -gt "0" ]; then
+              echo "has_articles=true" >> $GITHUB_OUTPUT
+              echo "Found ${COUNT} articles for ${BDATE}"
+            else
+              echo "has_articles=false" >> $GITHUB_OUTPUT
+              echo "Briefing exists but has 0 articles for ${BDATE}"
+            fi
           else
             echo "has_articles=false" >> $GITHUB_OUTPUT
             echo "No briefing for ${BDATE}"
@@ -95,6 +105,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.generate.outputs.commit_sha }}
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
