@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/">
 <channel>
-  <title>SCMP + Caixin Deep Reports</title>
+  <title>Caixin SCMP Daily Briefing Hub</title>
   <link>https://1151785600-hue.github.io/caixin</link>
   <description>Deep reports from SCMP and Caixin (1000+ words)</description>
   <language>en</language>
