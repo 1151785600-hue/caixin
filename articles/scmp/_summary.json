@@ -1,21 +1,6 @@
 {
-  "ts": "2026-07-31 15:23:39",
+  "ts": "2026-07-31 17:45:29",
   "v": "scmp_v4",
-  "new_count": 2,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/week-asia/economics/article/3362593/cambodian-jobseekers-fear-debt-trap-over-thailands-border-reinforcement",
-      "title": "Cambodian jobseekers fear debt trap over Thailand’s border reinforcement",
-      "word_count": 1154,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/economics/article/3362578/pakistan-bangladesh-face-economic-squeeze-us-iran-crisis-widens",
-      "title": "Pakistan, Bangladesh face economic squeeze as US-Iran crisis widens",
-      "word_count": 1006,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
