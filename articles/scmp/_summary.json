@@ -1,21 +1,6 @@
 {
-  "ts": "2026-07-31 09:46:06",
+  "ts": "2026-07-31 11:50:13",
   "v": "scmp_v4",
-  "new_count": 2,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3362502/eu-china-trade-war-beijing-turns-screws-brussels-tests-limits-restraint",
-      "title": "EU-China trade war: Beijing turns the screws as Brussels tests limits of restraint",
-      "word_count": 1146,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3362544/living-neighbour-singapore-residents-fight-save-maju-forest-clearance-looms",
-      "title": "‘A living neighbour’: Singapore residents fight to save Maju forest as clearance looms",
-      "word_count": 1338,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
