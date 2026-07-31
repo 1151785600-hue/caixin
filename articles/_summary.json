@@ -1,6 +1,17 @@
 {
-  "ts": "2026-07-30 16:18:52",
+  "ts": "2026-07-31 02:26:02",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 2,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-07-30/in-depth-thai-buddhist-amulets-draw-chinas-anxious-young-and-laundering-networks-102469491.html",
+      "title": "In Depth: Thai Buddhist Amulets Draw China’s Anxious Young — and Laundering Networks",
+      "word_count": 519
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-07-30/analysis-how-active-etfs-will-reshape-asset-management-in-china-102469525.html",
+      "title": "Analysis: How Active ETFs Will Reshape Asset Management in China",
+      "word_count": 591
+    }
+  ]
 }
