@@ -1,6 +1,12 @@
 {
-  "ts": "2026-07-31 16:28:29",
+  "ts": "2026-08-01 02:26:51",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-07-31/nature-retracts-two-papers-by-chinese-scientists-following-bloggers-fraud-crusade-102470122.html",
+      "title": "Nature Retracts Two Papers by Chinese Scientists Following Blogger’s Fraud Crusade",
+      "word_count": 620
+    }
+  ]
 }
