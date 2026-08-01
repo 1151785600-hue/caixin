@@ -1,14 +1,6 @@
 {
-  "ts": "2026-08-01 09:07:22",
+  "ts": "2026-08-01 11:07:53",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/postmag/culture/article/3359590/masters-hong-kongs-kung-fu-cuisine-struggle-save-cantonese-classics",
-      "title": "Masters of Hong Kong’s ‘kung fu’ cuisine on the struggle to save Cantonese classics",
-      "word_count": 2336,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
