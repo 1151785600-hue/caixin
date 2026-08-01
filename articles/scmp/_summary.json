@@ -1,28 +1,6 @@
 {
-  "ts": "2026-08-01 14:37:19",
+  "ts": "2026-08-01 17:06:41",
   "v": "scmp_v4",
-  "new_count": 3,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3362641/pain-or-gain-us-moves-decouple-its-defence-industry-chinas-rare-earths",
-      "title": "Pain or gain? US moves to decouple its defence industry from China’s rare earths",
-      "word_count": 1092,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/military/article/3362628/pla-stages-south-china-sea-drills-days-after-illegal-philippine-territorial-bid",
-      "title": "PLA and coastguards stage South China Sea drills days after Philippine territorial bid",
-      "word_count": 1101,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/opinion/article/3362651/hong-kong-has-bounced-back-bleak-days-pandemic",
-      "title": "Hong Kong has bounced back since the bleak days of the pandemic",
-      "word_count": 1072,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
