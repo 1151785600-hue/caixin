@@ -1,6 +1,8 @@
 """upload_cos.py - Upload RSS feed files and article HTML to Tencent Cloud COS."""
 import os
 import time
+import json
+import re
 from qcloud_cos import CosConfig, CosS3Client
 from qcloud_cos.cos_exception import CosClientError, CosServiceError
 
@@ -13,7 +15,7 @@ def upload_with_retry(client, bucket, key, body, content_type, max_retries=3):
                 Body=body,
                 Key=key,
                 ContentType=content_type,
-                CacheControl="max-age=300"
+                CacheControl="max-age=86400"
             )
             return True
         except (CosClientError, CosServiceError) as e:
@@ -28,7 +30,6 @@ def main():
     bucket = os.environ["TENCENT_COS_BUCKET"]
     region = os.environ["TENCENT_COS_REGION"]
 
-    # Set longer timeout (120s) for slow US->China connection
     config = CosConfig(
         Region=region,
         SecretId=secret_id,
@@ -52,37 +53,77 @@ def main():
         else:
             print("FAILED to upload {} after retries".format(filename))
 
-    # 2. Upload article HTML files for target date
+    # 2. Upload article HTML files referenced in the briefing
     from datetime import datetime, timedelta, timezone
     now = datetime.now(timezone.utc)
     target_date = os.environ.get("TARGET_DATE", "")
     if not target_date:
         target_date = (now - timedelta(days=1)).astimezone(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
-    date_prefix = target_date.replace("-", "")
-    print("Uploading articles for {} (prefix={})".format(target_date, date_prefix))
+
+    briefing_path = "articles/daily/{}_briefing.json".format(target_date)
+    files_to_upload = set()
+
+    if os.path.exists(briefing_path):
+        with open(briefing_path, "r", encoding="utf-8") as f:
+            briefing = json.load(f)
+        for a in briefing.get("articles", []):
+            url = a.get("url", "")
+            # Extract SCMP article ID
+            m = re.search(r'/article/(\d+)/', url)
+            if m:
+                article_id = m.group(1)
+                # Find matching local file
+                for subdir in ["articles/scmp", "articles"]:
+                    if os.path.isdir(subdir):
+                        for fname in os.listdir(subdir):
+                            if article_id in fname and fname.endswith(".html"):
+                                local_path = os.path.join(subdir, fname)
+                                cos_key = "{}/{}".format(subdir, fname)
+                                files_to_upload.add((local_path, cos_key))
+                                break
+            else:
+                # Caixin URL: extract date+slug
+                m = re.search(r'/(\d{4}-\d{2}-\d{2})/(.+?)(?:-\d+)?\.html', url)
+                if m:
+                    date_prefix = m.group(1).replace("-", "")
+                    slug = m.group(2).replace("-", "_")[:70]
+                    prefix = "{}_{}".format(date_prefix, slug)
+                    for subdir in ["articles", "articles/scmp"]:
+                        if os.path.isdir(subdir):
+                            for fname in os.listdir(subdir):
+                                if fname.startswith(prefix) and fname.endswith(".html"):
+                                    local_path = os.path.join(subdir, fname)
+                                    cos_key = "{}/{}".format(subdir, fname)
+                                    files_to_upload.add((local_path, cos_key))
+                                    break
+
+        # Also upload today's newly scraped files
+        date_prefix = target_date.replace("-", "")
+        for subdir in ["articles", "articles/scmp"]:
+            if os.path.isdir(subdir):
+                for fname in os.listdir(subdir):
+                    if fname.endswith(".html") and fname.startswith(date_prefix):
+                        local_path = os.path.join(subdir, fname)
+                        cos_key = "{}/{}".format(subdir, fname)
+                        files_to_upload.add((local_path, cos_key))
+
+    print("Uploading {} article HTML files for {}".format(len(files_to_upload), target_date))
 
     uploaded = 0
     failed = 0
-    for subdir in ["articles", "articles/scmp"]:
-        if not os.path.isdir(subdir):
-            continue
-        for fname in os.listdir(subdir):
-            if fname.endswith(".html") and fname.startswith(date_prefix):
-                local_path = os.path.join(subdir, fname)
-                cos_key = "{}/{}".format(subdir, fname)
-                with open(local_path, "rb") as f:
-                    content = f.read()
-                ok = upload_with_retry(client, bucket, cos_key, content, "text/html; charset=utf-8")
-                if ok:
-                    uploaded += 1
-                else:
-                    failed += 1
-                if (uploaded + failed) % 10 == 0:
-                    print("  Progress: {} uploaded, {} failed".format(uploaded, failed))
+    for local_path, cos_key in sorted(files_to_upload):
+        with open(local_path, "rb") as f:
+            content = f.read()
+        ok = upload_with_retry(client, bucket, cos_key, content, "text/html; charset=utf-8")
+        if ok:
+            uploaded += 1
+        else:
+            failed += 1
+        if (uploaded + failed) % 5 == 0:
+            print("  Progress: {} uploaded, {} failed".format(uploaded, failed))
     print("Article HTML: {} uploaded, {} failed".format(uploaded, failed))
 
     # 3. Upload briefing JSON
-    briefing_path = "articles/daily/{}_briefing.json".format(target_date)
     if os.path.exists(briefing_path):
         with open(briefing_path, "rb") as f:
             content = f.read()
@@ -90,8 +131,7 @@ def main():
         if ok:
             print("Uploaded {}".format(briefing_path))
 
-    # 4. Rename feed_daily.xml -> feed_daily.xml (already named correctly in generate_rss.py)
-    # Also upload feed_daily.xml if it exists
+    # 4. Upload feed_daily.xml
     if os.path.exists("feed_daily.xml"):
         with open("feed_daily.xml", "rb") as f:
             content = f.read()
@@ -99,8 +139,7 @@ def main():
         if ok:
             print("Uploaded feed_daily.xml ({} bytes)".format(len(content)))
 
-    cos_url = "https://{}.cos.{}.myqcloud.com/feed_daily.xml".format(bucket, region)
-    print("Feed URL: {}".format(cos_url))
+    print("Done. Feed URL: https://{}.cos.{}.myqcloud.com/feed_daily.xml".format(bucket, region))
 
 if __name__ == "__main__":
     main()
