@@ -1,14 +1,6 @@
 {
-  "ts": "2026-08-02 09:10:09",
+  "ts": "2026-08-02 11:08:39",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/postmag/design-interiors/article/3361230/only-hangzhou-hang-lungs-new-westlake-66-complex-blends-hi-tech-and-history",
-      "title": "Only in Hangzhou: Hang Lung’s new Westlake 66 complex blends hi-tech and history",
-      "word_count": 1305,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
