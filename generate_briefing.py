@@ -164,8 +164,7 @@ def filter_articles(base_dir, target_date):
                 deep_articles.append(info)
                 print(f"  [KEEP] {fname} ({info['word_count']} words)")
             else:
-                os.remove(fp)
-                print(f"  [DEL] 非深度: {fname}")
+                print(f"  [SKIP] 非深度: {fname}")
     return deep_articles
 
 def call_mimo(prompt, max_tokens=2000, retry_on_reject=True):
