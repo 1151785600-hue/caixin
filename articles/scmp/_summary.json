@@ -1,6 +1,14 @@
 {
-  "ts": "2026-08-02 11:08:39",
+  "ts": "2026-08-02 14:39:07",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3362551/discouraged-university-maths-star-wang-hong-spurs-chinese-education-debate",
+      "title": "‘Discouraged’ at university, maths star Wang Hong spurs Chinese education debate",
+      "word_count": 1124,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
