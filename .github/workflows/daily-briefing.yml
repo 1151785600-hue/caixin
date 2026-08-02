@@ -73,6 +73,7 @@ jobs:
       - name: Upload to COS
         if: always()
         continue-on-error: true
+        timeout-minutes: 10
         env:
           TENCENT_SECRET_ID: ${{ secrets.TENCENT_SECRET_ID }}
           TENCENT_SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}
