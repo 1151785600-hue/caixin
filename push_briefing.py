@@ -1,25 +1,28 @@
-"""push_briefing.py - 北京时间8点运行，读取已生成的简报JSON推送到微信（Server酱）
-不调用任何AI接口，纯读取+推送，秒级完成。
-推送标题列表+摘要+政治经济学评论。
-文章链接指向GitHub仓库blob页面（public仓库可直接访问）。
+"""push_briefing.py - 读取已生成的简报JSON推送到微信（Server酱）
+文章链接指向腾讯云COS（国内CDN快速访问）。
 """
-import requests, json, os
+import requests, json, os, re
 from datetime import datetime, timedelta, timezone
 
 SERVERCHAN_SENDKEY = os.environ.get("SERVERCHAN_SENDKEY", "")
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
 GITHUB_REPO = "1151785600-hue/caixin"
-BLOB_BASE = f"https://1151785600-hue.github.io/caixin/articles/"
-API_BASE = f"https://api.github.com/repos/{GITHUB_REPO}/git/trees/main?recursive=1"
+# COS链接（国内快速访问）
+COS_BASE = "https://caixin-feed-1300461657.cos.ap-guangzhou.myqcloud.com/"
+API_BASE = "https://api.github.com/repos/{}/git/trees/main?recursive=1".format(GITHUB_REPO)
 
 def url_to_prefix(url):
     """Extract date+slug prefix from caixinglobal URL."""
-    import re
     m = re.search(r'/(\d{4}-\d{2}-\d{2})/(.+?)(?:-\d+)?\.html', url)
     if m:
         date = m.group(1).replace('-', '')
         slug = m.group(2).replace('-', '_')[:70]
-        return f"{date}_{slug}"
+        return "{}_{}".format(date, slug)
+    # SCMP URL: /article/XXXXXXX/slug
+    m = re.search(r'/article/(\d+)/', url)
+    if m:
+        # Try to match by article ID in filename
+        return m.group(1)
     return None
 
 def get_file_list():
@@ -27,31 +30,38 @@ def get_file_list():
     try:
         headers = {}
         if GITHUB_TOKEN:
-            headers["Authorization"] = f"token {GITHUB_TOKEN}"
+            headers["Authorization"] = "token {}".format(GITHUB_TOKEN)
         r = requests.get(API_BASE, headers=headers, timeout=30)
         if r.status_code == 200:
             tree = r.json().get("tree", [])
-            # strip 'articles/' prefix to avoid double path
             return [item["path"][9:] for item in tree
                     if item["path"].startswith("articles/")
                     and item["path"].endswith(".html")
                     and "/daily/" not in item["path"]
-                    and not item["path"].endswith("_summary.json")
-                    ]
+                    and not item["path"].endswith("_summary.json")]
         return []
     except Exception as e:
-        print(f"  [GitHub API] error: {e}")
+        print("  [GitHub API] error: {}".format(e))
         return []
 
-def find_cached_blob_url(url, file_list):
-    """Find matching cached file and return GitHub blob page URL."""
+def find_cached_url(url, file_list):
+    """Find matching cached file and return COS URL."""
     prefix = url_to_prefix(url)
     if not prefix:
-        return url
-    for path in file_list:
-        fname = path.split("/")[-1]
-        if fname.startswith(prefix):
-            return BLOB_BASE + path
+        return None
+    # Try matching by date+slug prefix
+    if len(prefix) == 8 or not prefix[8:].isdigit():
+        # Date-based prefix (caixin)
+        for path in file_list:
+            fname = path.split("/")[-1]
+            if fname.startswith(prefix):
+                return COS_BASE + "articles/" + path
+    else:
+        # SCMP article ID match
+        for path in file_list:
+            fname = path.split("/")[-1]
+            if prefix in fname:
+                return COS_BASE + "articles/" + path
     return None
 
 def push_to_wechat(title, content, max_retries=5):
@@ -64,48 +74,47 @@ def push_to_wechat(title, content, max_retries=5):
         try:
             payload = {"title": title, "desp": content}
             resp = requests.post(
-                f"https://sctapi.ftqq.com/{SERVERCHAN_SENDKEY}.send",
+                "https://sctapi.ftqq.com/{}.send".format(SERVERCHAN_SENDKEY),
                 data=payload,
                 timeout=30
             )
             result = resp.json()
             code = result.get("code")
-            print(f"  [Server酱] attempt {attempt}/{max_retries} status={resp.status_code} code={code} message={result.get('message','')}")
+            print("  [Server酱] attempt {}/{} status={} code={} message={}".format(
+                attempt, max_retries, resp.status_code, code, result.get('message', '')))
             if code == 0:
-                print(f"  [Server酱] 推送成功")
+                print("  [Server酱] 推送成功")
                 return True
             else:
-                print(f"  [Server酱] 推送失败: {result}")
+                print("  [Server酱] 推送失败: {}".format(result))
         except Exception as e:
-            print(f"  [Server酱] attempt {attempt}/{max_retries} error: {e}")
+            print("  [Server酱] attempt {}/{} error: {}".format(attempt, max_retries, e))
         if attempt < max_retries:
-            wait = 10 * attempt  # 10s, 20s, 30s, 40s
-            print(f"  [Server酱] {wait}秒后重试...")
+            wait = 10 * attempt
+            print("  [Server酱] {}秒后重试...".format(wait))
             time.sleep(wait)
-    print(f"  [Server酱] {max_retries}次重试均失败")
+    print("  [Server酱] {}次重试均失败".format(max_retries))
     return False
 
 def main():
     base_dir = "."
     now = datetime.now(timezone.utc)
     bj_time = now.astimezone(timezone(timedelta(hours=8))).strftime("%Y-%m-%d %H:%M")
-    # Support BRIEFING_DATE env var (passed from generate job)
     date_str = os.environ.get("BRIEFING_DATE", "")
     if not date_str:
-            date_str = now.astimezone(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
-    print(f"=== 推送简报 {bj_time} ===")
+        date_str = now.astimezone(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
+    print("=== 推送简报 {} ===".format(bj_time))
 
-    # 读取简报JSON
-    briefing_path = os.path.join(base_dir, "articles/daily", f"{date_str}_briefing.json")
+    briefing_path = os.path.join(base_dir, "articles/daily", "{}_briefing.json".format(date_str))
     if not os.path.exists(briefing_path):
-        print(f"  未找到简报文件: {briefing_path}")
+        print("  未找到简报文件: {}".format(briefing_path))
         yesterday = (now - timedelta(days=1)).astimezone(timezone(timedelta(hours=8))).strftime("%Y-%m-%d")
-        briefing_path = os.path.join(base_dir, "articles/daily", f"{yesterday}_briefing.json")
+        briefing_path = os.path.join(base_dir, "articles/daily", "{}_briefing.json".format(yesterday))
         if not os.path.exists(briefing_path):
-            print(f"  也未找到昨天简报: {briefing_path}")
+            print("  也未找到昨天简报: {}".format(briefing_path))
             return
         date_str = yesterday
-        print(f"  回退使用昨天简报: {date_str}")
+        print("  回退使用昨天简报: {}".format(date_str))
 
     with open(briefing_path, "r", encoding="utf-8") as f:
         briefing_data = json.load(f)
@@ -116,20 +125,20 @@ def main():
 
     if not articles:
         print("  无新文章，发送空简报")
-        push_to_wechat(f"Daily Briefing | {date_str}", f"## Daily Briefing | {date_str}\n\nNo new in-depth articles today.")
+        push_to_wechat("Daily Briefing | {}".format(date_str),
+                       "## Daily Briefing | {}\n\nNo new in-depth articles today.".format(date_str))
         return
 
-    print(f"  找到 {len(articles)} 篇文章")
+    print("  找到 {} 篇文章".format(len(articles)))
 
-    # 获取GitHub缓存文件列表（用于匹配链接）
-    print(f"  正在获取缓存文件列表...")
+    print("  正在获取缓存文件列表...")
     file_list = get_file_list()
-    print(f"  缓存文件数: {len(file_list)}")
+    print("  缓存文件数: {}".format(len(file_list)))
 
-    # 组装Markdown (微信友好的HTML格式)
-    md_parts = [f"## Daily Briefing | {date_str}"]
-    md_parts.append(f"{len(articles)} in-depth articles\n")
+    md_parts = ["## Daily Briefing | {}".format(date_str)]
+    md_parts.append("{} in-depth articles\n".format(len(articles)))
 
+    matched = 0
     for i, a in enumerate(articles, 1):
         source_tag = "SCMP" if a.get("source") == "scmp" else "Caixin"
         title = a.get("title", "Untitled")
@@ -137,19 +146,21 @@ def main():
         url = a.get("url", "")
         summary = a.get("summary", "")
 
-        # 尝试匹配GitHub缓存链接
-        cached = find_cached_blob_url(url, file_list)
-        link = cached if cached else url
+        cached = find_cached_url(url, file_list)
+        if cached:
+            link = cached
+            matched += 1
+        else:
+            link = url
 
-        md_parts.append(f"**{i}. [{source_tag}] {title}**")
-        md_parts.append(f"  {wc} words | [Cached Full Text]({link})" if cached else f"  {wc} words | [Original]({url})")
+        md_parts.append("**{}. [{}] {}**".format(i, source_tag, title))
+        if cached:
+            md_parts.append("  {} words | [Full Text]({})".format(wc, link))
+        else:
+            md_parts.append("  {} words | [Original]({})".format(wc, link))
         if summary:
-            # 清理摘要：统一为纯文本，去除列表符号和多余空白
             clean_summary = summary.strip()
-            # 替换各种列表符号为换行+缩进
-            import re
             clean_summary = re.sub(r'^[\*\-\u2022]\s+', "- ", clean_summary, flags=re.MULTILINE)
-            # 去除连续空行
             clean_summary = re.sub(r'\n{3,}', '\n\n', clean_summary)
             if len(clean_summary) > 400:
                 clean_summary = clean_summary[:400] + "..."
@@ -158,37 +169,35 @@ def main():
         md_parts.append("")
         md_parts.append("---")
 
-    # 评论部分
+    print("  链接匹配: {}/{} 篇使用COS链接".format(matched, len(articles)))
+
     if commentary:
         md_parts.append("")
         md_parts.append("### Political Economy Analysis")
         if commentary_title:
-            md_parts.append(f"> {commentary_title}")
+            md_parts.append("> {}".format(commentary_title))
         md_parts.append("")
-        # 截断到5000字符
         if len(commentary) > 5000:
             commentary = commentary[:5000] + "\n\n...(truncated)"
         md_parts.append(commentary)
 
     md_parts.append("")
     md_parts.append("---")
-    md_parts.append(f"*Archive: [GitHub Pages](https://1151785600-hue.github.io/caixin/articles/)*")
+    md_parts.append("*Full archive: [COS](https://caixin-feed-1300461657.cos.ap-guangzhou.myqcloud.com/feed_daily.xml)*")
 
     full_md = "\n".join(md_parts)
-    print(f"  推送内容长度: {len(full_md)} chars")
+    print("  推送内容长度: {} chars".format(len(full_md)))
 
-    # 如果超限，截断评论
     if len(full_md) > 32000:
         idx = full_md.find("---\n### Political Economy Analysis")
         if idx > 0:
             full_md = full_md[:idx] + "\n---\n*(Commentary truncated)*\n"
-            print(f"  截断后: {len(full_md)} chars")
+            print("  截断后: {} chars".format(len(full_md)))
 
-    # 推送
-    push_title = f"Daily Briefing | {date_str} | {len(articles)} articles"
-    print(f"  正在推送: {push_title}")
+    push_title = "Daily Briefing | {} | {} articles".format(date_str, len(articles))
+    print("  正在推送: {}".format(push_title))
     push_to_wechat(push_title, full_md)
-    print(f"\n=== 推送完成 ===")
+    print("\n=== 推送完成 ===")
 
 if __name__ == "__main__":
     main()
