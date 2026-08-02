@@ -78,6 +78,7 @@ jobs:
           TENCENT_SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}
           TENCENT_COS_BUCKET: ${{ secrets.TENCENT_COS_BUCKET }}
           TENCENT_COS_REGION: ${{ secrets.TENCENT_COS_REGION }}
+          TARGET_DATE: ${{ steps.set_date.outputs.briefing_date }}
         run: |
           pip install cos-python-sdk-v5
           python upload_cos.py
