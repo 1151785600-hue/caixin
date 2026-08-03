@@ -1,6 +1,12 @@
 {
-  "ts": "2026-08-03 06:22:48",
+  "ts": "2026-08-03 09:42:12",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-08-03/chinas-new-economy-engine-cools-on-waning-capital-tech-investments-102470800.html",
+      "title": "China’s New Economy Engine Cools on Waning Capital, Tech Investments",
+      "word_count": 422
+    }
+  ]
 }
