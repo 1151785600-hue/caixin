@@ -1,14 +1,6 @@
 {
-  "ts": "2026-08-03 10:44:37",
+  "ts": "2026-08-03 12:46:28",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3362772/singapore-battles-speed-youth-radicalisation-concerns-mount",
-      "title": "Singapore battles speed of youth radicalisation as concerns mount",
-      "word_count": 1145,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
