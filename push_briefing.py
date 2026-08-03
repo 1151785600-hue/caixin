@@ -49,18 +49,17 @@ def find_cached_url(url, file_list):
     prefix = url_to_prefix(url)
     if not prefix:
         return None
-    # Try matching by date+slug prefix
-    if len(prefix) == 8 or not prefix[8:].isdigit():
-        # Date-based prefix (caixin)
-        for path in file_list:
-            fname = path.split("/")[-1]
-            if fname.startswith(prefix):
-                return COS_BASE + "articles/" + path
-    else:
-        # SCMP article ID match
+    # SCMP article ID is pure digits, use 'in' matching
+    if prefix.isdigit():
         for path in file_list:
             fname = path.split("/")[-1]
             if prefix in fname:
+                return COS_BASE + "articles/" + path
+    else:
+        # Caixin date+slug prefix, use startswith
+        for path in file_list:
+            fname = path.split("/")[-1]
+            if fname.startswith(prefix):
                 return COS_BASE + "articles/" + path
     return None
 
