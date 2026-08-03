@@ -1,13 +1,13 @@
 {
-  "ts": "2026-08-03 06:52:33",
+  "ts": "2026-08-03 10:44:37",
   "v": "scmp_v4",
   "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/postmag/culture/article/3361183/vietnamese-refugee-returns-hong-kong-island-where-echoes-lost-childhood-remain",
-      "title": "A Vietnamese refugee returns to the Hong Kong island where echoes of a lost childhood remain",
-      "word_count": 1967,
-      "quality": "fulltext_deep",
+      "url": "https://www.scmp.com/week-asia/politics/article/3362772/singapore-battles-speed-youth-radicalisation-concerns-mount",
+      "title": "Singapore battles speed of youth radicalisation as concerns mount",
+      "word_count": 1145,
+      "quality": "fulltext",
       "is_premium": false
     }
   ]
