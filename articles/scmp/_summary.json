@@ -1,6 +1,28 @@
 {
-  "ts": "2026-08-03 12:46:28",
+  "ts": "2026-08-03 15:46:58",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 3,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3362521/military-base-displaced-people-and-trumps-china-fears-burnhams-chagos-test",
+      "title": "A military base, a displaced people and Trump’s China fears: Burnham’s Chagos test",
+      "word_count": 1469,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3362834/will-philippines-push-seabed-rights-derail-south-china-sea-code-talks",
+      "title": "Will Philippines’ push for seabed rights derail South China Sea code talks?",
+      "word_count": 1018,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3362829/singapore-jails-man-who-had-secret-sexual-relationship-niece-13",
+      "title": "Singapore jails man who had secret sexual ‘relationship’ with niece, 13",
+      "word_count": 1443,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
