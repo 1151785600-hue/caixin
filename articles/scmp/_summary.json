@@ -1,14 +1,6 @@
 {
-  "ts": "2026-08-04 15:27:39",
+  "ts": "2026-08-04 17:54:09",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/politics/article/3362958/vip-app-ppt-are-english-abbreviations-harming-chinas-cultural-confidence",
-      "title": "VIP, APP, PPT: Are English abbreviations harming China’s cultural confidence?",
-      "word_count": 1007,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
