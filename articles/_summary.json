@@ -1,6 +1,12 @@
 {
-  "ts": "2026-08-03 17:02:58",
+  "ts": "2026-08-04 02:06:40",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-08-04/chinas-renewed-anti-crime-sweep-emphasizes-legal-restraint-to-shield-private-sector-102471030.html",
+      "title": "China’s Renewed Anti-Crime Sweep Emphasizes Legal Restraint to Shield Private Sector",
+      "word_count": 509
+    }
+  ]
 }
