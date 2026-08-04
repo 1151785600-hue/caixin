@@ -1,6 +1,35 @@
 {
-  "ts": "2026-08-04 06:20:16",
+  "ts": "2026-08-04 09:39:19",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 4,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3361675/how-chinas-us900-million-port-deal-angola-shows-its-dominance-over-us-interests",
+      "title": "How China’s US$900 million port deal in Angola shows its dominance over US interests",
+      "word_count": 1062,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/culture/article/3362525/3-south-asian-actors-challenge-hong-kong-cinemas-casting-rules",
+      "title": "3 South Asian actors challenge Hong Kong cinema’s casting rules",
+      "word_count": 1887,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/sport/hong-kong/article/3362876/after-ref-cam-lights-world-cup-whats-next-lenovos-ai-tech-football",
+      "title": "After Ref Cam lights up World Cup, what’s next for Lenovo’s AI tech in football?",
+      "word_count": 1016,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3362921/massive-attacks-singapore-ban-tests-legal-limits-artistic-freedom",
+      "title": "Massive Attack’s Singapore ban tests legal limits of artistic freedom",
+      "word_count": 1042,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
