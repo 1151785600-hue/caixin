@@ -1,6 +1,14 @@
 {
-  "ts": "2026-08-05 06:20:15",
+  "ts": "2026-08-05 09:37:56",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/postmag/food-drink/article/3362805/wok-yans-return-hong-kong-canadian-tv-chef-stephen-yan-resurfaces-decades-after-disappearing",
+      "title": "Wok with Yan’s return: Hong Kong-Canadian TV chef Stephen Yan resurfaces decades after disappearing",
+      "word_count": 2701,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    }
+  ]
 }
