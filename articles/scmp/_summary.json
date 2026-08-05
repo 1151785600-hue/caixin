@@ -1,21 +1,6 @@
 {
-  "ts": "2026-08-05 15:19:08",
+  "ts": "2026-08-05 17:46:17",
   "v": "scmp_v4",
-  "new_count": 2,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3363085/us-hawks-push-trump-multibillion-dollar-taiwan-arms-deal-ahead-xi-summit",
-      "title": "US hawks push Trump on multibillion-dollar Taiwan arms deal ahead of Xi summit",
-      "word_count": 1123,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/economy/global-economy/article/3363037/china-sanctions-slew-us-entities-heightens-scrutiny-drone-exports",
-      "title": "China hits back at US with barrage of sanctions, drone industry curbs",
-      "word_count": 1005,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
