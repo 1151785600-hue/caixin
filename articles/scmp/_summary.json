@@ -1,6 +1,35 @@
 {
-  "ts": "2026-08-06 06:23:13",
+  "ts": "2026-08-06 09:41:00",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 4,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3363174/why-was-us-yale-graduate-hounded-out-his-job-promoting-chinese-culture",
+      "title": "Why was a US Yale graduate hounded out of his job promoting Chinese culture?",
+      "word_count": 1050,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3361599/best-guest-shifts-hong-kong-and-macau-amid-asias-50-best-bars-2026",
+      "title": "The best guest shifts in Hong Kong and Macau amid Asia’s 50 Best Bars 2026",
+      "word_count": 1780,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3363155/why-uk-doubling-down-asean-ties-amid-european-reset",
+      "title": "Why the UK is doubling down on Asean ties amid European reset",
+      "word_count": 1154,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3363142/desperate-trump-running-out-options-iran-war-tehran-exploits-hormuz-leverage",
+      "title": "How US became trapped in ‘dreadful situation’ of its own making over Iran war",
+      "word_count": 1089,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
