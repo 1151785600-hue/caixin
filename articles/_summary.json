@@ -1,12 +1,17 @@
 {
-  "ts": "2026-08-06 05:48:08",
+  "ts": "2026-08-06 08:34:05",
   "v": "8.4",
-  "new_count": 1,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.caixinglobal.com/2026-08-06/exclusive-chinese-supertankers-take-africa-detour-to-avoid-red-sea-attacks-102471697.html",
-      "title": "Exclusive: Chinese Supertankers Take Africa Detour to Avoid Red Sea Attacks",
-      "word_count": 556
+      "url": "https://www.caixinglobal.com/2026-08-06/in-depth-former-shanxi-coal-tycoon-indicted-on-17-charges-including-triad-leadership-102471857.html",
+      "title": "In Depth: Former Shanxi Richest Man Indicted on Mafia, Casino Charges",
+      "word_count": 583
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-07-31/in-depth-how-a-ponzi-scheme-fleeced-chinas-elderly-102470124.html",
+      "title": "In Depth: How a Ponzi Scheme Fleeced China’s Elderly",
+      "word_count": 414
     }
   ]
 }
