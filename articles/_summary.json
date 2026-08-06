@@ -1,6 +1,12 @@
 {
-  "ts": "2026-08-06 02:09:26",
+  "ts": "2026-08-06 05:48:08",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-08-06/exclusive-chinese-supertankers-take-africa-detour-to-avoid-red-sea-attacks-102471697.html",
+      "title": "Exclusive: Chinese Supertankers Take Africa Detour to Avoid Red Sea Attacks",
+      "word_count": 556
+    }
+  ]
 }
