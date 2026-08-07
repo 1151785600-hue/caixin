@@ -1,6 +1,22 @@
 {
-  "ts": "2026-08-06 13:57:15",
+  "ts": "2026-08-07 02:27:44",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 3,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-08-07/unitree-robotics-prices-shanghai-ipo-at-61-billion-yuan-valuation-102472090.html",
+      "title": "Unitree Robotics Prices Shanghai IPO at 61 Billion Yuan Valuation",
+      "word_count": 445
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-08-07/in-depth-dangdai-founder-ai-luming-detained-as-probe-into-debt-crisis-widens-102472092.html",
+      "title": "In Depth: Dangdai Founder Ai Luming Detained as Probe Into Debt Crisis Widens",
+      "word_count": 567
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-08-01/weekend-long-read-the-100-million-tree-bet-to-halt-chinas-desert-102470068.html",
+      "title": "Weekend Long Read: The 100-Million-Tree Bet to Halt China’s Desert",
+      "word_count": 393
+    }
+  ]
 }
