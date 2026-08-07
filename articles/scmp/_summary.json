@@ -1,6 +1,21 @@
 {
-  "ts": "2026-08-07 08:15:40",
+  "ts": "2026-08-07 10:38:53",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 2,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3363331/myanmar-touts-economic-potential-it-pie-sky-it-still-war",
+      "title": "Myanmar touts economic potential but is it pie in the sky with it still at war?",
+      "word_count": 1026,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3363323/philippines-subtitle-less-spider-man-screening-shows-deaf-inclusion-just-lip-service",
+      "title": "Philippines’ subtitle-less ‘Spider-Man’ screening shows deaf inclusion is just lip service",
+      "word_count": 1019,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
