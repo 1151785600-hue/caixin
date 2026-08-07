@@ -1,13 +1,13 @@
 {
-  "ts": "2026-08-07 14:15:13",
+  "ts": "2026-08-07 16:58:06",
   "v": "scmp_v4",
   "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3363249/least-10-students-wounded-thai-school-shooting",
-      "title": "Thai teen kills at least 5 in school, after shooting grandparents at home",
-      "word_count": 1015,
-      "quality": "fulltext",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3363269/race-un-top-job-enters-final-stage-choice-may-make-or-break-organisation",
+      "title": "Race for UN top job enters final stage: choice may ‘make or break’ organisation",
+      "word_count": 1764,
+      "quality": "fulltext_deep",
       "is_premium": false
     }
   ]
