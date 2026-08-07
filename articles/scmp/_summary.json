@@ -1,14 +1,6 @@
 {
-  "ts": "2026-08-07 05:27:59",
+  "ts": "2026-08-07 08:15:40",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3363179/what-chinas-expanded-funding-hiv/aids-africa-means-us-cuts-health-aid",
-      "title": "What China’s expanded funding for HIV/Aids in Africa means as US cuts health aid",
-      "word_count": 1036,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
