@@ -1,6 +1,14 @@
 {
-  "ts": "2026-08-08 13:49:37",
+  "ts": "2026-08-08 16:40:06",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/military/article/3363386/how-chinas-hypersonic-carrier-killers-could-distract-us-forces-taiwan-conflict",
+      "title": "How Beijing’s hypersonic ‘carrier killers’ could distract US forces in a Taiwan conflict",
+      "word_count": 1105,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
