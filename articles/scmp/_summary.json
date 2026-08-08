@@ -1,14 +1,6 @@
 {
-  "ts": "2026-08-08 04:47:17",
+  "ts": "2026-08-08 07:51:05",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/week-asia/opinion/article/3363284/bangkok-branches-out-secret-thai-capitals-green-revival",
-      "title": "Bangkok branches out: secret to Thai capital’s green revival",
-      "word_count": 1139,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
