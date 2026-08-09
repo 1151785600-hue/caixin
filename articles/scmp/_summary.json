@@ -1,19 +1,12 @@
 {
-  "ts": "2026-08-09 10:19:33",
+  "ts": "2026-08-09 13:53:01",
   "v": "scmp_v4",
-  "new_count": 2,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3363433/how-chinas-magic-rice-seeds-are-transforming-fortunes-nigerian-farmers",
-      "title": "How China’s ‘magic’ rice seeds are transforming the fortunes of Nigerian farmers",
-      "word_count": 1277,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3363383/how-saudi-arabia-turkey-pakistan-defence-pact-acts-insurance-over-us-disengagement",
-      "title": "How Saudi Arabia-Turkey-Pakistan defence pact acts as ‘insurance’ over US disengagement",
-      "word_count": 1265,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3363427/chinese-vloggers-are-taking-youtube-set-record-straight",
+      "title": "Chinese vloggers are taking to YouTube to ‘set the record straight’",
+      "word_count": 1063,
       "quality": "fulltext",
       "is_premium": false
     }
