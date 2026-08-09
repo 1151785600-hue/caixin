@@ -1,12 +1,19 @@
 {
-  "ts": "2026-08-09 13:53:01",
+  "ts": "2026-08-09 16:41:43",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3363427/chinese-vloggers-are-taking-youtube-set-record-straight",
-      "title": "Chinese vloggers are taking to YouTube to ‘set the record straight’",
-      "word_count": 1063,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3363452/china-waits-wings-mecca-pact-signals-gulf-shift-away-us-security-umbrella",
+      "title": "China waits in wings as Mecca pact signals Gulf shift away from US security umbrella",
+      "word_count": 1061,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3363438/can-europe-stay-united-china-trade-battle-ceuta-migrant-crisis-offers-warning",
+      "title": "Can Europe stay united in China trade battle? Ceuta migrant crisis offers a warning",
+      "word_count": 1160,
       "quality": "fulltext",
       "is_premium": false
     }
