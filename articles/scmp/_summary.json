@@ -1,28 +1,6 @@
 {
-  "ts": "2026-08-10 14:21:47",
+  "ts": "2026-08-10 16:58:48",
   "v": "scmp_v4",
-  "new_count": 3,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3363555/china-india-and-pakistans-dangerous-nuclear-triangle-just-became-more-complicated",
-      "title": "China, India and Pakistan’s dangerous nuclear triangle just became more complicated",
-      "word_count": 1050,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3363558/china-challenges-western-tribute-system-theory-push-control-its-narrative-power",
-      "title": "China challenges Western ‘tribute system’ theory in push to control its narrative power",
-      "word_count": 1764,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/politics/article/3363551/why-taiwan-conducting-its-first-ever-mobile-network-throttling-exercise",
-      "title": "Why Taiwan is conducting its first-ever mobile network throttling exercise",
-      "word_count": 1024,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
