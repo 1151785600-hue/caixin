@@ -1,19 +1,19 @@
 {
-  "ts": "2026-08-10 08:40:12",
+  "ts": "2026-08-10 10:53:11",
   "v": "scmp_v4",
   "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/postmag/culture/article/3362768/cj-hendry-brings-juju-world-hong-kong-exclusive-collectibles",
-      "title": "CJ Hendry brings Juju World to Hong Kong with exclusive collectibles",
-      "word_count": 1537,
-      "quality": "fulltext_deep",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3363541/why-indias-new-himalayan-border-map-threatens-fragile-thaw-china-ties",
+      "title": "Why India’s new Himalayan border map threatens a fragile thaw in China ties",
+      "word_count": 1032,
+      "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/china/politics/article/3363174/why-was-us-yale-graduate-hounded-out-his-job-promoting-chinese-culture",
-      "title": "Why was a US Yale graduate hounded out of his job promoting Chinese culture?",
-      "word_count": 1062,
+      "url": "https://www.scmp.com/week-asia/politics/article/3363548/us-marks-75-years-defence-pact-philippines-can-it-stay-course",
+      "title": "As US marks 75 years of defence pact with Philippines, can it stay the course?",
+      "word_count": 1009,
       "quality": "fulltext",
       "is_premium": false
     }
