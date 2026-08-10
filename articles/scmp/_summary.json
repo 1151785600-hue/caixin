@@ -1,12 +1,19 @@
 {
-  "ts": "2026-08-10 05:17:17",
+  "ts": "2026-08-10 08:40:12",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/asia/east-asia/article/3363493/malaysia-seeks-deepen-trade-ties-south-korea-chips-ai-halal-sector",
-      "title": "Malaysia seeks to deepen trade ties with South Korea in chips, AI, halal sector",
-      "word_count": 1231,
+      "url": "https://www.scmp.com/postmag/culture/article/3362768/cj-hendry-brings-juju-world-hong-kong-exclusive-collectibles",
+      "title": "CJ Hendry brings Juju World to Hong Kong with exclusive collectibles",
+      "word_count": 1537,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3363174/why-was-us-yale-graduate-hounded-out-his-job-promoting-chinese-culture",
+      "title": "Why was a US Yale graduate hounded out of his job promoting Chinese culture?",
+      "word_count": 1062,
       "quality": "fulltext",
       "is_premium": false
     }
