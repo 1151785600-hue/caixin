@@ -1,6 +1,21 @@
 {
-  "ts": "2026-08-11 04:58:49",
+  "ts": "2026-08-11 08:10:05",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 2,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/magazines/post-magazine/long-reads/article/3143145/chinatown-los-angeles-memories-my-father-loved",
+      "title": "Chinatown Los Angeles memories: my father loved the place once, and now I remember why as an exhibition brings its history to life",
+      "word_count": 2855,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3363375/vietnam-pays-price-home-sending-workers-abroad",
+      "title": "Vietnam pays the price at home for sending workers abroad",
+      "word_count": 1207,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
