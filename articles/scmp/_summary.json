@@ -1,6 +1,273 @@
 {
-  "ts": "2026-08-10 16:58:48",
+  "ts": "2026-08-11 03:04:15",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 38,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3363555/china-india-and-pakistans-dangerous-nuclear-triangle-just-became-more-complicated",
+      "title": "China, India and Pakistan’s dangerous nuclear triangle just became more complicated",
+      "word_count": 1074,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3363558/china-challenges-western-tribute-system-theory-push-control-its-narrative-power",
+      "title": "China challenges Western ‘tribute system’ theory in push to control its narrative power",
+      "word_count": 1764,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3363551/why-taiwan-conducting-its-first-ever-mobile-network-throttling-exercise",
+      "title": "Why Taiwan is conducting its first-ever mobile network throttling exercise",
+      "word_count": 1024,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3363541/why-indias-new-himalayan-border-map-threatens-fragile-thaw-china-ties",
+      "title": "Why India’s new Himalayan border map threatens a fragile thaw in China ties",
+      "word_count": 1049,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3361473/wang-and-rubio-discuss-xis-planned-us-visit-south-china-sea-clash-asean",
+      "title": "Wang Yi and Marco Rubio at Asean discuss Xi’s planned US visit, South China Sea clash",
+      "word_count": 1034,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3361490/china-philippines-should-avoid-south-china-sea-miscalculation-top-diplomats",
+      "title": "Beijing and Manila should avoid South China Sea ‘miscalculation’: top diplomats",
+      "word_count": 1223,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/culture/article/3362422/hong-kongs-800-year-old-tea-heritage-being-rediscovered-and-rehabilitated",
+      "title": "Hong Kong’s 1,000-year-old tea heritage is being rediscovered and rehabilitated",
+      "word_count": 3275,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/food-drink/article/3362805/wok-yans-return-hong-kong-canadian-tv-chef-stephen-yan-resurfaces-decades-after-disappearing",
+      "title": "Wok with Yan’s return: Hong Kong-Canadian TV chef Stephen Yan resurfaces decades after disappearing",
+      "word_count": 2701,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/culture/article/3359590/masters-hong-kongs-kung-fu-cuisine-struggle-save-cantonese-classics",
+      "title": "Masters of Hong Kong’s ‘kung fu’ cuisine on the struggle to save Cantonese classics",
+      "word_count": 2336,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/culture/article/3361248/mystery-one-mans-fortress-longgang",
+      "title": "The mystery of one man’s fortress in Longgang",
+      "word_count": 1802,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/culture/article/3362768/cj-hendry-brings-juju-world-hong-kong-exclusive-collectibles",
+      "title": "CJ Hendry brings Juju World to Hong Kong with exclusive collectibles",
+      "word_count": 1537,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3363431/historian-wang-gungwu-us-credibility-and-why-xi-thinks-only-party-can-save-china",
+      "title": "Historian Wang Gungwu on US credibility and why Xi thinks ‘only the party can save China’",
+      "word_count": 4640,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/military/article/3362782/surprising-how-quickly-chinas-military-closing-gap-us-analyst-lyle-goldstein",
+      "title": "‘Surprising’ how quickly China’s military is closing gap with US: analyst Lyle Goldstein",
+      "word_count": 3730,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3363174/why-was-us-yale-graduate-hounded-out-his-job-promoting-chinese-culture",
+      "title": "Why was a US Yale graduate hounded out of his job promoting Chinese culture?",
+      "word_count": 1062,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/banking-finance/article/3363352/china-tightens-its-tax-rules-can-hong-kong-remain-magnet-billionaires",
+      "title": "As mainland China tightens its tax rules, can Hong Kong remain a magnet for billionaires?",
+      "word_count": 1929,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3363208/hong-kong-aims-be-global-tech-hub-can-it-hold-its-young-talent",
+      "title": "Hong Kong aims to be a global tech hub, but can it hold on to its young talent?",
+      "word_count": 1892,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3360243/wu-shicun-why-beijing-will-not-rule-out-scarborough-shoal-construction",
+      "title": "Wu Shicun on why Beijing will not rule out Scarborough Shoal construction",
+      "word_count": 5027,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3356073/nobel-laureate-james-heckman-value-risk-taking-and-chinas-common-goal",
+      "title": "Nobel laureate James Heckman on the value of risk-taking, and China’s ‘common goal’",
+      "word_count": 4164,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3339480/zheng-yongnian-trump-venezuela-and-why-china-doesnt-want-separate-kitchen",
+      "title": "Zheng Yongnian on Trump, Venezuela and why China doesn’t want ‘a separate kitchen’",
+      "word_count": 4464,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/global-economy/article/3329426/liu-qian-chinese-innovation-us-rivalry-and-women-holding-half-sky",
+      "title": "Liu Qian on Chinese innovation, the US rivalry and women holding up half the sky",
+      "word_count": 3764,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3327746/fuchsia-dunlop-tells-how-she-fell-chinas-cuisine-and-names-her-perfect-dish",
+      "title": "Fuchsia Dunlop tells how she fell for China’s cuisine and names her perfect dish",
+      "word_count": 3752,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3321056/80-years-wwii-chinas-interests-lie-peaceful-asia-pacific-rana-mitter",
+      "title": "80 years on from WWII, China’s interests lie in peaceful Asia-Pacific: Rana Mitter",
+      "word_count": 4368,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3363567/why-are-south-korean-football-fans-choosing-european-clubs-over-k-league",
+      "title": "Why are South Korean football fans choosing European clubs over the K League?",
+      "word_count": 1265,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/people/article/3363588/newcastle-university-medicine-malaysia-graduates-limbo-after-uk-rule-change",
+      "title": "Newcastle University Medicine Malaysia graduates in limbo after UK rule change",
+      "word_count": 1179,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3363548/us-marks-75-years-defence-pact-philippines-can-it-stay-course",
+      "title": "As US marks 75 years of defence pact with Philippines, can it stay the course?",
+      "word_count": 1007,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3363493/malaysia-seeks-deepen-trade-ties-south-korea-chips-ai-halal-sector",
+      "title": "Malaysia seeks to deepen trade ties with South Korea in chips, AI, halal sector",
+      "word_count": 1227,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/opinion/article/3363284/bangkok-branches-out-secret-thai-capitals-green-revival",
+      "title": "Bangkok branches out: secret to Thai capital’s green revival",
+      "word_count": 1141,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/people/article/3363339/malaysias-monarchy-charts-new-course-amid-political-flux",
+      "title": "Malaysia’s monarchy charts a new course amid political flux",
+      "word_count": 2476,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3362555/ready-player-3-india-offers-asean-us-china-alternative",
+      "title": "Ready player 3: India offers Asean a US-China alternative",
+      "word_count": 1601,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3361764/indonesias-bali-financial-hub-matter-survival-economic-tsar",
+      "title": "Indonesia’s Bali financial hub ‘a matter of survival’: economic tsar",
+      "word_count": 1476,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/health-environment/article/3360977/asias-ai-boom-has-dirty-secret-coal-powers-it",
+      "title": "Asia’s AI boom has a dirty secret: the coal that powers it",
+      "word_count": 1343,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3363550/china-building-nuclear-reactors-faster-west-can-it-keep-pace",
+      "title": "China is building nuclear reactors faster than the West. Can it keep up the pace?",
+      "word_count": 2078,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3363329/chinas-aspiring-foreign-workers-getting-job-only-half-battle",
+      "title": "For China’s aspiring foreign workers, getting a job is only half the battle",
+      "word_count": 1670,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3362270/chinese-luxury-brands-rise-challengers-market-shapers-global-houses-lose-lustre",
+      "title": "Chinese luxury brands rise from challengers to market shapers as global houses lose lustre",
+      "word_count": 1419,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/policy/article/3361779/investment-chinese-characteristics-how-beijings-money-reshaping-tech-ventures",
+      "title": "Investment with Chinese characteristics: how Beijing’s money is reshaping tech ventures",
+      "word_count": 1848,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-trends/article/3360956/chinas-tech-giants-fuel-rise-ai-tokens-new-corporate-currency",
+      "title": "China’s tech giants fuel the rise of AI tokens as a new corporate currency",
+      "word_count": 1811,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/article/3358925/great-ai-reckoning-how-china-flipping-script-us-new-industrial-revolution",
+      "title": "The great AI reckoning: how China is flipping the script on US’ new industrial revolution",
+      "word_count": 1988,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-trends/article/3358519/chinas-tech-firms-adapt-ai-era-workers-worry-theyll-be-optimised-out-job",
+      "title": "As China’s tech firms adapt to AI era, workers worry they’ll be ‘optimised’ out of a job",
+      "word_count": 2082,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    }
+  ]
 }
