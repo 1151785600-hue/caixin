@@ -1,6 +1,21 @@
 {
-  "ts": "2026-08-12 14:22:19",
+  "ts": "2026-08-12 17:02:01",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 2,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3363824/zhu-rongji-reformer-who-led-chinas-economic-transformation-through-minefield-or-abyss",
+      "title": "Zhu Rongji: reformer who led China’s economic transformation through ‘minefield or abyss’",
+      "word_count": 2067,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3363792/chinese-economic-reformer-zhu-rongji-dies-aged-97",
+      "title": "Zhu Rongji, China’s chief engineer of economic reform and former premier, dies aged 97",
+      "word_count": 1180,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
