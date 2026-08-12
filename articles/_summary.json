@@ -1,6 +1,12 @@
 {
-  "ts": "2026-08-12 10:01:31",
+  "ts": "2026-08-12 12:59:33",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-08-07/in-depth-chinas-renewable-energy-boom-runs-into-market-reality-102472244.html",
+      "title": "In Depth: China’s Renewable Energy Boom Runs Into Market Reality",
+      "word_count": 437
+    }
+  ]
 }
