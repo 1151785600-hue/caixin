@@ -1,14 +1,6 @@
 {
-  "ts": "2026-08-12 08:19:09",
+  "ts": "2026-08-12 10:46:49",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3363744/north-korea-missile-launch-hints-upgraded-weapons-exports-russia-ukraine-war",
-      "title": "North Korea missile launch hints at upgraded weapons exports to Russia for Ukraine war",
-      "word_count": 1077,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
