@@ -1,21 +1,6 @@
 {
-  "ts": "2026-08-13 14:24:00",
+  "ts": "2026-08-13 17:01:08",
   "v": "scmp_v4",
-  "new_count": 2,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/week-asia/people/article/3363930/indias-biggest-corporate-decision-tata-group-chairs-exit-raises-hard-succession-questions",
-      "title": "‘India’s biggest corporate decision’: Tata Group chair’s exit raises hard succession questions",
-      "word_count": 1092,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/economy/china-economy/article/3363935/zhu-rongjis-legacy-how-late-premier-reshaped-state-firms-pudong-and-chinas-economy",
-      "title": "Zhu Rongji’s legacy: how the late premier reshaped state firms, Pudong and China’s economy",
-      "word_count": 1367,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
