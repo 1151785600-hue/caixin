@@ -1,6 +1,14 @@
 {
-  "ts": "2026-08-13 05:27:55",
+  "ts": "2026-08-13 08:22:18",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/postmag/design-interiors/article/3362891/vintage-charm-blended-modern-elegance-timeless-hong-kong-flat",
+      "title": "Vintage charm is blended with modern elegance in a timeless Hong Kong flat",
+      "word_count": 1032,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
