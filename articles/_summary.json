@@ -1,6 +1,12 @@
 {
-  "ts": "2026-08-13 04:49:44",
+  "ts": "2026-08-13 07:25:02",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-08-07/in-depth-dating-apps-build-a-business-around-catfishing-older-men-102472373.html",
+      "title": "In Depth: Dating Apps Build a Business Around Catfishing Older Men",
+      "word_count": 385
+    }
+  ]
 }
