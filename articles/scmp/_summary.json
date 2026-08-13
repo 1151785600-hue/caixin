@@ -1,13 +1,20 @@
 {
-  "ts": "2026-08-13 10:48:20",
+  "ts": "2026-08-13 14:24:00",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/politics/article/3363913/11-key-achievements-chinas-iron-premier-zhu-rongji-his-own-words",
-      "title": "The 11 key achievements of China’s ‘iron premier’ Zhu Rongji – in his own words",
-      "word_count": 1717,
-      "quality": "fulltext_deep",
+      "url": "https://www.scmp.com/week-asia/people/article/3363930/indias-biggest-corporate-decision-tata-group-chairs-exit-raises-hard-succession-questions",
+      "title": "‘India’s biggest corporate decision’: Tata Group chair’s exit raises hard succession questions",
+      "word_count": 1092,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3363935/zhu-rongjis-legacy-how-late-premier-reshaped-state-firms-pudong-and-chinas-economy",
+      "title": "Zhu Rongji’s legacy: how the late premier reshaped state firms, Pudong and China’s economy",
+      "word_count": 1367,
+      "quality": "fulltext",
       "is_premium": false
     }
   ]
