@@ -1,12 +1,26 @@
 {
-  "ts": "2026-08-14 08:17:07",
+  "ts": "2026-08-14 10:44:21",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 3,
   "articles": [
     {
-      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3363774/how-asias-50-best-bars-expanded-25-cities-kathmandu-hangzhou",
-      "title": "How Asia’s 50 Best Bars expanded to 25 cities, from Kathmandu to Hangzhou",
-      "word_count": 1047,
+      "url": "https://www.scmp.com/news/china/military/article/3364011/could-chinas-new-transport-tanker-capability-boost-pla-power-beyond-first-island-chain",
+      "title": "Could China’s new transport-tanker capability boost PLA power beyond first island chain?",
+      "word_count": 1028,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3364019/china-urged-avoid-us-or-them-split-us-over-ai-governance",
+      "title": "China urged to avoid ‘us or them’ split with US over AI governance",
+      "word_count": 1033,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3364049/un-atrocity-report-adds-friction-myanmar-juntas-diplomatic-push-legitimacy",
+      "title": "UN atrocity report adds friction to Myanmar junta’s diplomatic push for legitimacy",
+      "word_count": 1032,
       "quality": "fulltext",
       "is_premium": false
     }
