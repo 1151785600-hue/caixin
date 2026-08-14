@@ -1,21 +1,6 @@
 {
-  "ts": "2026-08-14 14:18:39",
+  "ts": "2026-08-14 16:59:03",
   "v": "scmp_v4",
-  "new_count": 2,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/week-asia/people/article/3364093/indonesian-families-lion-air-crash-victims-suffer-again-predatory-lawyer-evades-jail",
-      "title": "Indonesian families of Lion Air crash victims suffer again, ‘predatory’ lawyer evades jail",
-      "word_count": 1067,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3363986/indonesias-prabowo-defends-record-touts-food-self-sufficiency-independence-day-speech",
-      "title": "Why Prabowo’s softened tone might not signal a change in Indonesia’s economic course",
-      "word_count": 1370,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
