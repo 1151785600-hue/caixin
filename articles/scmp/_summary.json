@@ -1,26 +1,19 @@
 {
-  "ts": "2026-08-14 10:44:21",
+  "ts": "2026-08-14 14:18:39",
   "v": "scmp_v4",
-  "new_count": 3,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/military/article/3364011/could-chinas-new-transport-tanker-capability-boost-pla-power-beyond-first-island-chain",
-      "title": "Could China’s new transport-tanker capability boost PLA power beyond first island chain?",
-      "word_count": 1028,
+      "url": "https://www.scmp.com/week-asia/people/article/3364093/indonesian-families-lion-air-crash-victims-suffer-again-predatory-lawyer-evades-jail",
+      "title": "Indonesian families of Lion Air crash victims suffer again, ‘predatory’ lawyer evades jail",
+      "word_count": 1067,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3364019/china-urged-avoid-us-or-them-split-us-over-ai-governance",
-      "title": "China urged to avoid ‘us or them’ split with US over AI governance",
-      "word_count": 1033,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3364049/un-atrocity-report-adds-friction-myanmar-juntas-diplomatic-push-legitimacy",
-      "title": "UN atrocity report adds friction to Myanmar junta’s diplomatic push for legitimacy",
-      "word_count": 1032,
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3363986/indonesias-prabowo-defends-record-touts-food-self-sufficiency-independence-day-speech",
+      "title": "Why Prabowo’s softened tone might not signal a change in Indonesia’s economic course",
+      "word_count": 1370,
       "quality": "fulltext",
       "is_premium": false
     }
