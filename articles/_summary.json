@@ -1,6 +1,17 @@
 {
-  "ts": "2026-08-13 15:45:20",
+  "ts": "2026-08-14 01:37:05",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 2,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-08-14/msci-adds-zhipu-semiconductor-firms-to-china-index-drops-solar-names-102473915.html",
+      "title": "MSCI Adds Zhipu, Semiconductor Firms to China Index, Drops Solar Names",
+      "word_count": 567
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-08-13/audits-flag-trading-irregularities-and-rising-risks-at-local-state-firms-102473913.html",
+      "title": "Audits Flag Trading Irregularities and Rising Risks at Local State Firms",
+      "word_count": 320
+    }
+  ]
 }
