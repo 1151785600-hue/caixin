@@ -1,21 +1,6 @@
 {
-  "ts": "2026-08-15 13:34:54",
+  "ts": "2026-08-15 16:31:17",
   "v": "scmp_v4",
-  "new_count": 2,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3364001/why-chinese-youth-are-turning-84-year-old-cambridge-professor-support",
-      "title": "Why Chinese youth are turning to an 84-year-old Cambridge professor for support",
-      "word_count": 1331,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/opinion/china-opinion/article/3364032/zhu-rongjis-death-reminder-what-us-china-relations-have-lost",
-      "title": "Zhu Rongji’s death a reminder of what US-China relations have lost",
-      "word_count": 1021,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
