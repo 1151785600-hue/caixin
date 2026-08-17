@@ -1,12 +1,19 @@
 {
-  "ts": "2026-08-17 10:18:03",
+  "ts": "2026-08-17 13:43:03",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/politics/article/3364226/xi-jinping-speaks-event-commemorate-former-president-jiang-zemin-centenary",
-      "title": "China’s Xi praises former president Jiang’s contribution in show of party unity",
-      "word_count": 1143,
+      "url": "https://www.scmp.com/week-asia/economics/article/3364323/will-russias-plan-overland-oil-route-be-game-changer-indias-energy-security",
+      "title": "Will Russia’s plan for overland oil route be ‘game changer’ for India’s energy security?",
+      "word_count": 1047,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3364307/south-korea-edge-over-trumps-call-cut-military-drills-goodwill-kim",
+      "title": "South Korea on edge over Trump’s call to cut military drills, goodwill for Kim",
+      "word_count": 1269,
       "quality": "fulltext",
       "is_premium": false
     }
