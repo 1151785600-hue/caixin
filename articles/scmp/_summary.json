@@ -1,13 +1,13 @@
 {
-  "ts": "2026-08-17 07:54:10",
+  "ts": "2026-08-17 10:18:03",
   "v": "scmp_v4",
   "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/postmag/design-interiors/article/3348811/norman-fosters-hi-tech-hsbc-masterpiece-turns-40",
-      "title": "Norman Foster’s hi-tech HSBC masterpiece turns 40",
-      "word_count": 2133,
-      "quality": "fulltext_deep",
+      "url": "https://www.scmp.com/news/china/politics/article/3364226/xi-jinping-speaks-event-commemorate-former-president-jiang-zemin-centenary",
+      "title": "China’s Xi praises former president Jiang’s contribution in show of party unity",
+      "word_count": 1143,
+      "quality": "fulltext",
       "is_premium": false
     }
   ]
