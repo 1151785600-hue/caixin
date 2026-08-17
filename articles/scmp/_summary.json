@@ -1,19 +1,19 @@
 {
-  "ts": "2026-08-17 13:43:03",
+  "ts": "2026-08-17 16:33:39",
   "v": "scmp_v4",
   "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/week-asia/economics/article/3364323/will-russias-plan-overland-oil-route-be-game-changer-indias-energy-security",
-      "title": "Will Russia’s plan for overland oil route be ‘game changer’ for India’s energy security?",
-      "word_count": 1047,
-      "quality": "fulltext",
+      "url": "https://www.scmp.com/news/china/politics/article/3364278/why-arctic-sea-route-has-become-so-important-china-and-russia",
+      "title": "Why the Arctic sea route has become so important for China and Russia",
+      "word_count": 1895,
+      "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/week-asia/politics/article/3364307/south-korea-edge-over-trumps-call-cut-military-drills-goodwill-kim",
-      "title": "South Korea on edge over Trump’s call to cut military drills, goodwill for Kim",
-      "word_count": 1269,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3364210/chinamaxxing-trend-really-about-china-or-gen-z-fleeing-western-fatigue",
+      "title": "Chinamaxxing: is the trend really about China or Gen Z fleeing Western fatigue?",
+      "word_count": 1338,
       "quality": "fulltext",
       "is_premium": false
     }
