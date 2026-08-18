@@ -1,6 +1,21 @@
 {
-  "ts": "2026-08-18 04:26:18",
+  "ts": "2026-08-18 07:39:32",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 2,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/postmag/travel/article/3363876/sado-islands-cultural-renaissance-japanese-journey-exile-artistic-haven",
+      "title": "Sado Island’s cultural renaissance: a Japanese journey from exile to artistic haven",
+      "word_count": 1974,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3364381/us-transshipment-scam-claims-put-asean-exporters-bind",
+      "title": "US transshipment ‘scam’ claims put Asean exporters in a bind",
+      "word_count": 1258,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
