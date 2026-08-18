@@ -1,19 +1,12 @@
 {
-  "ts": "2026-08-18 13:47:03",
+  "ts": "2026-08-18 16:37:16",
   "v": "scmp_v4",
-  "new_count": 2,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3364454/wang-yi-heads-seoul-trump-cuts-south-korea-drills-opening-door-china",
-      "title": "Wang Yi heads to Seoul as Trump cuts South Korea drills, opening door for China",
-      "word_count": 1096,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3364448/philippines-marcos-slammed-over-3b-family-estate-tax-says-very-busy-government",
-      "title": "Philippines’ Marcos slammed over US$3b family estate tax, says ‘very busy’ with government",
-      "word_count": 1086,
+      "url": "https://www.scmp.com/news/us/article/3364337/pentagon-orders-30-us-universities-scrutinise-ties-chinese-research-partners",
+      "title": "Pentagon orders 30 US universities to scrutinise ties with Chinese research partners",
+      "word_count": 1008,
       "quality": "fulltext",
       "is_premium": false
     }
