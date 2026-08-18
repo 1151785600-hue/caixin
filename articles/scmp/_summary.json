@@ -1,8 +1,22 @@
 {
-  "ts": "2026-08-17 16:33:39",
+  "ts": "2026-08-18 02:15:14",
   "v": "scmp_v4",
-  "new_count": 2,
+  "new_count": 44,
   "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/science/article/3364286/why-siberias-warming-landscape-could-shatter-trumps-arctic-ambitions",
+      "title": "Why Siberia’s warming landscape could shatter Trump’s Arctic ambitions",
+      "word_count": 1272,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3364346/ecuadors-noboa-courts-china-shrimp-copper-without-threatening-us-ties",
+      "title": "Ecuador’s Noboa courts China on shrimp, copper without threatening US ties",
+      "word_count": 1116,
+      "quality": "fulltext",
+      "is_premium": false
+    },
     {
       "url": "https://www.scmp.com/news/china/politics/article/3364278/why-arctic-sea-route-has-become-so-important-china-and-russia",
       "title": "Why the Arctic sea route has become so important for China and Russia",
@@ -13,8 +27,288 @@
     {
       "url": "https://www.scmp.com/news/china/diplomacy/article/3364210/chinamaxxing-trend-really-about-china-or-gen-z-fleeing-western-fatigue",
       "title": "Chinamaxxing: is the trend really about China or Gen Z fleeing Western fatigue?",
-      "word_count": 1338,
+      "word_count": 1337,
       "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3364226/xi-jinping-speaks-event-commemorate-former-president-jiang-zemin-centenary",
+      "title": "China’s Xi praises former president Jiang Zemin’s contribution in show of party unity",
+      "word_count": 1155,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3364169/nirupama-rao-and-lin-minwang-great-india-china-face",
+      "title": "Nirupama Rao and Lin Minwang on the great India-China face-off",
+      "word_count": 4130,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3364032/zhu-rongjis-death-reminder-what-us-china-relations-have-lost",
+      "title": "Zhu Rongji’s death a reminder of what US-China relations have lost",
+      "word_count": 1021,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3361473/wang-and-rubio-discuss-xis-planned-us-visit-south-china-sea-clash-asean",
+      "title": "Wang Yi and Marco Rubio at Asean discuss Xi’s planned US visit, South China Sea clash",
+      "word_count": 1034,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3361490/china-philippines-should-avoid-south-china-sea-miscalculation-top-diplomats",
+      "title": "Beijing and Manila should avoid South China Sea ‘miscalculation’: top diplomats",
+      "word_count": 1223,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/design-interiors/article/3362891/vintage-charm-blended-modern-elegance-timeless-hong-kong-flat",
+      "title": "Vintage charm is blended with modern elegance in a timeless Hong Kong flat",
+      "word_count": 1032,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/food-drink/article/3362805/wok-yans-return-hong-kong-canadian-tv-chef-stephen-yan-resurfaces-decades-after-disappearing",
+      "title": "Wok with Yan’s return: Hong Kong-Canadian TV chef Stephen Yan resurfaces decades after disappearing",
+      "word_count": 2701,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/culture/article/3362422/hong-kongs-800-year-old-tea-heritage-being-rediscovered-and-rehabilitated",
+      "title": "Hong Kong’s 1,000-year-old tea heritage is being rediscovered and rehabilitated",
+      "word_count": 3275,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/design-interiors/article/3348811/norman-fosters-hi-tech-hsbc-masterpiece-turns-40",
+      "title": "Norman Foster’s hi-tech HSBC masterpiece turns 40",
+      "word_count": 2133,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3363792/chinese-economic-reformer-zhu-rongji-dies-aged-97",
+      "title": "Zhu Rongji, China’s chief engineer of economic reform and former premier, dies aged 97",
+      "word_count": 1180,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/military/article/3363574/chinas-long-march-7a-rocket-explodes-after-launch-satellite-lost",
+      "title": "Too high, too fast? China’s rocket failure prompts questions about intense launch schedule",
+      "word_count": 1240,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3363431/historian-wang-gungwu-us-credibility-and-why-xi-thinks-only-party-can-save-china",
+      "title": "Historian Wang Gungwu on US credibility and why Xi thinks ‘only the party can save China’",
+      "word_count": 4640,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3364001/why-chinese-youth-are-turning-84-year-old-cambridge-professor-support",
+      "title": "Why Chinese youth are turning to an 84-year-old Cambridge professor for support",
+      "word_count": 1331,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/society/article/3364159/hong-kongs-growing-wealth-inequality-will-it-be-m-or-olive-shaped-society",
+      "title": "Hong Kong’s growing wealth inequality: will it be an M- or olive-shaped society?",
+      "word_count": 2364,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3363826/what-comes-next-hong-kong-global-financial-hub",
+      "title": "What comes next for Hong Kong as a global financial hub?",
+      "word_count": 1880,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3363700/why-does-hong-kong-need-5-year-plan-and-will-it-crimp-its-free-market-economy",
+      "title": "Why does Hong Kong need a 5-year plan – and will it crimp its free-market economy?",
+      "word_count": 1887,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3363774/how-asias-50-best-bars-expanded-25-cities-kathmandu-hangzhou",
+      "title": "How Asia’s 50 Best Bars expanded to 25 cities, from Kathmandu to Hangzhou",
+      "word_count": 1047,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3360243/wu-shicun-why-beijing-will-not-rule-out-scarborough-shoal-construction",
+      "title": "Wu Shicun on why Beijing will not rule out Scarborough Shoal construction",
+      "word_count": 5027,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3356073/nobel-laureate-james-heckman-value-risk-taking-and-chinas-common-goal",
+      "title": "Nobel laureate James Heckman on the value of risk-taking, and China’s ‘common goal’",
+      "word_count": 4164,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3339480/zheng-yongnian-trump-venezuela-and-why-china-doesnt-want-separate-kitchen",
+      "title": "Zheng Yongnian on Trump, Venezuela and why China doesn’t want ‘a separate kitchen’",
+      "word_count": 4464,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/global-economy/article/3329426/liu-qian-chinese-innovation-us-rivalry-and-women-holding-half-sky",
+      "title": "Liu Qian on Chinese innovation, the US rivalry and women holding up half the sky",
+      "word_count": 3764,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3327746/fuchsia-dunlop-tells-how-she-fell-chinas-cuisine-and-names-her-perfect-dish",
+      "title": "Fuchsia Dunlop tells how she fell for China’s cuisine and names her perfect dish",
+      "word_count": 3752,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3321056/80-years-wwii-chinas-interests-lie-peaceful-asia-pacific-rana-mitter",
+      "title": "80 years on from WWII, China’s interests lie in peaceful Asia-Pacific: Rana Mitter",
+      "word_count": 4368,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3364352/trumps-decision-scale-back-south-korea-drills-unsettles-asian-allies-makes-no-sense",
+      "title": "Trump’s decision to scale back South Korea drills unsettles Asian allies: ‘makes no sense’",
+      "word_count": 1132,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3364338/can-indonesia-build-rising-ev-demand-become-production-powerhouse",
+      "title": "Can Indonesia build on rising EV demand to become a production powerhouse?",
+      "word_count": 1134,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3364323/will-russias-plan-overland-oil-route-be-game-changer-indias-energy-security",
+      "title": "Will Russia’s plan for overland oil route be ‘game changer’ for India’s energy security?",
+      "word_count": 1047,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3364307/south-korea-edge-over-trumps-call-cut-military-drills-goodwill-kim",
+      "title": "South Korea on edge over Trump’s call to cut military drills, goodwill for Kim",
+      "word_count": 1269,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3364203/south-korean-shipbuilders-first-benefit-trumps-plan-keep-us-navy-afloat",
+      "title": "South Korean shipbuilders first to benefit from Trump’s plan to keep US Navy afloat",
+      "word_count": 1083,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/opinion/article/3364056/how-vietnams-streamlining-revolution-may-lead-uneven-success",
+      "title": "How Vietnam’s ‘streamlining revolution’ may lead to uneven success",
+      "word_count": 1118,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3364081/wear-now-pay-later-new-rules-southeast-asias-indulgence-economy",
+      "title": "Wear now, pay later: the new rules of Southeast Asia’s indulgence economy",
+      "word_count": 1682,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/people/article/3363339/malaysias-monarchy-charts-new-course-amid-political-flux",
+      "title": "Malaysia’s monarchy charts a new course amid political flux",
+      "word_count": 2476,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3362555/ready-player-3-india-offers-asean-us-china-alternative",
+      "title": "Ready player 3: India offers Asean a US-China alternative",
+      "word_count": 1601,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3361764/indonesias-bali-financial-hub-matter-survival-economic-tsar",
+      "title": "Indonesia’s Bali financial hub ‘a matter of survival’: economic tsar",
+      "word_count": 1476,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/people/article/3363588/newcastle-university-medicine-malaysia-graduates-limbo-after-uk-rule-change",
+      "title": "Newcastle University Medicine Malaysia graduates in limbo after UK rule change",
+      "word_count": 1179,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3363935/zhu-rongjis-legacy-how-late-premier-reshaped-state-firms-pudong-and-chinas-economy",
+      "title": "Zhu Rongji’s legacy: how the late premier reshaped state firms, Pudong and China’s economy",
+      "word_count": 1367,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/article/3364091/foreign-capital-dipping-its-toes-chinas-property-sector-rebound-store",
+      "title": "Foreign capital is dipping its toes into China’s property sector. Is a rebound in store?",
+      "word_count": 1577,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-trends/article/3361752/apples-biggest-ever-leak-happened-india-will-firms-rethink-their-china-relocations",
+      "title": "Apple’s biggest-ever leak happened in India. Will firms rethink their China relocations?",
+      "word_count": 1382,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/policy/article/3361779/investment-chinese-characteristics-how-beijings-money-reshaping-tech-ventures",
+      "title": "Investment with Chinese characteristics: how Beijing’s money is reshaping tech ventures",
+      "word_count": 1848,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-trends/article/3360956/chinas-tech-giants-fuel-rise-ai-tokens-new-corporate-currency",
+      "title": "China’s tech giants fuel the rise of AI tokens as a new corporate currency",
+      "word_count": 1811,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/article/3358925/great-ai-reckoning-how-china-flipping-script-us-new-industrial-revolution",
+      "title": "The great AI reckoning: how China is flipping the script on US’ new industrial revolution",
+      "word_count": 1988,
+      "quality": "fulltext_deep",
       "is_premium": false
     }
   ]
