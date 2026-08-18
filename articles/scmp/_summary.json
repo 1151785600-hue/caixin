@@ -1,19 +1,26 @@
 {
-  "ts": "2026-08-18 07:39:32",
+  "ts": "2026-08-18 10:14:27",
   "v": "scmp_v4",
-  "new_count": 2,
+  "new_count": 3,
   "articles": [
     {
-      "url": "https://www.scmp.com/postmag/travel/article/3363876/sado-islands-cultural-renaissance-japanese-journey-exile-artistic-haven",
-      "title": "Sado Island’s cultural renaissance: a Japanese journey from exile to artistic haven",
-      "word_count": 1974,
+      "url": "https://www.scmp.com/news/china/politics/article/3363824/zhu-rongji-reformer-who-led-chinas-economic-transformation-through-minefield-or-abyss",
+      "title": "Zhu Rongji: reformer who led China’s economic transformation through ‘minefield or abyss’",
+      "word_count": 2067,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/week-asia/politics/article/3364381/us-transshipment-scam-claims-put-asean-exporters-bind",
-      "title": "US transshipment ‘scam’ claims put Asean exporters in a bind",
-      "word_count": 1258,
+      "url": "https://www.scmp.com/news/china/politics/article/3363913/11-key-achievements-chinas-iron-premier-zhu-rongji-his-own-words",
+      "title": "The 11 key achievements of China’s ‘iron premier’ Zhu Rongji – in his own words",
+      "word_count": 1717,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3364419/singapores-universities-race-embrace-ai-job-demands-transform",
+      "title": "Singapore’s universities race to embrace AI as job demands transform",
+      "word_count": 1084,
       "quality": "fulltext",
       "is_premium": false
     }
