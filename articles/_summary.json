@@ -1,6 +1,12 @@
 {
-  "ts": "2026-08-18 09:30:46",
+  "ts": "2026-08-18 12:36:46",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-08-18/in-depth-millions-tied-up-as-hong-kong-ipo-fund-network-runs-into-trouble-102475384.html",
+      "title": "In Depth: Millions Tied Up as Hong Kong IPO Fund Network Runs Into Trouble",
+      "word_count": 445
+    }
+  ]
 }
