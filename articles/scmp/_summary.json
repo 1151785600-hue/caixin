@@ -1,6 +1,42 @@
 {
-  "ts": "2026-08-19 04:28:31",
+  "ts": "2026-08-19 07:39:41",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 5,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/postmag/travel/article/3364251/high-speed-journey-through-chinas-past-and-present",
+      "title": "Making tracks through China’s past and present",
+      "word_count": 2440,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3364253/word-streat-6-hong-kong-chefs-share-pre-service-rituals-fuel-their-kitchens",
+      "title": "Word on the StrEAT: 6 Hong Kong chefs share pre-service rituals that fuel their kitchens",
+      "word_count": 1231,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3364535/singapores-battle-casinos-marina-bay-sands-holds-winning-hand-against-sentosa",
+      "title": "In Singapore’s battle of casinos,  Marina Bay Sands holds winning hand against Sentosa",
+      "word_count": 1108,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3364510/southeast-asias-landmine-clearers-face-closure-global-aid-shifts-new-wars",
+      "title": "Southeast Asia’s landmine clearers face closure as global aid shifts to new wars",
+      "word_count": 1090,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3364525/will-putins-kuril-islands-visit-push-japan-closer-ukraine",
+      "title": "Will Putin’s Kuril Islands visit push Japan closer to Ukraine?",
+      "word_count": 1309,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
