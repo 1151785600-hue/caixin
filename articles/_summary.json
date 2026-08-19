@@ -1,6 +1,12 @@
 {
-  "ts": "2026-08-19 09:31:30",
+  "ts": "2026-08-19 12:38:07",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-08-19/china-revamps-15-trillion-housing-fund-to-unlock-savings-boost-consumption-102475799.html",
+      "title": "China Revamps $1.5 Trillion Housing Fund to Unlock Savings, Boost Consumption",
+      "word_count": 444
+    }
+  ]
 }
