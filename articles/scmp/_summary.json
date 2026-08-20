@@ -1,6 +1,14 @@
 {
-  "ts": "2026-08-20 10:15:56",
+  "ts": "2026-08-20 13:50:54",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3364725/why-north-korea-keeping-door-open-dialogue-trump",
+      "title": "Why North Korea is ‘keeping the door open for dialogue’ with Trump",
+      "word_count": 1168,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
