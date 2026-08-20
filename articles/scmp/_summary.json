@@ -1,14 +1,6 @@
 {
-  "ts": "2026-08-20 07:42:02",
+  "ts": "2026-08-20 10:15:56",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/week-asia/people/article/3364665/live-streamed-philippine-school-shooting-raises-alarm-over-memetic-violence",
-      "title": "Live-streamed Philippine school shooting raises alarm over ‘memetic violence’",
-      "word_count": 1281,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
