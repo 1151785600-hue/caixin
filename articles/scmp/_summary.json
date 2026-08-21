@@ -1,12 +1,19 @@
 {
-  "ts": "2026-08-21 04:29:27",
+  "ts": "2026-08-21 07:44:10",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3364760/no-bandwidth-left-family-why-many-singaporeans-want-be-child-free",
-      "title": "‘No bandwidth left for the family’: why many Singaporeans want to be child-free",
-      "word_count": 1179,
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3364747/hong-kong-tiananmen-vigil-organiser-former-leaders-guilty-inciting-subversion",
+      "title": "Hong Kong Tiananmen vigil organiser, former leaders guilty of inciting subversion",
+      "word_count": 1009,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3364774/philippine-flood-control-scandal-resurfaces-after-latest-monsoon-deluge",
+      "title": "Philippine flood-control scandal resurfaces after latest monsoon deluge",
+      "word_count": 1134,
       "quality": "fulltext",
       "is_premium": false
     }
