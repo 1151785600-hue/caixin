@@ -1,12 +1,33 @@
 {
-  "ts": "2026-08-21 10:16:15",
+  "ts": "2026-08-21 13:50:12",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 4,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/science/article/3364661/chinas-drone-production-capacity-can-only-meet-60-war-demand-study",
-      "title": "China’s drone production capacity can only meet 60% of war demand: study",
-      "word_count": 1051,
+      "url": "https://www.scmp.com/news/china/military/article/3364878/why-chinas-reusable-rocket-breakthrough-matters-plas-kill-chain",
+      "title": "Why China’s reusable rocket breakthrough matters for the PLA’s ‘kill chain’",
+      "word_count": 1013,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3364745/mistral-paradox-europes-push-tech-sovereignty-relies-chinas-zai",
+      "title": "The Mistral paradox: Europe’s push for tech sovereignty relies on China’s Z.ai",
+      "word_count": 1106,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3364540/china-using-jiang-zemin-centenary-signal-political-continuity",
+      "title": "China is using Jiang Zemin centenary to signal political continuity",
+      "word_count": 1072,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3364874/singapore-jails-and-canes-man-abusing-boy-6",
+      "title": "Singapore jails and canes man for abusing boy, 6",
+      "word_count": 1072,
       "quality": "fulltext",
       "is_premium": false
     }
