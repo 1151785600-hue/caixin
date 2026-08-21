@@ -1,6 +1,12 @@
 {
-  "ts": "2026-08-20 15:21:43",
+  "ts": "2026-08-21 01:02:39",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-08-17/cover-story-unmasking-the-architect-of-a-global-cybercrime-empire-102474988.html",
+      "title": "Cover Story: Unmasking the Architect of a Global Cybercrime Empire",
+      "word_count": 446
+    }
+  ]
 }
