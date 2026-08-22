@@ -1,19 +1,19 @@
 {
-  "ts": "2026-08-22 04:23:18",
+  "ts": "2026-08-22 07:33:22",
   "v": "scmp_v4",
   "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/week-asia/health-environment/article/3364858/china-banned-ivory-vietnamese-gangs-keep-trade-alive",
-      "title": "China banned ivory, but Vietnamese gangs keep the trade alive",
-      "word_count": 1068,
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3364910/beyblade-battles-drive-sales-hong-kong-malls-how-long-will-trend-last",
+      "title": "Beyblade battles drive up sales at Hong Kong malls, but how long will the trend last?",
+      "word_count": 1157,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/week-asia/opinion/article/3364870/spacexs-starlink-blackout-punishes-myanmar-civilians-not-just-cybercriminals",
-      "title": "SpaceX’s Starlink blackout punishes Myanmar civilians, not just cybercriminals",
-      "word_count": 1033,
+      "url": "https://www.scmp.com/week-asia/economics/article/3364859/india-joins-china-and-south-korea-push-arctic-shipping-routes",
+      "title": "India joins China and South Korea in push for Arctic shipping routes",
+      "word_count": 1104,
       "quality": "fulltext",
       "is_premium": false
     }
