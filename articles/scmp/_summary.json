@@ -1,21 +1,6 @@
 {
-  "ts": "2026-08-22 10:09:18",
+  "ts": "2026-08-22 13:36:03",
   "v": "scmp_v4",
-  "new_count": 2,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/week-asia/people/article/3364891/has-philippines-marcos-missed-his-chance-stop-dutertes",
-      "title": "Has Philippines’ Marcos missed his chance to stop the Dutertes?",
-      "word_count": 1308,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3364901/israel-turkey-tensions-rise-after-netanyahu-orders-strikes-syrian-airbase",
-      "title": "Israel-Turkey tensions rise after Netanyahu orders strikes on Syrian airbase",
-      "word_count": 1142,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
