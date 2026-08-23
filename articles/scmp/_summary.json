@@ -1,26 +1,19 @@
 {
-  "ts": "2026-08-23 07:34:25",
+  "ts": "2026-08-23 10:09:48",
   "v": "scmp_v4",
-  "new_count": 3,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/science/article/3364492/chinas-landspace-beats-spacex-steel-booster-recovery-after-orbital-launch",
-      "title": "China becomes first nation to recover orbital launch rockets with 2 distinct paths",
-      "word_count": 1023,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3364954/why-chinese-media-says-us-historians-are-giving-ammunition-separatists",
+      "title": "Why Chinese media says US historians are giving ‘ammunition’ to separatists",
+      "word_count": 1067,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3364958/licence-savour-hong-kong-craft-brewers-push-site-beer-permits",
-      "title": "Licence to savour: Hong Kong craft brewers push for on-site beer permits",
-      "word_count": 1012,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/asia/east-asia/article/3364962/south-koreans-intoxicated-stocks-swarmed-market-frenzy-and-lost-everything",
-      "title": "South Koreans ‘intoxicated by stocks’ swarmed market frenzy – and lost everything",
-      "word_count": 1191,
+      "url": "https://www.scmp.com/business/banking-finance/article/3364838/wall-street-helped-build-modern-china-it-now-being-cast-aside",
+      "title": "Wall Street helped build modern China. But is it now being cast aside?",
+      "word_count": 1019,
       "quality": "fulltext",
       "is_premium": false
     }
