@@ -1,14 +1,6 @@
 {
-  "ts": "2026-08-23 13:36:31",
+  "ts": "2026-08-23 16:31:50",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3364966/african-firms-adopting-chinese-ai-us-china-rivalry-intensifies",
-      "title": "The African firms adopting Chinese AI as US-China rivalry intensifies",
-      "word_count": 1200,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
