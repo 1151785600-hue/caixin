@@ -1,12 +1,26 @@
 {
-  "ts": "2026-08-23 04:28:27",
+  "ts": "2026-08-23 07:34:25",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 3,
   "articles": [
     {
-      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3364869/bites-bytes-thai-street-food-app-feeds-hunger-authenticity",
-      "title": "Bites to bytes: Thai street food app feeds into hunger for authenticity",
-      "word_count": 1048,
+      "url": "https://www.scmp.com/news/china/science/article/3364492/chinas-landspace-beats-spacex-steel-booster-recovery-after-orbital-launch",
+      "title": "China becomes first nation to recover orbital launch rockets with 2 distinct paths",
+      "word_count": 1023,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3364958/licence-savour-hong-kong-craft-brewers-push-site-beer-permits",
+      "title": "Licence to savour: Hong Kong craft brewers push for on-site beer permits",
+      "word_count": 1012,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3364962/south-koreans-intoxicated-stocks-swarmed-market-frenzy-and-lost-everything",
+      "title": "South Koreans ‘intoxicated by stocks’ swarmed market frenzy – and lost everything",
+      "word_count": 1191,
       "quality": "fulltext",
       "is_premium": false
     }
