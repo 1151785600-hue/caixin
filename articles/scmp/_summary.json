@@ -1,19 +1,12 @@
 {
-  "ts": "2026-08-23 10:09:48",
+  "ts": "2026-08-23 13:36:31",
   "v": "scmp_v4",
-  "new_count": 2,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3364954/why-chinese-media-says-us-historians-are-giving-ammunition-separatists",
-      "title": "Why Chinese media says US historians are giving ‘ammunition’ to separatists",
-      "word_count": 1067,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/business/banking-finance/article/3364838/wall-street-helped-build-modern-china-it-now-being-cast-aside",
-      "title": "Wall Street helped build modern China. But is it now being cast aside?",
-      "word_count": 1019,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3364966/african-firms-adopting-chinese-ai-us-china-rivalry-intensifies",
+      "title": "The African firms adopting Chinese AI as US-China rivalry intensifies",
+      "word_count": 1200,
       "quality": "fulltext",
       "is_premium": false
     }
