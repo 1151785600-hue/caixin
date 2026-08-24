@@ -1,21 +1,6 @@
 {
-  "ts": "2026-08-24 13:55:40",
+  "ts": "2026-08-24 16:44:30",
   "v": "scmp_v4",
-  "new_count": 2,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3365097/china-and-jordan-call-strait-hormuz-get-back-normal-after-us-iran-conflict",
-      "title": "China and Jordan call for Strait of Hormuz to get back to normal after US-Iran conflict",
-      "word_count": 1081,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3365083/can-singapores-latest-pro-family-push-change-minds-parenthood",
-      "title": "Can Singapore’s latest pro-family push change minds on parenthood?",
-      "word_count": 1055,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
