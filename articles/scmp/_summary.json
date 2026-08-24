@@ -1,19 +1,12 @@
 {
-  "ts": "2026-08-24 04:36:14",
+  "ts": "2026-08-24 07:58:37",
   "v": "scmp_v4",
-  "new_count": 2,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/asia/australasia/article/3365011/australia-see-spike-near-misses-amid-air-traffic-controller-shortage",
-      "title": "Australia see spike in near-misses amid air traffic controller shortage",
-      "word_count": 1047,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/economics/article/3365014/philippines-stakes-claim-latin-americas-asean-gateway",
-      "title": "Philippines stakes claim as Latin America’s Asean gateway",
-      "word_count": 1058,
+      "url": "https://www.scmp.com/postmag/travel/article/3364773/how-be-good-tourist-guide-modern-traveller",
+      "title": "How to be a good tourist; a guide for the modern traveller",
+      "word_count": 1172,
       "quality": "fulltext",
       "is_premium": false
     }
