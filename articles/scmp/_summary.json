@@ -1,12 +1,19 @@
 {
-  "ts": "2026-08-24 10:24:19",
+  "ts": "2026-08-24 13:55:40",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3365032/brazil-presidential-debate-zeroes-chinese-investment-and-us-tariffs",
-      "title": "Brazil presidential debate zeroes in on Chinese investment and US tariffs",
-      "word_count": 1280,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3365097/china-and-jordan-call-strait-hormuz-get-back-normal-after-us-iran-conflict",
+      "title": "China and Jordan call for Strait of Hormuz to get back to normal after US-Iran conflict",
+      "word_count": 1081,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3365083/can-singapores-latest-pro-family-push-change-minds-parenthood",
+      "title": "Can Singapore’s latest pro-family push change minds on parenthood?",
+      "word_count": 1055,
       "quality": "fulltext",
       "is_premium": false
     }
