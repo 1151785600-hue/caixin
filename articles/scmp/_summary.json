@@ -1,19 +1,12 @@
 {
-  "ts": "2026-08-25 10:17:49",
+  "ts": "2026-08-25 13:54:40",
   "v": "scmp_v4",
-  "new_count": 2,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3365202/singaporean-who-filmed-couple-rooftop-and-demanded-sex-cash-gets-jail",
-      "title": "Singaporean who filmed couple on rooftop and demanded sex, cash gets jail",
-      "word_count": 1500,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3365172/israels-strikes-push-syria-towards-mecca-defence-pact-membership",
-      "title": "Israel’s strikes push Syria towards Mecca defence pact membership",
-      "word_count": 1177,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3365239/us-admits-defeat-china-minerals-race-can-brazil-turn-panic-processing-power",
+      "title": "US admits defeat in China minerals race. Can Brazil turn panic into processing power?",
+      "word_count": 1295,
       "quality": "fulltext",
       "is_premium": false
     }
