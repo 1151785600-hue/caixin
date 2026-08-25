@@ -1,12 +1,19 @@
 {
-  "ts": "2026-08-25 07:45:22",
+  "ts": "2026-08-25 10:17:49",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/week-asia/health-environment/article/3365159/toxic-haze-spreads-can-indonesia-make-land-burners-pay",
-      "title": "As toxic haze spreads, can Indonesia make land burners pay?",
-      "word_count": 1046,
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3365202/singaporean-who-filmed-couple-rooftop-and-demanded-sex-cash-gets-jail",
+      "title": "Singaporean who filmed couple on rooftop and demanded sex, cash gets jail",
+      "word_count": 1500,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3365172/israels-strikes-push-syria-towards-mecca-defence-pact-membership",
+      "title": "Israel’s strikes push Syria towards Mecca defence pact membership",
+      "word_count": 1177,
       "quality": "fulltext",
       "is_premium": false
     }
