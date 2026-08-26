@@ -1,27 +1,20 @@
 {
-  "ts": "2026-08-26 13:57:44",
+  "ts": "2026-08-26 16:51:25",
   "v": "scmp_v4",
-  "new_count": 3,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3365318/chinas-xi-jinping-expected-visit-india-after-7-years-whats-agenda",
-      "title": "China’s Xi Jinping expected to visit India after 7 years. What’s on the agenda?",
-      "word_count": 1373,
+      "url": "https://www.scmp.com/news/us/article/3365371/us-critical-minerals-proposals-brazil-go-unanswered-china-looms",
+      "title": "US critical minerals proposals to Brazil go unanswered as China looms",
+      "word_count": 1166,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/week-asia/politics/article/3365360/why-us-visa-pause-could-have-real-consequences-asian-applicants",
-      "title": "Why US visa pause could have ‘real consequences’ for Asian applicants",
-      "word_count": 1315,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3365339/singapores-future-island-plan-stirs-concern-over-reefs-and-old-fishing-grounds",
-      "title": "Singapore’s future island plan stirs concern over reefs and old fishing grounds",
-      "word_count": 1289,
-      "quality": "fulltext",
+      "url": "https://www.scmp.com/news/us/diplomacy/article/3365368/small-virginia-town-distrust-big-tech-hampers-trumps-ai-push",
+      "title": "In a small Virginia town, distrust of Big Tech hampers Trump’s AI push",
+      "word_count": 1675,
+      "quality": "fulltext_deep",
       "is_premium": false
     }
   ]
