@@ -1,12 +1,26 @@
 {
-  "ts": "2026-08-26 10:21:38",
+  "ts": "2026-08-26 13:57:44",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 3,
   "articles": [
     {
-      "url": "https://www.scmp.com/week-asia/politics/article/3365320/philippines-eyes-drones-and-system-systems-boost-asymmetric-defence",
-      "title": "Philippines eyes drones and ‘system of systems’ to boost asymmetric defence",
-      "word_count": 1074,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3365318/chinas-xi-jinping-expected-visit-india-after-7-years-whats-agenda",
+      "title": "China’s Xi Jinping expected to visit India after 7 years. What’s on the agenda?",
+      "word_count": 1373,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3365360/why-us-visa-pause-could-have-real-consequences-asian-applicants",
+      "title": "Why US visa pause could have ‘real consequences’ for Asian applicants",
+      "word_count": 1315,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3365339/singapores-future-island-plan-stirs-concern-over-reefs-and-old-fishing-grounds",
+      "title": "Singapore’s future island plan stirs concern over reefs and old fishing grounds",
+      "word_count": 1289,
       "quality": "fulltext",
       "is_premium": false
     }
