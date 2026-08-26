@@ -1,13 +1,13 @@
 {
-  "ts": "2026-08-26 04:31:20",
+  "ts": "2026-08-26 07:49:02",
   "v": "scmp_v4",
   "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/science/article/3365150/ming-dynasty-work-shows-how-chinese-understood-world-1600s",
-      "title": "Ming dynasty work shows how Chinese understood the world in the 1600s",
-      "word_count": 1065,
-      "quality": "fulltext",
+      "url": "https://www.scmp.com/postmag/food-drink/article/3362886/revealed-ancient-andean-secrets-behind-perus-vibrant-potato-varieties",
+      "title": "Revealed: the ancient Andean secrets behind Peru’s vibrant potato varieties",
+      "word_count": 1993,
+      "quality": "fulltext_deep",
       "is_premium": false
     }
   ]
