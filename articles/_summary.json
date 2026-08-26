@@ -1,6 +1,12 @@
 {
-  "ts": "2026-08-26 03:52:42",
+  "ts": "2026-08-26 06:46:25",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-08-26/pioneering-injury-lawsuit-could-finally-hold-chinas-gig-platforms-liable-102478056.html",
+      "title": "Pioneering Injury Lawsuit Could Finally Hold China’s Gig Platforms Liable",
+      "word_count": 754
+    }
+  ]
 }
