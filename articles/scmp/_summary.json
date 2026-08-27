@@ -1,8 +1,15 @@
 {
-  "ts": "2026-08-26 16:51:25",
+  "ts": "2026-08-27 10:57:19",
   "v": "scmp_v4",
-  "new_count": 2,
+  "new_count": 40,
   "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3365306/resource-curse-blame-regions-hit-harder-xis-anti-corruption-campaign",
+      "title": "Is ‘resource curse’ to blame in regions hit harder by Xi’s anti-corruption campaign?",
+      "word_count": 2258,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
     {
       "url": "https://www.scmp.com/news/us/article/3365371/us-critical-minerals-proposals-brazil-go-unanswered-china-looms",
       "title": "US critical minerals proposals to Brazil go unanswered as China looms",
@@ -13,7 +20,266 @@
     {
       "url": "https://www.scmp.com/news/us/diplomacy/article/3365368/small-virginia-town-distrust-big-tech-hampers-trumps-ai-push",
       "title": "In a small Virginia town, distrust of Big Tech hampers Trump’s AI push",
-      "word_count": 1675,
+      "word_count": 1676,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3363824/zhu-rongji-reformer-who-led-chinas-economic-transformation-through-minefield-or-abyss",
+      "title": "Zhu Rongji: reformer who led China’s economic transformation through ‘minefield or abyss’",
+      "word_count": 2067,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3363913/11-key-achievements-chinas-iron-premier-zhu-rongji-his-own-words",
+      "title": "The 11 key achievements of China’s ‘iron premier’ Zhu Rongji – in his own words",
+      "word_count": 1717,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/travel/article/3364251/high-speed-journey-through-chinas-past-and-present",
+      "title": "Making tracks through China’s past and present",
+      "word_count": 2440,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/travel/article/3364773/how-be-good-tourist-guide-modern-traveller",
+      "title": "How to be a good tourist; a guide for the modern traveller",
+      "word_count": 1172,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/food-drink/article/3362886/revealed-ancient-andean-secrets-behind-perus-vibrant-potato-varieties",
+      "title": "Revealed: the ancient Andean secrets behind Peru’s vibrant potato varieties",
+      "word_count": 1993,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/travel/article/3363876/sado-islands-cultural-renaissance-japanese-journey-exile-artistic-haven",
+      "title": "Sado Island’s cultural renaissance: a Japanese journey from exile to artistic haven",
+      "word_count": 1974,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/passions/article/3326077/steve-vickers-50-years-battling-hong-kongs-criminal-underworld",
+      "title": "Steve Vickers’ 50 years of battling Hong Kong’s criminal underworld",
+      "word_count": 1217,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3364954/why-chinese-media-says-us-historians-are-giving-ammunition-separatists",
+      "title": "Why Chinese media says US historians are giving ‘ammunition’ to separatists",
+      "word_count": 1067,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3365052/how-chinas-anti-corruption-fight-became-xi-jinpings-most-important-policy",
+      "title": "How China’s anti-corruption fight became Xi Jinping’s most important policy",
+      "word_count": 2005,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3365244/mainland-chinese-firms-share-risks-deliver-northern-metropolis-success-analysts",
+      "title": "Mainland Chinese firms share risks to deliver Northern Metropolis success: analysts",
+      "word_count": 1071,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3364910/beyblade-battles-drive-sales-hong-kong-malls-how-long-will-trend-last",
+      "title": "Beyblade battles drive up sales at Hong Kong malls, but how long will the trend last?",
+      "word_count": 1118,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3364731/more-hong-kong-consumers-allege-coercive-beauty-sales-wake-opatra-crackdown",
+      "title": "More Hong Kong consumers allege coercive beauty sales in wake of Opatra crackdown",
+      "word_count": 1482,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3364253/word-streat-6-hong-kong-chefs-share-pre-service-rituals-fuel-their-kitchens",
+      "title": "Word on the StrEAT: 6 Hong Kong chefs share pre-service rituals that fuel their kitchens",
+      "word_count": 1231,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3360243/wu-shicun-why-beijing-will-not-rule-out-scarborough-shoal-construction",
+      "title": "Wu Shicun on why Beijing will not rule out Scarborough Shoal construction",
+      "word_count": 5027,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3356073/nobel-laureate-james-heckman-value-risk-taking-and-chinas-common-goal",
+      "title": "Nobel laureate James Heckman on the value of risk-taking, and China’s ‘common goal’",
+      "word_count": 4164,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3339480/zheng-yongnian-trump-venezuela-and-why-china-doesnt-want-separate-kitchen",
+      "title": "Zheng Yongnian on Trump, Venezuela and why China doesn’t want ‘a separate kitchen’",
+      "word_count": 4464,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/global-economy/article/3329426/liu-qian-chinese-innovation-us-rivalry-and-women-holding-half-sky",
+      "title": "Liu Qian on Chinese innovation, the US rivalry and women holding up half the sky",
+      "word_count": 3764,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3327746/fuchsia-dunlop-tells-how-she-fell-chinas-cuisine-and-names-her-perfect-dish",
+      "title": "Fuchsia Dunlop tells how she fell for China’s cuisine and names her perfect dish",
+      "word_count": 3752,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3321056/80-years-wwii-chinas-interests-lie-peaceful-asia-pacific-rana-mitter",
+      "title": "80 years on from WWII, China’s interests lie in peaceful Asia-Pacific: Rana Mitter",
+      "word_count": 4368,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3365327/south-korea-hands-police-more-power-even-dead-bodies-expose-lies",
+      "title": "South Korea hands police more power even as dead bodies expose the lies",
+      "word_count": 1074,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3365360/why-us-visa-pause-could-have-real-consequences-asian-applicants",
+      "title": "Why US visa pause could have ‘real consequences’ for Asian applicants",
+      "word_count": 1315,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3365387/can-singapores-new-anti-scam-rules-help-stop-online-fraud-it-occurs",
+      "title": "Can Singapore’s new anti-scam rules help stop online fraud before it occurs?",
+      "word_count": 1165,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/east-asia/article/3365382/south-korean-ex-spy-reveals-toll-secret-missions-north-treated-expendable",
+      "title": "South Korean ex-spy reveals toll of secret missions to North: ‘treated as expendable’",
+      "word_count": 1042,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3365339/singapores-future-island-plan-stirs-concern-over-reefs-and-old-fishing-grounds",
+      "title": "Singapore’s future island plan stirs concern over reefs and old fishing grounds",
+      "word_count": 1289,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3364857/malaysias-anwar-traded-reform-power-now-umno-wants-it-all",
+      "title": "Malaysia’s Anwar traded reform for power. Now Umno wants it all",
+      "word_count": 1964,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3364081/wear-now-pay-later-new-rules-southeast-asias-indulgence-economy",
+      "title": "Wear now, pay later: the new rules of Southeast Asia’s indulgence economy",
+      "word_count": 1682,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/people/article/3363339/malaysias-monarchy-charts-new-course-amid-political-flux",
+      "title": "Malaysia’s monarchy charts a new course amid political flux",
+      "word_count": 2476,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3362555/ready-player-3-india-offers-asean-us-china-alternative",
+      "title": "Ready player 3: India offers Asean a US-China alternative",
+      "word_count": 1601,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3365202/singaporean-who-filmed-couple-rooftop-and-demanded-sex-cash-gets-jail",
+      "title": "Singaporean who filmed couple on rooftop and demanded sex, cash gets jail",
+      "word_count": 1500,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3364760/no-bandwidth-left-family-why-many-singaporeans-want-be-child-free",
+      "title": "‘No bandwidth left for the family’: why many Singaporeans want to be child-free",
+      "word_count": 1178,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-trends/article/3364920/rural-city-once-known-livestock-now-provides-chinas-ai-computing-fuel",
+      "title": "A rural city, once known for livestock, now provides China’s AI computing fuel",
+      "word_count": 1781,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3364761/us-economist-barry-eichengreen-reality-de-dollarisation-and-next-currency-reshuffle",
+      "title": "US economist Barry Eichengreen on reality of de-dollarisation and next currency reshuffle",
+      "word_count": 3705,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/banking-finance/article/3364838/wall-street-helped-build-modern-china-it-now-being-cast-aside",
+      "title": "Wall Street helped build modern China. But is it now being cast aside?",
+      "word_count": 1019,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-trends/article/3361752/apples-biggest-ever-leak-happened-india-will-firms-rethink-their-china-relocations",
+      "title": "Apple’s biggest-ever leak happened in India. Will firms rethink their China relocations?",
+      "word_count": 1382,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/policy/article/3361779/investment-chinese-characteristics-how-beijings-money-reshaping-tech-ventures",
+      "title": "Investment with Chinese characteristics: how Beijing’s money is reshaping tech ventures",
+      "word_count": 1848,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-trends/article/3360956/chinas-tech-giants-fuel-rise-ai-tokens-new-corporate-currency",
+      "title": "China’s tech giants fuel the rise of AI tokens as a new corporate currency",
+      "word_count": 1812,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/article/3358925/great-ai-reckoning-how-china-flipping-script-us-new-industrial-revolution",
+      "title": "The great AI reckoning: how China is flipping the script on US’ new industrial revolution",
+      "word_count": 1988,
       "quality": "fulltext_deep",
       "is_premium": false
     }
