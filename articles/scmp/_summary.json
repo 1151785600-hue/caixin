@@ -1,14 +1,6 @@
 {
-  "ts": "2026-08-27 18:08:24",
+  "ts": "2026-08-27 20:01:07",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/article/3365504/brazils-rare-earths-will-not-loosen-chinas-magnet-grip-decade-researchers-say",
-      "title": "Brazil’s rare earths will not loosen China’s magnet grip this decade, researchers say",
-      "word_count": 1008,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
