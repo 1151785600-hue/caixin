@@ -1,26 +1,12 @@
 {
-  "ts": "2026-08-27 14:52:45",
+  "ts": "2026-08-27 18:08:24",
   "v": "scmp_v4",
-  "new_count": 3,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3365486/himalayan-glacier-collapse-hits-crucial-china-nepal-trade-route-casualties-mount",
-      "title": "Himalayan glacier collapse hits crucial China-Nepal trade route as casualties mount",
-      "word_count": 1103,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/economics/article/3365480/strong-signal-south-korea-raises-rates-again-fight-inflation-rising-home-prices",
-      "title": "‘Strong signal’: South Korea raises rates again to fight inflation, rising home prices",
-      "word_count": 1146,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3365320/philippines-eyes-drones-and-system-systems-boost-asymmetric-defence",
-      "title": "Philippines eyes drones and ‘system of systems’ to boost asymmetric defence",
-      "word_count": 1074,
+      "url": "https://www.scmp.com/news/china/article/3365504/brazils-rare-earths-will-not-loosen-chinas-magnet-grip-decade-researchers-say",
+      "title": "Brazil’s rare earths will not loosen China’s magnet grip this decade, researchers say",
+      "word_count": 1008,
       "quality": "fulltext",
       "is_premium": false
     }
