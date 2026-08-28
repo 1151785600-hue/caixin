@@ -1,14 +1,6 @@
 {
-  "ts": "2026-08-28 15:48:07",
+  "ts": "2026-08-28 19:18:32",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3365645/uzbekistan-tests-us-china-ai-rift-bid-join-rival-tech-bloc",
-      "title": "Uzbekistan tests US-China AI rift with bid to join rival tech bloc",
-      "word_count": 1153,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
