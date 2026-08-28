@@ -1,75 +1,12 @@
 {
-  "ts": "2026-08-28 12:32:52",
+  "ts": "2026-08-28 15:48:07",
   "v": "scmp_v4",
-  "new_count": 10,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/science/article/3365633/how-nepal-flash-flood-unleashed-wave-anti-china-misinformation",
-      "title": "How the Nepal flash flood unleashed a wave of anti-China misinformation",
-      "word_count": 1030,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/military/article/3365406/how-typhoons-and-extreme-weather-could-undermine-taiwan-strait-combat-readiness",
-      "title": "How typhoons and extreme weather could undermine Taiwan Strait combat readiness",
-      "word_count": 1129,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/politics/article/3365450/xis-crusade-against-corruption-has-gone-well-beyond-economic-crime",
-      "title": "Xi’s crusade against corruption has gone well beyond economic crime",
-      "word_count": 1950,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3365449/path-america-narrowing-heres-what-means-legal-immigrants",
-      "title": "The path to America is narrowing. Here’s what that means for legal immigrants",
-      "word_count": 1627,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/postmag/travel/article/3364387/perth-pyramids-hong-kongs-graham-elsom-lifetime-travel-and-adventure",
-      "title": "From Perth to pyramids: Hong Kong’s Graham Elsom on a lifetime of travel and adventure",
-      "word_count": 1348,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3365617/why-malaysias-push-15-million-muslim-tourists-no-sure-thing",
-      "title": "Why Malaysia’s push for 15 million Muslim tourists is no sure thing",
-      "word_count": 1056,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/economics/article/3365604/how-singapore-investors-are-lured-foreign-stock-scams",
-      "title": "How Singapore investors are lured by foreign-stock scams",
-      "word_count": 1069,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3365586/philippine-roblox-ban-call-sparks-wider-debate-over-childrens-online-safety",
-      "title": "Philippine Roblox ban call sparks wider debate over children’s online safety",
-      "word_count": 1105,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/people/article/3365485/why-filipino-migrants-are-rethinking-their-futures-japan",
-      "title": "Why Filipino migrants are rethinking their futures in Japan",
-      "word_count": 1138,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3365532/hormuz-deal-presses-pause-iran-conflict-fears-forever-war-remain",
-      "title": "Hormuz deal presses pause on Iran conflict, but fears of ‘forever war’ remain",
-      "word_count": 1086,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3365645/uzbekistan-tests-us-china-ai-rift-bid-join-rival-tech-bloc",
+      "title": "Uzbekistan tests US-China AI rift with bid to join rival tech bloc",
+      "word_count": 1153,
       "quality": "fulltext",
       "is_premium": false
     }
