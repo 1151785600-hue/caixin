@@ -1,6 +1,14 @@
 {
-  "ts": "2026-08-28 19:18:32",
+  "ts": "2026-08-28 21:00:24",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/asia/south-asia/article/3365668/china-nepal-floods-rescuers-pull-out-survivors-caked-mud-toll-climbs",
+      "title": "China-Nepal floods: rescuers pull out survivors caked in mud as toll climbs",
+      "word_count": 1122,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
