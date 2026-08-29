@@ -1,33 +1,12 @@
 {
-  "ts": "2026-08-29 07:41:50",
+  "ts": "2026-08-29 10:36:30",
   "v": "scmp_v4",
-  "new_count": 4,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3365664/visa-policy-brings-more-foreigners-short-term-jobs-and-hk20000-salaries",
-      "title": "Visa policy brings in more foreigners on short-term jobs and HK$20,000 salaries",
-      "word_count": 1514,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/people/article/3365619/how-philippines-missed-korean-gambling-racket-worth-us38-billion",
-      "title": "How the Philippines missed a Korean gambling racket worth US$3.8 billion",
-      "word_count": 1213,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/asia/south-asia/article/3365675/indians-turn-ai-gurus-answers-chatgpt-not-judging-you",
-      "title": "Indians turn to AI gurus for answers: ‘ChatGPT is not judging you’",
-      "word_count": 1242,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/opinion/article/3365624/india-china-ties-are-warming-time-capitalise-now",
-      "title": "India-China ties are warming, the time to capitalise is now",
-      "word_count": 1015,
+      "url": "https://www.scmp.com/week-asia/health-environment/article/3365685/vietnams-move-end-executions-drug-trafficking-sparks-debate-region",
+      "title": "Vietnam’s move to end executions for drug trafficking sparks debate in region",
+      "word_count": 1207,
       "quality": "fulltext",
       "is_premium": false
     }
