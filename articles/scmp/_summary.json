@@ -1,6 +1,14 @@
 {
-  "ts": "2026-08-30 17:16:28",
+  "ts": "2026-08-30 19:13:31",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/postmag/travel/article/3364656/beyond-amsterdam-amersfoorts-15th-century-charm-lies-its-canals-cafes-and-tourist-free-calm",
+      "title": "Beyond Amsterdam: Amersfoort’s 15th century charm lies in its canals, cafes and tourist-free calm",
+      "word_count": 1798,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    }
+  ]
 }
