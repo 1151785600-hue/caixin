@@ -1,21 +1,6 @@
 {
-  "ts": "2026-08-30 09:35:59",
+  "ts": "2026-08-30 12:39:18",
   "v": "scmp_v4",
-  "new_count": 2,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3365643/23000-bronzes-14-years-60-volumes-how-china-mapping-lost-heritage-held-abroad",
-      "title": "23,000 bronzes, 14 years, 60 volumes: how China is mapping lost heritage held abroad",
-      "word_count": 1196,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3365661/can-southeast-asian-artists-replicate-k-pops-global-success-sea-pop",
-      "title": "Can Southeast Asian artists replicate K-pop’s global success with SEA-pop?",
-      "word_count": 1196,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
