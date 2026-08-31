@@ -1,28 +1,6 @@
 {
-  "ts": "2026-08-31 19:27:29",
+  "ts": "2026-08-31 21:23:35",
   "v": "scmp_v4",
-  "new_count": 3,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3365895/us-targets-chinas-global-trade-surplus-g20-meeting-ahead-xi-trump-summit",
-      "title": "US targets China’s global trade surplus at G20 meeting ahead of Xi-Trump summit",
-      "word_count": 1018,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/postmag/article/3365456/hong-kong-science-park-celebrates-25-years-innovation-and-growth",
-      "title": "Hong Kong Science Park celebrates 25 years of innovation and growth",
-      "word_count": 2973,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/science/article/3365633/how-nepal-flash-flood-unleashed-wave-anti-china-misinformation",
-      "title": "How the Nepal flash flood unleashed a wave of anti-China misinformation",
-      "word_count": 1030,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
