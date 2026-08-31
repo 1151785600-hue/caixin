@@ -1,26 +1,12 @@
 {
-  "ts": "2026-08-31 14:55:01",
+  "ts": "2026-08-31 17:14:51",
   "v": "scmp_v4",
-  "new_count": 3,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3365846/prediction-markets-have-priced-trump-xi-summit-do-bets-have-any-value",
-      "title": "Prediction markets have priced the Trump-Xi summit. Do the bets have any value?",
-      "word_count": 1538,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3365877/us-visa-delays-leave-chinese-students-stranded-frozen-plans-and-constant-anxiety",
-      "title": "US visa delays leave Chinese students stranded with ‘frozen’ plans and ‘constant anxiety’",
-      "word_count": 1119,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/economics/article/3365832/how-tree-hanoi-points-flowering-dissent-among-vietnams-gen-z",
-      "title": "How a tree in Hanoi points to flowering of dissent among Vietnam’s Gen Z",
-      "word_count": 1023,
+      "url": "https://www.scmp.com/week-asia/people/article/3365880/flood-hit-philippines-out-touch-marcos-slammed-private-birthday-serenade",
+      "title": "In flood-hit Philippines, ‘out of touch’ Marcos slammed for private birthday serenade",
+      "word_count": 1132,
       "quality": "fulltext",
       "is_premium": false
     }
