@@ -1,13 +1,20 @@
 {
-  "ts": "2026-09-01 17:15:50",
+  "ts": "2026-09-01 19:18:37",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/us/article/3365998/china-global-trading-partners-watch-closely-trump-takes-canada",
-      "title": "China, global trading partners watch closely as Trump takes on Canada",
-      "word_count": 1612,
-      "quality": "fulltext_deep",
+      "url": "https://www.scmp.com/news/us/diplomacy/article/3366032/us-military-carries-out-new-strikes-iranian-targets-hostilities-flare",
+      "title": "US military carries out new strikes on Iranian targets as hostilities flare",
+      "word_count": 1047,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/magazines/post-magazine/travel/article/2184335/good-bad-and-ugly-sides-holiday-kathmandu-nepal",
+      "title": "The good, bad and ugly sides to a holiday in Kathmandu, Nepal",
+      "word_count": 1071,
+      "quality": "fulltext",
       "is_premium": false
     }
   ]
