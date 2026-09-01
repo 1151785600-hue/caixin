@@ -1,13 +1,13 @@
 {
-  "ts": "2026-09-01 14:20:21",
+  "ts": "2026-09-01 17:15:50",
   "v": "scmp_v4",
   "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/science/article/3365943/starship-could-create-more-debris-anti-satellite-test-if-it-explodes-orbit",
-      "title": "Starship could create more debris than an anti-satellite test if it explodes in orbit",
-      "word_count": 1438,
-      "quality": "fulltext",
+      "url": "https://www.scmp.com/news/us/article/3365998/china-global-trading-partners-watch-closely-trump-takes-canada",
+      "title": "China, global trading partners watch closely as Trump takes on Canada",
+      "word_count": 1612,
+      "quality": "fulltext_deep",
       "is_premium": false
     }
   ]
