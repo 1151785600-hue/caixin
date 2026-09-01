@@ -1,14 +1,6 @@
 {
-  "ts": "2026-09-01 09:01:28",
+  "ts": "2026-09-01 12:24:56",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3365955/aloof-engaged-what-indias-sco-comeback-reveals",
-      "title": "‘Aloof’ but engaged: what India’s SCO comeback reveals",
-      "word_count": 1143,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
