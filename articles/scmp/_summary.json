@@ -1,12 +1,19 @@
 {
-  "ts": "2026-09-02 17:05:01",
+  "ts": "2026-09-02 19:18:45",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/week-asia/economics/article/3366145/can-singapore-be-natural-choice-bridge-asean-and-central-asia",
-      "title": "Can Singapore be the ‘natural choice’ to bridge Asean and Central Asia?",
-      "word_count": 1012,
+      "url": "https://www.scmp.com/postmag/food-drink/article/3366069/exclusive-boar-brings-authentic-british-pub-experience-hong-kongs-central",
+      "title": "Exclusive: The Boar brings authentic British pub experience to Hong Kong’s Central",
+      "word_count": 1216,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3364253/word-streat-6-hong-kong-chefs-share-pre-service-rituals-fuel-their-kitchens",
+      "title": "Word on the StrEAT: 6 Hong Kong chefs share pre-service rituals that fuel their kitchens",
+      "word_count": 1231,
       "quality": "fulltext",
       "is_premium": false
     }
