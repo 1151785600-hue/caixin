@@ -1,19 +1,12 @@
 {
-  "ts": "2026-09-02 11:59:41",
+  "ts": "2026-09-02 13:54:30",
   "v": "scmp_v4",
-  "new_count": 2,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3366067/eu-trade-enforcers-descend-beijing-demanding-china-fix-untenable-imbalances",
-      "title": "EU trade enforcers descend on Beijing demanding China fix ‘untenable’ imbalances",
-      "word_count": 1197,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3366105/us-universities-curb-international-student-internships-following-federal-warning",
-      "title": "US universities curb international student internships following federal warning",
-      "word_count": 1068,
+      "url": "https://www.scmp.com/news/china/military/article/3366100/how-japan-aims-convert-ageing-warships-leverage-counter-china",
+      "title": "How Japan aims to convert ageing warships into leverage to counter China",
+      "word_count": 1018,
       "quality": "fulltext",
       "is_premium": false
     }
