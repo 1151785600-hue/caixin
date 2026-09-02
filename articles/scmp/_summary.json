@@ -1,6 +1,21 @@
 {
-  "ts": "2026-09-02 08:15:25",
+  "ts": "2026-09-02 11:59:41",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 2,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3366067/eu-trade-enforcers-descend-beijing-demanding-china-fix-untenable-imbalances",
+      "title": "EU trade enforcers descend on Beijing demanding China fix ‘untenable’ imbalances",
+      "word_count": 1197,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3366105/us-universities-curb-international-student-internships-following-federal-warning",
+      "title": "US universities curb international student internships following federal warning",
+      "word_count": 1068,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
