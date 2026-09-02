@@ -1,6 +1,12 @@
 {
-  "ts": "2026-09-02 02:37:42",
+  "ts": "2026-09-02 07:40:00",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-09-02/chinas-new-economy-regains-momentum-on-labor-capital-boost-102481041.html",
+      "title": "China’s New Economy Regains Momentum on Labor, Capital Boost",
+      "word_count": 526
+    }
+  ]
 }
