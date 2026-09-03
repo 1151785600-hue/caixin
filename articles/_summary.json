@@ -1,6 +1,12 @@
 {
-  "ts": "2026-09-02 18:11:26",
+  "ts": "2026-09-03 02:43:51",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-09-03/china-banks-report-rise-in-nonperforming-retail-loans-102481250.html",
+      "title": "China Banks Report Rise in Nonperforming Retail Loans",
+      "word_count": 469
+    }
+  ]
 }
