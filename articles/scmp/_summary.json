@@ -1,6 +1,14 @@
 {
-  "ts": "2026-09-03 16:59:19",
+  "ts": "2026-09-03 19:13:03",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/postmag/culture/article/3365826/nancy-kwans-enduring-legacy-six-decades-after-release-world-suzie-wong-interview",
+      "title": "Nancy Kwan’s enduring legacy, six decades after the release of The World of Suzie Wong – interview",
+      "word_count": 2264,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    }
+  ]
 }
