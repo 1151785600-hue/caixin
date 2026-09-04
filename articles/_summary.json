@@ -1,6 +1,12 @@
 {
-  "ts": "2026-09-03 18:09:43",
+  "ts": "2026-09-04 02:41:13",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-09-04/un-warns-climate-overshoot-could-divert-funds-from-energy-transition-102481574.html",
+      "title": "U.N. Warns Climate Overshoot Could Divert Funds From Energy Transition",
+      "word_count": 650
+    }
+  ]
 }
