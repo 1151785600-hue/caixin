@@ -1,6 +1,14 @@
 {
-  "ts": "2026-09-04 13:49:34",
+  "ts": "2026-09-04 16:47:58",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3366324/why-eu-giving-arctic-shipping-cold-shoulder-china-and-russia-push-ahead",
+      "title": "Why the EU is giving Arctic shipping the cold shoulder as China and Russia push ahead",
+      "word_count": 1334,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
