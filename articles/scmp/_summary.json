@@ -1,6 +1,14 @@
 {
-  "ts": "2026-09-05 13:03:42",
+  "ts": "2026-09-05 15:52:41",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/military/article/3366489/how-asian-shipyards-japan-korea-and-philippines-keep-us-warships-battle-ready",
+      "title": "How Asian shipyards in Japan, Korea and Philippines keep US warships battle ready",
+      "word_count": 1455,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
