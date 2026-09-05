@@ -1,21 +1,6 @@
 {
-  "ts": "2026-09-05 11:10:19",
+  "ts": "2026-09-05 13:03:42",
   "v": "scmp_v4",
-  "new_count": 2,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3366484/singapore-investigates-racism-related-nepal-tibet-disaster-air-india-investment",
-      "title": "Singapore investigates racism related to China-Nepal disaster, Air India investment",
-      "word_count": 1313,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/economy/china-economy/article/3366381/5-years-after-sweeping-ban-chinas-tutoring-industry-still-bleeding-parents-dry",
-      "title": "5 years after sweeping ban, China’s tutoring industry still bleeding parents dry",
-      "word_count": 1006,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
