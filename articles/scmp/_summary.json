@@ -1,26 +1,19 @@
 {
-  "ts": "2026-09-05 07:56:30",
+  "ts": "2026-09-05 11:10:19",
   "v": "scmp_v4",
-  "new_count": 3,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/postmag/passions/article/3365183/born-fly-documents-hong-kong-born-rahul-sharmas-world-record-566km-run-across-sri-lanka",
-      "title": "‘Born to Fly’ documents Hong Kong-born Rahul Sharma’s world record 566km run across Sri Lanka",
-      "word_count": 1333,
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3366484/singapore-investigates-racism-related-nepal-tibet-disaster-air-india-investment",
+      "title": "Singapore investigates racism related to China-Nepal disaster, Air India investment",
+      "word_count": 1313,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3365768/xi-bishkek-sco-summit-how-does-bloc-fit-chinas-eurasian-strategy-25-years",
-      "title": "Xi is in Bishkek for SCO summit. How does bloc fit China’s Eurasian strategy 25 years on?",
-      "word_count": 1422,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3364253/word-streat-6-hong-kong-chefs-share-pre-service-rituals-fuel-their-kitchens",
-      "title": "Word on the StrEAT: 6 Hong Kong chefs share pre-service rituals that fuel their kitchens",
-      "word_count": 1231,
+      "url": "https://www.scmp.com/economy/china-economy/article/3366381/5-years-after-sweeping-ban-chinas-tutoring-industry-still-bleeding-parents-dry",
+      "title": "5 years after sweeping ban, China’s tutoring industry still bleeding parents dry",
+      "word_count": 1006,
       "quality": "fulltext",
       "is_premium": false
     }
