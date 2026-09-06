@@ -1,21 +1,6 @@
 {
-  "ts": "2026-09-06 11:33:25",
+  "ts": "2026-09-06 13:12:25",
   "v": "scmp_v4",
-  "new_count": 2,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/opinion/china-opinion/article/3366015/why-chinas-shrinking-population-may-be-blessing-not-curse",
-      "title": "Why China’s shrinking population may be a blessing, not a curse",
-      "word_count": 1143,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/economy/global-economy/article/3366392/how-chinas-youth-job-crisis-driving-graduates-german-vocational-apprenticeships",
-      "title": "How China’s youth job crisis is driving graduates to German vocational apprenticeships",
-      "word_count": 1119,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
