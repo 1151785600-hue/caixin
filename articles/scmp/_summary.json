@@ -1,14 +1,6 @@
 {
-  "ts": "2026-09-07 18:11:15",
+  "ts": "2026-09-07 19:45:55",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3366484/singapore-investigates-racism-related-nepal-tibet-disaster-air-india-investment",
-      "title": "Singapore investigates racism related to China-Nepal disaster, Air India investment",
-      "word_count": 1313,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
