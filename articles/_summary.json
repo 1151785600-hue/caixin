@@ -1,6 +1,12 @@
 {
-  "ts": "2026-09-07 07:58:19",
+  "ts": "2026-09-07 11:40:05",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-09-07/caixin-explains-why-insurers-are-getting-a-share-of-chinas-45-billion-capital-boost-102482571.html",
+      "title": "Caixin Explains: Why Insurers Are Getting a Share of China’s $45 Billion Capital Boost",
+      "word_count": 980
+    }
+  ]
 }
