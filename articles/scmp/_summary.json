@@ -1,6 +1,21 @@
 {
-  "ts": "2026-09-08 08:27:34",
+  "ts": "2026-09-08 12:01:14",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 2,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3366779/philippines-wants-be-global-semiconductor-giant-2030-can-it-get-there",
+      "title": "Philippines wants to be a global semiconductor giant by 2030. Can it get there?",
+      "word_count": 1042,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/economic-indicators/article/3366704/chinas-export-machine-strengthens-august-despite-weather-disruptions-trade-headwinds",
+      "title": "China’s export machine strengthens in August as US critiques trade imbalance",
+      "word_count": 1019,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
