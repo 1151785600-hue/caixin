@@ -1,17 +1,6 @@
 {
-  "ts": "2026-09-08 10:39:15",
+  "ts": "2026-09-08 13:19:38",
   "v": "8.4",
-  "new_count": 2,
-  "articles": [
-    {
-      "url": "https://www.caixinglobal.com/2026-09-08/chinas-august-exports-jump-25-on-ai-price-surge-102482780.html",
-      "title": "China’s August Exports Jump 25% on AI Price Surge",
-      "word_count": 516
-    },
-    {
-      "url": "https://www.caixinglobal.com/2026-09-02/catls-hungary-cell-plant-halted-after-nickel-exposure-incident-102480858.html",
-      "title": "CATL’s Hungary Cell Plant Halted After Nickel Exposure Incident",
-      "word_count": 328
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
