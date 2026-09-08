@@ -1,6 +1,12 @@
 {
-  "ts": "2026-09-08 02:50:35",
+  "ts": "2026-09-08 07:51:16",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-09-08/analysis-stricter-rules-state-capital-are-rewiring-chinas-venture-ecosystem-102482721.html",
+      "title": "Analysis: Stricter Rules, State Capital Are Rewiring China’s Venture Ecosystem",
+      "word_count": 670
+    }
+  ]
 }
