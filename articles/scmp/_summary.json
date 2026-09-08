@@ -1,19 +1,19 @@
 {
-  "ts": "2026-09-08 12:01:14",
+  "ts": "2026-09-08 13:55:54",
   "v": "scmp_v4",
   "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/week-asia/economics/article/3366779/philippines-wants-be-global-semiconductor-giant-2030-can-it-get-there",
-      "title": "Philippines wants to be a global semiconductor giant by 2030. Can it get there?",
-      "word_count": 1042,
+      "url": "https://www.scmp.com/news/china/science/article/3366759/could-china-sanction-us-illegal-international-seabed-mining-study-says-yes",
+      "title": "Could China sanction US for illegal international seabed mining? A study says yes",
+      "word_count": 1136,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/economy/economic-indicators/article/3366704/chinas-export-machine-strengthens-august-despite-weather-disruptions-trade-headwinds",
-      "title": "China’s export machine strengthens in August as US critiques trade imbalance",
-      "word_count": 1019,
+      "url": "https://www.scmp.com/opinion/world-opinion/article/3366273/openness-must-not-be-sacrificed-us-science-and-tech-policy-china",
+      "title": "Openness must not be sacrificed in US science and tech policy on China",
+      "word_count": 1109,
       "quality": "fulltext",
       "is_premium": false
     }
