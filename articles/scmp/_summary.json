@@ -1,14 +1,6 @@
 {
-  "ts": "2026-09-09 12:11:56",
+  "ts": "2026-09-09 13:58:31",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3366909/houthi-offensive-bab-el-mandeb-strait-threatens-new-red-sea-shipping-crisis",
-      "title": "Houthi offensive on Bab el-Mandeb Strait threatens new Red Sea shipping crisis",
-      "word_count": 1090,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
