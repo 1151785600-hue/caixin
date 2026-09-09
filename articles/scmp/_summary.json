@@ -1,6 +1,14 @@
 {
-  "ts": "2026-09-09 13:58:31",
+  "ts": "2026-09-09 17:05:38",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/military/article/3366923/japans-china-facing-military-build-confronts-labour-budget-and-political-limits",
+      "title": "Japan’s China-facing military build-up confronts labour, budget and political limits",
+      "word_count": 2034,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    }
+  ]
 }
