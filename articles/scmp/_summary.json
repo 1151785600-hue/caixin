@@ -1,13 +1,13 @@
 {
-  "ts": "2026-09-09 08:29:43",
+  "ts": "2026-09-09 12:11:56",
   "v": "scmp_v4",
   "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/postmag/passions/article/3365871/ohio-hong-kong-former-nba-player-bryant-austins-basketball-journey",
-      "title": "From Ohio to Hong Kong: former NBA player Bryant Austin’s basketball journey",
-      "word_count": 1581,
-      "quality": "fulltext_deep",
+      "url": "https://www.scmp.com/week-asia/politics/article/3366909/houthi-offensive-bab-el-mandeb-strait-threatens-new-red-sea-shipping-crisis",
+      "title": "Houthi offensive on Bab el-Mandeb Strait threatens new Red Sea shipping crisis",
+      "word_count": 1090,
+      "quality": "fulltext",
       "is_premium": false
     }
   ]
