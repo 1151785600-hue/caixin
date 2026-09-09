@@ -1,13 +1,13 @@
 {
-  "ts": "2026-09-09 17:05:38",
+  "ts": "2026-09-09 19:11:00",
   "v": "scmp_v4",
   "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/military/article/3366923/japans-china-facing-military-build-confronts-labour-budget-and-political-limits",
-      "title": "Japan’s China-facing military build-up confronts labour, budget and political limits",
-      "word_count": 2034,
-      "quality": "fulltext_deep",
+      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3337568/2025-was-tough-year-hong-kongs-bar-industry-so-how-are-new-concepts-carving-path-forward",
+      "title": "2025 was a tough year for Hong Kong’s bar industry, so how are new concepts carving a path forward?",
+      "word_count": 1294,
+      "quality": "fulltext",
       "is_premium": false
     }
   ]
