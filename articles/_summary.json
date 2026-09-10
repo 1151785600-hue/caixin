@@ -1,12 +1,22 @@
 {
-  "ts": "2026-09-10 02:51:39",
+  "ts": "2026-09-10 07:53:57",
   "v": "8.4",
-  "new_count": 1,
+  "new_count": 3,
   "articles": [
     {
-      "url": "https://www.caixinglobal.com/2026-09-10/copper-near-record-high-as-us-tariff-fears-and-ai-demand-tighten-market-102483357.html",
-      "title": "Copper Near Record High as U.S. Tariff Fears and AI Demand Tighten Market",
-      "word_count": 676
+      "url": "https://www.caixinglobal.com/2026-09-10/in-depth-how-chinas-nickel-boom-left-one-village-sitting-under-a-mountain-of-slag-102483485.html",
+      "title": "In Depth: How China’s Nickel Boom Left One Village Sitting Under a Mountain of Slag",
+      "word_count": 659
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-09-10/chinas-online-lenders-see-profits-plunge-as-new-rules-bite-102483449.html",
+      "title": "China’s Online Lenders See Profits Plunge as New Rules Bite",
+      "word_count": 516
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-09-04/in-depth-as-gold-goes-digital-hong-kong-vies-for-londons-crown-102481969.html",
+      "title": "In Depth: As Gold Goes Digital, Hong Kong Vies for London’s Crown",
+      "word_count": 644
     }
   ]
 }
