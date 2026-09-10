@@ -1,6 +1,12 @@
 {
-  "ts": "2026-09-09 18:04:46",
+  "ts": "2026-09-10 02:51:39",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-09-10/copper-near-record-high-as-us-tariff-fears-and-ai-demand-tighten-market-102483357.html",
+      "title": "Copper Near Record High as U.S. Tariff Fears and AI Demand Tighten Market",
+      "word_count": 676
+    }
+  ]
 }
