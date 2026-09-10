@@ -1,13 +1,13 @@
 {
-  "ts": "2026-09-10 16:56:44",
+  "ts": "2026-09-10 19:02:32",
   "v": "scmp_v4",
   "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/military/article/3367069/us-navy-plans-compact-silent-anvil-torpedo-chinas-submarine-fleet-surges",
-      "title": "US Navy plans compact Silent Anvil torpedo as China’s submarine fleet surges",
-      "word_count": 1058,
-      "quality": "fulltext",
+      "url": "https://www.scmp.com/postmag/food-drink/article/3366728/indo-chinese-cuisine-hong-kong-delicious-dialogue-cultures-and-flavours",
+      "title": "Indo-Chinese cuisine in Hong Kong: a delicious dialogue of cultures and flavours",
+      "word_count": 1882,
+      "quality": "fulltext_deep",
       "is_premium": false
     }
   ]
