@@ -1,13 +1,13 @@
 {
-  "ts": "2026-09-10 08:31:16",
+  "ts": "2026-09-10 12:06:09",
   "v": "scmp_v4",
   "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/science/article/3367010/j-50-designers-reveal-leapfrog-tech-chinas-next-gen-stealth-fighters",
-      "title": "J-50 designers reveal leapfrog tech for China’s next-gen stealth fighters",
-      "word_count": 1505,
-      "quality": "fulltext_deep",
+      "url": "https://www.scmp.com/week-asia/politics/article/3367015/pritam-singh-questions-if-high-pay-attracts-top-private-talent-singapore-politics",
+      "title": "Singapore MPs back ministerial pay rise, but agree money alone won’t lure talent",
+      "word_count": 1197,
+      "quality": "fulltext",
       "is_premium": false
     }
   ]
