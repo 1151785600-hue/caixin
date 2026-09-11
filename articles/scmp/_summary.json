@@ -1,6 +1,28 @@
 {
-  "ts": "2026-09-11 13:54:05",
+  "ts": "2026-09-11 16:58:21",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 3,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3367195/no-pit-stops-chinese-coal-mine-makes-big-upgrade-autonomous-electric-trucks",
+      "title": "No pit stops: Chinese coal mine makes big upgrade with autonomous electric trucks",
+      "word_count": 1372,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3367127/hong-kong-vigil-leaders-jailed-7-years-group-fined-hk15-million",
+      "title": "Tiananmen vigil leaders jailed for up to 7 years, group fined HK$1.5 million",
+      "word_count": 1020,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3367253/singapore-weighs-joining-china-led-ai-body-does-it-risk-us-retaliation",
+      "title": "As Singapore weighs joining China-led AI body, does it risk US retaliation?",
+      "word_count": 1033,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
