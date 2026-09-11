@@ -1,6 +1,12 @@
 {
-  "ts": "2026-09-10 17:55:54",
+  "ts": "2026-09-11 02:45:30",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-09-11/fresh-bridgewater-china-quotas-draw-frenzied-demand-from-affluent-investors-102483757.html",
+      "title": "Fresh Bridgewater China Quotas Draw Frenzied Demand From Affluent Investors",
+      "word_count": 305
+    }
+  ]
 }
