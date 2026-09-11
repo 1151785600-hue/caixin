@@ -1,12 +1,26 @@
 {
-  "ts": "2026-09-11 08:25:49",
+  "ts": "2026-09-11 12:04:20",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 3,
   "articles": [
     {
-      "url": "https://www.scmp.com/tech/big-tech/article/3367163/why-ai-experts-are-freaked-out-over-safety-fears-ahead-xi-trump-summit",
-      "title": "Why AI experts are ‘freaked out’ over safety fears ahead of Xi-Trump summit",
-      "word_count": 1025,
+      "url": "https://www.scmp.com/news/china/military/article/3367162/fresh-photos-offer-clearest-view-yet-chinas-wz-x-spy-drone",
+      "title": "Fresh photos offer clearest view yet of China’s ‘WZ-X’ spy drone",
+      "word_count": 1088,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3366813/young-chinese-turn-mao-zedong-life-advice-50-years-after-his-death",
+      "title": "Young Chinese turn to Mao Zedong for life advice, 50 years after his death",
+      "word_count": 1400,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3367226/why-marcos-brics-trip-low-risk-opportunity-philippines-make-new-friends",
+      "title": "Why Marcos’ Brics trip is ‘low-risk opportunity’ for Philippines to make new friends",
+      "word_count": 1000,
       "quality": "fulltext",
       "is_premium": false
     }
