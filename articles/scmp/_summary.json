@@ -1,6 +1,14 @@
 {
-  "ts": "2026-09-12 13:10:57",
+  "ts": "2026-09-12 16:08:15",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3367303/chinese-leader-xi-urges-brics-play-its-due-role-bringing-peace-middle-east",
+      "title": "Brics summit: Xi urges states to stand on ‘right side of history’, floats AI plan",
+      "word_count": 1130,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
