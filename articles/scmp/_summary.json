@@ -1,14 +1,6 @@
 {
-  "ts": "2026-09-13 16:54:58",
+  "ts": "2026-09-13 18:41:00",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/military/article/3367350/china-h-6n-bomber-enhances-nuclear-deterrence-and-second-strike-capability",
-      "title": "For China, H-6N bomber enhances nuclear deterrence and second-strike capability",
-      "word_count": 1015,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
