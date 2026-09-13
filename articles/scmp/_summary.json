@@ -1,6 +1,14 @@
 {
-  "ts": "2026-09-13 12:36:07",
+  "ts": "2026-09-13 13:56:26",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3367341/chinese-leader-pledges-help-brics-nations-ai-and-smart-manufacturing",
+      "title": "Brics summit ends with Xi’s AI offer, Modi’s warning on critical minerals as weapons",
+      "word_count": 1062,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
