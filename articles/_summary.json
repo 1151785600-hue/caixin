@@ -1,6 +1,17 @@
 {
-  "ts": "2026-09-13 17:45:42",
+  "ts": "2026-09-14 03:07:42",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 2,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-09-14/cover-story-the-gray-market-behind-a-cross-border-investing-boom-102484557.html",
+      "title": "Cover Story: The Gray Market Behind a Cross-Border Investing Boom",
+      "word_count": 705
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-09-10/in-depth-ai-distillation-in-china-leaves-us-tech-giants-at-odds-102483506.html",
+      "title": "In Depth: AI Distillation in China Leaves U.S. Tech Giants at Odds",
+      "word_count": 594
+    }
+  ]
 }
