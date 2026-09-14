@@ -1,14 +1,6 @@
 {
-  "ts": "2026-09-14 18:28:27",
+  "ts": "2026-09-14 20:13:59",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3367303/chinese-leader-xi-urges-brics-play-its-due-role-bringing-peace-middle-east",
-      "title": "Brics members find common ground on AI, trade and alternative payment expansion",
-      "word_count": 1198,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
