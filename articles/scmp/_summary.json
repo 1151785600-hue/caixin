@@ -1,14 +1,6 @@
 {
-  "ts": "2026-09-15 12:30:51",
+  "ts": "2026-09-15 14:30:09",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3367595/doing-north-korea-why-middle-east-could-be-entering-new-nuclear-age",
-      "title": "‘Doing a North Korea’? Why the Middle East could be entering a new nuclear age",
-      "word_count": 1048,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
