@@ -1,13 +1,13 @@
 {
-  "ts": "2026-09-15 09:04:38",
+  "ts": "2026-09-15 12:30:51",
   "v": "scmp_v4",
   "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/postmag/culture/article/3367028/hong-kong-guqin-devotees-embrace-ancient-zithers-history-philosophy-and-craft",
-      "title": "Hong Kong guqin devotees embrace the ancient zither’s history, philosophy and craft",
-      "word_count": 1839,
-      "quality": "fulltext_deep",
+      "url": "https://www.scmp.com/week-asia/politics/article/3367595/doing-north-korea-why-middle-east-could-be-entering-new-nuclear-age",
+      "title": "‘Doing a North Korea’? Why the Middle East could be entering a new nuclear age",
+      "word_count": 1048,
+      "quality": "fulltext",
       "is_premium": false
     }
   ]
