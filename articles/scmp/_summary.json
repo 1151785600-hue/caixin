@@ -1,14 +1,6 @@
 {
-  "ts": "2026-09-16 17:34:15",
+  "ts": "2026-09-16 19:28:14",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3367768/hong-kong-sets-5-year-plan-double-innovation-spending-boost-new-industries",
-      "title": "Hong Kong sets 5-year plan to double innovation spending, boost new industries",
-      "word_count": 1334,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
