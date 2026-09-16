@@ -1,14 +1,6 @@
 {
-  "ts": "2026-09-16 12:28:23",
+  "ts": "2026-09-16 14:23:59",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/military/article/3367735/chinese-defence-chief-skirts-flashpoints-xiangshan-forum-ahead-xi-trump-summit",
-      "title": "Chinese defence chief skirts flashpoints at Xiangshan Forum ahead of Xi-Trump summit",
-      "word_count": 1112,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
