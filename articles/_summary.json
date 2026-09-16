@@ -1,6 +1,12 @@
 {
-  "ts": "2026-09-16 03:05:53",
+  "ts": "2026-09-16 08:18:39",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-09-16/in-depth-chinas-shrinking-births-push-guangzhou-schools-to-cut-contract-teachers-102485388.html",
+      "title": "In Depth: China’s Shrinking Births Push Guangzhou Schools to Cut Contract Teachers",
+      "word_count": 544
+    }
+  ]
 }
