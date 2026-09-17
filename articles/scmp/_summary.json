@@ -1,19 +1,12 @@
 {
-  "ts": "2026-09-17 12:28:24",
+  "ts": "2026-09-17 14:29:17",
   "v": "scmp_v4",
-  "new_count": 2,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/week-asia/health-environment/article/3367875/malaysia-confronts-complexities-schizophrenia-after-school-killing-ruling",
-      "title": "Malaysia confronts complexities of schizophrenia after school killing ruling",
-      "word_count": 1166,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/health-environment/article/3367863/indonesia-faces-reckoning-over-maritime-safety-after-deadly-ferry-disaster",
-      "title": "Indonesia faces reckoning over maritime safety after deadly ferry disaster",
-      "word_count": 1020,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3367849/china-us-may-unveil-measures-boost-military-ties-when-xi-visits-washington",
+      "title": "China, US may unveil measures to boost military ties when Xi visits Washington",
+      "word_count": 1002,
       "quality": "fulltext",
       "is_premium": false
     }
