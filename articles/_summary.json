@@ -1,6 +1,12 @@
 {
-  "ts": "2026-09-16 18:30:43",
+  "ts": "2026-09-17 03:10:16",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-09-17/former-nanjing-museum-chief-jailed-in-bribery-case-tied-to-missing-masterpiece-102485609.html",
+      "title": "Former Nanjing Museum Chief Jailed in Bribery Case Tied to Missing Masterpiece",
+      "word_count": 305
+    }
+  ]
 }
