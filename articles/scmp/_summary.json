@@ -1,19 +1,19 @@
 {
-  "ts": "2026-09-17 09:02:21",
+  "ts": "2026-09-17 12:28:24",
   "v": "scmp_v4",
   "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3367303/chinese-leader-xi-urges-brics-play-its-due-role-bringing-peace-middle-east",
-      "title": "Brics members find common ground on AI, trade and alternative payment expansion",
-      "word_count": 1198,
+      "url": "https://www.scmp.com/week-asia/health-environment/article/3367875/malaysia-confronts-complexities-schizophrenia-after-school-killing-ruling",
+      "title": "Malaysia confronts complexities of schizophrenia after school killing ruling",
+      "word_count": 1166,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/week-asia/politics/article/3367820/teodoro-president-philippine-defence-chief-draws-2028-election-buzz-after-china-clash",
-      "title": "Teodoro for president? Philippine defence chief draws 2028 election buzz after China clash",
-      "word_count": 1050,
+      "url": "https://www.scmp.com/week-asia/health-environment/article/3367863/indonesia-faces-reckoning-over-maritime-safety-after-deadly-ferry-disaster",
+      "title": "Indonesia faces reckoning over maritime safety after deadly ferry disaster",
+      "word_count": 1020,
       "quality": "fulltext",
       "is_premium": false
     }
