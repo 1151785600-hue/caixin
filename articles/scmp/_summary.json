@@ -1,26 +1,12 @@
 {
-  "ts": "2026-09-18 12:07:00",
+  "ts": "2026-09-18 13:55:23",
   "v": "scmp_v4",
-  "new_count": 3,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/week-asia/politics/article/3368046/singapore-minister-chan-chun-sings-mandarin-diplomacy-strikes-china-chord",
-      "title": "Singapore minister Chan Chun Sing’s Mandarin diplomacy strikes China chord",
-      "word_count": 1011,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/economics/article/3368021/why-singapores-big-box-gyms-are-losing-niche-fitness-studios",
-      "title": "Why Singapore’s big-box gyms are losing to niche fitness studios",
-      "word_count": 1019,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3368014/why-icc-cracking-down-fake-news-duterte-trial-looms",
-      "title": "Why the ICC is cracking down on ‘fake news’ as Duterte trial looms",
-      "word_count": 1024,
+      "url": "https://www.scmp.com/week-asia/economics/article/3368062/saudi-oil-pipeline-closure-puts-asias-economic-resilience-test",
+      "title": "Saudi oil pipeline closure puts Asia’s economic resilience to the test",
+      "word_count": 1074,
       "quality": "fulltext",
       "is_premium": false
     }
