@@ -1,13 +1,13 @@
 {
-  "ts": "2026-09-18 13:55:23",
+  "ts": "2026-09-18 17:00:07",
   "v": "scmp_v4",
   "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/week-asia/economics/article/3368062/saudi-oil-pipeline-closure-puts-asias-economic-resilience-test",
-      "title": "Saudi oil pipeline closure puts Asia’s economic resilience to the test",
-      "word_count": 1074,
-      "quality": "fulltext",
+      "url": "https://www.scmp.com/news/us/diplomacy/article/3368018/why-china-playing-it-cool-amid-trumps-disruption-and-churn",
+      "title": "Why China is playing it cool amid Trump’s disruption and churn",
+      "word_count": 1747,
+      "quality": "fulltext_deep",
       "is_premium": false
     }
   ]
