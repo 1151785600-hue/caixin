@@ -1,26 +1,26 @@
 {
-  "ts": "2026-09-18 08:37:09",
+  "ts": "2026-09-18 12:07:00",
   "v": "scmp_v4",
   "new_count": 3,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/science/article/3367968/could-chinese-explorers-have-settled-new-zealand-maori",
-      "title": "Could Chinese explorers have settled New Zealand before the Maori?",
-      "word_count": 2009,
-      "quality": "fulltext_deep",
+      "url": "https://www.scmp.com/week-asia/politics/article/3368046/singapore-minister-chan-chun-sings-mandarin-diplomacy-strikes-china-chord",
+      "title": "Singapore minister Chan Chun Sing’s Mandarin diplomacy strikes China chord",
+      "word_count": 1011,
+      "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/postmag/design-interiors/article/3285613/how-japans-infamous-nakagin-capsule-tower-finding-new-life",
-      "title": "How Japan’s innovative Nakagin Capsule Tower is finding new life",
-      "word_count": 1707,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3367993/south-koreas-president-rejects-us-request-iran-war-support",
-      "title": "South Korea’s president rejects US request for Iran war support",
+      "url": "https://www.scmp.com/week-asia/economics/article/3368021/why-singapores-big-box-gyms-are-losing-niche-fitness-studios",
+      "title": "Why Singapore’s big-box gyms are losing to niche fitness studios",
       "word_count": 1019,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3368014/why-icc-cracking-down-fake-news-duterte-trial-looms",
+      "title": "Why the ICC is cracking down on ‘fake news’ as Duterte trial looms",
+      "word_count": 1024,
       "quality": "fulltext",
       "is_premium": false
     }
