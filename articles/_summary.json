@@ -1,12 +1,17 @@
 {
-  "ts": "2026-09-18 07:59:15",
+  "ts": "2026-09-18 10:38:01",
   "v": "8.4",
-  "new_count": 1,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.caixinglobal.com/2026-09-18/in-depth-chinas-deepwater-gas-expansion-collides-with-whale-conservation-concerns-102486199.html",
-      "title": "In Depth: China’s Deepwater Gas Expansion Collides With Whale Conservation Concerns",
-      "word_count": 428
+      "url": "https://www.caixinglobal.com/2026-09-18/china-targets-35-trillion-yuan-pharmaceutical-industry-by-2030-102486229.html",
+      "title": "China Targets 3.5 Trillion Yuan Pharmaceutical Industry by 2030",
+      "word_count": 583
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-09-18/chinas-youth-unemployment-hits-record-high-102486238.html",
+      "title": "China’s Youth Unemployment Hits Record High",
+      "word_count": 508
     }
   ]
 }
