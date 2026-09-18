@@ -1,6 +1,12 @@
 {
-  "ts": "2026-09-18 02:57:31",
+  "ts": "2026-09-18 07:59:15",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-09-18/in-depth-chinas-deepwater-gas-expansion-collides-with-whale-conservation-concerns-102486199.html",
+      "title": "In Depth: China’s Deepwater Gas Expansion Collides With Whale Conservation Concerns",
+      "word_count": 428
+    }
+  ]
 }
