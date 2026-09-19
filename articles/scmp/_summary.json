@@ -1,13 +1,13 @@
 {
-  "ts": "2026-09-19 08:24:06",
+  "ts": "2026-09-19 11:49:43",
   "v": "scmp_v4",
   "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/postmag/design-interiors/article/3285613/how-japans-infamous-nakagin-capsule-tower-finding-new-life",
-      "title": "How Japan’s innovative Nakagin Capsule Tower is finding new life",
-      "word_count": 1707,
-      "quality": "fulltext_deep",
+      "url": "https://www.scmp.com/news/world/united-states-canada/article/3368117/ai-10-days-changed-course-artificial-intelligence",
+      "title": "AI: 10 days that changed the course of artificial intelligence",
+      "word_count": 1259,
+      "quality": "fulltext",
       "is_premium": false
     }
   ]
