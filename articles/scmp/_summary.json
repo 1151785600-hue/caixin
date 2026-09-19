@@ -1,14 +1,6 @@
 {
-  "ts": "2026-09-19 13:30:23",
+  "ts": "2026-09-19 16:19:54",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/military/article/3368097/us-space-weapons-move-has-broken-taboo-could-spark-new-arms-race-beijing-forum-told",
-      "title": "US space weapons move has ‘broken taboo’, could spark new arms race, Beijing forum told",
-      "word_count": 1194,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
