@@ -1,14 +1,6 @@
 {
-  "ts": "2026-09-20 12:05:27",
+  "ts": "2026-09-20 13:45:51",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/economy/china-economy/article/3368005/boeings-200-jet-china-deal-could-hinge-trump-xi-talks-industry-insiders",
-      "title": "Boeing’s 200-jet China deal could hinge on Trump-Xi talks: industry insiders",
-      "word_count": 1042,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
