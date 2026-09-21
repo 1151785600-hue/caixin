@@ -1,14 +1,6 @@
 {
-  "ts": "2026-09-21 16:01:55",
+  "ts": "2026-09-21 18:34:35",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/world/united-states-canada/article/3368291/world-leaders-meet-un-planet-grapples-climate-change-wars-runaway-ai",
-      "title": "World leaders meet at UN as planet grapples with climate change, wars, runaway AI",
-      "word_count": 1137,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
