@@ -1,19 +1,12 @@
 {
-  "ts": "2026-09-21 09:26:51",
+  "ts": "2026-09-21 13:43:26",
   "v": "scmp_v4",
-  "new_count": 2,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3368220/why-china-weighing-debate-how-respond-shrinking-coastlines",
-      "title": "Why China is weighing into the debate on how to respond to shrinking coastlines",
-      "word_count": 1504,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/health-environment/article/3368218/easy-access-family-guns-fuels-philippine-school-shootings",
-      "title": "Easy access to family guns fuels Philippine school shootings",
-      "word_count": 1172,
+      "url": "https://www.scmp.com/week-asia/politics/article/3368278/southeast-asia-supports-multilateralism-wary-us-or-china-leadership-survey",
+      "title": "Southeast Asia supports multilateralism, wary of US or China leadership: survey",
+      "word_count": 1102,
       "quality": "fulltext",
       "is_premium": false
     }
