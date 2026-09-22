@@ -1,26 +1,19 @@
 {
-  "ts": "2026-09-22 08:54:48",
+  "ts": "2026-09-22 12:26:21",
   "v": "scmp_v4",
-  "new_count": 3,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/postmag/culture/article/3367439/wing-shya-photographer-wong-kar-wai-working-great-and-good-hong-kong-cinema",
-      "title": "Wing Shya: photographer to Wong Kar-wai on working with the great and good of Hong Kong cinema",
-      "word_count": 1627,
-      "quality": "fulltext_deep",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3368397/chinese-state-media-stresses-stability-set-tone-xi-trump-summit",
+      "title": "Constructive. Strategic. Stability. Chinese state media spell out Xi-Trump summit aim",
+      "word_count": 1096,
+      "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/china/science/article/3367968/could-chinese-explorers-have-settled-new-zealand-maori",
-      "title": "Could Chinese explorers have settled New Zealand before the Maori?",
-      "word_count": 2020,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3368366/indonesias-un-security-council-bid-tests-non-aligned-diplomacy",
-      "title": "Indonesia’s UN Security Council bid tests non-aligned diplomacy",
-      "word_count": 1005,
+      "url": "https://www.scmp.com/news/china/military/article/3368390/were-serbian-militarys-new-robot-dogs-built-using-chinese-technology",
+      "title": "Were the Serbian military’s new robot dogs built using Chinese technology?",
+      "word_count": 1014,
       "quality": "fulltext",
       "is_premium": false
     }
