@@ -1,19 +1,12 @@
 {
-  "ts": "2026-09-22 12:26:21",
+  "ts": "2026-09-22 14:12:56",
   "v": "scmp_v4",
-  "new_count": 2,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3368397/chinese-state-media-stresses-stability-set-tone-xi-trump-summit",
-      "title": "Constructive. Strategic. Stability. Chinese state media spell out Xi-Trump summit aim",
-      "word_count": 1096,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/military/article/3368390/were-serbian-militarys-new-robot-dogs-built-using-chinese-technology",
-      "title": "Were the Serbian military’s new robot dogs built using Chinese technology?",
-      "word_count": 1014,
+      "url": "https://www.scmp.com/news/china/military/article/3368380/taiwan-coastguards-rare-missile-firing-reveals-deepening-links-navy",
+      "title": "Taiwan coastguard’s rare missile firing reveals deepening links with navy",
+      "word_count": 1033,
       "quality": "fulltext",
       "is_premium": false
     }
