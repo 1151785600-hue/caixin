@@ -1,12 +1,19 @@
 {
-  "ts": "2026-09-22 17:35:14",
+  "ts": "2026-09-22 19:39:43",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/us/article/3368434/trump-defends-iran-war-touts-america-back-agenda-un-speech",
-      "title": "Trump defends Iran war, touts ‘America is back’ agenda in UN speech",
-      "word_count": 1489,
+      "url": "https://www.scmp.com/news/china/article/3368437/brazils-lula-backs-china-peace-push-un-tells-us-his-nation-no-ones-backyard",
+      "title": "Brazil’s Lula backs China peace push at UN, tells US his nation is ‘no one’s backyard’",
+      "word_count": 1258,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3339842/hong-kong-bar-trends-2026-comfort-classics-and-mindful-drinking",
+      "title": "Hong Kong bar trends in 2026: comfort, classics and mindful drinking",
+      "word_count": 1177,
       "quality": "fulltext",
       "is_premium": false
     }
