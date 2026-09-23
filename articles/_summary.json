@@ -1,6 +1,17 @@
 {
-  "ts": "2026-09-23 14:04:34",
+  "ts": "2026-09-23 16:00:20",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 2,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-09-23/analysis-chinas-outbound-investment-hits-record-214-billion-as-mega-deals-disappear-102488206.html",
+      "title": "Analysis: China’s Outbound Investment Hits Record $214 Billion as Mega Deals Disappear",
+      "word_count": 660
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-09-18/in-depth-why-geelys-founder-broke-with-chinese-business-tradition-for-his-succession-102486271.html",
+      "title": "In Depth: Why Geely’s Founder Broke With Chinese Business Tradition for His Succession",
+      "word_count": 544
+    }
+  ]
 }
