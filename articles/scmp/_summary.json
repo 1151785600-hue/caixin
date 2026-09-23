@@ -1,13 +1,13 @@
 {
-  "ts": "2026-09-23 17:47:08",
+  "ts": "2026-09-23 19:35:23",
   "v": "scmp_v4",
   "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/tech/tech-war/article/3368503/pacing-problem-can-ai-fears-overcome-us-china-race-dynamics-and-force-slowdown",
-      "title": "Pacing problem: can AI fears overcome US-China race dynamics and force a slowdown?",
-      "word_count": 2245,
-      "quality": "fulltext_deep",
+      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3368335/inside-bangkoks-world-gourmet-festival-where-top-chefs-share-kitchen",
+      "title": "Inside Bangkok’s World Gourmet Festival, where top chefs share the kitchen",
+      "word_count": 1125,
+      "quality": "fulltext",
       "is_premium": false
     }
   ]
