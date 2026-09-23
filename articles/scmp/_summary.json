@@ -1,21 +1,6 @@
 {
-  "ts": "2026-09-23 12:37:35",
+  "ts": "2026-09-23 14:28:31",
   "v": "scmp_v4",
-  "new_count": 2,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3368501/china-hawks-grumble-over-trumps-lavish-welcome-planned-xi-state-visit",
-      "title": "China hawks grumble over Trump’s lavish welcome planned for Xi state visit",
-      "word_count": 1124,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3368528/why-younger-filipinos-are-warming-china-despite-maritime-tensions",
-      "title": "Why younger Filipinos are warming to China despite maritime tensions",
-      "word_count": 1032,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
