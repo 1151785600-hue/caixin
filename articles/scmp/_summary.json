@@ -1,14 +1,6 @@
 {
-  "ts": "2026-09-24 17:48:48",
+  "ts": "2026-09-24 19:54:22",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/us/diplomacy/article/3368709/beyond-rose-garden-and-military-review-trump-and-xi-get-down-business",
-      "title": "Beyond the Rose Garden and the military review, Trump and Xi get down to business",
-      "word_count": 1251,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
