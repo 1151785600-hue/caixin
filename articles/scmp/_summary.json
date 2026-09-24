@@ -1,6 +1,21 @@
 {
-  "ts": "2026-09-24 08:52:49",
+  "ts": "2026-09-24 12:36:00",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 2,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3368664/summits-all-diplomatic-seasons-how-us-has-set-stage-xi-jinping",
+      "title": "Summits for all diplomatic seasons: how the US has set the stage for Xi Jinping",
+      "word_count": 1283,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3368631/philippines-impeachment-path-now-clear-convict-sara-duterte",
+      "title": "Philippines impeachment: is path now clear to convict Sara Duterte?",
+      "word_count": 1000,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
