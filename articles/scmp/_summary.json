@@ -1,14 +1,6 @@
 {
-  "ts": "2026-09-25 17:52:12",
+  "ts": "2026-09-25 19:56:17",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/article/3368869/china-set-decide-if-costa-rican-or-guyanese-diplomat-becomes-first-woman-un-chief",
-      "title": "China set to decide if Costa Rican or Guyanese diplomat becomes first woman UN chief",
-      "word_count": 1453,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
