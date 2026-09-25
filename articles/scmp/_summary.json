@@ -1,6 +1,266 @@
 {
-  "ts": "2026-09-24 19:54:22",
+  "ts": "2026-09-25 05:55:24",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 37,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3368643/what-xi-jinpings-letter-old-friends-iowa-means-struggling-altered-america",
+      "title": "What Xi Jinping’s letter to old friends in Iowa means in an altered America",
+      "word_count": 1721,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/us/diplomacy/article/3368709/beyond-rose-garden-and-military-review-trump-and-xi-get-down-business",
+      "title": "Beyond the Rose Garden and the military review, Trump and Xi get down to business",
+      "word_count": 1370,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3368683/chinese-ceos-fly-us-own-await-invites-trumps-state-dinner-xi-jinping",
+      "title": "Chinese CEOs fly to US on own, await invites to Trump’s state dinner for Xi Jinping",
+      "word_count": 1001,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3367849/china-us-may-unveil-measures-boost-military-ties-when-xi-visits-washington",
+      "title": "China, US may unveil measures to boost military ties when Xi visits Washington",
+      "word_count": 1110,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3367914/us-families-ramp-efforts-loved-ones-release-china-ahead-xis-visit",
+      "title": "US families ramp up efforts for loved ones’ release from China ahead of Xi’s visit",
+      "word_count": 1412,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/travel/article/3367827/escape-manilas-heat-northern-luzons-pine-scented-hills-hanging-coffins-and-other-hidden-wonders",
+      "title": "Escape Manila’s heat for northern Luzon’s pine-scented hills, hanging coffins and other hidden wonders",
+      "word_count": 1555,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/culture/article/3367403/paul-french-lifts-veil-final-months-chinas-last-emperor-forbidden-city",
+      "title": "Paul French lifts veil on final months of China’s last emperor in the Forbidden City",
+      "word_count": 1717,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/culture/article/3367421/ode-horse-5000-years-equine-domestication-display-new-kazakh-museum",
+      "title": "Ode to the horse: 5,000 years of human-equine connection on display in new Kazakh museum",
+      "word_count": 1932,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/culture/article/3367439/wing-shya-photographer-wong-kar-wai-working-great-and-good-hong-kong-cinema",
+      "title": "Wing Shya: photographer to Wong Kar-wai on working with the great and good of Hong Kong cinema",
+      "word_count": 1627,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/culture/article/3367454/bukhara-biennial-spearheads-cultural-blossoming-city-well-wider-uzbekistan",
+      "title": "Bukhara Biennial spearheads cultural blossoming of the city as well as the wider Uzbekistan",
+      "word_count": 1741,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/design-interiors/article/3285613/how-japans-infamous-nakagin-capsule-tower-finding-new-life",
+      "title": "How Japan’s innovative Nakagin Capsule Tower is finding new life",
+      "word_count": 1707,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3368335/inside-bangkoks-world-gourmet-festival-where-top-chefs-share-kitchen",
+      "title": "Inside Bangkok’s World Gourmet Festival, where top chefs share the kitchen",
+      "word_count": 1125,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3339842/hong-kong-bar-trends-2026-comfort-classics-and-mindful-drinking",
+      "title": "Hong Kong bar trends in 2026: comfort, classics and mindful drinking",
+      "word_count": 1177,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-war/article/3368503/pacing-problem-can-ai-fears-overcome-us-china-race-dynamics-and-force-slowdown",
+      "title": "Pacing problem: can AI fears overcome US-China race dynamics and force a slowdown?",
+      "word_count": 2306,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3360243/wu-shicun-why-beijing-will-not-rule-out-scarborough-shoal-construction",
+      "title": "Wu Shicun on why Beijing will not rule out Scarborough Shoal construction",
+      "word_count": 5027,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3339480/zheng-yongnian-trump-venezuela-and-why-china-doesnt-want-separate-kitchen",
+      "title": "Zheng Yongnian on Trump, Venezuela and why China doesn’t want ‘a separate kitchen’",
+      "word_count": 4464,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/global-economy/article/3329426/liu-qian-chinese-innovation-us-rivalry-and-women-holding-half-sky",
+      "title": "Liu Qian on Chinese innovation, the US rivalry and women holding up half the sky",
+      "word_count": 3764,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3327746/fuchsia-dunlop-tells-how-she-fell-chinas-cuisine-and-names-her-perfect-dish",
+      "title": "Fuchsia Dunlop tells how she fell for China’s cuisine and names her perfect dish",
+      "word_count": 3752,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3321056/80-years-wwii-chinas-interests-lie-peaceful-asia-pacific-rana-mitter",
+      "title": "80 years on from WWII, China’s interests lie in peaceful Asia-Pacific: Rana Mitter",
+      "word_count": 4368,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3320575/jeffrey-sachs-says-us-sabre-rattling-china-can-become-self-fulfilling-prophecy-war",
+      "title": "Jeffrey Sachs says US sabre-rattling at China can become self-fulfilling prophecy of war",
+      "word_count": 3823,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3368545/hong-kongs-animal-welfare-laws-fail-meet-modern-demands-experts-say",
+      "title": "Hong Kong’s animal welfare laws fail to meet modern demands, experts say",
+      "word_count": 1002,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3368258/ai-poses-new-national-security-threat-outgoing-hong-kong-deputy-police-chief-warns",
+      "title": "AI poses new national security threat, outgoing Hong Kong deputy police chief warns",
+      "word_count": 1092,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3368711/ukraines-pow-transfer-reveal-deals-north-korea-propaganda-blow",
+      "title": "Ukraine’s POW transfer reveal deals North Korea a propaganda blow",
+      "word_count": 1024,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3368631/philippines-impeachment-path-now-clear-convict-sara-duterte",
+      "title": "Philippines impeachment: is path now clear to convict Sara Duterte?",
+      "word_count": 1000,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3368481/us-turns-south-korea-ease-ammunition-bottlenecks-amid-global-conflicts",
+      "title": "US turns to South Korea to ease ammunition bottlenecks amid global conflicts",
+      "word_count": 1049,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3368528/why-younger-filipinos-are-warming-china-despite-maritime-tensions",
+      "title": "Why younger Filipinos are warming to China despite maritime tensions",
+      "word_count": 1032,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/asia-opinion/article/3367734/pacific-island-states-are-trapped-cold-war-20",
+      "title": "Pacific island states are trapped in Cold War 2.0",
+      "word_count": 1067,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3368031/south-korea-wants-free-ai-all-society-ready-it",
+      "title": "South Korea wants free ‘AI for All’. Is society ready?",
+      "word_count": 2628,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/health-environment/article/3367217/smoke-how-southeast-asia-bungled-its-haze-response",
+      "title": "Up in smoke: why Southeast Asia failed to halt the haze",
+      "word_count": 1700,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/health-environment/article/3366402/silver-linings-southeast-asia-ageing-big-business",
+      "title": "Golden years: in Southeast Asia, growing old is big business",
+      "word_count": 1866,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3365614/inside-thailands-bid-wire-worlds-ai-revolution",
+      "title": "Inside Thailand’s bid to wire the world’s AI revolution",
+      "word_count": 1653,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3368046/singapore-minister-chan-chun-sings-mandarin-diplomacy-strikes-china-chord",
+      "title": "Singapore minister Chan Chun Sing’s Mandarin diplomacy strikes China chord",
+      "word_count": 1011,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/global-economy/article/3368262/us-china-tech-war-has-evolved-last-xi-trump-summit-who-has-edge-now",
+      "title": "The US-China tech war has evolved since the last Xi-Trump summit. Who has the edge now?",
+      "word_count": 1761,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-war/article/3366387/talk-growing-tesla-spacex-merger-will-geopolitics-throw-spanner-works",
+      "title": "Talk is growing of a Tesla-SpaceX merger. Will geopolitics throw a spanner in the works?",
+      "word_count": 2218,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-trends/article/3364920/rural-city-once-known-livestock-now-provides-chinas-ai-computing-fuel",
+      "title": "A rural city, once known for livestock, now provides China’s AI computing fuel",
+      "word_count": 1781,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-trends/article/3361752/apples-biggest-ever-leak-happened-india-will-firms-rethink-their-china-relocations",
+      "title": "Apple’s biggest-ever leak happened in India. Will firms rethink their China relocations?",
+      "word_count": 1382,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/policy/article/3361779/investment-chinese-characteristics-how-beijings-money-reshaping-tech-ventures",
+      "title": "Investment with Chinese characteristics: how Beijing’s money is reshaping tech ventures",
+      "word_count": 1848,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    }
+  ]
 }
