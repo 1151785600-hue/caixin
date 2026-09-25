@@ -1,12 +1,26 @@
 {
-  "ts": "2026-09-25 09:13:25",
+  "ts": "2026-09-25 12:37:31",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 3,
   "articles": [
     {
-      "url": "https://www.scmp.com/week-asia/economics/article/3368765/indonesian-coal-deal-fuels-doubts-over-production-quota-approvals",
-      "title": "Indonesian coal deal fuels doubts over production quota approvals",
-      "word_count": 1173,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3368844/trump-hails-wwii-ally-china-xi-tells-bonds-forged-blood-and-fire",
+      "title": "Trump hails WWII ‘ally’ China as Xi tells of bonds ‘forged in blood and fire’",
+      "word_count": 1539,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3368821/indias-cockroach-movement-targets-election-chief-political-pivot",
+      "title": "India’s ‘cockroach’ movement targets election chief in political pivot",
+      "word_count": 1031,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/health-environment/article/3368812/philippines-short-lived-discord-ban-exposes-cracks-online-safety-strategy",
+      "title": "Philippines’ short-lived Discord ban exposes cracks in online safety strategy",
+      "word_count": 1241,
       "quality": "fulltext",
       "is_premium": false
     }
