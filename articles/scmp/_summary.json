@@ -1,6 +1,14 @@
 {
-  "ts": "2026-09-26 12:06:28",
+  "ts": "2026-09-26 13:55:08",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3368884/xi-trump-summit-china-and-us-open-super-intelligence-communications-channel",
+      "title": "Xi-Trump Washington summit aimed at putting US-China ties on equal footing: Wang Yi",
+      "word_count": 1416,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
