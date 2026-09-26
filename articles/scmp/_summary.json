@@ -1,12 +1,26 @@
 {
-  "ts": "2026-09-26 13:55:08",
+  "ts": "2026-09-26 16:59:48",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 3,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3368884/xi-trump-summit-china-and-us-open-super-intelligence-communications-channel",
-      "title": "Xi-Trump Washington summit aimed at putting US-China ties on equal footing: Wang Yi",
-      "word_count": 1416,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3368914/3-top-reasons-trump-will-face-stronger-xi-jinping-november-apec-forum-china",
+      "title": "3 top reasons Trump will face a stronger Xi Jinping at November Apec forum in China",
+      "word_count": 1215,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3368865/china-based-brics-bank-set-lead-role-hunger-alliance-year-brazil-says",
+      "title": "China-based Brics bank set for lead role in hunger alliance this year, Brazil says",
+      "word_count": 1026,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3368878/will-trump-xi-wartime-ally-nostalgia-prompt-japanese-rethink-china-ties",
+      "title": "Trump, Takaichi reaffirm US-Japan ties in phone call after Xi state visit",
+      "word_count": 1130,
       "quality": "fulltext",
       "is_premium": false
     }
