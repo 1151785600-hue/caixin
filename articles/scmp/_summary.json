@@ -1,26 +1,12 @@
 {
-  "ts": "2026-09-26 16:59:48",
+  "ts": "2026-09-26 19:08:11",
   "v": "scmp_v4",
-  "new_count": 3,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3368914/3-top-reasons-trump-will-face-stronger-xi-jinping-november-apec-forum-china",
-      "title": "3 top reasons Trump will face a stronger Xi Jinping at November Apec forum in China",
-      "word_count": 1215,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3368865/china-based-brics-bank-set-lead-role-hunger-alliance-year-brazil-says",
-      "title": "China-based Brics bank set for lead role in hunger alliance this year, Brazil says",
-      "word_count": 1026,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3368878/will-trump-xi-wartime-ally-nostalgia-prompt-japanese-rethink-china-ties",
-      "title": "Trump, Takaichi reaffirm US-Japan ties in phone call after Xi state visit",
-      "word_count": 1130,
+      "url": "https://www.scmp.com/news/us/article/3368918/why-us-chip-controls-took-back-seat-xi-trump-summit",
+      "title": "Why US chip controls took a back seat at the Xi-Trump summit",
+      "word_count": 1122,
       "quality": "fulltext",
       "is_premium": false
     }
