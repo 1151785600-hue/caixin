@@ -1,21 +1,6 @@
 {
-  "ts": "2026-09-27 09:40:17",
+  "ts": "2026-09-27 12:50:59",
   "v": "scmp_v4",
-  "new_count": 2,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3368941/why-southeast-asia-feels-relief-and-caution-after-xi-trump-summit",
-      "title": "Why Southeast Asia feels relief and caution after the Xi-Trump summit",
-      "word_count": 1109,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/postmag/design-interiors/article/3285613/how-japans-infamous-nakagin-capsule-tower-finding-new-life",
-      "title": "How Japan’s innovative Nakagin Capsule Tower is finding new life",
-      "word_count": 1707,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
