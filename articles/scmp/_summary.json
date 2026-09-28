@@ -1,14 +1,6 @@
 {
-  "ts": "2026-09-28 20:03:29",
+  "ts": "2026-09-28 21:45:36",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/business/banking-finance/article/3369097/jpmorgans-jamie-dimon-how-growth-can-untangle-us-china-strife-thorny-global-issues",
-      "title": "JPMorgan’s Jamie Dimon on how growth can untangle US-China strife, thorny global issues",
-      "word_count": 1739,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
