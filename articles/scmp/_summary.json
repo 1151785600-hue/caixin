@@ -1,14 +1,6 @@
 {
-  "ts": "2026-09-28 15:04:23",
+  "ts": "2026-09-28 17:49:48",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3368821/indias-cockroach-movement-targets-election-chief-political-pivot",
-      "title": "India’s ‘cockroach’ movement targets election chief in political pivot",
-      "word_count": 1231,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
