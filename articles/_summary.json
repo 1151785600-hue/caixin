@@ -1,6 +1,12 @@
 {
-  "ts": "2026-09-28 03:21:31",
+  "ts": "2026-09-28 09:24:29",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-09-28/chinas-top-court-curbs-use-of-criminal-cases-to-stall-civil-disputes-102489291.html",
+      "title": "China’s Top Court Curbs Use of Criminal Cases to Stall Civil Disputes",
+      "word_count": 802
+    }
+  ]
 }
