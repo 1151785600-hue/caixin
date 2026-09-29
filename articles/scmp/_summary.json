@@ -1,33 +1,33 @@
 {
-  "ts": "2026-09-29 10:15:53",
+  "ts": "2026-09-29 13:50:39",
   "v": "scmp_v4",
   "new_count": 4,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3369154/china-warns-japan-over-wwii-history-business-delegation-visits-beijing",
-      "title": "China warns Japan over WWII history as business delegation visits Beijing",
-      "word_count": 1071,
+      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3369235/sell-family-jewels-latest-iphone-india-craze-dials-debate",
+      "title": "Sell family jewels for latest iPhone? In India, craze dials up debate",
+      "word_count": 1209,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3320575/jeffrey-sachs-says-us-sabre-rattling-china-can-become-self-fulfilling-prophecy-war",
-      "title": "Jeffrey Sachs says US sabre-rattling at China can become self-fulfilling prophecy of war",
-      "word_count": 3823,
-      "quality": "fulltext_deep",
+      "url": "https://www.scmp.com/week-asia/politics/article/3369219/india-europe-trade-corridor-gets-trumps-backing-can-imec-survive-war",
+      "title": "India-Europe trade corridor gets Trump’s backing, but can IMEC survive war?",
+      "word_count": 1087,
+      "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3369173/malaysias-forest-city-wants-rebirth-scams-crime-stand-way",
-      "title": "Malaysia’s Forest City wants a rebirth. Scams, crime stand in the way",
-      "word_count": 1618,
-      "quality": "fulltext_deep",
+      "url": "https://www.scmp.com/week-asia/politics/article/3369216/philippine-coastguard-battles-funding-cuts-amid-bigger-south-china-sea-role",
+      "title": "Philippine coastguard battles funding cuts amid bigger South China Sea role",
+      "word_count": 1019,
+      "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3369126/philippines-struggles-fill-20000-teaching-jobs-we-are-facing-learning-crisis",
-      "title": "Philippines struggles to fill 20,000 teaching jobs: ‘we are facing a learning crisis’",
-      "word_count": 1010,
+      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3369210/singapore-or-bust-how-indonesian-students-crowdfunding-plea-shows-degree-desirability",
+      "title": "Singapore or bust: how Indonesian student’s crowdfunding plea shows degree of desirability",
+      "word_count": 1018,
       "quality": "fulltext",
       "is_premium": false
     }
