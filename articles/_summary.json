@@ -1,6 +1,17 @@
 {
-  "ts": "2026-09-28 20:53:19",
+  "ts": "2026-09-29 03:58:16",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 2,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-09-29/in-depth-chinese-machine-maker-hit-with-massive-penalty-in-landmark-ip-theft-case-102489497.html",
+      "title": "In Depth: Chinese Machine Maker Hit With Massive Penalty in Landmark IP Theft Case",
+      "word_count": 307
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-09-29/hong-kong-students-death-at-uk-camp-was-preventable-review-finds-102489402.html",
+      "title": "Hong Kong Student’s Death at U.K. Camp Was Preventable, Review Finds",
+      "word_count": 783
+    }
+  ]
 }
