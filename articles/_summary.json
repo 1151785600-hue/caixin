@@ -1,6 +1,12 @@
 {
-  "ts": "2026-09-29 19:41:26",
+  "ts": "2026-09-30 03:45:44",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-09-28/in-depth-faw-gac-deal-tests-a-new-path-for-chinas-auto-consolidation-102489282.html",
+      "title": "Cover Story: FAW-GAC Deal Tests a New Path for China’s Auto Consolidation",
+      "word_count": 565
+    }
+  ]
 }
