@@ -1,14 +1,6 @@
 {
-  "ts": "2026-09-30 16:07:05",
+  "ts": "2026-09-30 18:20:06",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/politics/article/3369370/xi-projects-confidence-national-day-speech-rallying-call-economic-growth",
-      "title": "Xi projects confidence in National Day speech, with rallying call for economic growth",
-      "word_count": 1067,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
