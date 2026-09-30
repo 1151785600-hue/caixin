@@ -1,35 +1,6 @@
 {
-  "ts": "2026-09-30 10:06:55",
+  "ts": "2026-09-30 13:24:27",
   "v": "scmp_v4",
-  "new_count": 4,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3369303/eu-weighs-sweeping-new-trade-powers-against-china-make-or-break-october",
-      "title": "EU weighs sweeping new trade powers against China before make-or-break October",
-      "word_count": 1159,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/postmag/native/topics/aia-scholarships/article/3368674/how-zara-chui-aims-find-early-warning-solutions-fatty-liver-disease",
-      "title": "How Zara Chui aims to find early-warning solutions for fatty liver disease",
-      "word_count": 1118,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3369211/hong-kong-guangdong-exploring-rich-tapestry-cantonese-culinary-traditions",
-      "title": "From Hong Kong to Guangdong, exploring the rich tapestry of Cantonese culinary traditions",
-      "word_count": 1308,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3369311/singapore-jails-man-slapping-preschooler-bus-stop-over-rude-gesture",
-      "title": "Singapore jails man for slapping preschooler at bus stop over rude gesture",
-      "word_count": 1274,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
