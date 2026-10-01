@@ -1,6 +1,21 @@
 {
-  "ts": "2026-10-01 16:42:41",
+  "ts": "2026-10-01 18:46:09",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 2,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/postmag/culture/article/3367439/wing-shya-photographer-wong-kar-wai-working-great-and-good-hong-kong-cinema",
+      "title": "Wing Shya: photographer to Wong Kar-wai on working with the great and good of Hong Kong cinema",
+      "word_count": 1627,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/native/topics/aia-scholarships/article/3368680/how-wilson-chengs-start-cutting-flight-food-waste",
+      "title": "How Wilson Cheng’s start-up is cutting in-flight food waste",
+      "word_count": 1056,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
