@@ -1,12 +1,33 @@
 {
-  "ts": "2026-10-01 10:35:53",
+  "ts": "2026-10-01 14:17:38",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 4,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3369459/days-after-xi-trump-summit-us-marks-chinas-national-day-pared-down-note",
-      "title": "Days after Xi-Trump summit, the US marks China’s National Day with pared-down note",
-      "word_count": 1029,
+      "url": "https://www.scmp.com/news/china/military/article/3369442/why-us-himars-missile-shortfalls-raise-stakes-potential-taiwan-strait-conflict",
+      "title": "Why US Himars missile shortfalls raise stakes for a potential Taiwan Strait conflict",
+      "word_count": 1499,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3369334/chinese-research-ship-near-batanes-sparks-undersea-cable-concerns-manila",
+      "title": "Beijing slams ‘harassment’ after Manila challenges research ship near Batanes",
+      "word_count": 1044,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3369463/south-korea-hits-back-trumps-investment-claims-tit-tat-move",
+      "title": "South Korea hits back at Trump’s investment claims in ‘tit-for-tat move’",
+      "word_count": 1092,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3369473/anti-south-asian-online-hate-surges-us-under-trump-20-study-finds",
+      "title": "Anti-South Asian online hate surges in US under Trump 2.0, study finds",
+      "word_count": 1013,
       "quality": "fulltext",
       "is_premium": false
     }
