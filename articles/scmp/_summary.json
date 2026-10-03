@@ -1,14 +1,6 @@
 {
-  "ts": "2026-10-03 14:26:15",
+  "ts": "2026-10-03 17:08:13",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/article/3369654/chinese-art-takes-long-march-home-us-museums",
-      "title": "Chinese art takes long march home from US museums",
-      "word_count": 1746,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
