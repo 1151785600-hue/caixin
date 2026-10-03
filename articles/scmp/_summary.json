@@ -1,14 +1,6 @@
 {
-  "ts": "2026-10-03 09:33:09",
+  "ts": "2026-10-03 12:18:19",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3369645/saudi-arabia-steps-war-against-yemens-houthis-pakistan-set-play-support-role",
-      "title": "As Saudi Arabia steps up war against Yemen’s Houthis, Pakistan set to play support role",
-      "word_count": 1109,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
