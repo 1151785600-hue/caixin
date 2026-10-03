@@ -1,6 +1,12 @@
 {
-  "ts": "2026-10-03 14:08:19",
+  "ts": "2026-10-03 15:38:30",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-10-01/in-depth-whats-in-the-us-china-tariff-truce-and-whats-left-unsettled-102490269.html",
+      "title": "In Depth: What’s in the China-U.S. Tariff Truce, and What’s Left Unsettled",
+      "word_count": 486
+    }
+  ]
 }
