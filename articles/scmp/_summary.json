@@ -1,6 +1,259 @@
 {
-  "ts": "2026-10-03 19:07:24",
+  "ts": "2026-10-04 06:39:09",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 36,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/article/3369654/chinese-art-takes-long-march-home-us-museums",
+      "title": "Chinese art takes long march home from US museums",
+      "word_count": 1746,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/science/article/3369619/malaysia-building-new-research-corridor-across-asia-meet-chinas-rise-scientists",
+      "title": "Malaysia is building a new research corridor across Asia to meet China’s rise: scientists",
+      "word_count": 1242,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3369638/us-blast-simulation-targets-chinas-alleged-secret-nuclear-testing",
+      "title": "US blast simulation targets China’s alleged secret nuclear testing",
+      "word_count": 1057,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3369609/if-young-us-people-accept-xis-invitation-china-what-will-beijing-show-them",
+      "title": "If young US people accept Xi’s invitation to China, what will Beijing show them?",
+      "word_count": 1157,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/native/topics/kellett-vision-2035/article/3368795/hong-kongs-kellett-school-celebrates-50-years-bold-10-year-plan-and-new-sixth-form-centre",
+      "title": "Hong Kong’s Kellett School celebrates 50 years with bold 10-year plan and new Sixth Form Centre",
+      "word_count": 1572,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/culture/article/3367439/wing-shya-photographer-wong-kar-wai-working-great-and-good-hong-kong-cinema",
+      "title": "Wing Shya: photographer to Wong Kar-wai on working with the great and good of Hong Kong cinema",
+      "word_count": 1627,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/native/topics/aia-scholarships/article/3368674/how-zara-chui-aims-find-early-warning-solutions-fatty-liver-disease",
+      "title": "How Zara Chui aims to find early-warning solutions for fatty liver disease",
+      "word_count": 1118,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3369211/hong-kong-guangdong-exploring-rich-tapestry-cantonese-culinary-traditions",
+      "title": "From Hong Kong to Guangdong, exploring the rich tapestry of Cantonese culinary traditions",
+      "word_count": 1308,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3368335/inside-bangkoks-world-gourmet-festival-where-top-chefs-share-kitchen",
+      "title": "Inside Bangkok’s World Gourmet Festival, where top chefs share the kitchen",
+      "word_count": 1125,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3360243/wu-shicun-why-beijing-will-not-rule-out-scarborough-shoal-construction",
+      "title": "Wu Shicun on why Beijing will not rule out Scarborough Shoal construction",
+      "word_count": 5027,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3339480/zheng-yongnian-trump-venezuela-and-why-china-doesnt-want-separate-kitchen",
+      "title": "Zheng Yongnian on Trump, Venezuela and why China doesn’t want ‘a separate kitchen’",
+      "word_count": 4464,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/global-economy/article/3329426/liu-qian-chinese-innovation-us-rivalry-and-women-holding-half-sky",
+      "title": "Liu Qian on Chinese innovation, the US rivalry and women holding up half the sky",
+      "word_count": 3764,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3327746/fuchsia-dunlop-tells-how-she-fell-chinas-cuisine-and-names-her-perfect-dish",
+      "title": "Fuchsia Dunlop tells how she fell for China’s cuisine and names her perfect dish",
+      "word_count": 3752,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3321056/80-years-wwii-chinas-interests-lie-peaceful-asia-pacific-rana-mitter",
+      "title": "80 years on from WWII, China’s interests lie in peaceful Asia-Pacific: Rana Mitter",
+      "word_count": 4368,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3320575/jeffrey-sachs-says-us-sabre-rattling-china-can-become-self-fulfilling-prophecy-war",
+      "title": "Jeffrey Sachs says US sabre-rattling at China can become self-fulfilling prophecy of war",
+      "word_count": 3823,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3369476/brotherhood-myth-hong-kongs-triads-evolve-amid-new-criminal-landscape",
+      "title": "The myth of brotherhood: Hong Kong’s triads evolve amid new criminal landscape",
+      "word_count": 2416,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/health-environment/article/3369592/sinking-city-rising-rage-bangkoks-floods-fuel-fury-over-government-inaction",
+      "title": "Sinking city, rising rage: Bangkok’s floods fuel fury over government inaction",
+      "word_count": 1346,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3369593/name-and-shame-japans-tame-answer-jobseeker-sex-harassment",
+      "title": "Name and shame: Japan’s tame answer to jobseeker sex harassment",
+      "word_count": 1087,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3369591/going-car-lite-why-more-singaporeans-are-quitting-driving",
+      "title": "Going ‘car-lite’: why more Singaporeans are quitting driving",
+      "word_count": 2110,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3369548/why-film-about-dictator-has-south-korea-war-itself",
+      "title": "Why a film about a dictator has South Korea at war with itself",
+      "word_count": 1205,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3369554/why-sabah-has-malaysia-watching-south-china-sea-tensions-more-closely",
+      "title": "Why Sabah has Malaysia watching South China Sea tensions more closely",
+      "word_count": 1124,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3369463/south-korea-hits-back-trumps-investment-claims-tit-tat-move",
+      "title": "South Korea hits back at Trump’s investment claims in ‘tit-for-tat move’",
+      "word_count": 1092,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/opinion/article/3369597/pas-wants-urban-malaysias-vote-can-it-win-over-urban-malays",
+      "title": "PAS wants urban Malaysia’s vote. Can it win over urban Malays?",
+      "word_count": 1126,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/opinion/article/3368823/southeast-asia-faces-false-binary-us-china-mineral-trade",
+      "title": "Southeast Asia faces a false binary in US-China mineral trade",
+      "word_count": 1104,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3369645/saudi-arabia-steps-war-against-yemens-houthis-pakistan-set-play-support-role",
+      "title": "As Saudi Arabia steps up war against Yemen’s Houthis, Pakistan set to play support role",
+      "word_count": 1109,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3368828/thailand-has-had-enough-foreign-tourists-behaving-badly",
+      "title": "Thailand has had enough of foreign tourists behaving badly",
+      "word_count": 2143,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3368031/south-korea-wants-free-ai-all-society-ready-it",
+      "title": "South Korea wants free ‘AI for All’. Is society ready?",
+      "word_count": 2628,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/health-environment/article/3367217/smoke-how-southeast-asia-bungled-its-haze-response",
+      "title": "Up in smoke: why Southeast Asia failed to halt the haze",
+      "word_count": 1700,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/hong-kong-opinion/article/3369302/hong-kong-vs-singapore-tackling-bad-behaviour",
+      "title": "Hong Kong vs Singapore in tackling bad behaviour",
+      "word_count": 1058,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/global-economy/article/3369599/china-has-dominated-tungsten-decades-can-us-cash-central-asia-loosen-its-grip",
+      "title": "China has dominated tungsten for decades. Can US cash in Central Asia loosen its grip?",
+      "word_count": 1817,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/china-economy/article/3369294/us-sanctions-forced-xinjiang-cotton-adapt-survival-comes-cost",
+      "title": "US sanctions forced Xinjiang cotton to adapt, but survival comes at a cost",
+      "word_count": 2537,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/banking-finance/article/3369097/jpmorgans-jamie-dimon-how-growth-can-untangle-us-china-strife-thorny-global-issues",
+      "title": "JPMorgan’s Jamie Dimon on how growth can untangle US-China strife, thorny global issues",
+      "word_count": 1738,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-war/article/3366387/talk-growing-tesla-spacex-merger-will-geopolitics-throw-spanner-works",
+      "title": "Talk is growing of a Tesla-SpaceX merger. Will geopolitics throw a spanner in the works?",
+      "word_count": 2218,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-trends/article/3364920/rural-city-once-known-livestock-now-provides-chinas-ai-computing-fuel",
+      "title": "A rural city, once known for livestock, now provides China’s AI computing fuel",
+      "word_count": 1781,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-trends/article/3361752/apples-biggest-ever-leak-happened-india-will-firms-rethink-their-china-relocations",
+      "title": "Apple’s biggest-ever leak happened in India. Will firms rethink their China relocations?",
+      "word_count": 1382,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/policy/article/3361779/investment-chinese-characteristics-how-beijings-money-reshaping-tech-ventures",
+      "title": "Investment with Chinese characteristics: how Beijing’s money is reshaping tech ventures",
+      "word_count": 1848,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    }
+  ]
 }
