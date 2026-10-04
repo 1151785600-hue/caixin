@@ -1,14 +1,6 @@
 {
-  "ts": "2026-10-04 10:19:00",
+  "ts": "2026-10-04 13:04:35",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/politics/article/3369692/taipeis-dilemma-over-history-deepens-xi-trump-praise-wwii-flying-tigers",
-      "title": "Taipei’s dilemma over history deepens with Xi-Trump praise of WWII Flying Tigers",
-      "word_count": 1004,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
