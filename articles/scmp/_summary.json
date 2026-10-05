@@ -1,26 +1,12 @@
 {
-  "ts": "2026-10-05 11:01:00",
+  "ts": "2026-10-05 15:39:18",
   "v": "scmp_v4",
-  "new_count": 3,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/military/article/3369775/why-plas-z-10-attack-helicopter-taking-bigger-role-sea",
-      "title": "Why the PLA’s Z-10 attack helicopter is taking a bigger role at sea",
-      "word_count": 1005,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/military/article/3369795/us-defence-experts-work-inside-taiwan-military-hq-under-reported-pact",
-      "title": "US defence experts to work inside Taiwan military HQ under reported pact",
-      "word_count": 1044,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/economics/article/3369788/southeast-asia-starts-rethink-its-ai-data-centre-boom-what-cost",
-      "title": "Southeast Asia starts to rethink its AI data centre boom: ‘at what cost?’",
-      "word_count": 1022,
+      "url": "https://www.scmp.com/news/us/article/3369832/us-search-missing-airmen-china-gains-new-attention-after-xi-trump-summit",
+      "title": "US search for missing airmen in China gains new attention after Xi-Trump summit",
+      "word_count": 1045,
       "quality": "fulltext",
       "is_premium": false
     }
