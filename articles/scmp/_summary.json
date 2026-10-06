@@ -1,21 +1,6 @@
 {
-  "ts": "2026-10-06 10:55:45",
+  "ts": "2026-10-06 14:00:10",
   "v": "scmp_v4",
-  "new_count": 2,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3369905/court-hears-laws-tried-turn-children-against-abby-choi-over-hk72m-flat",
-      "title": "Abby Choi called ex-father-in-law ‘old crook’ amid HK$72m flat row, court hears",
-      "word_count": 1018,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/economics/article/3369889/how-singapores-local-cafes-compete-chinese-coffee-giant-luckin",
-      "title": "How Singapore’s local cafes compete with Chinese coffee giant Luckin",
-      "word_count": 1098,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
