@@ -1,6 +1,14 @@
 {
-  "ts": "2026-10-07 17:01:59",
+  "ts": "2026-10-07 19:16:31",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/postmag/travel/article/3369159/antwerp-well-seasoned-melting-pot-rubens-diamonds-and-belgiums-only-chinatown",
+      "title": "Antwerp: a well-seasoned melting pot of Rubens, diamonds and Belgium’s only Chinatown",
+      "word_count": 2205,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    }
+  ]
 }
