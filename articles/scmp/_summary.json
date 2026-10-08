@@ -1,19 +1,12 @@
 {
-  "ts": "2026-10-08 11:03:01",
+  "ts": "2026-10-08 14:25:58",
   "v": "scmp_v4",
-  "new_count": 2,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/week-asia/politics/article/3370175/indonesia-will-vp-gibrans-diploma-gate-haunt-his-future-after-court-ruling",
-      "title": "In Indonesia, will VP Gibran’s ‘diploma-gate’ haunt his future after court ruling?",
-      "word_count": 1059,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3370136/why-chinas-new-air-force-base-laos-could-rattle-vietnam",
-      "title": "Why China’s new air force base in Laos could rattle Vietnam",
-      "word_count": 1123,
+      "url": "https://www.scmp.com/news/china/military/article/3370210/how-expanded-japan-us-military-exercises-could-complicate-pla-planning-over-taiwan",
+      "title": "How expanded Japan-US military exercises could complicate PLA planning over Taiwan",
+      "word_count": 1024,
       "quality": "fulltext",
       "is_premium": false
     }
