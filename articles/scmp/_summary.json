@@ -1,6 +1,217 @@
 {
-  "ts": "2026-10-07 21:08:26",
+  "ts": "2026-10-08 07:02:38",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 30,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3370028/g2-illusion-after-xi-trump-summit-china-wants-equality-while-us-seeks-deals",
+      "title": "The ‘G2’ illusion? After Xi-Trump summit, China wants equality while the US seeks deals",
+      "word_count": 1655,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3370009/how-closer-china-us-ties-and-more-xi-trump-summits-could-work-irans-favour",
+      "title": "How closer China-US ties – and more Xi-Trump summits – could work in Iran’s favour",
+      "word_count": 1047,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/china-opinion/article/3369893/beyond-summit-how-us-china-relations-could-still-unravel",
+      "title": "Beyond the summit: how US-China relations could still unravel",
+      "word_count": 1039,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/native/topics/ydc-2026/article/3369034/tsui-ao-lungs-journey-airport-worker-hong-kong-fashion-champion",
+      "title": "Tsui Ao-lung’s journey from airport worker to Hong Kong fashion champion",
+      "word_count": 1463,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/native/topics/kellett-vision-2035/article/3368795/hong-kongs-kellett-school-celebrates-50-years-bold-10-year-plan-and-new-sixth-form-centre",
+      "title": "Hong Kong’s Kellett School celebrates 50 years with bold 10-year plan and new Sixth Form Centre",
+      "word_count": 1572,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/travel/article/3369159/antwerp-well-seasoned-melting-pot-rubens-diamonds-and-belgiums-only-chinatown",
+      "title": "Antwerp: a well-seasoned melting pot of Rubens, diamonds and Belgium’s only Chinatown",
+      "word_count": 2205,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3369211/hong-kong-guangdong-exploring-rich-tapestry-cantonese-culinary-traditions",
+      "title": "From Hong Kong to Guangdong, exploring the rich tapestry of Cantonese culinary traditions",
+      "word_count": 1308,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3368335/inside-bangkoks-world-gourmet-festival-where-top-chefs-share-kitchen",
+      "title": "Inside Bangkok’s World Gourmet Festival, where top chefs share the kitchen",
+      "word_count": 1125,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3360243/wu-shicun-why-beijing-will-not-rule-out-scarborough-shoal-construction",
+      "title": "Wu Shicun on why Beijing will not rule out Scarborough Shoal construction",
+      "word_count": 5027,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3339480/zheng-yongnian-trump-venezuela-and-why-china-doesnt-want-separate-kitchen",
+      "title": "Zheng Yongnian on Trump, Venezuela and why China doesn’t want ‘a separate kitchen’",
+      "word_count": 4464,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/global-economy/article/3329426/liu-qian-chinese-innovation-us-rivalry-and-women-holding-half-sky",
+      "title": "Liu Qian on Chinese innovation, the US rivalry and women holding up half the sky",
+      "word_count": 3764,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3327746/fuchsia-dunlop-tells-how-she-fell-chinas-cuisine-and-names-her-perfect-dish",
+      "title": "Fuchsia Dunlop tells how she fell for China’s cuisine and names her perfect dish",
+      "word_count": 3752,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3321056/80-years-wwii-chinas-interests-lie-peaceful-asia-pacific-rana-mitter",
+      "title": "80 years on from WWII, China’s interests lie in peaceful Asia-Pacific: Rana Mitter",
+      "word_count": 4368,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3320575/jeffrey-sachs-says-us-sabre-rattling-china-can-become-self-fulfilling-prophecy-war",
+      "title": "Jeffrey Sachs says US sabre-rattling at China can become self-fulfilling prophecy of war",
+      "word_count": 3823,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3369905/court-hears-laws-tried-turn-children-against-abby-choi-over-hk72m-flat",
+      "title": "Abby Choi called ex-father-in-law ‘old crook’ amid HK$72m flat row, court hears",
+      "word_count": 1018,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3369476/brotherhood-myth-hong-kongs-triads-evolve-amid-new-criminal-landscape",
+      "title": "The myth of brotherhood: Hong Kong’s triads evolve amid new criminal landscape",
+      "word_count": 2416,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3370115/data-centre-opposition-growing-australia-there-middle-ground",
+      "title": "Data centre opposition is growing in Australia. Is there a middle ground?",
+      "word_count": 1191,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3370111/protect-middle-why-southeast-asia-should-care-about-vulnerable-class",
+      "title": "Protect the middle? Why Southeast Asia should care about a vulnerable class",
+      "word_count": 1022,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/opinion/article/3369597/pas-wants-urban-malaysias-vote-can-it-win-over-urban-malays",
+      "title": "PAS wants urban Malaysia’s vote. Can it win over urban Malays?",
+      "word_count": 1126,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3369591/going-car-lite-why-more-singaporeans-are-quitting-driving",
+      "title": "Going ‘car-lite’: why more Singaporeans are quitting driving",
+      "word_count": 2110,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3368828/thailand-has-had-enough-foreign-tourists-behaving-badly",
+      "title": "Thailand has had enough of foreign tourists behaving badly",
+      "word_count": 2143,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3368031/south-korea-wants-free-ai-all-society-ready-it",
+      "title": "South Korea wants free ‘AI for All’. Is society ready?",
+      "word_count": 2628,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/health-environment/article/3367217/smoke-how-southeast-asia-bungled-its-haze-response",
+      "title": "Up in smoke: why Southeast Asia failed to halt the haze",
+      "word_count": 1700,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/global-economy/article/3369918/after-cordial-xi-trump-summit-could-chinas-us-dollar-pivot-cause-tremors",
+      "title": "After cordial Xi-Trump summit, could China’s US dollar pivot cause tremors?",
+      "word_count": 1559,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/global-economy/article/3369599/china-has-dominated-tungsten-decades-can-us-cash-central-asia-loosen-its-grip",
+      "title": "China has dominated tungsten for decades. Can US cash in Central Asia loosen its grip?",
+      "word_count": 1817,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/big-tech/article/3369595/temu-took-world-storm-has-shopping-app-lost-its-thunder",
+      "title": "Temu took the world by storm – but has the shopping app lost its thunder?",
+      "word_count": 2181,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-war/article/3366387/talk-growing-tesla-spacex-merger-will-geopolitics-throw-spanner-works",
+      "title": "Talk is growing of a Tesla-SpaceX merger. Will geopolitics throw a spanner in the works?",
+      "word_count": 2218,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-trends/article/3364920/rural-city-once-known-livestock-now-provides-chinas-ai-computing-fuel",
+      "title": "A rural city, once known for livestock, now provides China’s AI computing fuel",
+      "word_count": 1781,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-trends/article/3361752/apples-biggest-ever-leak-happened-india-will-firms-rethink-their-china-relocations",
+      "title": "Apple’s biggest-ever leak happened in India. Will firms rethink their China relocations?",
+      "word_count": 1382,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/policy/article/3361779/investment-chinese-characteristics-how-beijings-money-reshaping-tech-ventures",
+      "title": "Investment with Chinese characteristics: how Beijing’s money is reshaping tech ventures",
+      "word_count": 1848,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    }
+  ]
 }
