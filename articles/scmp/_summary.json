@@ -1,6 +1,14 @@
 {
-  "ts": "2026-10-08 17:00:23",
+  "ts": "2026-10-08 19:12:41",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/postmag/passions/article/3369089/after-losing-both-legs-snowboarder-neil-tsui-sets-his-sights-paralympics",
+      "title": "After losing both legs, snowboarder Neil Tsui sets his sights on the Paralympics",
+      "word_count": 1376,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
