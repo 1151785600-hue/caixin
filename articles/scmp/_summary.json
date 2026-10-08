@@ -1,14 +1,6 @@
 {
-  "ts": "2026-10-08 14:25:58",
+  "ts": "2026-10-08 17:00:23",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/military/article/3370210/how-expanded-japan-us-military-exercises-could-complicate-pla-planning-over-taiwan",
-      "title": "How expanded Japan-US military exercises could complicate PLA planning over Taiwan",
-      "word_count": 1024,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
