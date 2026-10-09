@@ -1,21 +1,6 @@
 {
-  "ts": "2026-10-09 18:43:20",
+  "ts": "2026-10-09 20:42:51",
   "v": "scmp_v4",
-  "new_count": 2,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/postmag/passions/article/3370165/hong-kongs-historic-vessels-sail-future",
-      "title": "Hong Kong’s historic vessels sail into the future",
-      "word_count": 2584,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/politics/article/3369692/taipeis-dilemma-over-history-deepens-xi-trump-praise-wwii-flying-tigers",
-      "title": "Taipei’s dilemma over history deepens with Xi-Trump praise of WWII Flying Tigers",
-      "word_count": 1004,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
