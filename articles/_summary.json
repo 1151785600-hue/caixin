@@ -1,6 +1,17 @@
 {
-  "ts": "2026-10-08 20:17:45",
+  "ts": "2026-10-09 04:20:32",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 2,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-10-09/china-unveils-first-nationwide-labor-rules-to-protect-gig-economy-workers-102491464.html",
+      "title": "China Unveils First Nationwide Labor Rules to Protect Gig Economy Workers",
+      "word_count": 591
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-10-09/midcareer-professionals-drive-migration-reversal-in-chinas-northeast-102491456.html",
+      "title": "Midcareer Professionals Drive Migration Reversal in China’s Northeast",
+      "word_count": 613
+    }
+  ]
 }
