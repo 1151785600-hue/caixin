@@ -1,21 +1,6 @@
 {
-  "ts": "2026-10-09 14:12:53",
+  "ts": "2026-10-09 16:38:35",
   "v": "scmp_v4",
-  "new_count": 2,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3370291/why-confrontational-posture-wont-help-china-arctic",
-      "title": "Why a ‘confrontational posture’ won’t help China in the Arctic",
-      "word_count": 1137,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3370387/elon-musks-starlink-row-india-exposes-asias-deeper-battle-over-satellite-power",
-      "title": "Elon Musk’s Starlink row in India exposes Asia’s deeper battle over satellite power",
-      "word_count": 1083,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
