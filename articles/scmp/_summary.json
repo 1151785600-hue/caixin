@@ -1,12 +1,12 @@
 {
-  "ts": "2026-10-10 13:22:08",
+  "ts": "2026-10-10 15:35:12",
   "v": "scmp_v4",
   "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/politics/article/3370442/taiwanese-leader-welcomes-talks-between-washington-and-beijing-reduce-risk-war",
-      "title": "Taiwanese leader welcomes talks between Washington and Beijing ‘to reduce risk of war’",
-      "word_count": 1320,
+      "url": "https://www.scmp.com/news/china/military/article/3370439/are-chinese-military-aircraft-already-using-new-joint-air-facility-laos",
+      "title": "Are Chinese military aircraft already using a new joint air facility in Laos?",
+      "word_count": 1030,
       "quality": "fulltext",
       "is_premium": false
     }
