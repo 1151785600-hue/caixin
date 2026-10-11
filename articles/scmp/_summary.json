@@ -1,14 +1,6 @@
 {
-  "ts": "2026-10-11 15:59:07",
+  "ts": "2026-10-11 17:57:26",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/business/markets/article/3370375/chinese-brokers-work-crack-final-code-win-clients-global-stage",
-      "title": "Chinese brokers work to crack the final code: win clients on global stage",
-      "word_count": 2082,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
