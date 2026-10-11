@@ -1,20 +1,13 @@
 {
-  "ts": "2026-10-11 13:50:35",
+  "ts": "2026-10-11 15:59:07",
   "v": "scmp_v4",
-  "new_count": 2,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/us/article/3370412/hawaiian-son-honolulu-honours-sun-yat-sen-his-landmarks-vanish",
-      "title": "‘A Hawaiian son’: Honolulu honours Sun Yat-sen as his landmarks vanish",
-      "word_count": 1790,
+      "url": "https://www.scmp.com/business/markets/article/3370375/chinese-brokers-work-crack-final-code-win-clients-global-stage",
+      "title": "Chinese brokers work to crack the final code: win clients on global stage",
+      "word_count": 2082,
       "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3370482/eus-china-dilemma-how-counter-beijing-without-alienating-friends",
-      "title": "The EU’s China dilemma: how to counter Beijing without alienating friends",
-      "word_count": 1033,
-      "quality": "fulltext",
       "is_premium": false
     }
   ]
