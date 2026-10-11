@@ -1,12 +1,19 @@
 {
-  "ts": "2026-10-11 10:27:13",
+  "ts": "2026-10-11 13:50:35",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3370483/abby-choi-hello-kitty-killing-hong-kongs-most-shocking-crimes",
-      "title": "From Abby Choi to the ‘Hello Kitty’ killing: Hong Kong’s most shocking crimes",
-      "word_count": 1082,
+      "url": "https://www.scmp.com/news/us/article/3370412/hawaiian-son-honolulu-honours-sun-yat-sen-his-landmarks-vanish",
+      "title": "‘A Hawaiian son’: Honolulu honours Sun Yat-sen as his landmarks vanish",
+      "word_count": 1790,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3370482/eus-china-dilemma-how-counter-beijing-without-alienating-friends",
+      "title": "The EU’s China dilemma: how to counter Beijing without alienating friends",
+      "word_count": 1033,
       "quality": "fulltext",
       "is_premium": false
     }
