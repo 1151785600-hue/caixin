@@ -1,6 +1,14 @@
 {
-  "ts": "2026-10-12 21:39:50",
+  "ts": "2026-10-12 22:49:53",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3370572/laser-shields-iphone-detectors-inside-chinas-booming-secrecy-industry",
+      "title": "From laser shields to iPhone detectors: inside China’s booming secrecy industry",
+      "word_count": 1778,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    }
+  ]
 }
