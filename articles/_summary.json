@@ -1,6 +1,12 @@
 {
-  "ts": "2026-10-11 19:14:46",
+  "ts": "2026-10-12 04:05:06",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-10-09/yuans-global-role-is-expanding-beyond-tradeexecs-say-102491707.html",
+      "title": "Yuan’s Global Role Is Expanding Beyond Trade, StanChart Execs Say",
+      "word_count": 679
+    }
+  ]
 }
