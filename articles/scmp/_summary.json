@@ -1,26 +1,19 @@
 {
-  "ts": "2026-10-12 11:29:05",
+  "ts": "2026-10-12 16:34:16",
   "v": "scmp_v4",
-  "new_count": 3,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/politics/article/3370547/how-china-harnesses-ai-microdramas-shape-public-opinion-home-and-abroad",
-      "title": "How China harnesses AI microdramas to shape public opinion at home and abroad",
-      "word_count": 1393,
+      "url": "https://www.scmp.com/news/china/military/article/3370598/us-turns-low-cost-blackbeard-hypersonic-missiles-overwhelm-chinese-defences",
+      "title": "US turns to low-cost Blackbeard hypersonic missiles to overwhelm Chinese defences",
+      "word_count": 1073,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3370573/pack-lies-abby-chois-mother-rejects-claims-kwong-family-repaid-her-debts",
-      "title": "‘A pack of lies’: Abby Choi’s mother rejects claims Kwong family repaid her debts",
-      "word_count": 1036,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/economics/article/3370618/ai-fuelling-growth-while-putting-asias-young-workers-risk-imf-meeting-hears",
-      "title": "AI fuelling growth while putting Asia’s young workers at risk, IMF meeting hears",
-      "word_count": 1158,
+      "url": "https://www.scmp.com/week-asia/politics/article/3370627/inconvenient-truth-man-city-case-spotlights-realities-uk-uae-ties",
+      "title": "‘Inconvenient truth’: Man City case spotlights realities of UK-UAE ties",
+      "word_count": 1117,
       "quality": "fulltext",
       "is_premium": false
     }
