@@ -1,21 +1,6 @@
 {
-  "ts": "2026-10-12 16:34:16",
+  "ts": "2026-10-12 19:25:18",
   "v": "scmp_v4",
-  "new_count": 2,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/military/article/3370598/us-turns-low-cost-blackbeard-hypersonic-missiles-overwhelm-chinese-defences",
-      "title": "US turns to low-cost Blackbeard hypersonic missiles to overwhelm Chinese defences",
-      "word_count": 1073,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3370627/inconvenient-truth-man-city-case-spotlights-realities-uk-uae-ties",
-      "title": "‘Inconvenient truth’: Man City case spotlights realities of UK-UAE ties",
-      "word_count": 1117,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
