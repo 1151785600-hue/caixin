@@ -1,26 +1,12 @@
 {
-  "ts": "2026-10-13 14:51:42",
+  "ts": "2026-10-13 17:10:41",
   "v": "scmp_v4",
-  "new_count": 3,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3370772/slain-model-abby-choi-called-birthing-machine-ex-father-law-court-hears",
-      "title": "Slain model Abby Choi called ‘birthing machine’ by ex-father-in-law, court hears",
-      "word_count": 1022,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3370778/philippines-rejects-chinas-calls-direct-contact-amid-miscalculation-warnings",
-      "title": "Philippines rejects China’s calls for direct contact amid ‘miscalculation’ warnings",
-      "word_count": 1087,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3370763/plan-live-stream-us-execution-tests-southeast-asias-content-curbs",
-      "title": "Plan to live-stream US execution tests Southeast Asia’s content curbs",
-      "word_count": 1093,
+      "url": "https://www.scmp.com/news/china/military/article/3370765/best-time-us-strategists-push-abandoning-ambiguity-taiwan",
+      "title": "Is this the best time for US strategists to push for abandoning ambiguity on Taiwan?",
+      "word_count": 1294,
       "quality": "fulltext",
       "is_premium": false
     }
