@@ -1,19 +1,19 @@
 {
-  "ts": "2026-10-14 09:09:31",
+  "ts": "2026-10-14 12:42:17",
   "v": "scmp_v4",
   "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/postmag/food-drink/article/3370543/fishing-boats-michelin-stars-vietnams-coco-dining-turns-humble-haute-cuisine",
-      "title": "From fishing boats to Michelin stars: Vietnam’s CoCo Dining turns the humble into haute cuisine",
-      "word_count": 2230,
+      "url": "https://www.scmp.com/news/china/politics/article/3370903/huang-qifan-chinas-political-tumbler-falls-after-decade-close-corruption-calls",
+      "title": "Huang Qifan, China’s political tumbler, falls after a decade of close corruption calls",
+      "word_count": 1524,
       "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/week-asia/politics/article/3370850/will-south-china-seas-code-conduct-remain-elusive-deadline-looms",
-      "title": "Will South China Sea’s code of conduct remain elusive as deadline looms?",
-      "word_count": 1393,
+      "url": "https://www.scmp.com/week-asia/health-environment/article/3370882/cloudy-outlook-how-haze-crisis-testing-singapores-events-economy",
+      "title": "Cloudy outlook? How haze crisis is testing Singapore’s events economy",
+      "word_count": 1081,
       "quality": "fulltext",
       "is_premium": false
     }
