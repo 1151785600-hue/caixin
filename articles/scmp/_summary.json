@@ -1,21 +1,6 @@
 {
-  "ts": "2026-10-14 12:42:17",
+  "ts": "2026-10-14 14:43:40",
   "v": "scmp_v4",
-  "new_count": 2,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/politics/article/3370903/huang-qifan-chinas-political-tumbler-falls-after-decade-close-corruption-calls",
-      "title": "Huang Qifan, China’s political tumbler, falls after a decade of close corruption calls",
-      "word_count": 1524,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/health-environment/article/3370882/cloudy-outlook-how-haze-crisis-testing-singapores-events-economy",
-      "title": "Cloudy outlook? How haze crisis is testing Singapore’s events economy",
-      "word_count": 1081,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
