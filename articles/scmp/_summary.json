@@ -1,19 +1,12 @@
 {
-  "ts": "2026-10-15 08:42:29",
+  "ts": "2026-10-15 12:30:20",
   "v": "scmp_v4",
-  "new_count": 2,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/week-asia/health-environment/article/3370977/inside-nepals-unending-cycle-avalanches-floods-and-landslides",
-      "title": "Inside Nepal’s unending cycle of avalanches, floods and landslides",
-      "word_count": 1218,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/economics/article/3370930/how-fuel-crisis-threatening-bangladeshs-reform-goals-it-hit-our-citizens-hard",
-      "title": "How a fuel crisis is threatening Bangladesh’s reform goals: ‘it hit our citizens hard’",
-      "word_count": 1003,
+      "url": "https://www.scmp.com/news/china/science/article/3371035/china-led-team-hits-83-success-rate-anticipating-earthquakes-seismo-ripples-study",
+      "title": "China-led team hits 83% success rate anticipating earthquakes in ‘seismo-ripples’ study",
+      "word_count": 1072,
       "quality": "fulltext",
       "is_premium": false
     }
