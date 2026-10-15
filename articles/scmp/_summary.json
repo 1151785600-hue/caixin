@@ -1,14 +1,6 @@
 {
-  "ts": "2026-10-15 12:30:20",
+  "ts": "2026-10-15 14:29:05",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/science/article/3371035/china-led-team-hits-83-success-rate-anticipating-earthquakes-seismo-ripples-study",
-      "title": "China-led team hits 83% success rate anticipating earthquakes in ‘seismo-ripples’ study",
-      "word_count": 1072,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
