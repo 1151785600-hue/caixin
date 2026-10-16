@@ -1,12 +1,26 @@
 {
-  "ts": "2026-10-16 08:37:12",
+  "ts": "2026-10-16 12:09:03",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 3,
   "articles": [
     {
-      "url": "https://www.scmp.com/week-asia/health-environment/article/3371115/haze-hit-singapore-parents-call-hong-kong-style-school-air-con",
-      "title": "Haze-hit Singapore parents call for Hong Kong-style school air con",
-      "word_count": 1063,
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3371123/hong-kong-aims-share-hk350-billion-yacht-industry-travel-scheme-launches",
+      "title": "Hong Kong aims for share of HK$350 billion yacht industry as travel scheme launches",
+      "word_count": 1305,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3371114/indonesias-central-bank-insists-it-independent-investors-want-proof",
+      "title": "Indonesia’s central bank insists it is independent. Investors want proof",
+      "word_count": 1200,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3371153/indias-proposed-social-media-ban-under-18s-wins-parents-backing",
+      "title": "India’s proposed social media ban for under-18s wins parents’ backing",
+      "word_count": 1018,
       "quality": "fulltext",
       "is_premium": false
     }
