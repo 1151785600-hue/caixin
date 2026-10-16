@@ -1,6 +1,12 @@
 {
-  "ts": "2026-10-15 18:43:58",
+  "ts": "2026-10-16 02:56:05",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-10-16/analysis-looming-university-retirements-expose-chinas-pension-divide-102493841.html",
+      "title": "Analysis: Looming University Retirements Expose China’s Pension Divide",
+      "word_count": 682
+    }
+  ]
 }
