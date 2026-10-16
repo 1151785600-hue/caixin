@@ -1,26 +1,19 @@
 {
-  "ts": "2026-10-16 12:09:03",
+  "ts": "2026-10-16 14:21:42",
   "v": "scmp_v4",
-  "new_count": 3,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3371123/hong-kong-aims-share-hk350-billion-yacht-industry-travel-scheme-launches",
-      "title": "Hong Kong aims for share of HK$350 billion yacht industry as travel scheme launches",
-      "word_count": 1305,
+      "url": "https://www.scmp.com/news/china/military/article/3371170/japan-taps-foreign-tech-plug-defence-gaps-chinas-power-grows-will-it-pay",
+      "title": "Japan taps foreign tech to plug defence gaps as China’s power grows. Will it pay off?",
+      "word_count": 1011,
       "quality": "fulltext",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/week-asia/economics/article/3371114/indonesias-central-bank-insists-it-independent-investors-want-proof",
-      "title": "Indonesia’s central bank insists it is independent. Investors want proof",
-      "word_count": 1200,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3371153/indias-proposed-social-media-ban-under-18s-wins-parents-backing",
-      "title": "India’s proposed social media ban for under-18s wins parents’ backing",
-      "word_count": 1018,
+      "url": "https://www.scmp.com/opinion/world-opinion/article/3370866/nobel-peace-prize-message-behind-navi-pillays-win",
+      "title": "Nobel Peace Prize: the message behind Navi Pillay’s win",
+      "word_count": 1134,
       "quality": "fulltext",
       "is_premium": false
     }
