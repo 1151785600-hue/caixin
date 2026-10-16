@@ -1,20 +1,13 @@
 {
-  "ts": "2026-10-16 14:21:42",
+  "ts": "2026-10-16 17:16:09",
   "v": "scmp_v4",
-  "new_count": 2,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/military/article/3371170/japan-taps-foreign-tech-plug-defence-gaps-chinas-power-grows-will-it-pay",
-      "title": "Japan taps foreign tech to plug defence gaps as China’s power grows. Will it pay off?",
-      "word_count": 1011,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/opinion/world-opinion/article/3370866/nobel-peace-prize-message-behind-navi-pillays-win",
-      "title": "Nobel Peace Prize: the message behind Navi Pillay’s win",
-      "word_count": 1134,
-      "quality": "fulltext",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3371126/us-scholars-take-how-shifts-us-china-relations-are-felt-tsinghua-classroom",
+      "title": "A US scholar’s take on how shifts in US-China relations are felt in a Tsinghua classroom",
+      "word_count": 1537,
+      "quality": "fulltext_deep",
       "is_premium": false
     }
   ]
