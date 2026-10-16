@@ -1,13 +1,13 @@
 {
-  "ts": "2026-10-16 17:16:09",
+  "ts": "2026-10-16 19:28:14",
   "v": "scmp_v4",
   "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3371126/us-scholars-take-how-shifts-us-china-relations-are-felt-tsinghua-classroom",
-      "title": "A US scholar’s take on how shifts in US-China relations are felt in a Tsinghua classroom",
-      "word_count": 1537,
-      "quality": "fulltext_deep",
+      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3279881/macaus-opulent-fine-dining-scene-using-ai-tackle-sustainability-how-restaurants-galaxy-macau-sands",
+      "title": "Macau’s opulent fine dining scene is using AI to tackle sustainability: how restaurants in Galaxy Macau, Sands China and Grand Lisboa are leading the green march forward",
+      "word_count": 1065,
+      "quality": "fulltext",
       "is_premium": false
     }
   ]
