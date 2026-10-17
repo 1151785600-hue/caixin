@@ -1,14 +1,6 @@
 {
-  "ts": "2026-10-17 11:28:04",
+  "ts": "2026-10-17 13:17:21",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/politics/article/3371206/chinas-shenzhen-ready-host-xi-trump-and-putin-during-apec-summit",
-      "title": "Is China’s Shenzhen ready to host Xi, Trump and Putin during Apec summit?",
-      "word_count": 1008,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
