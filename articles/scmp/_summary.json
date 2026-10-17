@@ -1,6 +1,14 @@
 {
-  "ts": "2026-10-17 13:17:21",
+  "ts": "2026-10-17 16:15:47",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/military/article/3371252/how-taiwans-new-ai-satellite-system-aims-speed-early-warning-against-pla-moves",
+      "title": "How Taiwan’s new AI satellite system aims to speed up early warning against PLA moves",
+      "word_count": 1033,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
