@@ -1,19 +1,12 @@
 {
-  "ts": "2026-10-17 08:09:02",
+  "ts": "2026-10-17 11:28:04",
   "v": "scmp_v4",
-  "new_count": 2,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3371242/abby-chois-partner-tells-murder-trial-she-hid-ex-laws-financial-reliance-her",
-      "title": "Abby Choi’s partner tells murder trial she hid ex-in-laws’ financial reliance on her",
-      "word_count": 1324,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/asia/south-asia/article/3371244/modi-under-pressure-indias-youth-protests-rise-highest-level-decade",
-      "title": "Modi under pressure as India’s youth protests rise to highest level in a decade",
-      "word_count": 1084,
+      "url": "https://www.scmp.com/news/china/politics/article/3371206/chinas-shenzhen-ready-host-xi-trump-and-putin-during-apec-summit",
+      "title": "Is China’s Shenzhen ready to host Xi, Trump and Putin during Apec summit?",
+      "word_count": 1008,
       "quality": "fulltext",
       "is_premium": false
     }
