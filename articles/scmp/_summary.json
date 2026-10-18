@@ -1,13 +1,13 @@
 {
-  "ts": "2026-10-18 13:38:00",
+  "ts": "2026-10-18 16:25:30",
   "v": "scmp_v4",
   "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3371317/katie-zacharia-and-mao-ning-study-contrasts-us-and-china-media-strategies",
-      "title": "Katie Zacharia and Mao Ning – a study in contrasts in US and China media strategies",
-      "word_count": 1052,
-      "quality": "fulltext",
+      "url": "https://www.scmp.com/tech/big-tech/article/3371246/ai-promise-was-automation-reality-managing-digital-workers",
+      "title": "The AI promise was automation. The reality? Managing digital workers",
+      "word_count": 1901,
+      "quality": "fulltext_deep",
       "is_premium": false
     }
   ]
