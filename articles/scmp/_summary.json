@@ -1,21 +1,6 @@
 {
-  "ts": "2026-10-18 08:26:05",
+  "ts": "2026-10-18 11:58:17",
   "v": "scmp_v4",
-  "new_count": 2,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3279881/macaus-opulent-fine-dining-scene-using-ai-tackle-sustainability-how-restaurants-galaxy-macau-sands",
-      "title": "Macau’s opulent fine dining scene is using AI to tackle sustainability: how restaurants in Galaxy Macau, Sands China and Grand Lisboa are leading the green march forward",
-      "word_count": 1065,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3371202/pakistan-risks-deeper-instability-political-feud-threatens-counterterrorism-efforts",
-      "title": "Pakistan risks deeper instability as political feud threatens counterterrorism efforts",
-      "word_count": 1083,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
