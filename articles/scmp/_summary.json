@@ -1,14 +1,6 @@
 {
-  "ts": "2026-10-18 16:25:30",
+  "ts": "2026-10-18 18:31:55",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/tech/big-tech/article/3371246/ai-promise-was-automation-reality-managing-digital-workers",
-      "title": "The AI promise was automation. The reality? Managing digital workers",
-      "word_count": 1901,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
