@@ -1,6 +1,273 @@
 {
-  "ts": "2026-10-17 18:19:24",
+  "ts": "2026-10-18 05:29:47",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 38,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3371269/chinas-youth-draw-upon-long-march-spirit-navigate-modern-uncertainties",
+      "title": "China’s youth draw upon Long March spirit to navigate modern uncertainties",
+      "word_count": 1049,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/us/article/3371267/how-land-power-could-help-us-forces-counter-china-indo-pacific",
+      "title": "How land power could help US forces counter China in the Indo-Pacific",
+      "word_count": 1071,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3371232/beyond-evs-and-perception-how-china-gaining-ground-central-asia",
+      "title": "Beyond EVs and perception, how China is gaining ground in Central Asia",
+      "word_count": 1830,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/military/article/3371252/how-taiwans-new-ai-satellite-system-aims-speed-early-warning-against-pla-moves",
+      "title": "How Taiwan’s new AI satellite system aims to speed up early warning against PLA moves",
+      "word_count": 1033,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3371206/chinas-shenzhen-ready-host-xi-trump-and-putin-during-apec-summit",
+      "title": "Is China’s Shenzhen ready to host Xi, Trump and Putin during Apec summit?",
+      "word_count": 1008,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/passions/article/3370165/hong-kongs-historic-vessels-sail-future",
+      "title": "Hong Kong’s historic vessels sail into the future",
+      "word_count": 2584,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/food-drink/article/3370543/fishing-boats-michelin-stars-vietnams-coco-dining-turns-humble-haute-cuisine",
+      "title": "From fishing boats to Michelin stars: Vietnam’s CoCo Dining turns the humble into haute cuisine",
+      "word_count": 2230,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/article/3370359/dr-ron-roukema-education-leadership-and-life-hong-kong-international-school",
+      "title": "Dr Ron Roukema on education, leadership and life at Hong Kong International School",
+      "word_count": 1578,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/native/topics/ydc-2026/article/3369034/tsui-ao-lungs-journey-airport-worker-hong-kong-fashion-champion",
+      "title": "Tsui Ao-lung’s journey from airport worker to Hong Kong fashion champion",
+      "word_count": 1463,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3370485/kurt-campbell-us-deterrence-quad-aukus-and-taiwan-after-xi-trump-summit",
+      "title": "Kurt Campbell on US deterrence, the Quad, Aukus and Taiwan after Xi-Trump summit",
+      "word_count": 3397,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3371251/why-hong-kong-hosting-apec-finance-ministers-meeting-there-another-agenda",
+      "title": "Why is Hong Kong hosting the Apec Finance Ministers’ Meeting? There is another agenda",
+      "word_count": 1447,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3371228/hong-kong-touts-distinct-features-set-it-apart-london-global-gold-hub-push",
+      "title": "Hong Kong touts key advantages over London in bid to become global gold hub",
+      "word_count": 1119,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3371123/hong-kong-aims-share-hk350-billion-yacht-industry-travel-scheme-launches",
+      "title": "Hong Kong aims for share of HK$350 billion yacht industry as travel scheme launches",
+      "word_count": 1307,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3370781/why-did-hong-kongs-11-skies-fail-and-can-megaproject-be-rescued",
+      "title": "Why did Hong Kong’s 11 Skies fail and can the megaproject be rescued?",
+      "word_count": 1872,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3369211/hong-kong-guangdong-exploring-rich-tapestry-cantonese-culinary-traditions",
+      "title": "From Hong Kong to Guangdong, exploring the rich tapestry of Cantonese culinary traditions",
+      "word_count": 1308,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3370823/susan-thornton-us-china-ties-post-midterms-and-averting-new-balloon-crisis",
+      "title": "Susan Thornton on US-China ties, post-midterms and averting a new balloon crisis",
+      "word_count": 4541,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3360243/wu-shicun-why-beijing-will-not-rule-out-scarborough-shoal-construction",
+      "title": "Wu Shicun on why Beijing will not rule out Scarborough Shoal construction",
+      "word_count": 5027,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3339480/zheng-yongnian-trump-venezuela-and-why-china-doesnt-want-separate-kitchen",
+      "title": "Zheng Yongnian on Trump, Venezuela and why China doesn’t want ‘a separate kitchen’",
+      "word_count": 4464,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/global-economy/article/3329426/liu-qian-chinese-innovation-us-rivalry-and-women-holding-half-sky",
+      "title": "Liu Qian on Chinese innovation, the US rivalry and women holding up half the sky",
+      "word_count": 3764,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3327746/fuchsia-dunlop-tells-how-she-fell-chinas-cuisine-and-names-her-perfect-dish",
+      "title": "Fuchsia Dunlop tells how she fell for China’s cuisine and names her perfect dish",
+      "word_count": 3752,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3371242/abby-chois-partner-tells-murder-trial-she-hid-ex-laws-financial-reliance-her",
+      "title": "Abby Choi’s partner tells murder trial she hid ex-in-laws’ financial reliance on her",
+      "word_count": 1324,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3370772/slain-model-abby-choi-called-birthing-machine-ex-father-law-court-hears",
+      "title": "Slain model Abby Choi called ‘birthing machine’ by ex-father-in-law, court hears",
+      "word_count": 1022,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3370573/pack-lies-abby-chois-mother-rejects-claims-kwong-family-repaid-her-debts",
+      "title": "‘A pack of lies’: Abby Choi’s mother rejects claims Kwong family repaid her debts",
+      "word_count": 1036,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3371164/dino-mite-treasures-inside-singapores-fort-knox-storing-playthings-ultra-rich",
+      "title": "Dino-mite treasures: inside Singapore’s ‘Fort Knox’ storing playthings of ultra-rich",
+      "word_count": 1019,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3371173/malaysias-shoppers-love-chinese-e-commerce-its-factories-pay-price",
+      "title": "Malaysia’s shoppers love Chinese e-commerce. Its factories pay the price",
+      "word_count": 1608,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3371132/trumps-second-asean-summit-presence-comes-price-region",
+      "title": "Trump’s second Asean summit presence comes at a price for region",
+      "word_count": 1027,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3371180/shunned-west-ye-hands-indonesia-rare-mega-tour-coup",
+      "title": "Shunned in the West, Ye hands Indonesia a rare mega-tour coup",
+      "word_count": 1018,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/south-asia/article/3371244/modi-under-pressure-indias-youth-protests-rise-highest-level-decade",
+      "title": "Modi under pressure as India’s youth protests rise to highest level in a decade",
+      "word_count": 1084,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3370362/childs-play-southeast-asia-takes-big-tech-protect-kids-online",
+      "title": "Southeast Asia battles Big Tech to protect children online",
+      "word_count": 2410,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3369591/going-car-lite-why-more-singaporeans-are-quitting-driving",
+      "title": "Going ‘car-lite’: why more Singaporeans are quitting driving",
+      "word_count": 2110,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3368828/thailand-has-had-enough-foreign-tourists-behaving-badly",
+      "title": "Thailand has had enough of foreign tourists behaving badly",
+      "word_count": 2143,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/opinion/world-opinion/article/3370866/nobel-peace-prize-message-behind-navi-pillays-win",
+      "title": "Nobel Peace Prize: the message behind Navi Pillay’s win",
+      "word_count": 1134,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/global-economy/article/3371027/china-decoupling-paradox-why-world-still-needs-its-manufacturing-machine",
+      "title": "The China decoupling paradox: why the world still needs its manufacturing machine",
+      "word_count": 1645,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/markets/article/3370375/chinese-brokers-work-crack-final-code-win-clients-global-stage",
+      "title": "Chinese brokers work to crack the final code: win clients on global stage",
+      "word_count": 2082,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-war/article/3366387/talk-growing-tesla-spacex-merger-will-geopolitics-throw-spanner-works",
+      "title": "Talk is growing of a Tesla-SpaceX merger. Will geopolitics throw a spanner in the works?",
+      "word_count": 2218,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-trends/article/3364920/rural-city-once-known-livestock-now-provides-chinas-ai-computing-fuel",
+      "title": "A rural city, once known for livestock, now provides China’s AI computing fuel",
+      "word_count": 1781,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-trends/article/3361752/apples-biggest-ever-leak-happened-india-will-firms-rethink-their-china-relocations",
+      "title": "Apple’s biggest-ever leak happened in India. Will firms rethink their China relocations?",
+      "word_count": 1382,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/policy/article/3361779/investment-chinese-characteristics-how-beijings-money-reshaping-tech-ventures",
+      "title": "Investment with Chinese characteristics: how Beijing’s money is reshaping tech ventures",
+      "word_count": 1848,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    }
+  ]
 }
