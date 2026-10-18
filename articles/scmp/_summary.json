@@ -1,6 +1,14 @@
 {
-  "ts": "2026-10-18 11:58:17",
+  "ts": "2026-10-18 13:38:00",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3371317/katie-zacharia-and-mao-ning-study-contrasts-us-and-china-media-strategies",
+      "title": "Katie Zacharia and Mao Ning – a study in contrasts in US and China media strategies",
+      "word_count": 1052,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
