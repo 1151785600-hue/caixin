@@ -1,22 +1,12 @@
 {
-  "ts": "2026-10-19 08:31:19",
+  "ts": "2026-10-19 12:14:12",
   "v": "8.4",
-  "new_count": 3,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.caixinglobal.com/2026-10-19/china-urged-to-raise-sin-taxes-to-curb-chronic-disease-102494772.html",
-      "title": "China Urged to Raise Sin Taxes to Curb Chronic Disease",
-      "word_count": 662
-    },
-    {
-      "url": "https://www.caixinglobal.com/2026-10-19/zhejiang-university-issues-model-ai-law-as-china-moves-toward-national-legislation-102494706.html",
-      "title": "Zhejiang University Issues Model AI Law as China Moves Toward National Legislation",
-      "word_count": 806
-    },
-    {
-      "url": "https://www.caixinglobal.com/2026-10-19/chinas-third-quarter-gdp-growth-edges-up-to-45-102494770.html",
-      "title": "China’s Third-Quarter GDP Growth Edges Up to 4.5%",
-      "word_count": 646
+      "url": "https://www.caixinglobal.com/2026-10-19/chinas-fixed-asset-investment-remains-weak-as-property-slump-deepens-102494819.html",
+      "title": "China’s Fixed-Asset Investment Remains Weak as Property Slump Deepens",
+      "word_count": 517
     }
   ]
 }
