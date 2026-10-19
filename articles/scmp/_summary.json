@@ -1,13 +1,20 @@
 {
-  "ts": "2026-10-19 09:26:47",
+  "ts": "2026-10-19 14:26:02",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/postmag/passions/article/3370559/tv-showman-robert-chua-spells-out-his-vision-his-vast-collection-chinese-antiquities",
-      "title": "TV showman Robert Chua spells out his vision for his vast collection of Chinese antiquities",
-      "word_count": 2950,
-      "quality": "fulltext_deep",
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3371353/lawmakers-blame-huanggang-port-queues-confusion-traffic-surge-and-system-issues",
+      "title": "Hong Kong’s Huanggang crossing absorbs 366% surge as travellers stream back",
+      "word_count": 1138,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3371404/calls-grow-india-lure-tech-talent-home-us-tightens-job-curbs",
+      "title": "Calls grow for India to lure tech talent home as US tightens job curbs",
+      "word_count": 1080,
+      "quality": "fulltext",
       "is_premium": false
     }
   ]
