@@ -1,6 +1,14 @@
 {
-  "ts": "2026-10-20 14:31:45",
+  "ts": "2026-10-20 17:51:45",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3371544/will-xi-trump-putin-meet-apec-first-they-must-agree-agenda",
+      "title": "Will Xi, Trump, Putin meet at Apec? First, they must agree on an agenda",
+      "word_count": 1475,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
