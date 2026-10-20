@@ -1,6 +1,12 @@
 {
-  "ts": "2026-10-19 20:16:27",
+  "ts": "2026-10-20 03:11:28",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-10-16/in-depth-chinas-green-steel-ambitions-hit-a-red-light-102494074.html",
+      "title": "In Depth: China’s Green Steel Ambitions Hit a Red Light",
+      "word_count": 825
+    }
+  ]
 }
