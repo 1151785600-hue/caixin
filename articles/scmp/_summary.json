@@ -1,26 +1,12 @@
 {
-  "ts": "2026-10-20 09:01:10",
+  "ts": "2026-10-20 12:35:05",
   "v": "scmp_v4",
-  "new_count": 3,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/postmag/design-interiors/article/3285613/how-japans-infamous-nakagin-capsule-tower-finding-new-life",
-      "title": "How Japan’s innovative Nakagin Capsule Tower is finding new life",
-      "word_count": 1707,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/politics/article/3370903/huang-qifan-chinas-political-tumbler-falls-after-decade-close-corruption-calls",
-      "title": "Huang Qifan, China’s political tumbler, falls after a decade of close corruption calls",
-      "word_count": 1524,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3279881/macaus-opulent-fine-dining-scene-using-ai-tackle-sustainability-how-restaurants-galaxy-macau-sands",
-      "title": "Macau’s opulent fine dining scene is using AI to tackle sustainability: how restaurants in Galaxy Macau, Sands China and Grand Lisboa are leading the green march forward",
-      "word_count": 1065,
+      "url": "https://www.scmp.com/week-asia/economics/article/3371515/indonesia-faces-msci-downgrade-threat-officials-vow-reforms-ease-fears",
+      "title": "As Indonesia faces MSCI downgrade threat, officials vow reforms to ease fears",
+      "word_count": 1186,
       "quality": "fulltext",
       "is_premium": false
     }
