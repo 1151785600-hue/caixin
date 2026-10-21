@@ -1,6 +1,14 @@
 {
-  "ts": "2026-10-21 17:57:40",
+  "ts": "2026-10-21 19:59:37",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/postmag/travel/article/3370566/six-legendary-libraries-where-architecture-and-academia-meet",
+      "title": "Six legendary libraries, where architecture and academia meet",
+      "word_count": 1682,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    }
+  ]
 }
