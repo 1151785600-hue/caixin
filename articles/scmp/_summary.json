@@ -1,21 +1,6 @@
 {
-  "ts": "2026-10-21 12:46:38",
+  "ts": "2026-10-21 14:42:38",
   "v": "scmp_v4",
-  "new_count": 2,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3321056/80-years-wwii-chinas-interests-lie-peaceful-asia-pacific-rana-mitter",
-      "title": "80 years on from WWII, China’s interests lie in peaceful Asia-Pacific: Rana Mitter",
-      "word_count": 4368,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/economics/article/3371614/filipinos-virtual-assistant-trumps-doctor-dream-job-whats-reality",
-      "title": "For Filipinos, virtual assistant trumps doctor as ‘dream job’. But what’s the reality?",
-      "word_count": 1025,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
