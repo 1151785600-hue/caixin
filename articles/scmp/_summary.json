@@ -1,19 +1,12 @@
 {
-  "ts": "2026-10-22 09:02:21",
+  "ts": "2026-10-22 12:49:54",
   "v": "scmp_v4",
-  "new_count": 2,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/week-asia/economics/article/3371767/can-prabowos-economic-nationalism-save-indonesia-potential-msci-downgrade",
-      "title": "Can Prabowo’s economic nationalism save Indonesia from potential MSCI downgrade?",
-      "word_count": 1107,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/health-environment/article/3371749/haze-forces-malaysian-fitness-groups-swap-outdoor-runs-shopping-mall-laps",
-      "title": "Haze forces Malaysian fitness groups to swap outdoor runs for shopping mall laps",
-      "word_count": 1102,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3371807/who-blinked-first-fragile-eu-china-trade-peace-sparks-new-war-words",
+      "title": "Who blinked first? Fragile EU-China trade peace sparks new war of words",
+      "word_count": 1067,
       "quality": "fulltext",
       "is_premium": false
     }
