@@ -1,21 +1,6 @@
 {
-  "ts": "2026-10-22 17:54:02",
+  "ts": "2026-10-22 19:52:55",
   "v": "scmp_v4",
-  "new_count": 2,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/us/diplomacy/article/3371804/quad-confirmed-manila-envoy-signals-likely-squad-talks-trump-xi-summit",
-      "title": "Quad confirmed, Manila envoy signals likely ‘Squad’ talks before Trump-Xi summit",
-      "word_count": 1142,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3371726/tai-po-fire-inquiry-submits-final-report-targets-4-government-bodies",
-      "title": "‘Incisive’ final report on Tai Po blaze singles out 4 government bodies",
-      "word_count": 1017,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
