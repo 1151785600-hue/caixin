@@ -1,12 +1,17 @@
 {
-  "ts": "2026-10-22 08:19:47",
+  "ts": "2026-10-22 11:12:53",
   "v": "8.4",
-  "new_count": 1,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.caixinglobal.com/2026-10-22/analysis-chinas-green-lending-boom-leaves-polluting-industries-struggling-for-funds-102496062.html",
-      "title": "Analysis: China’s Green Lending Boom Leaves Polluting Industries Struggling for Funds",
-      "word_count": 537
+      "url": "https://www.caixinglobal.com/2026-10-22/chinas-top-court-imposes-lifetime-accountability-for-judicial-misconduct-102496066.html",
+      "title": "China’s Top Court Imposes Lifetime Accountability for Judicial Misconduct",
+      "word_count": 636
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-10-19/cover-story-chinas-power-retailers-reel-as-cheap-deals-backfire-102494733.html",
+      "title": "Cover Story: China’s Power Retailers Reel as Cheap Deals Backfire",
+      "word_count": 486
     }
   ]
 }
