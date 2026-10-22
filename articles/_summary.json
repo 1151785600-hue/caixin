@@ -1,6 +1,12 @@
 {
-  "ts": "2026-10-22 03:04:58",
+  "ts": "2026-10-22 08:19:47",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-10-22/analysis-chinas-green-lending-boom-leaves-polluting-industries-struggling-for-funds-102496062.html",
+      "title": "Analysis: China’s Green Lending Boom Leaves Polluting Industries Struggling for Funds",
+      "word_count": 537
+    }
+  ]
 }
