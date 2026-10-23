@@ -1,6 +1,12 @@
 {
-  "ts": "2026-10-22 18:54:27",
+  "ts": "2026-10-23 03:09:55",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-10-23/in-depth-chinas-offshore-trust-tax-grace-period-ends-as-questions-linger-102496220.html",
+      "title": "In Depth: China’s Offshore Trust Tax Grace Period Ends as Questions Linger",
+      "word_count": 566
+    }
+  ]
 }
