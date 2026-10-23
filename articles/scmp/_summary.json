@@ -1,12 +1,12 @@
 {
-  "ts": "2026-10-23 08:57:12",
+  "ts": "2026-10-23 12:28:15",
   "v": "scmp_v4",
   "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/tech/tech-trends/article/3371888/chinas-humanoid-robots-hunt-work-south-korea-seoul-bets-physical-ai",
-      "title": "China’s humanoid robots hunt for work in South Korea as Seoul bets on physical AI",
-      "word_count": 1328,
+      "url": "https://www.scmp.com/news/china/military/article/3371951/what-beijings-two-one-shipbuilding-lead-means-us-war-over-taiwan",
+      "title": "What Beijing’s two-to-one shipbuilding lead means for the US in war over Taiwan",
+      "word_count": 1009,
       "quality": "fulltext",
       "is_premium": false
     }
