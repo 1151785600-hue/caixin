@@ -1,12 +1,19 @@
 {
-  "ts": "2026-10-23 12:28:15",
+  "ts": "2026-10-23 14:29:08",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/military/article/3371951/what-beijings-two-one-shipbuilding-lead-means-us-war-over-taiwan",
-      "title": "What Beijing’s two-to-one shipbuilding lead means for the US in war over Taiwan",
-      "word_count": 1009,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3371952/opportunistic-experts-weigh-manilas-minilateral-agenda-ahead-trump-xi-meeting",
+      "title": "‘Opportunistic’: experts weigh Manila’s minilateral agenda ahead of Trump-Xi meeting",
+      "word_count": 1448,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3371967/what-indonesias-warnings-energy-cuts-mean-asean",
+      "title": "What Indonesia’s warnings of energy cuts mean for Asean",
+      "word_count": 1118,
       "quality": "fulltext",
       "is_premium": false
     }
