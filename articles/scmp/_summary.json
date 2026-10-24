@@ -1,6 +1,14 @@
 {
-  "ts": "2026-10-24 16:29:46",
+  "ts": "2026-10-24 18:40:39",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/postmag/culture/native/topics/hong-kong-oyster-farming/article/3371761/hong-kongs-700-year-old-oyster-industry-goes-hi-tech-super-specimen",
+      "title": "Hong Kong’s 700-year-old oyster industry goes hi-tech with ‘super’ specimen",
+      "word_count": 3334,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    }
+  ]
 }
