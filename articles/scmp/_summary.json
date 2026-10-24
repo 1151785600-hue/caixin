@@ -1,14 +1,6 @@
 {
-  "ts": "2026-10-24 13:40:09",
+  "ts": "2026-10-24 16:29:46",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/military/article/3372016/ukraines-starlink-woes-should-be-wake-call-taiwan-analysts-say",
-      "title": "Ukraine’s Starlink woes should be a wake-up call for Taiwan, analysts say",
-      "word_count": 1039,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
