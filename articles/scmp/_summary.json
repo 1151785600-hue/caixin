@@ -1,13 +1,13 @@
 {
-  "ts": "2026-10-25 08:50:12",
+  "ts": "2026-10-25 12:23:48",
   "v": "scmp_v4",
   "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/magazines/post-magazine/long-reads/article/2097402/chinas-stolen-cultural-relics-why-numbers-just",
-      "title": "China’s ‘stolen’ cultural relics: why the numbers just don’t add up",
-      "word_count": 4037,
-      "quality": "fulltext_deep",
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3372031/france-high-alert-paris-march-begins-uneasy-calm",
+      "title": "Clashes flare at Paris protests as more than 400,000 march across France",
+      "word_count": 1000,
+      "quality": "fulltext",
       "is_premium": false
     }
   ]
