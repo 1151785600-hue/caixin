@@ -1,12 +1,12 @@
 {
-  "ts": "2026-10-25 12:23:48",
+  "ts": "2026-10-25 13:58:56",
   "v": "scmp_v4",
   "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3372031/france-high-alert-paris-march-begins-uneasy-calm",
-      "title": "Clashes flare at Paris protests as more than 400,000 march across France",
-      "word_count": 1000,
+      "url": "https://www.scmp.com/opinion/world-opinion/article/3371928/wests-double-standard-global-unrest",
+      "title": "The West’s double standard on global unrest",
+      "word_count": 1015,
       "quality": "fulltext",
       "is_premium": false
     }
