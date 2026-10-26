@@ -1,6 +1,12 @@
 {
-  "ts": "2026-10-25 17:55:33",
+  "ts": "2026-10-26 02:57:59",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-10-26/cover-story-how-a-high-school-protest-sparked-frances-autumn-of-fury-102497202.html",
+      "title": "Cover Story: How a High School Protest Sparked France’s Autumn of Fury",
+      "word_count": 674
+    }
+  ]
 }
