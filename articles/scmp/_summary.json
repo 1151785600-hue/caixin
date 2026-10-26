@@ -1,21 +1,6 @@
 {
-  "ts": "2026-10-26 13:59:24",
+  "ts": "2026-10-26 16:19:35",
   "v": "scmp_v4",
-  "new_count": 2,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/science/article/3372129/why-chinas-new-estimate-greenland-ice-loss-speed-55-lower-americas",
-      "title": "Why China’s new estimate on Greenland ice loss speed is 55% lower than America’s",
-      "word_count": 1021,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/economics/article/3372185/climate-damage-philippine-ports-could-cost-us70b-year-2100",
-      "title": "Climate damage to Philippine ports could cost US$70b a year by 2100",
-      "word_count": 1020,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
