@@ -1,6 +1,14 @@
 {
-  "ts": "2026-10-26 16:19:35",
+  "ts": "2026-10-26 19:06:00",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/postmag/food-drink/native/topics/zero-waste-cooking/article/3371914/jw-marriott-hong-kong-redefines-luxury-dining-zero-waste-culinary-innovation",
+      "title": "JW Marriott Hotel Hong Kong redefines luxury dining with zero-waste culinary innovation",
+      "word_count": 1393,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
