@@ -1,6 +1,14 @@
 {
-  "ts": "2026-10-27 09:27:42",
+  "ts": "2026-10-27 13:02:00",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3372299/air-force-crash-revives-debate-philippine-militarys-modernisation-limits",
+      "title": "Air Force crash revives debate on Philippine military’s modernisation limits",
+      "word_count": 1021,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
