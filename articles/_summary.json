@@ -1,12 +1,17 @@
 {
-  "ts": "2026-10-27 03:30:32",
+  "ts": "2026-10-27 08:40:45",
   "v": "8.4",
-  "new_count": 1,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.caixinglobal.com/2026-10-27/unitree-warns-of-valuation-risks-after-shares-surge-more-than-65-102497621.html",
-      "title": "Unitree Warns of Valuation Risks After Shares Surge More Than 65%",
-      "word_count": 382
+      "url": "https://www.caixinglobal.com/2026-10-27/obituary-yasuo-fukuda-former-japan-pm-who-advanced-china-ties-dies-at-90-102497829.html",
+      "title": "Obituary: Yasuo Fukuda, Former Japan PM Who Advanced China Ties, Dies at 90",
+      "word_count": 585
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-10-23/in-depth-china-bets-green-hydrogens-future-on-industrial-demand-102496548.html",
+      "title": "In Depth: China Bets Green Hydrogen’s Future on Industrial Demand",
+      "word_count": 656
     }
   ]
 }
