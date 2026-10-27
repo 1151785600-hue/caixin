@@ -1,19 +1,19 @@
 {
-  "ts": "2026-10-27 15:34:17",
+  "ts": "2026-10-27 18:36:59",
   "v": "scmp_v4",
   "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3372340/german-leaders-china-visit-latest-sign-foreign-diplomacy-pivot-beyond-beijing",
-      "title": "German leader’s China visit latest sign of foreign diplomacy pivot beyond Beijing",
-      "word_count": 1014,
-      "quality": "fulltext",
+      "url": "https://www.scmp.com/news/us/article/3372345/queen-chinese-and-forgotten-history-us-mexico-border",
+      "title": "The ‘Queen of the Chinese’ and a forgotten history on the US-Mexico border",
+      "word_count": 1596,
+      "quality": "fulltext_deep",
       "is_premium": false
     },
     {
-      "url": "https://www.scmp.com/week-asia/politics/article/3372335/why-singapores-pap-internal-vote-wrong-place-look-signs-leadership-renewal",
-      "title": "Why Singapore’s PAP internal vote is the wrong place to look for signs of leadership renewal",
-      "word_count": 1282,
+      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3339842/hong-kong-bar-trends-2026-comfort-classics-and-mindful-drinking",
+      "title": "Hong Kong bar trends in 2026: comfort, classics and mindful drinking",
+      "word_count": 1177,
       "quality": "fulltext",
       "is_premium": false
     }
