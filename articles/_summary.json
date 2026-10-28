@@ -1,6 +1,17 @@
 {
-  "ts": "2026-10-28 03:46:11",
+  "ts": "2026-10-28 09:20:39",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 2,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-10-28/ai-drives-career-pivot-for-chinas-programmers-report-shows-102498166.html",
+      "title": "AI Drives Career Pivot for China’s Programmers, Report Shows",
+      "word_count": 654
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-10-28/analysis-chinas-ipo-boom-tests-the-limits-of-price-discovery-102498148.html",
+      "title": "Analysis: China’s IPO Boom Tests the Limits of Price Discovery",
+      "word_count": 642
+    }
+  ]
 }
