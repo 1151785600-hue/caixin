@@ -1,19 +1,12 @@
 {
-  "ts": "2026-10-29 18:53:55",
+  "ts": "2026-10-29 20:58:07",
   "v": "scmp_v4",
-  "new_count": 2,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3339842/hong-kong-bar-trends-2026-comfort-classics-and-mindful-drinking",
-      "title": "Hong Kong bar trends in 2026: comfort, classics and mindful drinking",
-      "word_count": 1177,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3372048/singapore-tells-suppliers-honour-commitments-amid-indonesias-gas-cut",
-      "title": "Singapore tells suppliers to ‘honour commitments’ amid Indonesia’s gas cut",
-      "word_count": 1144,
+      "url": "https://www.scmp.com/news/us/us-elections/article/3372640/michigan-senate-race-trumps-softer-china-tone-gives-candidates-room-look-elsewhere",
+      "title": "In Michigan Senate race, Trump’s softer China tone gives candidates room to look elsewhere",
+      "word_count": 1496,
       "quality": "fulltext",
       "is_premium": false
     }
