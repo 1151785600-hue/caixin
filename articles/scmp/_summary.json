@@ -1,19 +1,12 @@
 {
-  "ts": "2026-10-29 13:58:55",
+  "ts": "2026-10-29 16:27:46",
   "v": "scmp_v4",
-  "new_count": 2,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/week-asia/economics/article/3372589/can-lulas-re-election-unlock-mercosur-markets-southeast-asia",
-      "title": "Can Lula’s re-election unlock Mercosur markets for Southeast Asia?",
-      "word_count": 1048,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3372603/why-japan-pushing-more-proactive-southeast-asia-amid-great-power-rivalry",
-      "title": "Why Japan is pushing for a more ‘proactive’ Southeast Asia amid great-power rivalry",
-      "word_count": 1040,
+      "url": "https://www.scmp.com/week-asia/politics/article/3372629/singapore-wields-quiet-diplomacy-ministers-surprise-visit-indonesia-amid-haze-tensions",
+      "title": "Singapore wields ‘quiet diplomacy’ in minister’s surprise visit to Indonesia amid haze tensions",
+      "word_count": 1385,
       "quality": "fulltext",
       "is_premium": false
     }
