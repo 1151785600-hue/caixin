@@ -1,12 +1,19 @@
 {
-  "ts": "2026-10-29 16:27:46",
+  "ts": "2026-10-29 18:53:55",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/week-asia/politics/article/3372629/singapore-wields-quiet-diplomacy-ministers-surprise-visit-indonesia-amid-haze-tensions",
-      "title": "Singapore wields ‘quiet diplomacy’ in minister’s surprise visit to Indonesia amid haze tensions",
-      "word_count": 1385,
+      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3339842/hong-kong-bar-trends-2026-comfort-classics-and-mindful-drinking",
+      "title": "Hong Kong bar trends in 2026: comfort, classics and mindful drinking",
+      "word_count": 1177,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3372048/singapore-tells-suppliers-honour-commitments-amid-indonesias-gas-cut",
+      "title": "Singapore tells suppliers to ‘honour commitments’ amid Indonesia’s gas cut",
+      "word_count": 1144,
       "quality": "fulltext",
       "is_premium": false
     }
