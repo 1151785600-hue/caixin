@@ -1,12 +1,19 @@
 {
-  "ts": "2026-10-29 10:35:36",
+  "ts": "2026-10-29 13:58:55",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3372590/hegseth-pitches-new-us-asean-defence-framework-doubts-run-deep",
-      "title": "Hegseth pitches new US-Asean defence framework, but doubts run deep",
-      "word_count": 1188,
+      "url": "https://www.scmp.com/week-asia/economics/article/3372589/can-lulas-re-election-unlock-mercosur-markets-southeast-asia",
+      "title": "Can Lula’s re-election unlock Mercosur markets for Southeast Asia?",
+      "word_count": 1048,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3372603/why-japan-pushing-more-proactive-southeast-asia-amid-great-power-rivalry",
+      "title": "Why Japan is pushing for a more ‘proactive’ Southeast Asia amid great-power rivalry",
+      "word_count": 1040,
       "quality": "fulltext",
       "is_premium": false
     }
