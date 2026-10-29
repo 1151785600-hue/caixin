@@ -1,6 +1,12 @@
 {
-  "ts": "2026-10-28 19:56:50",
+  "ts": "2026-10-29 04:08:38",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-10-29/imf-taps-chinas-vice-finance-minister-liao-min-for-deputy-managing-director-role-102498312.html",
+      "title": "IMF Taps China’s Vice Finance Minister Liao Min for Deputy Managing Director Role",
+      "word_count": 663
+    }
+  ]
 }
