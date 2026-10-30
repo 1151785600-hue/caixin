@@ -1,12 +1,17 @@
 {
-  "ts": "2026-10-30 04:08:54",
+  "ts": "2026-10-30 09:39:13",
   "v": "8.4",
-  "new_count": 1,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.caixinglobal.com/2026-10-30/hong-kong-housing-secretary-resigns-over-deadly-fire-oversight-failures-102498707.html",
-      "title": "Hong Kong Housing Secretary Resigns Over Deadly Fire Oversight Failures",
-      "word_count": 604
+      "url": "https://www.caixinglobal.com/2026-10-30/communist-party-expels-former-international-liaison-chief-liu-jianchao-102498964.html",
+      "title": "Communist Party Expels Former International Liaison Chief Liu Jianchao",
+      "word_count": 603
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-10-30/analysis-chinas-banks-are-flush-with-cash-but-short-of-good-loans-102498958.html",
+      "title": "Analysis: China’s Banks Are Flush With Cash but Short of Good Loans",
+      "word_count": 616
     }
   ]
 }
