@@ -1,17 +1,6 @@
 {
-  "ts": "2026-10-30 12:11:30",
+  "ts": "2026-10-30 15:31:49",
   "v": "8.4",
-  "new_count": 2,
-  "articles": [
-    {
-      "url": "https://www.caixinglobal.com/2026-10-30/chinas-communist-party-fills-10-central-committee-vacancies-102499045.html",
-      "title": "China’s Communist Party Fills 10 Central Committee Vacancies",
-      "word_count": 609
-    },
-    {
-      "url": "https://www.caixinglobal.com/2026-10-26/moonshot-ai-launches-more-powerful-kimi-model-102497310.html",
-      "title": "Moonshot AI Launches More Powerful Kimi Model",
-      "word_count": 523
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
