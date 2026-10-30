@@ -1,33 +1,12 @@
 {
-  "ts": "2026-10-30 10:37:09",
+  "ts": "2026-10-30 13:53:44",
   "v": "scmp_v4",
-  "new_count": 4,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/science/article/3372506/asian-scientists-are-looking-south-korea-it-becomes-harder-stay-us",
-      "title": "Asian scientists are looking to South Korea as it becomes harder to stay in the US",
-      "word_count": 1018,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/news/china/politics/article/3372686/unwritten-rules-become-newest-target-communist-partys-war-corruption",
-      "title": "‘Unwritten rules’ become newest target in Communist Party’s war on corruption",
-      "word_count": 1322,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/economics/article/3372754/will-diversifying-fuel-imports-be-enough-fix-indonesias-energy-shortfall",
-      "title": "Will diversifying fuel imports be enough to fix Indonesia’s energy shortfall?",
-      "word_count": 1010,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/economics/article/3372710/saviour-or-stop-gap-malaysias-south-korean-jets-arrive-relieve-ageing-fighters",
-      "title": "Saviour or stopgap? Malaysia’s South Korean jets arrive to relieve ageing fighters",
-      "word_count": 1002,
+      "url": "https://www.scmp.com/week-asia/politics/article/3372777/why-philippines-remains-hotspot-transnational-drug-syndicates",
+      "title": "Why the Philippines remains a hotspot for transnational drug syndicates",
+      "word_count": 1055,
       "quality": "fulltext",
       "is_premium": false
     }
