@@ -1,12 +1,26 @@
 {
-  "ts": "2026-10-30 18:30:21",
+  "ts": "2026-10-30 20:36:40",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 3,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/us/politics/article/3372791/how-democratic-controlled-congress-could-reshape-us-policy-china",
-      "title": "How a Democratic-controlled Congress could reshape US policy on China",
-      "word_count": 1236,
+      "url": "https://www.scmp.com/news/us/us-elections/article/3372796/can-connie-chan-become-san-franciscos-first-asian-american-congress",
+      "title": "Can Connie Chan become San Francisco’s first Asian-American in Congress?",
+      "word_count": 1573,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/design-interiors/article/3372258/let-them-play-hong-kong-playgrounds-teaching-children-take-risks",
+      "title": "Let them play: the Hong Kong playgrounds teaching children to take risks",
+      "word_count": 2296,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3339140/first-look-yurt-hong-kongs-first-modern-central-asian-restaurant",
+      "title": "First Look: Yurt, Hong Kong’s ‘first modern Central Asian restaurant’",
+      "word_count": 1033,
       "quality": "fulltext",
       "is_premium": false
     }
