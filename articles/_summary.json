@@ -1,6 +1,12 @@
 {
-  "ts": "2026-10-29 19:55:18",
+  "ts": "2026-10-30 04:08:54",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-10-30/hong-kong-housing-secretary-resigns-over-deadly-fire-oversight-failures-102498707.html",
+      "title": "Hong Kong Housing Secretary Resigns Over Deadly Fire Oversight Failures",
+      "word_count": 604
+    }
+  ]
 }
