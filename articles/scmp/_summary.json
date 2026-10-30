@@ -1,14 +1,6 @@
 {
-  "ts": "2026-10-30 13:53:44",
+  "ts": "2026-10-30 16:17:13",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3372777/why-philippines-remains-hotspot-transnational-drug-syndicates",
-      "title": "Why the Philippines remains a hotspot for transnational drug syndicates",
-      "word_count": 1055,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
