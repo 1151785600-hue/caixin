@@ -1,6 +1,14 @@
 {
-  "ts": "2026-10-30 16:17:13",
+  "ts": "2026-10-30 18:30:21",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/us/politics/article/3372791/how-democratic-controlled-congress-could-reshape-us-policy-china",
+      "title": "How a Democratic-controlled Congress could reshape US policy on China",
+      "word_count": 1236,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
