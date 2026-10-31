@@ -1,14 +1,6 @@
 {
-  "ts": "2026-10-31 15:30:55",
+  "ts": "2026-10-31 17:34:39",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/politics/article/3372827/china-narrows-path-elite-official-training-scheme-citizens-graduating-overseas",
-      "title": "China narrows the path to elite official training scheme for citizens graduating overseas",
-      "word_count": 1212,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
