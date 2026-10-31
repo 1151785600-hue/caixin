@@ -1,6 +1,14 @@
 {
-  "ts": "2026-10-31 17:34:39",
+  "ts": "2026-10-31 19:49:58",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/postmag/culture/article/3372270/archipelagogo-inter-island-festival-back-celebrate-hong-kongs-more-laid-back-lifestyles",
+      "title": "ArchipelaGoGo! The Inter-Island Festival is back to celebrate Hong Kong’s more laid-back lifestyles",
+      "word_count": 2317,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    }
+  ]
 }
