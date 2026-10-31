@@ -1,6 +1,12 @@
 {
-  "ts": "2026-10-30 19:45:41",
+  "ts": "2026-10-31 03:52:02",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-10-31/profile-liao-mins-path-from-banking-regulator-to-imf-nominee-102499294.html",
+      "title": "Profile: Liao Min’s Path From Banking Regulator to IMF Nominee",
+      "word_count": 776
+    }
+  ]
 }
