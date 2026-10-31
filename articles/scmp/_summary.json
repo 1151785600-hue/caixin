@@ -1,12 +1,82 @@
 {
-  "ts": "2026-10-30 20:36:40",
+  "ts": "2026-10-31 06:43:12",
   "v": "scmp_v4",
-  "new_count": 3,
+  "new_count": 40,
   "articles": [
+    {
+      "url": "https://www.scmp.com/news/us/society-culture/article/3372803/new-everest-film-hopes-nudge-us-china-relations-higher-altitude",
+      "title": "New Everest film hopes to nudge US-China relations into a higher altitude",
+      "word_count": 1182,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3372691/donald-trumps-chinamaxxing-pushing-beijings-soft-power",
+      "title": "Is Donald Trump’s ‘Chinamaxxing’ pushing Beijing’s soft power?",
+      "word_count": 1656,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/us/us-elections/article/3372799/us-democrats-prepare-counter-any-trump-claim-foreign-meddling-midterms",
+      "title": "US Democrats prepare to counter any Trump claim of foreign meddling in midterms",
+      "word_count": 1090,
+      "quality": "fulltext",
+      "is_premium": false
+    },
     {
       "url": "https://www.scmp.com/news/us/us-elections/article/3372796/can-connie-chan-become-san-franciscos-first-asian-american-congress",
       "title": "Can Connie Chan become San Francisco’s first Asian-American in Congress?",
-      "word_count": 1573,
+      "word_count": 1593,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/us/politics/article/3372791/how-democratic-controlled-congress-could-reshape-us-policy-china",
+      "title": "How a Democratic-controlled Congress could reshape US policy on China",
+      "word_count": 1236,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/science/article/3372506/asian-scientists-are-looking-south-korea-it-becomes-harder-stay-us",
+      "title": "Asian scientists are looking to South Korea as it becomes harder to stay in the US",
+      "word_count": 1018,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/food-drink/native/topics/zero-waste-cooking/article/3371914/jw-marriott-hong-kong-redefines-luxury-dining-zero-waste-culinary-innovation",
+      "title": "JW Marriott Hotel Hong Kong redefines luxury dining with zero-waste culinary innovation",
+      "word_count": 1393,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/culture/native/topics/hong-kong-oyster-farming/article/3371761/hong-kongs-700-year-old-oyster-industry-goes-hi-tech-super-specimen",
+      "title": "Hong Kong’s 700-year-old oyster industry goes hi-tech with ‘super’ specimen",
+      "word_count": 3334,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/passions/article/3370559/tv-showman-robert-chua-spells-out-his-vision-his-vast-collection-chinese-antiquities",
+      "title": "TV showman Robert Chua spells out his vision for his vast collection of Chinese antiquities",
+      "word_count": 2950,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/passions/article/3372262/hong-kong-olympics-and-beyond-swimmer-yvette-kongs-journey-resilience",
+      "title": "From Hong Kong to the Olympics and beyond: swimmer Yvette Kong’s journey of resilience",
+      "word_count": 1530,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/postmag/travel/article/3370566/six-legendary-libraries-where-architecture-and-academia-meet",
+      "title": "Six legendary libraries, where architecture and academia meet",
+      "word_count": 1682,
       "quality": "fulltext_deep",
       "is_premium": false
     },
@@ -18,10 +88,199 @@
       "is_premium": false
     },
     {
+      "url": "https://www.scmp.com/news/china/politics/article/3372013/chinas-next-generation-leaders-waiting-wings-more-senior-roles",
+      "title": "China’s next generation of leaders waiting in the wings for more senior roles",
+      "word_count": 1691,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3372636/hong-kongs-wider-yuan-push-gateway-world",
+      "title": "Hong Kong’s wider yuan push: a gateway to the world?",
+      "word_count": 1875,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3372184/can-hong-kong-deliver-trying-build-its-yuan-credentials",
+      "title": "How Hong Kong’s yuan push is becoming a challenge to the US dollar",
+      "word_count": 2522,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/hong-kong/hong-kong-economy/article/3372024/will-ai-powered-open-door-vending-machines-reshape-hong-kongs-retail-landscape",
+      "title": "Will AI-powered open-door vending machines reshape Hong Kong’s retail landscape?",
+      "word_count": 1301,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
       "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3339140/first-look-yurt-hong-kongs-first-modern-central-asian-restaurant",
       "title": "First Look: Yurt, Hong Kong’s ‘first modern Central Asian restaurant’",
       "word_count": 1033,
       "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3339842/hong-kong-bar-trends-2026-comfort-classics-and-mindful-drinking",
+      "title": "Hong Kong bar trends in 2026: comfort, classics and mindful drinking",
+      "word_count": 1177,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3370823/susan-thornton-us-china-ties-post-midterms-and-averting-new-balloon-crisis",
+      "title": "Susan Thornton on US-China ties, post-midterms and averting a new balloon crisis",
+      "word_count": 4541,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3360243/wu-shicun-why-beijing-will-not-rule-out-scarborough-shoal-construction",
+      "title": "Wu Shicun on why Beijing will not rule out Scarborough Shoal construction",
+      "word_count": 5027,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3339480/zheng-yongnian-trump-venezuela-and-why-china-doesnt-want-separate-kitchen",
+      "title": "Zheng Yongnian on Trump, Venezuela and why China doesn’t want ‘a separate kitchen’",
+      "word_count": 4464,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/economy/global-economy/article/3329426/liu-qian-chinese-innovation-us-rivalry-and-women-holding-half-sky",
+      "title": "Liu Qian on Chinese innovation, the US rivalry and women holding up half the sky",
+      "word_count": 3764,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3327746/fuchsia-dunlop-tells-how-she-fell-chinas-cuisine-and-names-her-perfect-dish",
+      "title": "Fuchsia Dunlop tells how she fell for China’s cuisine and names her perfect dish",
+      "word_count": 3752,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3321056/80-years-wwii-chinas-interests-lie-peaceful-asia-pacific-rana-mitter",
+      "title": "80 years on from WWII, China’s interests lie in peaceful Asia-Pacific: Rana Mitter",
+      "word_count": 4368,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/business/article/3372257/scary-deals-what-makes-hong-kong-shun-death-linked-homes-while-france-embraces-risk",
+      "title": "Scary deals? What makes Hong Kong shun death-linked homes while France embraces the risk",
+      "word_count": 1254,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3372753/dark-past-japans-unit-731-buried-under-airport-expansion",
+      "title": "Dark past of Japan’s Unit 731 buried under airport expansion",
+      "word_count": 1044,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3372752/im-terrified-ai-comes-southeast-asias-graduate-jobs",
+      "title": "‘I’m terrified’: AI comes for Southeast Asia’s graduate jobs",
+      "word_count": 2057,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3372777/why-philippines-remains-hotspot-transnational-drug-syndicates",
+      "title": "Why the Philippines remains a hotspot for transnational drug syndicates",
+      "word_count": 1055,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3372754/will-diversifying-fuel-imports-be-enough-fix-indonesias-energy-shortfall",
+      "title": "Will diversifying fuel imports be enough to fix Indonesia’s energy shortfall?",
+      "word_count": 1010,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3372710/saviour-or-stop-gap-malaysias-south-korean-jets-arrive-relieve-ageing-fighters",
+      "title": "Saviour or stopgap? Malaysia’s South Korean jets arrive to relieve ageing fighters",
+      "word_count": 1002,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/opinion/article/3371904/vietnams-2045-vision-faces-reality-check-capital-squeeze-tests-growth-ambitions",
+      "title": "Vietnam’s 2045 vision faces a reality check as capital squeeze tests growth ambitions",
+      "word_count": 1011,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/people/article/3371953/big-dreams-growing-pains-indonesia-prabowos-turbulent-2-years-power",
+      "title": "Big dreams, growing pains in Indonesia: Prabowo’s turbulent 2 years in power",
+      "word_count": 2549,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3371173/malaysias-shoppers-love-chinese-e-commerce-its-factories-pay-price",
+      "title": "Malaysia’s shoppers love Chinese e-commerce. But is the bargain worth it?",
+      "word_count": 1608,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/politics/article/3370362/childs-play-southeast-asia-takes-big-tech-protect-kids-online",
+      "title": "Southeast Asia battles Big Tech to protect children online",
+      "word_count": 2410,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/asia/southeast-asia/article/3372048/singapore-tells-suppliers-honour-commitments-amid-indonesias-gas-cut",
+      "title": "Singapore tells suppliers to ‘honour commitments’ amid Indonesia’s gas cut",
+      "word_count": 1144,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/opinion/article/3372758/malaysias-largest-state-sarawak-first-faces-dayak-election-test",
+      "title": "In Malaysia’s largest state, ‘Sarawak First’ faces a Dayak election test",
+      "word_count": 1082,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/big-tech/article/3371246/ai-promise-was-automation-reality-managing-digital-workers",
+      "title": "The AI promise was automation. The reality? Managing digital workers",
+      "word_count": 1901,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-war/article/3368503/pacing-problem-can-ai-fears-overcome-us-china-race-dynamics-and-force-slowdown",
+      "title": "Pacing problem: can AI fears overcome US-China race dynamics and force a slowdown?",
+      "word_count": 2306,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/big-tech/article/3368011/us-weighs-restrictions-cloud-computing-how-will-chinas-ai-sector-adapt",
+      "title": "As the US weighs restrictions on cloud computing, how will China’s AI sector adapt?",
+      "word_count": 1986,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-trends/article/3367874/china-has-gained-pace-space-race-recovering-rockets-can-it-relaunch-one",
+      "title": "China has gained pace in the space race by recovering rockets – but can it relaunch one?",
+      "word_count": 1517,
+      "quality": "fulltext_deep",
       "is_premium": false
     }
   ]
