@@ -1,21 +1,6 @@
 {
-  "ts": "2026-11-01 14:07:07",
+  "ts": "2026-11-01 16:28:49",
   "v": "scmp_v4",
-  "new_count": 2,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3372887/could-midterm-defeat-tame-trump-not-foreign-policy-chinese-experts-say",
-      "title": "Could a midterm defeat tame Trump? Not on foreign policy, Chinese experts say",
-      "word_count": 1474,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/business/money/wealth/article/3372833/big-apple-vs-pearl-orient-how-higher-taxes-new-york-may-open-door-hong-kong",
-      "title": "Big Apple vs Pearl of the Orient? How higher taxes in New York may open door for Hong Kong",
-      "word_count": 2279,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
