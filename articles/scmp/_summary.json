@@ -1,6 +1,14 @@
 {
-  "ts": "2026-11-02 16:53:15",
+  "ts": "2026-11-02 19:50:58",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3372373/eu-plans-high-level-china-currency-talks-fears-new-trade-shock-mount",
+      "title": "EU plans high-level China currency talks as fears of new trade shock mount",
+      "word_count": 1312,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
