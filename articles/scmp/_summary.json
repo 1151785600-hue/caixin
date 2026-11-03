@@ -1,14 +1,6 @@
 {
-  "ts": "2026-11-03 14:53:32",
+  "ts": "2026-11-03 17:23:18",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3373170/israel-deepens-somaliland-ties-first-ambassador-testing-horn-africa-balance",
-      "title": "Israel deepens Somaliland ties with first ambassador, testing Horn of Africa balance",
-      "word_count": 1016,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
