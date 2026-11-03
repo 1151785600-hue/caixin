@@ -1,6 +1,21 @@
 {
-  "ts": "2026-11-03 20:00:25",
+  "ts": "2026-11-03 21:38:46",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 2,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/postmag/food-drink/article/3372146/how-cantonese-became-mainland-chinas-regional-cuisine-choice",
+      "title": "How Cantonese became mainland China’s regional cuisine of choice",
+      "word_count": 1519,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/politics/article/3372827/china-narrows-path-elite-official-training-scheme-citizens-graduating-overseas",
+      "title": "China narrows the path to elite official training scheme for citizens graduating overseas",
+      "word_count": 1212,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
