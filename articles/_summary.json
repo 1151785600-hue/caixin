@@ -1,6 +1,12 @@
 {
-  "ts": "2026-11-03 20:41:01",
+  "ts": "2026-11-04 04:39:10",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-11-04/china-sets-first-national-standard-for-medical-escort-services-102500741.html",
+      "title": "China Sets First National Standard for Medical-Escort Services",
+      "word_count": 515
+    }
+  ]
 }
