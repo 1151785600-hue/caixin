@@ -1,12 +1,19 @@
 {
-  "ts": "2026-11-04 11:45:40",
+  "ts": "2026-11-04 15:13:24",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.scmp.com/news/china/diplomacy/article/3373232/democratic-led-us-congress-turn-heat-beijing-over-ai-taiwan-analyst",
-      "title": "US midterm shift could squeeze China on AI, but bring clarity to bilateral talks",
-      "word_count": 1116,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3373299/republicans-face-prospect-civil-war-trumps-air-invincibility-starts-fade",
+      "title": "Republicans face prospect of ‘civil war’ as Trump’s air of invincibility starts to fade",
+      "word_count": 1281,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/week-asia/economics/article/3373301/india-vows-dig-its-way-out-china-machinery-curbs",
+      "title": "India vows to dig its way out of China machinery curbs",
+      "word_count": 1115,
       "quality": "fulltext",
       "is_premium": false
     }
