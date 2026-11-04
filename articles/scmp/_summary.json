@@ -1,19 +1,12 @@
 {
-  "ts": "2026-11-04 20:21:13",
+  "ts": "2026-11-04 21:46:17",
   "v": "scmp_v4",
-  "new_count": 2,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/postmag/travel/article/3372148/ellora-and-ajanta-history-and-mystery-indias-ancient-cave-temples",
-      "title": "Ellora and Ajanta: the history and mystery of India’s ancient cave-temples",
-      "word_count": 1540,
-      "quality": "fulltext_deep",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3372762/armour-vs-altitude-indias-light-tank-dilemma-along-china-border",
-      "title": "Armour vs altitude: India’s light tank dilemma along China border",
-      "word_count": 1116,
+      "url": "https://www.scmp.com/news/us/us-elections/article/3373318/five-takeaways-us-midterms-democrats-sweep-congress-and-trump-faces-iran-reckoning",
+      "title": "Five takeaways from US midterms as Democrats sweep Congress and Trump faces Iran reckoning",
+      "word_count": 1089,
       "quality": "fulltext",
       "is_premium": false
     }
