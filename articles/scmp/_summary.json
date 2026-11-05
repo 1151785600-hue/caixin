@@ -1,6 +1,21 @@
 {
-  "ts": "2026-11-05 17:41:54",
+  "ts": "2026-11-05 20:31:26",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 2,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3372879/joshua-cooper-ramo-whether-us-can-handle-stress-test-chinas-rise",
+      "title": "Joshua Cooper Ramo on whether the US can handle the stress test of China’s rise",
+      "word_count": 4400,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/military/article/3373001/beijing-doubles-down-type-071-amphibious-warships-signalling-taiwan-focus",
+      "title": "Beijing doubles down on Type 071 amphibious warships, signalling a Taiwan focus",
+      "word_count": 1004,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
