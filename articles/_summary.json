@@ -1,17 +1,12 @@
 {
-  "ts": "2026-11-05 10:24:00",
+  "ts": "2026-11-05 14:01:51",
   "v": "8.4",
-  "new_count": 2,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.caixinglobal.com/2026-11-05/china-moves-to-curb-police-powers-in-criminal-procedure-overhaul-102501203.html",
-      "title": "China Moves to Curb Police Powers in Criminal Procedure Overhaul",
-      "word_count": 626
-    },
-    {
-      "url": "https://www.caixinglobal.com/2026-10-30/in-depth-chinese-manufacturers-flock-to-africa-as-trade-gives-way-to-local-production-102498920.html",
-      "title": "In Depth: Chinese Manufacturers Flock to Africa as Trade Gives Way to Local Production",
-      "word_count": 797
+      "url": "https://www.caixinglobal.com/2026-11-01/cover-story-the-global-tech-selloff-tests-the-economics-behind-ai-boom-102499694.html",
+      "title": "Cover Story: The Global Tech Sell-Off Tests the Economics Behind AI Boom",
+      "word_count": 725
     }
   ]
 }
