@@ -1,6 +1,21 @@
 {
-  "ts": "2026-11-05 11:43:54",
+  "ts": "2026-11-05 15:14:09",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 2,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/news/china/science/article/3373418/lithuania-builds-worlds-biggest-ultra-fast-laser-factory-amid-china-tensions",
+      "title": "Lithuania builds world’s biggest ultra-fast laser factory amid China tensions",
+      "word_count": 1094,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/big-tech/article/3373422/after-us474m-gamble-flops-what-happens-now-elon-musks-tesla-spacex-and-china-ties",
+      "title": "After US$474m gamble flops, what happens now to Elon Musk’s Tesla, SpaceX and China ties?",
+      "word_count": 1269,
+      "quality": "fulltext",
+      "is_premium": false
+    }
+  ]
 }
