@@ -1,19 +1,12 @@
 {
-  "ts": "2026-11-06 11:41:53",
+  "ts": "2026-11-06 14:50:22",
   "v": "scmp_v4",
-  "new_count": 2,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/week-asia/politics/article/3373579/signs-prabowo-widodo-rift-grow-indonesian-lawmakers-target-vp-gibrans-credentials",
-      "title": "Signs of Prabowo-Widodo rift grow as Indonesian lawmakers target VP Gibran’s credentials",
-      "word_count": 1048,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3373504/malaysias-najib-closer-house-arrest-umno-pays-us123-million-fine",
-      "title": "Malaysia’s Najib to remain in prison as legal questions linger despite fine payment",
-      "word_count": 1080,
+      "url": "https://www.scmp.com/week-asia/politics/article/3373605/whats-next-after-airlines-asia-data-breach-raises-wider-cyber-fears",
+      "title": "What’s next after airlines? Asia data breach raises wider cyber fears",
+      "word_count": 1091,
       "quality": "fulltext",
       "is_premium": false
     }
