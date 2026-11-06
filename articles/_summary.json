@@ -1,6 +1,17 @@
 {
-  "ts": "2026-11-05 21:15:53",
+  "ts": "2026-11-06 04:53:18",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 2,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-11-06/in-depth-chinese-professors-death-draws-attention-to-faculty-paying-to-meet-research-quotas-102501691.html",
+      "title": "In Depth: Chinese Professor’s Death Draws Attention to Faculty Paying to Meet Research Quotas",
+      "word_count": 508
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-11-06/in-depth-huafas-debt-crisis-tests-the-limits-of-local-government-support-102501497.html",
+      "title": "In Depth: Huafa’s Debt Crisis Tests the Limits of Local Government Support",
+      "word_count": 863
+    }
+  ]
 }
