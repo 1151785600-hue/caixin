@@ -1,6 +1,14 @@
 {
-  "ts": "2026-11-08 18:16:42",
+  "ts": "2026-11-08 20:18:53",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/postmag/passions/article/3372262/hong-kong-olympics-and-beyond-swimmer-yvette-kongs-journey-resilience",
+      "title": "From Hong Kong to the Olympics and beyond: swimmer Yvette Kong’s journey of resilience",
+      "word_count": 1530,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    }
+  ]
 }
