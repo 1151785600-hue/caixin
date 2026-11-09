@@ -1,6 +1,14 @@
 {
-  "ts": "2026-11-09 17:14:59",
+  "ts": "2026-11-09 20:12:46",
   "v": "scmp_v4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.scmp.com/postmag/culture/article/3373540/how-hong-kongs-humble-plastic-stool-became-design-world-darling",
+      "title": "How Hong Kong’s humble plastic stool became a design-world darling",
+      "word_count": 1617,
+      "quality": "fulltext_deep",
+      "is_premium": false
+    }
+  ]
 }
