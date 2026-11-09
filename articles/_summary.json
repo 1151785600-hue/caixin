@@ -1,6 +1,27 @@
 {
-  "ts": "2026-11-09 04:23:48",
+  "ts": "2026-11-09 10:56:45",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 4,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-11-09/four-chinese-military-officers-resign-from-national-legislature-102502702.html",
+      "title": "Four Chinese Military Officers Resign From National Legislature",
+      "word_count": 675
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-11-09/china-adopts-cross-border-anti-corruption-law-mandates-corporate-compliance-102502593.html",
+      "title": "China Adopts Cross-Border Anti-Corruption Law, Mandates Corporate Compliance",
+      "word_count": 773
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-11-09/cover-story-democrats-ride-wave-of-discontent-to-retake-congress-102502748.html",
+      "title": "Cover Story: Democrats Ride Wave of Discontent to Retake Congress",
+      "word_count": 638
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-11-06/in-profile-how-a-lens-maker-turned-a-family-workshop-into-an-empire-supplying-apple-102501772.html",
+      "title": "In Profile: How a Lens-Maker Turned a Family Workshop Into an Empire Supplying Apple",
+      "word_count": 643
+    }
+  ]
 }
