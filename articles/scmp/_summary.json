@@ -1,14 +1,6 @@
 {
-  "ts": "2026-11-09 12:21:03",
+  "ts": "2026-11-09 17:14:59",
   "v": "scmp_v4",
-  "new_count": 1,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/news/hong-kong/law-and-crime/article/3373774/abby-chois-ex-brother-law-tells-court-he-treated-her-biological-sibling",
-      "title": "Abby Choi’s ex-brother-in-law tells court he treated her like a ‘biological sibling’",
-      "word_count": 1101,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
