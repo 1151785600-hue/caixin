@@ -1,12 +1,26 @@
 {
-  "ts": "2026-11-09 20:12:46",
+  "ts": "2026-11-09 22:55:55",
   "v": "scmp_v4",
-  "new_count": 1,
+  "new_count": 3,
   "articles": [
     {
-      "url": "https://www.scmp.com/postmag/culture/article/3373540/how-hong-kongs-humble-plastic-stool-became-design-world-darling",
-      "title": "How Hong Kong’s humble plastic stool became a design-world darling",
-      "word_count": 1617,
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3373787/escaping-russias-web-central-asia-caught-between-chinese-networks-and-us-tech-curbs",
+      "title": "Escaping Russia’s web: Central Asia is caught between Chinese networks and US tech curbs",
+      "word_count": 1360,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/news/china/diplomacy/article/3373838/lithuania-asked-taipei-change-name-office-beijings-national-day-reports",
+      "title": "Lithuanian president confirms talks on renaming Taiwan office in diplomatic U-turn",
+      "word_count": 1019,
+      "quality": "fulltext",
+      "is_premium": false
+    },
+    {
+      "url": "https://www.scmp.com/tech/tech-trends/article/3373746/chinas-tech-funding-divide-faces-test-fears-ai-bubble-rattle-markets",
+      "title": "China’s tech funding divide faces test as fears of an AI bubble rattle markets",
+      "word_count": 1845,
       "quality": "fulltext_deep",
       "is_premium": false
     }
