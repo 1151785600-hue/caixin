@@ -1,6 +1,12 @@
 {
-  "ts": "2026-11-10 19:15:14",
+  "ts": "2026-11-10 21:03:39",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-11-10/in-depth-woman-linked-to-nvidia-ceo-has-ties-to-chinese-fund-manager-facing-criminal-scrutiny-102503139.html",
+      "title": "In Depth: Chinese Woman Linked to Nvidia CEO Has Ties to Shady Shanghai Fund Manager",
+      "word_count": 602
+    }
+  ]
 }
