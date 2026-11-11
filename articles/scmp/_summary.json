@@ -1,20 +1,13 @@
 {
-  "ts": "2026-11-11 20:05:14",
+  "ts": "2026-11-11 22:33:39",
   "v": "scmp_v4",
-  "new_count": 2,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.scmp.com/postmag/culture/article/3373428/stella-mas-mission-make-cantonese-opera-relevant-hong-kongs-children",
-      "title": "Stella Ma’s mission to make Cantonese opera relevant to Hong Kong’s children",
-      "word_count": 1264,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/lifestyle/100-top-tables/article/3358765/how-traditional-chinese-medicine-found-its-way-fine-dining-and-bar-menus-hong-kong",
-      "title": "How traditional Chinese medicine found its way onto fine-dining and bar menus in Hong Kong",
-      "word_count": 1385,
-      "quality": "fulltext",
+      "url": "https://www.scmp.com/economy/china-economy/article/3373856/under-higher-scrutiny-will-singapore-remain-chinese-firms-first-overseas-port-call",
+      "title": "Under higher scrutiny, will Singapore remain Chinese firms’ first overseas port of call?",
+      "word_count": 1978,
+      "quality": "fulltext_deep",
       "is_premium": false
     }
   ]
