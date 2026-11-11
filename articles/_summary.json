@@ -1,6 +1,12 @@
 {
-  "ts": "2026-11-11 10:24:00",
+  "ts": "2026-11-11 13:37:46",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-11-11/analysis-chinas-banks-move-ai-from-pilots-to-production-102503543.html",
+      "title": "Analysis: China’s Banks Move AI From Pilots to Production",
+      "word_count": 605
+    }
+  ]
 }
