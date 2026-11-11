@@ -1,21 +1,6 @@
 {
-  "ts": "2026-11-11 11:36:15",
+  "ts": "2026-11-11 14:57:54",
   "v": "scmp_v4",
-  "new_count": 2,
-  "articles": [
-    {
-      "url": "https://www.scmp.com/week-asia/lifestyle-culture/article/3374070/southeast-asian-live-streamers-hustle-fuel-booming-e-commerce-sales",
-      "title": "Southeast Asian live streamers hustle to fuel booming e-commerce sales",
-      "word_count": 1138,
-      "quality": "fulltext",
-      "is_premium": false
-    },
-    {
-      "url": "https://www.scmp.com/week-asia/politics/article/3374035/11-drills-60-days-indias-navy-stretched-too-thin",
-      "title": "11 drills in 60 days: is India’s navy stretched too thin?",
-      "word_count": 1290,
-      "quality": "fulltext",
-      "is_premium": false
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
