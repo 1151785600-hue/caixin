@@ -1,12 +1,17 @@
 {
-  "ts": "2026-11-13 04:51:05",
+  "ts": "2026-11-13 10:35:41",
   "v": "8.4",
-  "new_count": 1,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.caixinglobal.com/2026-11-13/caixin-summit-chinas-growth-and-global-prosperity-must-advance-together-ex-singapore-dpm-says-102504241.html",
-      "title": "Caixin Summit: China’s Growth and Global Prosperity Must Advance Together, Ex-Singapore DPM Says",
-      "word_count": 730
+      "url": "https://www.caixinglobal.com/2026-11-13/analysis-china-insurers-stock-bets-test-the-limits-of-equity-risk-102504540.html",
+      "title": "Analysis: China Insurers’ Stock Bets Test the Limits of Equity Risk",
+      "word_count": 637
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-11-13/in-depth-how-alice-huang-built-megaspeed-into-a-major-nvidia-customer-102504447.html",
+      "title": "In Depth: How Alice Huang Built Megaspeed Into a Major Nvidia Customer",
+      "word_count": 804
     }
   ]
 }
