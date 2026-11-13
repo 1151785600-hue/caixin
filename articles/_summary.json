@@ -1,6 +1,12 @@
 {
-  "ts": "2026-11-12 21:37:44",
+  "ts": "2026-11-13 04:51:05",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-11-13/caixin-summit-chinas-growth-and-global-prosperity-must-advance-together-ex-singapore-dpm-says-102504241.html",
+      "title": "Caixin Summit: China’s Growth and Global Prosperity Must Advance Together, Ex-Singapore DPM Says",
+      "word_count": 730
+    }
+  ]
 }
