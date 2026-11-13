@@ -1,17 +1,12 @@
 {
-  "ts": "2026-11-13 10:35:41",
+  "ts": "2026-11-13 13:58:24",
   "v": "8.4",
-  "new_count": 2,
+  "new_count": 1,
   "articles": [
     {
-      "url": "https://www.caixinglobal.com/2026-11-13/analysis-china-insurers-stock-bets-test-the-limits-of-equity-risk-102504540.html",
-      "title": "Analysis: China Insurers’ Stock Bets Test the Limits of Equity Risk",
-      "word_count": 637
-    },
-    {
-      "url": "https://www.caixinglobal.com/2026-11-13/in-depth-how-alice-huang-built-megaspeed-into-a-major-nvidia-customer-102504447.html",
-      "title": "In Depth: How Alice Huang Built Megaspeed Into a Major Nvidia Customer",
-      "word_count": 804
+      "url": "https://www.caixinglobal.com/2026-11-13/in-depth-chinese-parents-sue-openai-over-daughters-epilepsy-death-102504667.html",
+      "title": "In Depth: Chinese Parents Sue OpenAI Over Daughter’s Epilepsy Death",
+      "word_count": 740
     }
   ]
 }
