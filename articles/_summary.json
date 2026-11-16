@@ -1,22 +1,6 @@
 {
-  "ts": "2026-11-16 10:41:12",
+  "ts": "2026-11-16 14:53:31",
   "v": "8.4",
-  "new_count": 3,
-  "articles": [
-    {
-      "url": "https://www.caixinglobal.com/2026-11-16/chinas-industrial-output-growth-slows-102505231.html",
-      "title": "China’s Industrial Output Growth Slows",
-      "word_count": 435
-    },
-    {
-      "url": "https://www.caixinglobal.com/2026-11-16/chinas-retail-sales-growth-slows-to-04-missing-forecasts-102505213.html",
-      "title": "China’s Retail Sales Growth Slows to 0.4%, Missing Forecasts",
-      "word_count": 309
-    },
-    {
-      "url": "https://www.caixinglobal.com/2026-11-10/in-depth-ceos-affair-pulls-nvidia-deeper-into-the-us-china-chip-fight-102503071.html",
-      "title": "In Depth: CEO’s Affair Pulls Nvidia Deeper Into the U.S.-China Chip Fight",
-      "word_count": 693
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
