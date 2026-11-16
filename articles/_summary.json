@@ -1,6 +1,12 @@
 {
-  "ts": "2026-11-15 20:00:04",
+  "ts": "2026-11-16 04:32:11",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-11-16/cover-story-the-promise-and-risks-of-chinas-ai-infrastructure-rush-102505074.html",
+      "title": "Cover Story: The Promise and Risks of China’s AI Infrastructure Rush",
+      "word_count": 533
+    }
+  ]
 }
