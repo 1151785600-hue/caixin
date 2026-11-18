@@ -1,12 +1,17 @@
 {
-  "ts": "2026-11-18 05:44:09",
+  "ts": "2026-11-18 11:11:38",
   "v": "8.4",
-  "new_count": 1,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.caixinglobal.com/2026-11-18/in-depth-an-australian-mine-deal-raises-questions-about-huang-qifans-son-102506025.html",
-      "title": "In Depth: An Australian Mine Deal Raises Questions About Huang Qifan’s Son",
-      "word_count": 639
+      "url": "https://www.caixinglobal.com/2026-11-13/in-depth-how-chinese-counterfeit-busters-turned-from-crusaders-to-criminals-102504565.html",
+      "title": "In Depth: How Chinese Counterfeit Busters Turned From Crusaders to Criminals",
+      "word_count": 730
+    },
+    {
+      "url": "https://www.caixinglobal.com/2026-11-18/indonesias-danantara-looks-to-invest-in-china-and-hopes-the-favor-will-be-returned-102506303.html",
+      "title": "Indonesia’s Danantara Looks to Invest in China, and Hopes the Favor Will Be Returned",
+      "word_count": 602
     }
   ]
 }
