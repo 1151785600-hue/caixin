@@ -1,6 +1,12 @@
 {
-  "ts": "2026-11-17 22:42:22",
+  "ts": "2026-11-18 05:44:09",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-11-18/in-depth-an-australian-mine-deal-raises-questions-about-huang-qifans-son-102506025.html",
+      "title": "In Depth: An Australian Mine Deal Raises Questions About Huang Qifan’s Son",
+      "word_count": 639
+    }
+  ]
 }
