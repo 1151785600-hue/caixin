@@ -1,6 +1,12 @@
 {
-  "ts": "2026-11-19 22:29:31",
+  "ts": "2026-11-20 05:31:13",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-11-20/china-south-korea-substantially-complete-talks-to-upgrade-trade-pact-102506827.html",
+      "title": "China, South Korea Substantially Complete Talks to Upgrade Trade Pact",
+      "word_count": 480
+    }
+  ]
 }
