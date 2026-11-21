@@ -1,6 +1,12 @@
 {
-  "ts": "2026-11-20 22:00:46",
+  "ts": "2026-11-21 05:25:47",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-11-21/in-depth-how-forged-stanford-ties-drew-chinese-investors-into-a-university-deal-102507367.html",
+      "title": "In Depth: How Forged Stanford Ties Drew Chinese Investors Into a University Deal",
+      "word_count": 566
+    }
+  ]
 }
