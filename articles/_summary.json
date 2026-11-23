@@ -1,22 +1,6 @@
 {
-  "ts": "2026-11-23 11:51:40",
+  "ts": "2026-11-23 17:28:25",
   "v": "8.4",
-  "new_count": 3,
-  "articles": [
-    {
-      "url": "https://www.caixinglobal.com/2026-11-23/in-depth-shooting-coachs-appeal-asks-if-chinas-gun-controls-go-too-far-102508058.html",
-      "title": "In Depth: Shooting Coach’s Appeal Asks if China’s Gun Controls Go Too Far",
-      "word_count": 457
-    },
-    {
-      "url": "https://www.caixinglobal.com/2026-11-23/chinas-fiscal-revenue-returns-to-growth-but-spending-remains-weak-102507832.html",
-      "title": "China’s Fiscal Revenue Returns to Growth, but Spending Remains Weak",
-      "word_count": 728
-    },
-    {
-      "url": "https://www.caixinglobal.com/2026-11-17/us-tightens-ai-chip-controls-on-data-centers-serving-chinese-firms-102505657.html",
-      "title": "U.S. Tightens AI Chip Controls on Data Centers Serving Chinese Firms",
-      "word_count": 699
-    }
-  ]
+  "new_count": 0,
+  "articles": []
 }
