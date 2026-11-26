@@ -1,22 +1,17 @@
 {
-  "ts": "2026-11-26 06:38:10",
+  "ts": "2026-11-26 11:56:08",
   "v": "8.4",
-  "new_count": 3,
+  "new_count": 2,
   "articles": [
     {
-      "url": "https://www.caixinglobal.com/2026-11-26/chinese-biotech-firm-slashes-price-of-cancer-treatment-to-win-insurance-coverage-102508889.html",
-      "title": "Chinese Biotech Firm Slashes Price of Cancer Treatment to Win Insurance Coverage",
-      "word_count": 582
+      "url": "https://www.caixinglobal.com/2026-11-26/in-depth-at-the-apec-summit-in-china-a-push-to-keep-globalization-moving-102508947.html",
+      "title": "In Depth: At the APEC Summit in China, a Push to Keep Globalization Moving",
+      "word_count": 567
     },
     {
-      "url": "https://www.caixinglobal.com/2026-11-26/analysis-why-chinas-banks-struggle-to-finance-low-carbon-transition-102508859.html",
-      "title": "Analysis: Why China’s Banks Struggle to Finance Low-Carbon Transition",
-      "word_count": 853
-    },
-    {
-      "url": "https://www.caixinglobal.com/2026-11-26/us-proposes-additional-20-tariff-on-china-ahead-of-trade-truce-deadline-102508768.html",
-      "title": "U.S. Proposes Additional 20% Tariff on China Ahead of Trade Truce Deadline",
-      "word_count": 724
+      "url": "https://www.caixinglobal.com/2026-11-23/cover-story-jensen-huangs-exit-tests-nvidia-and-the-ai-boom-102507682.html",
+      "title": "Cover Story: Jensen Huang’s Exit Tests Nvidia — and the AI Boom",
+      "word_count": 1109
     }
   ]
 }
