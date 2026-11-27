@@ -1,6 +1,12 @@
 {
-  "ts": "2026-11-27 06:28:25",
+  "ts": "2026-11-27 11:48:04",
   "v": "8.4",
-  "new_count": 0,
-  "articles": []
+  "new_count": 1,
+  "articles": [
+    {
+      "url": "https://www.caixinglobal.com/2026-11-27/analysis-chinas-insurers-seek-to-close-gap-in-innovative-drug-coverage-102509246.html",
+      "title": "Analysis: China’s Insurers Seek to Close Gap in Innovative Drug Coverage",
+      "word_count": 555
+    }
+  ]
 }
